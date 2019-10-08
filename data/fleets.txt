@@ -1,0 +1,78 @@
+fleet "Altera Navy"
+	government "Altera"
+	names "Altera Navy"
+	fighters "Altera Fighter"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 10
+		"Aurora" 1
+		"Destiny" 1
+		"Paladin" 2
+	variant 5
+		"Aurora" 2
+		"Paladin" 4
+	variant 5
+		"Azrael" 1
+		"Destiny" 1
+
+fleet "Altera Recon"
+	government "Altera"
+	names "Altera Recon"
+	cargo 0
+	personality
+		timid entering surveillance
+	variant 8
+		"Raziel (no Cloak)" 1
+		"Raziel" "Raziel (no Scan)" 4
+
+fleet "Altera Freight"
+	government Altera
+	names "Altera Freight"
+	personality
+		forbearing
+	variant 5
+		"Centurion" 5
+		"Destiny" 2
+		"Raziel (no Scan)" 4
+
+fleet "Altera Merchant"
+	government "Merchant"
+	names "civilian"
+	personality
+		timid
+	variant 10
+		"Centurion" 1
+		"Raziel (no Scan)" 2
+	variant 5
+		"Centurion" 2
+		"Destiny" 1
+		"Raziel (no Scan)" 2
+	variant 5
+		"Caesar" 1
+	variant 5
+		"Raziel (no Scan)" 3
+
+fleet "Ascaris Navy"
+	government Ascaris
+	names ""
+	cargo 0
+	personality
+		
+	variant 3
+		"Deucalion" 1
+		"Tharsis" 2
+		"Areion" 2
+	variant 5
+		"Tharsis" 2
+		"Areion" 5
+
+fleet "Ascaris Merchant"
+	government "Merchant"
+	names "civilian"
+	personality
+		timid
+	variant 3
+		"Tharsis" 1
+		"Areion" 2
+		"Sleipnir" 4

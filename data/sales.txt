@@ -1,0 +1,119 @@
+outfitter "Ancient Basic"
+	"Ancient Integration System"
+
+	"Ancient Drone Launcher"
+	"Ancient Pulse Turret"
+	
+	"AAGTX-1.0 Anti-Grav Thruster"
+	"AAGTX-2.0 Anti-Grav Thruster"
+	
+	"AAGTX-1.5 Anti-Grav Steering"
+	"AAGTX-2.5 Anti-Grav Steering"
+	
+	"AGX-1 Alpha Core"
+	"AGX-2 Beta Core"
+	
+	"ASX-1 Asteroid Shielding"
+	"ASX-2 Moon Shielding"
+	
+	"ACX-1 Alpina Cooler"
+
+	"Ancient Star Drive"
+	
+	"Ionic Afterburner"
+
+outfitter "Ancient Advanced"
+	"Ancient Integration System"
+	"Ancient Captain's Chair"
+	"Ancient Command Chair"
+	
+	"Ancient Drone Launcher"
+	"Ancient Pulse Turret"
+	"Ancient Plasma Beam"
+	"Ancient Plasma Turret"
+	"Ancient Satellite Plasma Beam"
+	"Ancient Anti-Missile"
+	"Ancient Shock Turret"
+	
+	"AAGTX-1.0 Anti-Grav Thruster"
+	"AAGTX-2.0 Anti-Grav Thruster"
+	"AAGTX-3.0 Anti-Grav Thruster"
+	"AAGTX-4.0 Anti-Grav Thruster"
+	
+	"AAGTX-1.5 Anti-Grav Steering"
+	"AAGTX-2.5 Anti-Grav Steering"
+	"AAGTX-3.5 Anti-Grav Steering"
+	"AAGTX-4.5 Anti-Grav Steering"
+	
+	"AGX-1 Alpha Core"
+	"AGX-2 Beta Core"
+	"AGX-3 Gamma Core"
+	"AMCX-1 Module Converter"
+	"Ancient ZPM"
+	"Ancient ZPM Converter"
+	"Ancient double ZPM Converter"
+	"Ancient triple ZPM Converter"
+	
+	"ASX-1 Asteroid Shielding"
+	"ASX-2 Moon Shielding"
+	"ASX-3 Planet Shielding"
+	"ASX-4 Star Shielding"
+	
+	"ACX-1 Alpina Cooler"
+	"ACX-2 Arctica Cooler"
+	"ACX-3 Antarctica Cooler"
+	
+	"Ancient Cloaking Device"
+	"Ancient Star Drive"
+
+	"Navy Rail Gun"
+	
+	"Ionic Afterburner"
+
+	"New Plasma Beam"
+	
+outfitter "Ascaris"
+	"Ancient Integration System"
+
+	"Ancient Drone Launcher"
+	"Ancient Pulse Turret"
+	
+	"AAGTX-1.0 Anti-Grav Thruster"
+	"AAGTX-2.0 Anti-Grav Thruster"
+	
+	"AAGTX-1.5 Anti-Grav Steering"
+	"AAGTX-2.5 Anti-Grav Steering"
+	
+	"AGX-1 Alpha Core"
+	"AGX-2 Beta Core"
+	
+	"ASX-1 Asteroid Shielding"
+	"ASX-2 Moon Shielding"
+	
+	"ACX-1 Alpina Cooler"
+
+	"Ancient Star Drive"
+	
+	"Ionic Afterburner"
+
+shipyard "Ancient Basic"
+	"Paladin"
+	"Raziel"
+	"Trinity"
+	
+shipyard "Ancient Advanced"
+	"Aurora"
+	"Azrael"
+	"Caesar"
+	"Centurion"
+	"Destiny"
+	"Paladin"
+	"Raziel"
+	"Trinity"
+	"Titan Defensive Satellite"
+	
+shipyard "Ascaris"
+	"Areion"
+	"Deucalion"
+	"Sleipnir"
+	"Tharsis"
