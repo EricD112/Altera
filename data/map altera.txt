@@ -772,8 +772,8 @@ system Basilus
 		sprite planet/rock8
 		distance 173.09
 		period 27.7176
-	object
-		sprite planet/cloud2
+	object Dakara
+		sprite planet/rock4
 		distance 700.09
 		period 225.465
 		object
@@ -1025,7 +1025,7 @@ system Curia
 		distance 148.16
 		period 32.699
 	object Raetorum
-		sprite planet/rock4
+		sprite planet/forest5
 		distance 470.2
 		period 184.868
 	object
@@ -2572,7 +2572,7 @@ system "Light of Dracone"
 		sprite star/m0
 		period 10
 	object Draconis
-		sprite planet/venus
+		sprite planet/forest0-b
 		distance 272.09
 		period 100.358
 		object "Forta Dracone"
@@ -4241,7 +4241,7 @@ system Xanos
 		sprite star/m0
 		period 10
 	object Linirea
-		sprite planet/cloud2
+		sprite planet/forest6-b
 		distance 319.89
 		period 127.934
 		object
@@ -4318,7 +4318,7 @@ system Zephyrius
 planet Asuras
 	landscape land/city6
 	description `The Alteran world of Asuras is often described as an ecumenopolis and only upon closer inspection, does this turn out to be false. It is nontheless a highly populated world filled with factories, some still being leftover ruins from the war with the Drak. It is also the birthplace of the Asuran Replicators, a weapon used by the Alterans against the Quarg during the war, although the original laboratories are long gone since the war.`
-	spaceport `The spaceport is truly gargantuan, large landing pads filled with freighters and transports are surround multiple small towers that appear to be the spaceport authorities. A handful of hangars from the Alteran shipyards are also not too far off.`
+	spaceport `The spaceport is truly gargantuan, large landing pads filled with freighters and transports are surrounded by multiple small towers that appear to be the spaceport authorities. A handful of hangars from the Alteran shipyards are also not too far off.`
 	shipyard "Ancient Basic"
 	outfitter "Ancient Advanced"
 
@@ -4332,8 +4332,8 @@ planet Atlantis
 planet Aurelis
 	landscape land/dmottl1
 	description `The westernmost world of the Alteran Sector, Aurelis, is a mineral rich world that is stuck in an almost permanent winter. It is covered in oceans and hills, both frozen throughout most of the year. However, even with all the snow and ice, it is still a habitable world that is heavily engaged in mining operations.`
-	description `	The Alteran Military also has a strong presence on Aurelis, the local population is generally quite strong, as they are not only miners, but also live under higher gravity than most Alterans. The Verangian Guard, an elite Alteran army division is mainly enlisted here.`
-	spaceport WIP
+	description `	The Alteran Military also has a strong presence on Aurelis, the local population is generally quite strong, as they are not only miners, but also live under higher gravity than most Alterans. The Verangian Guard, an elite Alteran army division is mainly enlisted and trained here.`
+	spaceport `Landing in the Aurelis spaceport is actually quite hard, the port itself isn't too big or busy, but the low temperatures and the amount of snowfall coming with them make sure that the spaceport is buried under snow for most of the time. The spaceport agency on Aurelis is unable to keep up with the snow whenever a storm is present or has come through recently. A newer section for the spaceport with floor heating has been built and tested, but no decision has been met yet, as the maintenance costs are quite high.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
 
@@ -4347,16 +4347,22 @@ planet "Avalon Station"
 planet Celestis
 	landscape land/city7
 	description `The Alteran capital of Celestis, one of the most populated Alteran worlds, the pre war census coming to over 12 billion. Its proportions seem to be fairly similar to those of the Earth, it consists of highly populated futuristic cities full of towering skyscrapers, a few bigger mountain ranges and large oceans. Unlike Earth though, it is not overpopulated and surprisingly, the oceans appear to be in pristine condition.`
-	description `Even though the Alteran Empire is a monarchy, the seat of government is not immediately visible and appears to be very down to earth on closer inspection. This is reflected in the respect for the monarchy, not caused by fear, but by a mutual understanding, teamwork and the meritocratic ways of the government.`
+	description `	Even though the Alteran Empire is a monarchy, the seat of government is not immediately visible and appears to be very down to earth on closer inspection. This is reflected in the respect for the monarchy, not caused by fear, but by a mutual understanding, teamwork and the meritocratic ways of the government.`
 	spaceport `The Spaceport is made up of multiple large, hexagonal landing areas surrounding a spaceport complex with an air control tower, a bar and multiple entrances to a large underground hangar used by civillians. The spaceport seems to be very busy at all times, but doesn't appear to be going over it's capacity.`
-	spaceport `Outside of the main area is a relatively small Alteran military base, following a smaller hexagonal pattern, with a larger central complex with three arms that extend into the surrounding landing pads. The spaceport itself is located in the middle of the imperial capital city, not too far off from the palace.`
+	spaceport `	Outside of the main area is a relatively small Alteran military base, following a smaller hexagonal pattern, with a larger central complex with three arms that extend into the surrounding landing pads. The spaceport itself is located in the middle of the imperial capital city, not too far off from the palace.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
+
+planet Dakara
+	landscape land/badlands0
+	description `Dakara is a very rocky and sandy world, used almost exlusively for mining purposes. It used to be far greener, but ended up a bit too close to the sun, resulting in higher temperatures and little rainfall. Most of the long-term population, dating back generations, has a darker skintone than the usual, almost white, Alteran skintone.`
+	description `	The buildings have few windows and large air-conditioners on their roofs, as well as a garage, to reduce the heat and the potential damage done by it. To take it a step further, whoever designed the initial building strategy, appears to have thought of everything, as even the tiniest building is connected to a network by either an overground glass tunnel or an underground path.`
+	spaceport `The spaceport is located in a hill, right next to the city, with what looks like a landing strip leading the spaceships into the hill. Even though the spaceport is located underground, it doesn't feel cramped at all and considering that this is a mining world's spaceport, it is suprisingly clean, it is most certainly less dusty than outside.`
 
 planet Draconis
 	landscape land/city14-sfiera
 	description `Draconis is the eastern co-capital of the Alteran Empire, it was initially settled as a mining world, as it was a mineral rich world, later on, Draconium was discovered on this world, making it one of the few worlds with known deposits of Draconium. There are multiple large cities located on the main continent and some of the large mining complexes can even be seen from space.`
-	description `At this point, it is no longer just a mining world, but has been taken as the seat of one of the progenitors, who rules the eastern space from here. It can be counted as one of the most populated and economically strongest worlds of the Alterans.`
+	description `	At this point, it is no longer just a mining world, but has been taken as the seat of one of the progenitors, who rules the eastern space from here. It can be counted as one of the most populated and economically strongest worlds of the Alterans.`
 	spaceport `Multiple spaceports can be found on Draconis, though the commercial one is by far the largest, it appears to be very busy, but the Alteran government has made sure that the traffic can be handled accordingly, resulting in an efficient, high capacity spaceport. The spaceport bar is located right next to a park, making it a very attractive and surprisingly quiet location.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
@@ -4386,9 +4392,9 @@ planet Halcyon
 planet Heliopolis
 	landscape land/city2
 	description `The third of the Alteran Core Worlds, Heliopolis, is a world best described as always sunny, hence it's name dedication to the sun. It should be a fairly hot planet, but the cities appear to have a lot of green spots in them. It looks a lot like a human city to you and makes you feel welcome. In order to combat the heat issues, most of the capital city appears to have some kind of radiation shielding, that is capable of reducing the sun's strength, making the temperatures a lot more moderate, comparable to a European spring from the 2000s.`
-	description `Heliopolis was one of the few core worlds that the Drak did not attempt to bomb, resulting in pre-war Alteran architecture being visible throughought the city. The city itself does have a slight traffic problem though, as even the Alterans like to complain about expanding the inner-city infrastructure.`
+	description `	Heliopolis was one of the few core worlds that the Drak did not attempt to bomb, resulting in pre-war Alteran architecture being visible throughought the city. The city itself does have a slight traffic problem though, as even the Alterans like to complain about expanding the inner-city infrastructure.`
 	spaceport `Unlike the Celestis and Wyvernhaven spaceports, the main spaceport on Heliopolis looks a lot more organic, like it was grown over time and not built as one piece, resulting in a somewhat Frankenstein-like landing area with even different surfaces for the landing pads and green areas of all shapes and sizes mixed in. It does have a certain beauty to it that other Alteran spaceports tend to lack, as they are highly organized and planned out.`
-	spaceport `A large park surrounds the spaceport on three sides, with the fourth side bordering a river and it's promenade, likely in order to keep the spaceport's noise pollution down. From the bar, located in a corner between the promenade and the park, you have a gorgeous view of not only the main city and its spaceport, but also the sunset behind the skyline.`
+	spaceport `	A large park surrounds the spaceport on three sides, with the fourth side bordering a river and it's promenade, likely in order to keep the spaceport's noise pollution down. From the bar, located in a corner between the promenade and the park, you have a gorgeous view of not only the main city and its spaceport, but also the sunset behind the skyline.`
 	shipyard "Ancient Basic"
 	outfitter "Ancient Basic"
 
@@ -4400,8 +4406,8 @@ planet Kaitac
 	outfitter "Ancient Basic"
 
 planet Linirea
-	landscape land/myrabella3
-	description `One of the Alteran fortress worlds, Linirea, was a prime target during the war with the Drak, as it was a major safe haven for the Alteran population in capital proximity. Unlike most of the Alteran cities, the fortress city itself is built in a rectangular grid and upon further research actually comes from its design as a fortress capable of moving underground in case of an attack. This design actually dates back to the height of the pre-war tensions between the Alterans and the Quarg. `
+	landscape land/forest2
+	description `One of the Alteran fortress worlds, Linirea, was a prime target during the war with the Drak, as it was a major safe haven for the Alteran population in capital proximity. Unlike most of the Alteran cities, the fortress city itself is built in a rectangular grid which upon further research allows it to move underground in case of an attack. This design actually dates back to the height of the pre-war tensions between the Alterans and the Quarg. `
 	description `	It has a fairly warm climate and a green landscape, filled with forests and rolling hills. The wildlife does not appear to be too dangerous, making it a fairly popular world to live in. The planet has come a long way since the war, but the marks of the war with the Drak have not fully disappeared yet, even after over 10'000 years.`
 	spaceport `The spaceport is located in the outskirts of the largest city, right next to the military base and when compared to a normal human spaceport, it is far less space efficient. The landing pads are slightly below the ground and seem to be capable of being closed off in case of an attack. This is actually also the case for the major buildings in the city, built to survive a quarg attack, they can be moved below ground level. An office for the spaceport authorities is also present, with a small bar close by.`
 	shipyard "Ancient Advanced"
@@ -4443,7 +4449,7 @@ planet Othala
 	spaceport WIP
 
 planet Raetorum
-	landscape land/forest2
+	landscape land/mountain5
 	description WIP
 	spaceport WIP
 
@@ -4461,12 +4467,12 @@ planet Vaneda
 planet Vanir
 	landscape land/snow2
 	description `The permafrost world of Vanir is just outside of the Alteran inner core, it hasn't seen an ice free day in the last millenium and is nearly inhospitable as a result. Any actual invasion would suffer immense casualties simply from attrition, making it the ideal place for the Alteran military laboratories and winter training facilities, weapons are designed here and both land and space forces are trained for assaulting cold planets.`
-	spaceport `There seems to be a single small spaceport with a handful of houses and lving quarters for the soldiers designed to be hospitable even in these low temperatures, as well as multiple large laboratory complexes including a factory to manufacture the designs being tested. The landing pads themselves appear to be heated, but some snow and ice still remains on them, as it simply is too cold outside.`
+	spaceport `There seems to be a single small spaceport with a handful of houses and living quarters for the soldiers designed to be hospitable even in these low temperatures, as well as multiple large laboratory complexes including a factory to manufacture the designs being tested. The landing pads themselves appear to be heated, but some snow and ice still remains on them, as it simply is too cold outside.`
 	outfitter "Ancient Advanced"
 
 planet Wyvernhaven
 	landscape land/nasa1
-	description `Wyvernhaven is one of the Alteran core worlds and the seat of the Alteran Navy headquarters. This is immediately noticeable while landing, as most of the ships are flying with military colors. The military shipyards are also based on this world, as can be seen in the large area filled with hangars and finished ships getting ready to move location.`
+	description `Wyvernhaven is one of the Alteran core worlds and the seat of the Alteran Navy headquarters. This is immediately noticeable while landing, as most of the ships are flying with military colors. The military shipyards are also based on this world, as can be seen in the large area filled with hangars and finished ships getting ready to change location.`
 	spaceport `The civillian section of the spaceport is relatively small and mostly used by freighters. As a result the landing pads are very large and designed for the biggest efficiency during loading and unloading large freighters. `
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
