@@ -229,4 +229,60 @@ outfit "New Plasma Beam"
 		"firing heat" 5.0
 		"shield damage" 32.0
 		"hull damage" 45.0
-		"heat damage" 25.0
+		"heat damage" 25.0		
+outfit "Ancient Gauss Driver"
+	category "Guns"
+	cost 1340000
+	thumbnail "outfit/ancient gauss driver"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"energy capacity" 1600
+	"gun ports" -1
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .2
+		"velocity" 32
+		"lifetime" 140
+		"reload" 90
+		"firing energy" 756
+		"firing force" 40
+		"firing heat" 400
+		"hit force" 720
+		"shield damage" 5700
+		"hull damage" 2400
+		
+outfit "Ancient Gauss Turret"
+	category "Turrets"
+	cost 1340000
+	thumbnail "outfit/ancient gauss turret"
+	"mass" 83
+	"outfit space" -83
+	"weapon capacity" -83
+	"energy capacity" 1600
+	"turret mounts" -1
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		"hardpoint sprite" "hardpoint/annihilator turret"
+		"hardpoint offset" 15.
+		sound "detainer"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .2
+		"turret turn" 1.0
+		"velocity" 32
+		"lifetime" 140
+		"reload" 90
+		"firing energy" 756
+		"firing force" 40
+		"firing heat" 400
+		"hit force" 720
+		"shield damage" 5700
+		"hull damage" 2400
