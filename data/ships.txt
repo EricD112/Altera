@@ -106,7 +106,8 @@ ship "Aurora"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "The Ancient Aurora-Class, their flagship. It's as heavy as it can get a Quarg Wardragon is comparable to it in terms of defensive capabilities. However, the Aurora is far more aggressive with its Ancient Drone Launchers and Pulse Turrets. When used correctly, it can easily take on multiple Skylarks or Wardragons."
+	description The Aurora-class Battleship is an old Alteran warship, having seen use even in the Drak-Alteran War. A truly massive design, with a significant hull strength and a powerful loadout, capable of taking on Quarg warships by itself. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Azrael-class Battleship, a much more effective design."
+	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlan gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms."
 
 ship "Azrael"
 	sprite "ship/azrael"

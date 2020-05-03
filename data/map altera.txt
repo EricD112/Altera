@@ -4313,7 +4313,7 @@ planet Aurelis
 
 planet "Avalon Station"
 	landscape land/sea17-harro
-	description WIP
+	description `Just from looking at its exterior, it is obvious that this is a finished Quarg ringworld, though it doesn’t seem to be in the posession of the Quarg anymore. While it looks just like any other ring from outside, once your inside, you can’t get your head around the thought that this ring must have been taken over by the Alterans ages ago, the inside barely resembles its original form, which considering the time taken to build such rings, must take a long time as well.. Large portions of the Quarg interior and technology have been augmented or replaced with Alteran designs and the gravitational force is quite a bit stronger, even compared to human standards.`
 	spaceport WIP
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
