@@ -229,7 +229,8 @@ outfit "New Plasma Beam"
 		"firing heat" 5.0
 		"shield damage" 32.0
 		"hull damage" 45.0
-		"heat damage" 25.0		
+		"heat damage" 25.0
+		
 outfit "Ancient Gauss Driver"
 	category "Guns"
 	cost 1340000
