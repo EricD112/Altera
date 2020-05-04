@@ -4315,8 +4315,9 @@ planet Aurelis
 
 planet "Avalon Station"
 	landscape land/sea17-harro
-	description `Just from looking at its exterior, it is obvious that this is a finished Quarg ringworld, though it doesn’t seem to be in the posession of the Quarg anymore. While it looks just like any other ring from outside, once your inside, you can’t get your head around the thought that this ring must have been taken over by the Alterans ages ago, the inside barely resembles its original form, which considering the time taken to build such rings, must take a long time as well.. Large portions of the Quarg interior and technology have been augmented or replaced with Alteran designs and the gravitational force is quite a bit stronger, even compared to human standards.`
-	spaceport WIP
+	description `Just from looking at its exterior, it is obvious that this is a finished Quarg ringworld, though it doesn’t seem to be in the posession of the Quarg anymore. While it looks just like any other ring from outside, once your inside, you can’t get your head around the thought that this ring must have been taken over by the Alterans ages ago, the inside barely resembles its original form, which considering the time taken to build such rings, must have taken a long time as well. Large portions of the Quarg interior and technology have been augmented or replaced with Alteran designs and the gravitational force is quite a bit stronger, even compared to human standards.`
+	spaceport `The spaceport seems to have been replaced almost completely as well and is much more open than the original Quarg design, as the Alterans have nothing to hide and even the military section is only partially off-limits to civillians. In order to travel around the spaceport, or rather the entire ringworld, a system of local teleporters and magnetically levitated trains has been built.`
+	spaceport `	The experience on this ring is nothing like that of a Quarg ring, it seems busier and much more welcoming, stemming mostly from the more open Alteran design, but the people and talking present. Several shipyards and outfitters can be found around the spaceport and a nice bar has placed itself right next to one of those teleporters.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
 
