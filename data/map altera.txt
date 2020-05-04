@@ -4298,8 +4298,10 @@ planet Asuras
 
 planet Atlantis
 	landscape land/beach11-harro
-	description `Atlantis is one of the Alteran Pardise worlds, mostly oceanic planet with with city Atlantis floating on the water. There isn't much manufacturing going on here, neither is there any farming or mining. At first, it doesn't seem like the settlement makes sense, but the city is in fact submersible, making it the safest place in Alteran space, helped by its out of the way location. The city itself has not experienced any major changes in centuries.`
-	spaceport `The spaceport is placed around the city on its arms and appears to be well guarded, not only by the military personnel present, but by the air support checking every ship before landing. Unlike your usual human spaceport, everything is highly organised here, they immediately take care of both yourself and your fleet.`
+	description `Floating in the middle of the ocean is the city of Atlantis, an Alteran city ship, you are unsure whether it is still capable of flying, but it may very well be. Apart from the luxury oriented shipyard and outfitter, there isn't much manufacturing going on here, mining and agriculture can only be found on the few small landmasses on this world and even then, it is barely present.`
+	description `	Considering everything, there is no question as to why this is called a paradise world, the city is highly limited in terms of living space, due to its nature as a city ship, and is most definitely shielded and capable of submerging, a defensive system used during the Drak-Alteran War, explaining the myth of the sunken city of Atlantis. It's one of the safest places in Alteran space, if you can afford the exorbitant housing prices.`
+	spaceport `The spaceport is placed around the city on its arms and appears to be well guarded, not only by the military personnel present, but also by the air support checking every ship before landing. Unlike your usual human spaceport, everything is highly organised here and almost eerily quiet, the personnel immediately take care of both yourself and your fleet.`
+	spaceport `	While the spaceport is not a place you feel comfortable staying in, the luxurious spaceport bar on the 3rd arm is a far nicer location, with a great view over the spaceport and surrounding ocean. The food and drinks hear leave nothing to be desired either.`
 	shipyard "Ancient Basic"
 	outfitter "Ancient Basic"
 
