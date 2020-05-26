@@ -4325,7 +4325,7 @@ planet Celestis
 	landscape land/city7
 	description `The Alteran capital of Celestis, one of the most populated Alteran worlds, the pre war census coming to over 12 billion. Its proportions seem to be fairly similar to those of the Earth, it consists of highly populated futuristic cities full of towering skyscrapers, a few bigger mountain ranges and large oceans. Unlike Earth though, it is not overpopulated and surprisingly, the oceans appear to be in pristine condition.`
 	description `	Even though the Alteran Empire is a monarchy, the seat of government is not immediately visible and appears to be very down to earth on closer inspection. This is reflected in the respect for the monarchy, not caused by fear, but by a mutual understanding, teamwork and the meritocratic ways of the government.`
-	spaceport `The Spaceport is made up of multiple large, hexagonal landing areas surrounding a spaceport complex with an air control tower, a bar and multiple entrances to a large underground hangar used by civillians. The spaceport seems to be very busy at all times, but doesn't appear to be going over it's capacity.`
+	spaceport `The Spaceport is made up of multiple large, hexagonal landing areas surrounding a spaceport complex with an air control tower, a bar and multiple entrances to a large underground hangar used by civilians. The spaceport seems to be very busy at all times, but doesn't appear to be going over it's capacity.`
 	spaceport `	Outside of the main area is a relatively small Alteran military base, following a smaller hexagonal pattern, with a larger central complex with three arms that extend into the surrounding landing pads. The spaceport itself is located in the middle of the imperial capital city, not too far off from the palace.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
@@ -4368,7 +4368,7 @@ planet Halcyon
 
 planet Heliopolis
 	landscape land/city2
-	description `The third of the Alteran Core Worlds, Heliopolis, is a world best described as always sunny, hence it's name dedication to the sun. It should be a fairly hot planet, but the cities appear to have a lot of green spots in them. It looks a lot like a human city to you and makes you feel welcome. In order to combat the heat issues, most of the capital city appears to have some kind of radiation shielding, that is capable of reducing the sun's strength, making the temperatures a lot more moderate, comparable to a European spring from the 2000s.`
+	description `The third of the Alteran central worlds, Heliopolis, is a world best described as always sunny, hence it's name dedication to the sun. It should be a fairly hot planet, but the cities appear to have a lot of green spots in them. It looks a lot like a human city to you and makes you feel welcome. In order to combat the heat issues, most of the capital city appears to have some kind of radiation shielding, that is capable of reducing the sun's strength, making the temperatures a lot more moderate, comparable to a European spring from the 2000s.`
 	description `	Heliopolis was one of the few core worlds that the Drak did not attempt to bomb, resulting in pre-war Alteran architecture being visible throughought the city. The city itself does have a slight traffic problem though, as even the Alterans like to complain about expanding the inner-city infrastructure.`
 	spaceport `Unlike the Celestis and Wyvernhaven spaceports, the main spaceport on Heliopolis looks a lot more organic, like it was grown over time and not built as one piece, resulting in a somewhat Frankenstein-like landing area with even different surfaces for the landing pads and green areas of all shapes and sizes mixed in. It does have a certain beauty to it that other Alteran spaceports tend to lack, as they are highly organized and planned out.`
 	spaceport `	A large park surrounds the spaceport on three sides, with the fourth side bordering a river and it's promenade, likely in order to keep the spaceport's noise pollution down. From the bar, located in a corner between the promenade and the park, you have a gorgeous view of not only the main city and its spaceport, but also the sunset behind the skyline.`
@@ -4408,7 +4408,7 @@ planet Naharis
 planet Noricum
 	landscape land/beach11-harro
 	description `One of the Alteran co-capitals, Noricum of the Borean Sector is one of more developed worlds in Altera, it was originally settled as a mining world, and even now, food is harder to come by than in the rest of Altera.`
-	description `	Noricum is also home to a major Alteran naval base, mainly due to its location in the far north-west of the Alteran Core, or to be more exact, the Borean Sector, at the northern border. While the system itself does not actually count as a border system, the entire northern border of the Borean Sector is within jump-range.`
+	description `Noricum is also home to a major Alteran naval base, mainly due to its location in the far north-west of the Alteran core, or to be more exact, the Borean Sector, at the northern border. While the system itself does not actually count as a border system, the entire northern border of the Borean Sector is within jump-range.`
 	spaceport `The spaceport`
 
 planet Okeanos
