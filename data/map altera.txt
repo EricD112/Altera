@@ -4308,7 +4308,7 @@ planet Atlantis
 
 planet Aurelis
 	landscape land/dmottl1
-	description `The westernmost world of the Alteran Sector, Aurelis, is a mineral rich world that is stuck in an almost permanent winter. It is covered in oceans and hills, both frozen throughout most of the year. However, even with all the snow and ice, it is still a habitable world that is heavily engaged in mining operations.`
+	description `The innermost world of the Alteran Sector, Aurelis, is a mineral rich world that is stuck in an almost permanent winter. It is covered in oceans and hills, both frozen throughout most of the year. However, even with all the snow and ice, it is still a habitable world that is heavily engaged in mining operations.`
 	description `	The Alteran Military also has a strong presence on Aurelis, the local population is generally quite strong, as they are not only miners, but also live under higher gravity than most Alterans. The Verangian Guard, an elite Alteran army division is mainly enlisted and trained here.`
 	spaceport `Landing in the Aurelis spaceport is actually quite hard, the port itself isn't too big or busy, but the low temperatures and the amount of snowfall coming with them make sure that the spaceport is buried under snow for most of the time. The spaceport agency on Aurelis is unable to keep up with the snow whenever a storm is present or has come through recently. A newer section for the spaceport with floor heating has been built and tested, but no decision has been met yet, as the maintenance costs are quite high.`
 	shipyard "Ancient Advanced"
@@ -4317,7 +4317,7 @@ planet Aurelis
 planet "Avalon Station"
 	landscape land/sea17-harro
 	description `Just from looking at its exterior, it is obvious that this is a finished Quarg ringworld, though it doesn’t seem to be in the posession of the Quarg anymore. While it looks just like any other ring from outside, once your inside, you can’t get your head around the thought that this ring must have been taken over by the Alterans ages ago, the inside barely resembles its original form, which considering the time taken to build such rings, must have taken a long time as well. Large portions of the Quarg interior and technology have been augmented or replaced with Alteran designs and the gravitational force is quite a bit stronger, even compared to human standards.`
-	spaceport `The spaceport seems to have been replaced almost completely as well and is much more open than the original Quarg design, as the Alterans have nothing to hide and even the military section is only partially off-limits to civillians. In order to travel around the spaceport, or rather the entire ringworld, a system of local teleporters and magnetically levitated trains has been built.`
+	spaceport `The spaceport seems to have been replaced almost completely as well and is much more open than the original Quarg design, as the Alterans have nothing to hide and even the military section is only partially off-limits to civilians. In order to travel around the spaceport, or rather the entire ringworld, a system of local teleporters and magnetically levitated trains has been built.`
 	spaceport `	The experience on this ring is nothing like that of a Quarg ring, it seems busier and much more welcoming, stemming mostly from the more open Alteran design, but the people and talking present. Several shipyards and outfitters can be found around the spaceport and a nice bar has placed itself right next to one of those teleporters.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
@@ -4409,7 +4409,7 @@ planet Naharis
 planet Noricum
 	landscape land/beach11-harro
 	description `One of the Alteran co-capitals, Noricum of the Borean Sector is one of more developed worlds in Altera, it was originally settled as a mining world, and even now, food is harder to come by than in the rest of Altera.`
-	description `Noricum is also home to a major Alteran naval base, mainly due to its location in the far north-west of the Alteran core, or to be more exact, the Borean Sector, at the northern border. While the system itself does not actually count as a border system, the entire northern border of the Borean Sector is within jump-range.`
+	description `	Noricum is also home to a major Alteran naval base, mainly due to its location in the far north-west of the Alteran core, or to be more exact, the Borean Sector, at the northern border. While the system itself does not actually count as a border system, the entire northern border of the Borean Sector is within jump-range.`
 	spaceport `The spaceport`
 
 planet Okeanos
@@ -4451,10 +4451,10 @@ planet Vanir
 
 planet Wyvernhaven
 	landscape land/nasa1
-	description `Wyvernhaven is one of the Alteran central worlds, generally seen as the second, stemming from its importance as the seat of the United Alteran navy. This is immediately noticeable while landing as well, as most of the ships you can observe are flying under military colors, even the civilian grade ships are flying for the Navy.`
-	description `While the military has a strong presence here, Wyvernhaven is also one of the more populous Alteran worlds, with a population lower than that of Celestis, but still relatively high compared to most human worlds. Though a large part of the economy and populace are based around the military, as such, Wyvernhaven can barely be called a civilian world.`
+	description `Wyvernhaven is one of the Alteran central worlds, generally seen as the second, stemming from its importance as the seat of the United Alteran navy. This is immediately noticeable while landing as well, as most of the ships you can observe are flying under military colors, even the majority of civilian grade ships are flying for the Navy.`
+	description `	While the military has a strong presence here, Wyvernhaven is also one of the more populous Alteran worlds, with a population lower than that of Celestis, but still relatively high compared to most human worlds. Though a large part of the economy and populace are based around the military, as such, Wyvernhaven can barely be called a civilian world.`
 	spaceport `The civilian section of the spaceport is by no means small, mostly because of the amount of freighters coming in for the shipyards. As a result the landing pads are very large and the surrounding infrastructure was designed for very high efficiency during the entire loading and transport period.`
-	spaceport `The military section however, is even larger than the civilian section, even the republic naval headquarters can't compare to this. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground or above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular seem to have a large presence in the hangar.`
+	spaceport `	The military section however, is even larger than the civilian section, even the republic naval headquarters can't compare to this. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground or above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular seem to have a large presence in the hangar.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
 
