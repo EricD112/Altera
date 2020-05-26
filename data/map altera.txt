@@ -4450,8 +4450,10 @@ planet Vanir
 
 planet Wyvernhaven
 	landscape land/nasa1
-	description `Wyvernhaven is one of the Alteran core worlds and the seat of the Alteran Navy headquarters. This is immediately noticeable while landing, as most of the ships are flying with military colors. The military shipyards are also based on this world, as can be seen in the large area filled with hangars and finished ships getting ready to change location.`
-	spaceport `The civillian section of the spaceport is relatively small and mostly used by freighters. As a result the landing pads are very large and designed for the biggest efficiency during loading and unloading large freighters. `
+	description `Wyvernhaven is one of the Alteran central worlds, generally seen as the second, stemming from its importance as the seat of the United Alteran navy. This is immediately noticeable while landing as well, as most of the ships you can observe are flying under military colors, even the civilian grade ships are flying for the Navy.`
+	description `While the military has a strong presence here, Wyvernhaven is also one of the more populous Alteran worlds, with a population lower than that of Celestis, but still relatively high compared to most human worlds. Though a large part of the economy and populace are based around the military, as such, Wyvernhaven can barely be called a civilian world.`
+	spaceport `The civilian section of the spaceport is by no means small, mostly because of the amount of freighters coming in for the shipyards. As a result the landing pads are very large and the surrounding infrastructure was designed for very high efficiency during the entire loading and transport period.`
+	spaceport `The military section however, is even larger than the civilian section, even the republic naval headquarters can't compare to this. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground or above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular seem to have a large presence in the hangar.`
 	shipyard "Ancient Advanced"
 	outfitter "Ancient Advanced"
 
