@@ -4291,8 +4291,9 @@ system Zephyrius
 
 planet Asuras
 	landscape land/city6
-	description `The Alteran world of Asuras is often described as an ecumenopolis and only upon closer inspection, does this turn out to be false. It is nontheless a highly populated world filled with factories, some still being leftover ruins from the war with the Drak. It is also the birthplace of the Asuran Replicators, a weapon used by the Alterans against the Quarg during the war, although the original laboratories are long gone since the war.`
-	spaceport `The spaceport is truly gargantuan, large landing pads filled with freighters and transports are surrounded by multiple small towers that appear to be the spaceport authorities. A handful of hangars from the Alteran shipyards are also not too far off.`
+	description `The Alteran world of Asuras is the closest you have seen to an ecumenopolis, most of the planet is covered in buildings of some sort, though at this point, a significant portion of the "city" is in disrepair. Asuras was one of, if not the most important industrial worlds of ancient Altera, it is the birthplace of the Asuran Replicators, a form of self-replicating robots, aiming to take human form.`
+	description `	The Drak targeted this world, destroying most of its industrial capabilities and deactivating the replicators with a specific frequency wave signal, leaving the planet almost uninhabited and in heavily battle-scarred. Even now, the population has not gotten anywhere near its pre-war state, though the organic population has multiplied. As a result of the depopulation, nature has started to take back the cityscape, resulting in noticeable green patches.`
+	spaceport `The ecumenopolis appears to have many spaceports, of which only a handful are actually being used. None of them are small, but the main spaceport is truly gargantuan, large landing pads filled with freighters and transports, surrounded by multiple small towers that appear to be the spaceport authorities. A handful of hangars from the Alteran shipyards are also not too far off. Most interesting of all however is the outfitter selling replicators for use as temporary ship repair, an acceptable purpose even in the eyes of the Drak, as there does not seem to have been a second war.`
 	shipyard "Ancient Basic"
 	outfitter "Ancient Advanced"
 
