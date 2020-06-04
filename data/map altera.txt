@@ -4408,9 +4408,9 @@ planet Naharis
 
 planet Noricum
 	landscape land/beach11-harro
-	description `One of the Alteran co-capitals, Noricum of the Borean Sector is one of more developed worlds in Altera, it was originally settled as a mining world, and even now, food is harder to come by than in the rest of Altera.`
-	description `	Noricum is also home to a major Alteran naval base, mainly due to its location in the far north-west of the Alteran core, or to be more exact, the Borean Sector, at the northern border. While the system itself does not actually count as a border system, the entire northern border of the Borean Sector is within jump-range.`
-	spaceport `The spaceport`
+	description `One of the Alteran co-capitals, Noricum of the Borean Sector is one of more developed worlds in Altera, it was originally settled as a mining world, and even now, food is harder to come by than in most of Altera. Over time, it has gained a significant population and importance, especially since becoming the administrative capital of the inner Alteran worlds, the Borean Sector.`
+	description `	Noricum is also home to a major Alteran naval base, mainly due to its location in the far closer to the galactic core, or to be more exact, the Borean Sector, bordering the presumedly uninhabited Ember Waste. While the system itself does not actually count as a border system, most of the Borean Sector is within jump-range, allowing the rapid reactions to any threats, especially around the sector border.`
+	spaceport `The spaceport reflects the state of Noricum pretty well, several of the larger landing pads are reserved specifically for food-related freight ships with the military taking up a large portion of the spaceport as well, though mainly with transport vessels and smaller warships. The spaceport seems fairly well guarded, not from actual employed security, but simply because of the amount of military personnel present at all times, sitting around the spaceport and enjoying the bars.`
 
 planet Okeanos
 	landscape land/beach4
