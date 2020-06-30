@@ -1,0 +1,54 @@
+outfitter plugin
+	"AAGTX-1.0 Anti-Grav Thruster"
+	"AAGTX-1.5 Anti-Grav Steering"
+	"AAGTX-2.0 Anti-Grav Thruster"
+	"AAGTX-2.5 Anti-Grav Steering"
+	"AAGTX-3.0 Anti-Grav Thruster"
+	"AAGTX-3.5 Anti-Grav Steering"
+	"AAGTX-4.0 Anti-Grav Thruster"
+	"AAGTX-4.5 Anti-Grav Steering"
+	"ACX-1 Alpina Cooler"
+	"ACX-2 Arctica Cooler"
+	"ACX-3 Antarctica Cooler"
+	"AGX-1 Alpha Core"
+	"AGX-2 Beta Core"
+	"AGX-3 Gamma Core"
+	"AMCX-1 Module Converter"
+	"Ancient Anti-Missile"
+	"Ancient Captain's Chair"
+	"Ancient Cloaking Device"
+	"Ancient Command Chair"
+	"Ancient double ZPM Converter"
+	"Ancient Drone Launcher"
+	"Ancient Integration System"
+	"Ancient Pilot's Chair"
+	"Ancient Plasma Beam"
+	"Ancient Plasma Turret"
+	"Ancient Pulse Turret"
+	"Ancient Satellite Plasma Beam"
+	"Ancient Shock Turret"
+	"Ancient Solar Collector"
+	"Ancient Star Drive"
+	"Ancient triple ZPM Converter"
+	"Ancient ZPM Converter"
+	"Ancient ZPM"
+	"ASX-1 Asteroid Shielding"
+	"ASX-2 Moon Shielding"
+	"ASX-3 Planet Shielding"
+	"ASX-4 Star Shielding"
+	"New Plasma Beam"
+shipyard plugin
+	"Test Jumper"
+	"Titan Defensive Satellite"
+	Areion
+	Aurora
+	Azrael
+	Caesar
+	Centurion
+	Destiny
+	Deucalion
+	Paladin
+	Raziel
+	Sleipnir
+	Tharsis
+	Trinity
