@@ -27,6 +27,7 @@ outfitter plugin
 	"Ancient Pulse Turret"
 	"Ancient Satellite Plasma Beam"
 	"Ancient Shock Turret"
+	"Ancient Singular Pulse"
 	"Ancient Solar Collector"
 	"Ancient Star Drive"
 	"Ancient triple ZPM Converter"
@@ -38,17 +39,15 @@ outfitter plugin
 	"ASX-4 Star Shielding"
 	"New Plasma Beam"
 shipyard plugin
-	"Test Jumper"
 	"Titan Defensive Satellite"
-	Areion
+	Aegis
+	Aetheris
 	Aurora
 	Azrael
 	Caesar
 	Centurion
 	Destiny
-	Deucalion
 	Paladin
+	Paragon
 	Raziel
-	Sleipnir
-	Tharsis
 	Trinity

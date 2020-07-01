@@ -238,7 +238,7 @@ ship "Azrael"
 ship "Paragon"
 	sprite "ship/paragon"
 	attributes
-		category "Heavy Warship"
+		category "Medium Warship"
 		"cost" 64000000
 		"shields" 80000
 		"hull" 34000
