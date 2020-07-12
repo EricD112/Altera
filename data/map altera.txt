@@ -4291,8 +4291,8 @@ system Zephyrius
 
 planet Asuras
 	landscape land/city6
-	description `The Alteran world of Asuras is the closest you have seen to an ecumenopolis, most of the planet is covered in buildings of some sort, though at this point, a significant portion of the "city" is in disrepair. Asuras was one of, if not the most important industrial worlds of ancient Altera, it is the birthplace of the Asuran Replicators, a form of self-replicating robots, aiming to take human form.`
-	description `	The Drak targeted this world, destroying most of its industrial capabilities and deactivating the replicators with a specific frequency wave signal, leaving the planet almost uninhabited and heavily battle-scarred. Even today, the size of the population is not anywhere near its pre-war state. As a result nature has started to take back the abandoned areas, resulting in noticeable green patches.`
+	description `The Alteran world of Asuras is the closest you have seen to an ecumenopolis, most of the planet is covered in buildings of some sort, though at this point, a significant portion of the "city" is in disrepair. Asuras was one of, if not the most important industrial worlds of ancient Altera. It is also the birthplace of the Asuran Replicators, a form of sentient, self-replicating robots in humanoid form, which were regarded as equal citizens by the Alturans.`
+	description `	The Drak targeted this world, destroying most of its industrial capabilities and dismantling the entire Asuran Replicator population. This left the planet in a battle-scarred and almost depopulated state. And while the remaining Alturan population has multiplied over time, even today the number of inhabitants is nowhere near its pre-war state. As a result nature has started to reclaim the abandoned areas, indicated by green patches visible throughout the cityscape.`
 	spaceport `The ecumenopolis appears to have many spaceports, of which only a handful are actually being used. None of them are small, but the main spaceport is truly gargantuan, large landing pads filled with freighters and transports, surrounded by multiple small towers that appear to be the spaceport authorities. A handful of hangars from the Alteran shipyards are also not too far off. Most interesting of all however is the outfitter selling replicators for use as temporary ship repair, an acceptable purpose even in the eyes of the Drak, as there does not seem to have been a second war.`
 	shipyard "Ancient Basic"
 	outfitter "Ancient Advanced"
@@ -4308,7 +4308,7 @@ planet Atlantis
 
 planet Aurelis
 	landscape land/dmottl1
-	description `Aurelis, is a mineral rich world that is stuck in an almost permanent winter. Its oceans and hills are covered by ice throughout most of the year. Despite all the snow and ice, it carries a sizeable population heavily engaged in mining operations.`
+	description `Aurelis, part of the innermost system of the Alteran Sector, is a mineral rich world that is stuck in an almost permanent winter. Its oceans and hills are covered by ice throughout most of the year. Despite all the snow and ice, it carries a sizeable population heavily engaged in mining operations.`
 	description `	The Alteran Military also has a strong presence on Aurelis. Member of the local population are usually quite strong, since they are not only miners, but also live under higher gravity than most Alterans. The Verangian Guard, an elite Alteran army division, trains here and most of its members are recruited locals.`
 	spaceport `Landing in the Aurelis spaceport is actually quite difficult, the port itself isn't too big or busy, but the low temperatures and the regular snowfall cause the spaceport to be buried under snow for most of the time. The spaceport agency on Aurelis is unable to keep up with the snow during storms and their immediate aftermath. A newer section for the spaceport with floor heating has been built and tested, but no decision has been met yet, as the maintenance costs are quite high.`
 	shipyard "Ancient Advanced"
@@ -4357,7 +4357,7 @@ planet Elarum
 
 planet "Forta Dracone"
 	landscape land/nasa0
-	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from pirates or potential invaders. While the moon looks barren from space, it is actually inhabitable and a few navy owned farms can be seen while landing.`
+	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from potential threats. While the moon looks barren from space, it is actually inhabitable and a few navy owned farms can be seen while landing.`
 	spaceport `The spaceport looks exactly as expected from a military spaceport, a miriad of landing pads with a slightly lesser number of large hangars and large roads connecting them. Nearly all of the ships here are warships, except for a few freighters, most of which belong to the navy as well. Surprisingly, the personnel appears to be very friendly to anyone visiting here.`
 	outfitter "Ancient Advanced"
 	"required reputation" 200
@@ -4463,4 +4463,3 @@ planet Zirkonis
 	landscape land/beach1
 	description WIP
 	spaceport WIP
-
