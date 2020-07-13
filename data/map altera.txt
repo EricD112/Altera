@@ -4434,8 +4434,8 @@ planet Raetorum
 
 planet Turicum
 	landscape land/valley12-harro
-	description WIP
 	spaceport WIP
+	description `Turicum, probably the least expensive of the Alteran Paradise Worlds, is full of rolling green hills and rocky mountains, resulting in more weather variation than on Atlantis and Halcyon, including less pleasant snow storms. As a result, the tourism industry is very large, both during summer and winter, giving Turicum a more casual economy. Several large cities are visible from space which have a lot of trees and parks in general placed in their interior, making the population density significantly lower than one might expect.`
 	outfitter "Ancient Basic"
 
 planet Vaneda
