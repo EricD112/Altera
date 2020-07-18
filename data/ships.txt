@@ -56,7 +56,8 @@ ship "Aegis"
 	turret 0 -5.5 "Ancient Pulse Turret"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The mainstay Alteran destroyer, a relatively agile, but awfully fragile vessel, that outdamages anything in its category."
+	description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the side in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
+	description "Only very rarely seen without an escort, even in Alteran space, for good reason. Alone, an Aegis is worthless, but with a sizeable squadron (commonly deployed in triplets), the Aegis becomes an offensive powerhouse, it is akin to an offensive shield, an impenetrable wall demolishing anything brave enough to stand in its path."
 
 ship "Aetheris (Interceptor)"
 	sprite "ship/aetheris"
@@ -212,7 +213,7 @@ ship "Aurora"
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
 	description "The Aurora-class Battleship is an old Alteran warship, having seen use even in the Drak-Alteran War. A truly massive design, with a significant hull strength and a powerful loadout, capable of taking on Quarg warships by itself. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Azrael-class Battleship, a much more effective design."
-	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlan gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms. This communication system is an absolute necessity for the Alteran Military, but will cause a strong combat-oriented inefficiency, as it takes up a significant portion of the ship's interior."
+	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlane gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms. This communication system is an absolute necessity for the Alteran Military, but will cause a strong combat-oriented inefficiency, as it takes up a significant portion of the ship's interior."
 
 ship "Azrael"
 	sprite "ship/azrael"
@@ -337,7 +338,8 @@ ship "Paragon"
 	explode "large explosion" 35
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
-	description ""
+	description "Developed together with the Aurora, the Paragon shares the same unique style as its sibling, though it is much more combat oriented. A pair of Paragons are capable of rivalling an Aurora, with a single one matching a Quarg Wardragon. The hull itself is almost symmetric, with weaponry on or next to its spine. As the name suggests, this ship is a well designed jack of all trades, with a slight tendency towards a defensive frontline warship."
+	description "Unlike the Aurora, this ship still fits its combat role and will likely stay in service as a mainstay warship with a central frontline role for the forseeable future, supplementing the newer Alteran Vessels such as the Azrael or Raziel. Even now, its raw combat strength is astounding, with the only real downside being its overreliance on hull and the resulting very lacking agility, stemming from its age, dating back to pre-war Altera, a time during which shielding was only really being used by the military, due to its experimental nature."
 	
 ship "Praesidium"
 	sprite "ship/praesidium"
@@ -390,6 +392,8 @@ ship "Praesidium"
 	turret 0 32.5 "Ancient Anti-Missile"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
+	description "The Praesidium-class Frigate was part of the first post-war fleet update, with a noticable change in visual style and a stronger reliance on shielding, resulting in a fairly strong and incredibly agile warship. Its main purpose is that of an escort, making use of its agility and light armaments to take out fighters and interceptors or anything that would be hard to track with the heavy armaments of an Aegis or Paragon."
+	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath.
 
 ship "Spectre"
 	sprite "ship/spectre"
