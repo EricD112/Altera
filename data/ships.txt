@@ -1,11 +1,12 @@
 
 ship "Aegis"
 	sprite "ship/aegis"
+	thumbnail "thumbnail/aegis"
 	attributes
 		category "Medium Warship"
 		"cost" 6400000
-		"shields" 56000
-		"hull" 34000
+		"shields" 97000
+		"hull" 31000
 		"required crew" 20
 		"bunks" 32
 		"mass" 420
@@ -57,13 +58,55 @@ ship "Aegis"
 	explode "small explosion" 5
 	description "The mainstay Alteran destroyer, a relatively agile, but awfully fragile vessel, that outdamages anything in its category."
 
+ship "Aetheris (Interceptor)"
+	sprite "ship/aetheris"
+	thumbnail "thumbnail/aetheris"
+	attributes
+		category "Interceptor"
+		"cost" 970000
+		"shields" 4200
+		"hull" 1900
+		"required crew" 1
+		"bunks" 2
+		"mass" 40
+		"drag" .7
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 5
+		"outfit space" 240
+		"weapon capacity" 95
+		"engine capacity" 70
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Plasma Beam" 2
+		
+		"AGX-1 Alpha Core"
+		"ASX-1 Asteroid Shielding"
+		"ACX-1 Alpina Cooler"
+		"Ancient Cloaking Device"
+		
+		"AAGTX-1.0 Anti-Grav Thruster"
+		"AAGTX-1.5 Anti-Grav Steering"
+		
+	engine 0 48.5
+	gun 8 -7.5
+	gun -8 -7.5
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+
 ship "Aetheris"
 	sprite "ship/aetheris"
+	thumbnail "thumbnail/aetheris"
 	attributes
 		category "Fighter"
 		"cost" 970000
-		"shields" 2500
-		"hull" 750
+		"shields" 4200
+		"hull" 1900
 		"required crew" 1
 		"bunks" 2
 		"mass" 40
@@ -104,7 +147,7 @@ ship "Aurora"
 		category "Heavy Warship"
 		"cost" 92000000
 		"shields" 210000
-		"hull" 135000
+		"hull" 157000
 		"required crew" 20
 		"bunks" 230
 		"mass" 3200
@@ -112,7 +155,7 @@ ship "Aurora"
 		"heat dissipation" 1
 		"fuel capacity" 1000
 		"cargo space" 200
-		"outfit space" 1600
+		"outfit space" 2100
 		"weapon capacity" 1000
 		"engine capacity" 500
 		"ZPM capacity" 2
@@ -122,7 +165,7 @@ ship "Aurora"
 			"hull damage" 1500
 			"hit force" 4500
 	outfits
-		"Ancient Drone Launcher" 4
+		"Ancient Drone Bay" 4
 		"Ancient Anti-Missile" 2
 		"Ancient Pulse Turret" 8
 		
@@ -131,9 +174,10 @@ ship "Aurora"
 		"Large Radar Jammer"
 		"ACX-2 Arctica Cooler"
 		"Ancient Captain's Chair"
+		"Ancient Solar Collector" 4
 		
-		"AAGTX-4.0 Anti-Grav Thruster"
-		"AAGTX-4.5 Anti-Grav Steering"
+		"AAGTX-3.0 Anti-Grav Thruster"
+		"AAGTX-3.5 Anti-Grav Steering"
 		"Ancient Star Drive"
 		
 	engine -85.5 322
@@ -143,14 +187,14 @@ ship "Aurora"
 	engine -20.5 326 0.2
 	engine 20.5 326 0.2
 	engine 0 326 0.2
-	gun -35.5 -281.5
-	gun -35.5 -281.5
-	gun 35.5 -281.5
-	gun 35.5 -281.5
-	gun -46.5 -162.5 "Ancient Drone Launcher"
-	gun -46.5 -162.5 "Ancient Drone Launcher"
-	gun 46.5 -162.5 "Ancient Drone Launcher"
-	gun 46.5 -162.5 "Ancient Drone Launcher"
+	gun -35.5 -281.5 "Ancient Solar Collector"
+	gun -35.5 -281.5 "Ancient Solar Collector"
+	gun 35.5 -281.5 "Ancient Solar Collector"
+	gun 35.5 -281.5 "Ancient Solar Collector"
+	gun -46.5 -162.5 "Ancient Drone Bay"
+	gun -46.5 -162.5 "Ancient Drone Bay"
+	gun 46.5 -162.5 "Ancient Drone Bay"
+	gun 46.5 -162.5 "Ancient Drone Bay"
 	turret 0 -252 "Ancient Anti-Missile"
 	turret -31.5 -228 "Ancient Pulse Turret"
 	turret 31.5 -228 "Ancient Pulse Turret"
@@ -205,8 +249,8 @@ ship "Azrael"
 		"ACX-2 Arctica Cooler"
 		"Ancient Command Chair"
 		
-		"AAGTX-4.0 Anti-Grav Thruster"
-		"AAGTX-4.5 Anti-Grav Steering"
+		"AAGTX-3.0 Anti-Grav Thruster"
+		"AAGTX-3.5 Anti-Grav Steering"
 		"Ancient Star Drive"
 
 		
@@ -237,12 +281,13 @@ ship "Azrael"
 	
 ship "Paragon"
 	sprite "ship/paragon"
+	thumbnail "thumbnail/paragon"
 	attributes
 		category "Medium Warship"
 		"cost" 64000000
-		"shields" 80000
-		"hull" 34000
-		"required crew" 150
+		"shields" 117500
+		"hull" 83000
+		"required crew" 21
 		"bunks" 300
 		"mass" 1400
 		"drag" 9.0
@@ -259,44 +304,95 @@ ship "Paragon"
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Ancient Plasma Beam" 2
-		"Ancient Drone Launcher" 2
-		"Ancient Pulse Turret" 3
-		"Ancient Anti-Missile"
+		"Ancient Drone Launcher" 4
+		"Ancient Pulse Turret" 5
+		"Ancient Anti-Missile" 2
 
 		"AGX-2 Beta Core"
 		"ASX-2 Moon Shielding"
 		"ACX-2 Arctica Cooler"
 		"Ancient Captain's Chair"
 		
-		"AAGTX-3.0 Anti-Grav Thruster"
-		"AAGTX-3.5 Anti-Grav Steering"
+		"AAGTX-2.0 Anti-Grav Thruster"
+		"AAGTX-2.5 Anti-Grav Steering"
 		"Ancient Star Drive"
 
 	engine -48 180
 	engine 48 180
 	engine -28 182
 	engine 28 182
-	gun 10 -186.5
-	gun -10 -186.5
-	gun 23 -156.5
-	gun -23 -156.5
-	turret 0 -132.5
-	turret 0 -98.5
-	turret -20 -71.5
-	turret 20 -71.5
-	turret 0 25.5
-	turret 0 65.5
-	turret 0 181.5
+	gun -10 -186.5 "Ancient Drone Launcher"
+	gun 10 -186.5 "Ancient Drone Launcher"
+	gun -23 -156.5 "Ancient Drone Launcher"
+	gun 23 -156.5 "Ancient Drone Launcher"
+	turret 0 -132.5 "Ancient Pulse Turret"
+	turret 0 -98.5 "Ancient Anti-Missile"
+	turret -20 -71.5 "Ancient Pulse Turret"
+	turret 20 -71.5 "Ancient Pulse Turret"
+	turret 0 25.5 "Ancient Pulse Turret"
+	turret 0 65.5 "Ancient Pulse Turret"
+	turret 0 181.5 "Ancient Anti-Missile"
 	explode "small explosion" 20
 	explode "medium explosion" 40
 	explode "large explosion" 35
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
 	description ""
+	
+ship "Praesidium"
+	sprite "ship/praesidium"
+	thumbnail "thumbnail/praesidium"
+	attributes
+		category "Light Warship"
+		"cost" 6400000
+		"shields" 74000
+		"hull" 29500
+		"required crew" 6
+		"bunks" 21
+		"mass" 330
+		"drag" 3.1
+		"heat dissipation" 1
+		"fuel capacity" 700
+		"cargo space" 40
+		"outfit space" 810
+		"weapon capacity" 290
+		"engine capacity" 125
+		"ZPM capacity" 1
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Drone Launcher" 2
+		"Ancient Pulse Turret" 2
+		"Ancient Anti-Missile"
+		"Ancient Singular Pulse" 2
 
-ship "Raziel"
-	sprite "ship/raziel"
+		"AGX-2 Beta Core"
+		"ASX-2 Moon Shielding"
+		"ACX-2 Arctica Cooler"
+		"Ancient Captain's Chair"
+		
+		"AAGTX-2.0 Anti-Grav Thruster"
+		"AAGTX-2.5 Anti-Grav Steering"
+		"Ancient Star Drive"
+		
+	engine -18 97
+	engine 18 97
+	engine 0 97
+	gun -8 -80.5 "Ancient Drone Launcher"
+	gun -8 -80.5 "Ancient Singular Pulse"
+	gun 8 -80.5 "Ancient Drone Launcher"
+	gun 8 -80.5 "Ancient Singular Pulse"
+	turret 0 -44 "Ancient Pulse Turret"
+	turret 0 1 "Ancient Pulse Turret"
+	turret 0 32.5 "Ancient Anti-Missile"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+
+ship "Spectre"
+	sprite "ship/spectre"
 	attributes
 		category "Interceptor"
 		"cost" 2000000

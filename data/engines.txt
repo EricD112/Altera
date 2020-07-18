@@ -3,7 +3,7 @@
 outfit "AAGTX-1.0 Anti-Grav Thruster"
 	category "Engines"
 	"cost" 2000000
-	thumbnail "outfit/tiny radiant thruster"
+	thumbnail "small ancient thruster"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
@@ -21,7 +21,7 @@ outfit "AAGTX-1.0 Anti-Grav Thruster"
 outfit "AAGTX-2.0 Anti-Grav Thruster"
 	category "Engines"
 	"cost" 4500000
-	thumbnail "outfit/small ancient thruster"
+	thumbnail "outfit/medium ancient thruster"
 	"mass" 60
 	"outfit space" -60
 	"engine capacity" -60
@@ -39,7 +39,7 @@ outfit "AAGTX-2.0 Anti-Grav Thruster"
 outfit "AAGTX-3.0 Anti-Grav Thruster"
 	category "Engines"
 	"cost" 10000000
-	thumbnail "outfit/medium ancient thruster"
+	thumbnail "outfit/large ancient thruster"
 	"mass" 120
 	"outfit space" -120
 	"engine capacity" -120
@@ -76,7 +76,7 @@ outfit "AAGTX-4.0 Anti-Grav Thruster"
 outfit "AAGTX-1.5 Anti-Grav Steering"
 	category "Engines"
 	"cost" 1600000
-	thumbnail "outfit/tiny radiant steering"
+	thumbnail "small ancient steering"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
@@ -89,7 +89,7 @@ outfit "AAGTX-1.5 Anti-Grav Steering"
 outfit "AAGTX-2.5 Anti-Grav Steering"
 	category "Engines"
 	"cost" 3400000
-	thumbnail "outfit/small ancient steering"
+	thumbnail "outfit/medium ancient steering"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
@@ -102,7 +102,7 @@ outfit "AAGTX-2.5 Anti-Grav Steering"
 outfit "AAGTX-3.5 Anti-Grav Steering"
 	category "Engines"
 	"cost" 8000000
-	thumbnail "outfit/medium ancient steering"
+	thumbnail "outfit/large ancient steering"
 	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
