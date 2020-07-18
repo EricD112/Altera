@@ -29,6 +29,7 @@ outfitter "Ancient Advanced"
 	
 	"Ancient Drone Launcher"
 	"Ancient Pulse Turret"
+	"Ancient Singular Pulse"
 	"Ancient Plasma Beam"
 	"Ancient Plasma Turret"
 	"Ancient Satellite Plasma Beam"
@@ -97,9 +98,7 @@ outfitter "Ascaris"
 	"Ionic Afterburner"
 
 shipyard "Ancient Basic"
-	"Paladin"
-	"Raziel"
-	"Trinity"
+	Praesidium
 	
 shipyard "Ancient Advanced"
 	"Aegis"
@@ -108,11 +107,9 @@ shipyard "Ancient Advanced"
 	"Azrael"
 	"Caesar"
 	"Centurion"
-	"Destiny"
-	"Paladin"
 	"Paragon"
+	"Praesidium
 	"Raziel"
-	"Trinity"
 	"Titan Defensive Satellite"
 	
 shipyard "Ascaris"

@@ -19,7 +19,10 @@ outfitter plugin
 	"Ancient Cloaking Device"
 	"Ancient Command Chair"
 	"Ancient double ZPM Converter"
+	"Ancient Drone Bay"
 	"Ancient Drone Launcher"
+	"Ancient Gauss Driver"
+	"Ancient Gauss Turret"
 	"Ancient Integration System"
 	"Ancient Pilot's Chair"
 	"Ancient Plasma Beam"
@@ -46,8 +49,6 @@ shipyard plugin
 	Azrael
 	Caesar
 	Centurion
-	Destiny
-	Paladin
 	Paragon
+	Praesidium
 	Raziel
-	Trinity
