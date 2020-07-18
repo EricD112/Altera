@@ -1,4 +1,4 @@
-fleet "Altera Navy"
+fleet "Altera Navy Warfleet"
 	government "Altera"
 	names "Altera Navy"
 	fighters "Altera Fighter"
@@ -7,16 +7,54 @@ fleet "Altera Navy"
 		heroic opportunistic
 	variant 10
 		"Aurora" 1
-		"Destiny" 1
-		"Paladin" 2
+		"Paragon" 3
+		"Aegis" 4
+		"Praesidium" 2
 	variant 5
-		"Aurora" 2
-		"Paladin" 4
-	variant 5
-		"Azrael" 1
-		"Destiny" 1
+		"Aurora" 1
+		"Paragon" 2
+		"Aegis" 6
+		"Praesidium" 3
+		
+fleet "Large Alteran Navy"
+	government "Altera"
+	names "Altera Navy"
+	fighters "Altera Fighter"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant 1
+		"Aurora" 1
+		"Paragon" 1
+		"Praesidium" 3
+		"Aetheris" 1
+	variant 2
+		"Aurora" 1
+		"Aegis" 3
+		"Praesidium" 1
+		"Aetheris" 1
+	variant 4
+		"Paragon" 2
+		"Aegis" 3
+		"Praesidium" 2
 
-fleet "Altera Recon"
+fleet "Small Alteran Navy"
+	government "Altera"
+	names "Altera Navy"
+	fighters "Altera Fighter"
+	cargo 0
+	personality
+		heroic opportunistic
+	variant
+		"Aegis" 2
+		"Praesidium" 2
+	variant
+		"Praesidium" 3
+	variant
+		"Paragon" 1
+		"Praesidium" 2
+
+fleet "Altera Navy Recon"
 	government "Altera"
 	names "Altera Recon"
 	cargo 0
