@@ -45,6 +45,7 @@ shipyard plugin
 	"Titan Defensive Satellite"
 	Aegis
 	Aetheris
+	"Aetheris (Interceptor)"
 	Aurora
 	Azrael
 	Caesar

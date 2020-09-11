@@ -1664,7 +1664,7 @@ system "Gate of the Fallen"
 	object
 		sprite star/k5
 		period 10
-	object
+	object "Guardia Alpha"
 		sprite planet/desert9
 		distance 141.24
 		period 32.5336
@@ -4361,6 +4361,11 @@ planet "Forta Dracone"
 	spaceport `The spaceport looks exactly as expected from a military spaceport, a miriad of landing pads with a slightly lesser number of large hangars and large roads connecting them. Nearly all of the ships here are warships, except for a few freighters, most of which belong to the navy as well. Surprisingly, the personnel appears to be very friendly to anyone visiting here.`
 	outfitter "Ancient Advanced"
 	"required reputation" 200
+
+planet "Guardia Alpha"
+	landscape land/nasa0
+	description `Alteran Border Post`
+	spaceport `Alteran Border Post`
 
 planet Halcyon
 	landscape land/fields6
