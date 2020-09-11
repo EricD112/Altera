@@ -27,6 +27,7 @@ outfitter "Ancient Advanced"
 	"Ancient Captain's Chair"
 	"Ancient Command Chair"
 	
+	"Ancient Drone Bay"
 	"Ancient Drone Launcher"
 	"Ancient Pulse Turret"
 	"Ancient Singular Pulse"
@@ -108,7 +109,7 @@ shipyard "Ancient Advanced"
 	"Caesar"
 	"Centurion"
 	"Paragon"
-	"Praesidium
+	"Praesidium"
 	"Raziel"
 	"Titan Defensive Satellite"
 	

@@ -5,7 +5,7 @@ ship "Aegis"
 	attributes
 		category "Medium Warship"
 		"cost" 6400000
-		"shields" 97000
+		"shields" 62000
 		"hull" 31000
 		"required crew" 20
 		"bunks" 32
@@ -92,6 +92,7 @@ ship "Aetheris (Interceptor)"
 		
 		"AAGTX-1.0 Anti-Grav Thruster"
 		"AAGTX-1.5 Anti-Grav Steering"
+		"Ancient Star Drive"
 		
 	engine 0 48.5
 	gun 8 -7.5
@@ -147,7 +148,7 @@ ship "Aurora"
 	attributes
 		category "Heavy Warship"
 		"cost" 92000000
-		"shields" 210000
+		"shields" 165000
 		"hull" 157000
 		"required crew" 20
 		"bunks" 230
@@ -286,7 +287,7 @@ ship "Paragon"
 	attributes
 		category "Medium Warship"
 		"cost" 64000000
-		"shields" 117500
+		"shields" 97500
 		"hull" 83000
 		"required crew" 21
 		"bunks" 300
@@ -347,7 +348,7 @@ ship "Praesidium"
 	attributes
 		category "Light Warship"
 		"cost" 6400000
-		"shields" 74000
+		"shields" 34000
 		"hull" 29500
 		"required crew" 6
 		"bunks" 21

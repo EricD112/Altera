@@ -20,7 +20,7 @@ outfit "Ancient Drone Launcher"
 		"inaccuracy" 2
 		"velocity" 2
 		"lifetime" 10000
-		"reload" 20
+		"reload" 100
 		"burst count" 2
 		"burst reload" 4
 		"firing energy" 10
@@ -62,7 +62,7 @@ outfit "Ancient Drone Bay"
 		"inaccuracy" 2
 		"velocity" 2
 		"lifetime" 10000
-		"reload" 8
+		"reload" 25
 		"burst count" 18
 		"burst reload" 1
 		"firing energy" 10
@@ -100,12 +100,12 @@ outfit "Ancient Singular Pulse"
 		"velocity" 30
 		"lifetime" 50
 		"reload" 30
-		"firing energy" 390
-		"firing heat" 250
+		"firing energy" 95
+		"firing heat" 110
 		"hit force" 45
-		"shield damage" 550
-		"hull damage" 570
-		"heat damage" 250
+		"shield damage" 130
+		"hull damage" 145
+		"heat damage" 95
 
 outfit "Ancient Pulse Turret"
 	category "Turrets"
@@ -129,12 +129,12 @@ outfit "Ancient Pulse Turret"
 		"reload" 10
 		"burst count" 3
 		"burst reload" 5
-		"firing energy" 390
+		"firing energy" 95
 		"firing heat" 110
 		"hit force" 45
-		"shield damage" 550
-		"hull damage" 570
-		"heat damage" 110
+		"shield damage" 130
+		"hull damage" 145
+		"heat damage" 95
 				
 outfit "Ancient Satellite Plasma Beam"
 	category "Secondary Weapons"
@@ -178,17 +178,17 @@ outfit "Ancient Plasma Beam"
 		sprite "projectile/Plasma/Ancient Plasma"
 			"frame rate" 4.0
 			"random start frame"
-		sound "Ancient Plasma"
+		sound "sunbeam"
 		"hit effect" "Drone Impact"
 		"inaccuracy" 0.0
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 18.0
-		"firing heat" 55.0
-		"shield damage" 24.0
-		"hull damage" 36.0
-		"heat damage" 60.0
+		"firing energy" 5.8
+		"firing heat" 14.0
+		"shield damage" 9.2
+		"hull damage" 3.4
+		"heat damage" 13.7
 		
 outfit "Ancient Plasma Turret"
 	category "Turrets"
@@ -206,17 +206,17 @@ outfit "Ancient Plasma Turret"
 			"random start frame"
 		"hardpoint sprite" "hardpoint/dual sunbeam turret"
 		"hardpoint offset" 12.
-		sound "Ancient Plasma"
+		sound "sunbeam"
 		"hit effect" "Drone Impact"
 		"inaccuracy" 0.0
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 36.0
-		"firing heat" 110.0
-		"shield damage" 48.0
-		"hull damage" 72.0
-		"heat damage" 120.0
+		"firing energy" 10.6
+		"firing heat" 29.0
+		"shield damage" 18.4
+		"hull damage" 6.8
+		"heat damage" 27.4
 		
 outfit "Ancient Anti-Missile"
 	category "Turrets"

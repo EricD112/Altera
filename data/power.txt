@@ -16,7 +16,7 @@ outfit "AGX-1 Alpha Core"
 	thumbnail "outfit/yellow sun"
 	"mass" 45
 	"outfit space" -45
-	"energy generation" 55
+	"energy generation" 20
 	"energy capacity" 9000
 	"heat generation" 20
 	description "The Alpha Core is a small Ancient power source used for small ships like the Jumper. Its energy production is comparable to that of the NT-200 generator, however, it's a lot more efficient. It produces very stable energy through Draconium (from the Alteran word for Dragon), a small naturally hot metal found solely on Draconis in the Pegasus systems."
@@ -28,7 +28,7 @@ outfit "AGX-2 Beta Core"
 	thumbnail "outfit/white sun"
 	"mass" 90
 	"outfit space" -90
-	"energy generation" 120
+	"energy generation" 45
 	"energy capacity" 20000
 	"heat generation" 35
 	description "A bigger Draconic Reactor than the Alpha Core, as the energy generation increases exponentially, it's more efficient than the Alpha Core. It's standard issue for bigger Ancient ships like the Destiny-Class."
@@ -40,7 +40,7 @@ outfit "AGX-3 Gamma Core"
 	thumbnail "outfit/blue sun"
 	"mass" 135
 	"outfit space" -135
-	"energy generation" 185
+	"energy generation" 70
 	"energy capacity" 44000
 	"heat generation" 50
 	description "The third and last of the Draconic Reactors, the Gamma Core generates energy at the maximum efficiency, anything bigger is increasingly unstable and can blow up whole fleets. When not using a ZPM, the Azrael-Class and the Aurora-Class use this Generator."

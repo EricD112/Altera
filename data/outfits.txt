@@ -6,7 +6,6 @@ outfit "Ancient Integration System"
 	mass 10
 	"outfit space" -10
 	"energy generation" -1.5
-	"Ancient capacity" 20
 	description "A modification done to the Captain's Chair to allow the captain to use Ancient technology in his ship."
 
 outfit "Ancient Pilot's Chair"
@@ -16,7 +15,6 @@ outfit "Ancient Pilot's Chair"
 	mass 10
 	"outfit space" -10
 	"energy generation" -1
-	"Ancient capacity" 35
 	description "
 	
 outfit "Ancient Captain's Chair"
@@ -26,7 +24,6 @@ outfit "Ancient Captain's Chair"
 	mass 20
 	"outfit space" -20
 	"energy generation" -1.5
-	"Ancient capacity" 75
 	description "An Alteran designed captain's chair with numerous integrative features to allow for a better connection to the Ancient Tech installed. The usage of Ancient Tech becomes far easier and, allowing for it to be used effectively in greater numbers."
 
 outfit "Ancient Command Chair"
@@ -37,7 +34,6 @@ outfit "Ancient Command Chair"
 	"outfit space" -40
 	"energy generation" -5
 	"command seat" -1
-	"Ancient capacity" 100
 	"Satellite Weapon Ports" 1
 	description "This is anything but a simple chair, with enough concentration, the captain can activate Titan Mode, a necessity for using the Satellite Plasma. It surrounds the Captain with interactive holographic screens. These chairs allow you to pack your ship with more Ancient Weaponry and Outfits and is also used in the Alteran Bastions, City Guards and Outposts."
 
@@ -55,7 +51,6 @@ outfit "Ancient Star Drive"
 	"ramscoop" 50
 	"multi jump" 5
 	"jump fuel" 50
-	"Ancient capacity" -5
 	description "The Ancients were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Ancient Ramscoop."
 
 outfit "Ancient Cloaking Device"
@@ -67,7 +62,6 @@ outfit "Ancient Cloaking Device"
 	"cloak" .05
 	"cloaking energy" 5
 	"heat generation" 5
-	"Ancient capacity" -10
 	description "The Ancient cloaking device is very efficient and only requires energy. However, it generates heat, equal to its energy requirements."
 
 outfit "ASX-1 Asteroid Shielding"
@@ -76,10 +70,8 @@ outfit "ASX-1 Asteroid Shielding"
 	thumbnail "outfit/small ancient shield"
 	"mass" 20
 	"outfit space" -20
-	"shield generation" 2.0
-	"shields" 5000
-	"shield energy" 1
-	"Ancient Capacity" -2
+	"shield generation" 1.5
+	"shield energy" 2.1
 	description "The Asteroid Shielding system is a single generator that projects the shield around the ship when needed. Ancient Jumpers and smaller vessels use the single generator because of its high efficiency compared to simpler systems that are no longer being sold."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -87,12 +79,10 @@ outfit "ASX-2 Moon Shielding"
 	category "Systems"
 	cost 10000000
 	thumbnail "outfit/medium ancient shield"
-	"mass" 42
-	"outfit space" -42
-	"shield generation" 4.5
-	"shields" 10000
-	"shield energy" 2
-	"Ancient Capacity" -4
+	"mass" 38
+	"outfit space" -38
+	"shield generation" 3
+	"shield energy" 4.0
 	description "The Moon Shielding consists of not one but 2 generators that are directly connected and share the burden of projecting the shield. They are Typically located in the front and the back of the ship. Ancient transport ships and the Destiny-Class utilise these Shielding systems because the space isn't available or more isn't required."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -100,12 +90,10 @@ outfit "ASX-3 Planet Shielding"
 	category "Systems"
 	cost 240000000
 	thumbnail "outfit/large ancient shield"
-	"mass" 90
-	"outfit space" -90
-	"shield generation" 9.5
-	"shields" 20000
-	"shield energy" 3
-	"Ancient Capacity" -6
+	"mass" 72
+	"outfit space" -72
+	"shield generation" 6.0
+	"shield energy" 7.6
 	description "The Planet Shielding has 4 generators to project the shields. These can usually be found in the front, the back and in the center: one on each side. Just like the Moon Shielding, they are connected for improved effectiveness. The Ancient's Aurora-Class use these Shielding systems in that combination."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -113,12 +101,10 @@ outfit "ASX-4 Star Shielding"
 	category "Systems"
 	cost 50000000
 	thumbnail "outfit/huge ancient shield"
-	"mass" 190
-	"outfit space" -190
-	"shield generation" 20.0
-	"shields" 40000
-	"shield energy" 5
-	"Ancient Capacity" -8
+	"mass" 137
+	"outfit space" -137
+	"shield generation" 12.0
+	"shield energy" 14.4
 	description "The Star Shielding is the the strongest of the Ancient Shielding systems and utilises a combination of 8 shield generators, directly connected, to maximise efficiency and strength. The Ancients use this generator in their Azrael-Class and it is advised to use the same combination of 2 in the front, 2 in the back, and 4 around the center, making a rhombus across the horizontal axis."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 
@@ -129,7 +115,6 @@ outfit "ACX-1 Alpina Cooler"
 	"mass" 25
 	"outfit space" -25
 	"cooling" 50
-	"Ancient capacity" -2
 	description "The Alpina cooler is a small Ancient Cooler and the little brother of the Arctica Cooler and Antarctica Cooler."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 	
@@ -140,7 +125,6 @@ outfit "ACX-2 Arctica Cooler"
 	"mass" 50
 	"outfit space" -50
 	"cooling" 110
-	"Ancient capacity" -4
 	description "The Arctica Cooler is bigger and even more effective that the Alpina Cooler due to its size."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 
@@ -151,6 +135,5 @@ outfit "ACX-3 Antarctica Cooler"
 	"mass" 100
 	"outfit space" -100
 	"cooling" 240
-	"Ancient capacity" -6
 	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites.
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
