@@ -3,7 +3,7 @@
 outfit "AAGTX-1.0 Anti-Grav Thruster"
 	category "Engines"
 	"cost" 2000000
-	thumbnail "small ancient thruster"
+	thumbnail "outfit/small ancient thruster"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
@@ -76,10 +76,10 @@ outfit "AAGTX-4.0 Anti-Grav Thruster"
 outfit "AAGTX-1.5 Anti-Grav Steering"
 	category "Engines"
 	"cost" 1600000
-	thumbnail "small ancient steering"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
+	thumbnail "outfit/small ancient steering"
 	"turn" 800
 	"turning energy" 5
 	"turning heat" 2
