@@ -259,10 +259,11 @@ outfit "Ancient Shock Turret"
 		"firing energy" 500
 		"firing heat" 350
 		"hit force" 420
-		"shield damage" 4200
-		"hull damage" 1350
+		"shield damage" 470
+		"hull damage" 290
 		"cluster"
-		"disruption damage" 3
+		"disruption damage" 11.6
+		"ion damage" 7.1
 		"homing" 1
 		"turn" 10
 
@@ -314,8 +315,8 @@ outfit "Ancient Gauss Driver"
 		"firing force" 40
 		"firing heat" 400
 		"hit force" 720
-		"shield damage" 5700
-		"hull damage" 2400
+		"shield damage" 530
+		"hull damage" 1650
 		
 outfit "Ancient Gauss Turret"
 	category "Turrets"
@@ -344,5 +345,5 @@ outfit "Ancient Gauss Turret"
 		"firing force" 40
 		"firing heat" 400
 		"hit force" 720
-		"shield damage" 5700
-		"hull damage" 2400
+		"shield damage" 530
+		"hull damage" 1650
