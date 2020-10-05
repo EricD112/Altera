@@ -16,7 +16,7 @@ outfit "ADRX-I Draconic Reactor"
 	cost 12000000
 	thumbnail "outfit/small draconic reactor"
 	"mass" 58
-	"outfit space" -45
+	"outfit space" -58
 	"energy generation" 12.4
 	#"energy generation" 9.2
 	#11
