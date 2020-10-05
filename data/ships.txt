@@ -29,14 +29,13 @@ ship "Aegis"
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"
 
-		"AGX-2 Beta Core"
-		"ASX-2 Moon Shielding"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
+		"ADRX-II Draconic Reactor"
+		"ASSX-II Shield System"
+		"AACX-II Cooling System"
 		
-		"AAGTX-2.0 Anti-Grav Thruster"
-		"AAGTX-2.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine -29 136.5
 	engine 29 136.5
@@ -85,14 +84,13 @@ ship "Aetheris (Interceptor)"
 	outfits
 		"Ancient Plasma Beam" 2
 		
-		"AGX-1 Alpha Core"
-		"ASX-1 Asteroid Shielding"
-		"ACX-1 Alpina Cooler"
-		"Ancient Cloaking Device"
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
 		
-		"AAGTX-1.0 Anti-Grav Thruster"
-		"AAGTX-1.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine 0 48.5
 	gun 8 -7.5
@@ -127,13 +125,12 @@ ship "Aetheris"
 	outfits
 		"Ancient Plasma Beam" 2
 		
-		"AGX-1 Alpha Core"
-		"ASX-1 Asteroid Shielding"
-		"ACX-1 Alpina Cooler"
-		"Ancient Cloaking Device"
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
 		
-		"AAGTX-1.0 Anti-Grav Thruster"
-		"AAGTX-1.5 Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
 		
 	engine 0 48.5
 	gun 8 -7.5
@@ -152,8 +149,10 @@ ship "Aurora"
 		"hull" 157000
 		"required crew" 20
 		"bunks" 230
-		"mass" 3200
-		"drag" 12.0
+		"mass" 4130
+		#"mass" 4130
+		"drag" 27.4
+		#"drag" 32.4
 		"heat dissipation" 1
 		"fuel capacity" 1000
 		"cargo space" 200
@@ -171,16 +170,14 @@ ship "Aurora"
 		"Ancient Anti-Missile" 2
 		"Ancient Pulse Turret" 8
 		
-		"AGX-3 Gamma Core"
-		"ASX-4 Star Shielding"
-		"Large Radar Jammer"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
-		"Ancient Solar Collector" 4
+		"ADRX-III Draconic Reactor" 2
+		"ASSX-IV Shield System"
+		"AACX-III Cooling System"
+		"ASGX Solar Collector" 4
 		
-		"AAGTX-3.0 Anti-Grav Thruster"
-		"AAGTX-3.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"AAGTX-IV Anti-Grav Steering"
+		"AAGTX-IV Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine -85.5 322
 	engine 85.5 322
@@ -189,10 +186,10 @@ ship "Aurora"
 	engine -20.5 326 0.2
 	engine 20.5 326 0.2
 	engine 0 326 0.2
-	gun -35.5 -281.5 "Ancient Solar Collector"
-	gun -35.5 -281.5 "Ancient Solar Collector"
-	gun 35.5 -281.5 "Ancient Solar Collector"
-	gun 35.5 -281.5 "Ancient Solar Collector"
+	gun -35.5 -281.5 "ASGX Solar Collector"
+	gun -35.5 -281.5 "ASGX Solar Collector"
+	gun 35.5 -281.5 "ASGX Solar Collector"
+	gun 35.5 -281.5 "ASGX Solar Collector"
 	gun -46.5 -162.5 "Ancient Drone Bay"
 	gun -46.5 -162.5 "Ancient Drone Bay"
 	gun 46.5 -162.5 "Ancient Drone Bay"
@@ -244,17 +241,13 @@ ship "Azrael"
 		"Ancient Anti-Missile" 2
 		"Ancient Plasma Turret" 8
 		
-		"Ancient ZPM"
-		"AGX-3 Gamma Core"
-		"ASX-4 Star Shielding"
-		"Large Radar Jammer"
-		"ACX-2 Arctica Cooler"
-		"Ancient Command Chair"
+		"ADRX-III Draconic Reactor"
+		"ASSX-IV Shield System"
+		"AACX-III Cooling System"
 		
-		"AAGTX-3.0 Anti-Grav Thruster"
-		"AAGTX-3.5 Anti-Grav Steering"
-		"Ancient Star Drive"
-
+		"AAGTX-III Anti-Grav Steering"
+		"AAGTX-III Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine -25 172
 	engine 25 172
@@ -296,8 +289,8 @@ ship "Paragon"
 		"heat dissipation" 1
 		"fuel capacity" 900
 		"cargo space" 200
-		"outfit space" 700
-		"weapon capacity" 400
+		"outfit space" 1000
+		"weapon capacity" 600
 		"engine capacity" 300
 		"ZPM capacity" 1
 		weapon
@@ -309,15 +302,14 @@ ship "Paragon"
 		"Ancient Drone Launcher" 4
 		"Ancient Pulse Turret" 5
 		"Ancient Anti-Missile" 2
-
-		"AGX-2 Beta Core"
-		"ASX-2 Moon Shielding"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
 		
-		"AAGTX-2.0 Anti-Grav Thruster"
-		"AAGTX-2.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"ADRX-II Draconic Reactor"
+		"ASSX-III Shield System"
+		"AACX-II Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
 
 	engine -48 180
 	engine 48 180
@@ -371,15 +363,14 @@ ship "Praesidium"
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"
 		"Ancient Singular Pulse" 2
-
-		"AGX-2 Beta Core"
-		"ASX-2 Moon Shielding"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
 		
-		"AAGTX-2.0 Anti-Grav Thruster"
-		"AAGTX-2.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"ADRX-II Draconic Reactor"
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine -18 97
 	engine 18 97
@@ -422,15 +413,14 @@ ship "Spectre"
 		"Ancient Drone Launcher" 2
 		"Ancient Plasma Beam" 2
 		
-		"AGX-1 Alpha Core"
-		"ASX-1 Asteroid Shielding"
-		"ACX-1 Alpina Cooler"
-		"Ancient Cloaking Device"
-		"Ancient Captain's Chair"
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		"ACSX Cloaking System"
 		
-		"AAGTX-1.0 Anti-Grav Thruster"
-		"AAGTX-1.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
 		
 	engine -7 42
 	engine 7 42

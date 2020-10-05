@@ -1,43 +1,5 @@
 
-outfit "Ancient Integration System"
-	category "Systems"
-	cost 3000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -10
-	"energy generation" -1.5
-	description "A modification done to the Captain's Chair to allow the captain to use Ancient technology in his ship."
-
-outfit "Ancient Pilot's Chair"
-	category "Systems"
-	cost 3000000
-	thumbnail "outfit/unknown"
-	mass 10
-	"outfit space" -10
-	"energy generation" -1
-	description "
-	
-outfit "Ancient Captain's Chair"
-	category "Systems"
-	cost 10000000
-	thumbnail "outfit/unknown"
-	mass 20
-	"outfit space" -20
-	"energy generation" -1.5
-	description "An Alteran designed captain's chair with numerous integrative features to allow for a better connection to the Ancient Tech installed. The usage of Ancient Tech becomes far easier and, allowing for it to be used effectively in greater numbers."
-
-outfit "Ancient Command Chair"
-	category "Systems"
-	cost 10000000
-	thumbnail "outfit/unknown"
-	mass 40
-	"outfit space" -40
-	"energy generation" -5
-	"command seat" -1
-	"Satellite Weapon Ports" 1
-	description "This is anything but a simple chair, with enough concentration, the captain can activate Titan Mode, a necessity for using the Satellite Plasma. It surrounds the Captain with interactive holographic screens. These chairs allow you to pack your ship with more Ancient Weaponry and Outfits and is also used in the Alteran Bastions, City Guards and Outposts."
-
-outfit "Ancient Star Drive"
+outfit "AJX Star Drive"
 	category "Systems"
 	cost 5000000
 	thumbnail "outfit/star drive"
@@ -48,12 +10,12 @@ outfit "Ancient Star Drive"
 	"scram drive" 1.0
 	"hyperdrive" 1
 	"quantum keystone" 1
-	"ramscoop" 50
+	"ramscoop" 10
 	"multi jump" 5
 	"jump fuel" 50
 	description "The Ancients were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Ancient Ramscoop."
 
-outfit "Ancient Cloaking Device"
+outfit "ACSX Cloaking System"
 	category "Systems"
 	cost 4000000
 	thumbnail "outfit/interference plating"
@@ -64,7 +26,7 @@ outfit "Ancient Cloaking Device"
 	"heat generation" 5
 	description "The Ancient cloaking device is very efficient and only requires energy. However, it generates heat, equal to its energy requirements."
 
-outfit "ASX-1 Asteroid Shielding"
+outfit "ASSX-I Shield System"
 	category "Systems"
 	cost 4000000
 	thumbnail "outfit/small ancient shield"
@@ -75,7 +37,7 @@ outfit "ASX-1 Asteroid Shielding"
 	description "The Asteroid Shielding system is a single generator that projects the shield around the ship when needed. Ancient Jumpers and smaller vessels use the single generator because of its high efficiency compared to simpler systems that are no longer being sold."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
-outfit "ASX-2 Moon Shielding"
+outfit "ASSX-II Shield System"
 	category "Systems"
 	cost 10000000
 	thumbnail "outfit/medium ancient shield"
@@ -86,7 +48,7 @@ outfit "ASX-2 Moon Shielding"
 	description "The Moon Shielding consists of not one but 2 generators that are directly connected and share the burden of projecting the shield. They are Typically located in the front and the back of the ship. Ancient transport ships and the Destiny-Class utilise these Shielding systems because the space isn't available or more isn't required."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
-outfit "ASX-3 Planet Shielding"
+outfit "ASSX-III Shield System"
 	category "Systems"
 	cost 240000000
 	thumbnail "outfit/large ancient shield"
@@ -97,7 +59,7 @@ outfit "ASX-3 Planet Shielding"
 	description "The Planet Shielding has 4 generators to project the shields. These can usually be found in the front, the back and in the center: one on each side. Just like the Moon Shielding, they are connected for improved effectiveness. The Ancient's Aurora-Class use these Shielding systems in that combination."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
-outfit "ASX-4 Star Shielding"
+outfit "ASSX-IV Shield System"
 	category "Systems"
 	cost 50000000
 	thumbnail "outfit/huge ancient shield"
@@ -108,7 +70,7 @@ outfit "ASX-4 Star Shielding"
 	description "The Star Shielding is the the strongest of the Ancient Shielding systems and utilises a combination of 8 shield generators, directly connected, to maximise efficiency and strength. The Ancients use this generator in their Azrael-Class and it is advised to use the same combination of 2 in the front, 2 in the back, and 4 around the center, making a rhombus across the horizontal axis."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 
-outfit "ACX-1 Alpina Cooler"
+outfit "AACX-I Cooling System"
 	category "Systems"
 	cost 4000000
 	thumbnail "outfit/plasma core"
@@ -118,7 +80,7 @@ outfit "ACX-1 Alpina Cooler"
 	description "The Alpina cooler is a small Ancient Cooler and the little brother of the Arctica Cooler and Antarctica Cooler."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 	
-outfit "ACX-2 Arctica Cooler"
+outfit "AACX-II Cooling System"
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/double plasma core"
@@ -128,7 +90,7 @@ outfit "ACX-2 Arctica Cooler"
 	description "The Arctica Cooler is bigger and even more effective that the Alpina Cooler due to its size."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 
-outfit "ACX-3 Antarctica Cooler"
+outfit "AACX-III Cooling System"
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/triple plasma core"

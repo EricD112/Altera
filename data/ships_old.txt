@@ -89,6 +89,7 @@ ship "Centurion"
 	turret 0 35 "Ancient Anti-Missile"
 	turret -10 62 "Ancient Plasma Turret"
 	turret 10 62 "Ancient Plasma Turret"
+
 ship "Titan Defensive Satellite"
 	sprite "ship/tds"
 	attributes
