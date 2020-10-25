@@ -10,6 +10,24 @@ outfit "ASGX Solar Collector"
 	"ramscoop" 5
 	"gun ports" -1
 	"The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection.
+	
+outfit "AAUX-I Accumulation Unit"
+	category "Power"
+	cost 1000000
+	thumbnail "outfit/small alteran battery"
+	"mass" 16
+	"outfit space" -16
+	"energy capacity" 2800
+	description "An Alteran battery, the AAUX-I is compact and mainly used to support the Draconic Reactors on smaller ships."	
+
+outfit "AAUX-II Accumulation Unit"
+	category "Power"
+	cost 4000000
+	thumbnail "outfit/medium alteran battery"
+	"mass" 48
+	"outfit space" -48
+	"energy capacity" 10080
+	description "An Alteran battery, the AAUX-II is fairly large and mainly used to support the Draconic Reactors on particularly problematic ships."
 
 outfit "ADRX-I Draconic Reactor"
 	category "Power"

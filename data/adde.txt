@@ -10,6 +10,8 @@ outfitter plugin
 	"AACX-I Cooling System"
 	"AACX-II Cooling System"
 	"AACX-III Cooling System"
+	"AAUX-I Accumulation Unit"
+	"AAUX-II Accumulation Unit"
 	"ACSX Cloaking System"
 	"ADRX-I Draconic Reactor"
 	"ADRX-II Draconic Reactor"
