@@ -102,8 +102,8 @@ outfit "Ancient Drone Storage"
 	category "Ammunition"
 	cost 3000
 	thumbnail "outfit/Ancient Drone Storage"
-	outfit space 20
-	mass 5
+	"outfit space" -20
+	"mass" 5
 	"ancient drone capacity" 108
 
 outfit "Ancient Singular Pulse"

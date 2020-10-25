@@ -1,6 +1,11 @@
 outfitter "Ancient Basic"
-	"Ancient Drone Launcher"
+	"Ancient Singular Pulse"
 	"Ancient Pulse Turret"
+	
+	"Ancient Drone Launcher"
+	"Ancient Drone Storage"
+	"Ancient Drone"
+	"Railgun Slug"
 	
 	"AAGTX-I Anti-Grav Thruster"
 	"AAGTX-II Anti-Grav Thruster"
@@ -28,10 +33,13 @@ outfitter "Ancient Advanced"
 	"Ancient Anti-Missile"
 	"Ancient Shock Turret"
 	
-	"Ancient Drone"
 	"Ancient Drone Bay"
 	"Ancient Drone Launcher"
 	"Ancient Drone Storage"
+	"Ancient Drone"
+	"Ancient Gauss Driver"
+	"Ancient Gauss Turret"
+	"Railgun Slug"
 	
 	"AAGTX-I Anti-Grav Thruster"
 	"AAGTX-II Anti-Grav Thruster"
