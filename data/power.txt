@@ -2,7 +2,7 @@
 outfit "ASGX Solar Collector"
 	category "Power"
 	cost 9000000
-	thumbnail "outfit/small photovoltaic"
+	thumbnail "outfit/ancient solar"
 	"mass" 20
 	"outfit space" -20
 	"solar collection" 10
