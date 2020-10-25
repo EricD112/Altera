@@ -9,14 +9,14 @@ ship "Aegis"
 		"hull" 31000
 		"required crew" 20
 		"bunks" 32
-		"mass" 420
+		"mass" 540
 		"drag" 9.0
-		"heat dissipation" 1
+		"heat dissipation" 0.6
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 810
-		"weapon capacity" 490
-		"engine capacity" 170
+		"outfit space" 730
+		"weapon capacity" 320
+		"engine capacity" 165
 		"ZPM capacity" 1
 		weapon
 			"blast radius" 260
@@ -26,14 +26,17 @@ ship "Aegis"
 	outfits
 		"Ancient Plasma Beam" 8
 		"Ancient Drone Launcher" 2
-		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"
+		"Ancient Drone" 40
 
 		"ADRX-II Draconic Reactor"
+		"AAUX-I	Accumulation Unit"
+		"AAUX-II Accumulation Unit"
 		"ASSX-II Shield System"
 		"AACX-II Cooling System"
 		
-		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-III Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 		
@@ -50,9 +53,7 @@ ship "Aegis"
 	gun 29 10 "Ancient Plasma Beam"
 	gun -36 15.5 "Ancient Drone Launcher"
 	gun 36 15.5 "Ancient Drone Launcher"
-	turret 0 -94 "Ancient Pulse Turret"
 	turret 0 -55 "Ancient Anti-Missile"
-	turret 0 -5.5 "Ancient Pulse Turret"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the side in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
@@ -70,12 +71,12 @@ ship "Aetheris (Interceptor)"
 		"bunks" 2
 		"mass" 40
 		"drag" .7
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"fuel capacity" 600
 		"cargo space" 5
 		"outfit space" 240
-		"weapon capacity" 95
-		"engine capacity" 70
+		"weapon capacity" 85
+		"engine capacity" 50
 		weapon
 			"blast radius" 20
 			"shield damage" 250
@@ -111,12 +112,12 @@ ship "Aetheris"
 		"bunks" 2
 		"mass" 40
 		"drag" .7
-		"heat dissipation" .8
+		"heat dissipation" .9
 		"fuel capacity" 600
 		"cargo space" 5
 		"outfit space" 240
-		"weapon capacity" 95
-		"engine capacity" 70
+		"weapon capacity" 85
+		"engine capacity" 50
 		weapon
 			"blast radius" 20
 			"shield damage" 250
@@ -147,18 +148,18 @@ ship "Aurora"
 		"cost" 92000000
 		"shields" 165000
 		"hull" 157000
-		"required crew" 20
-		"bunks" 230
+		"required crew" 117
+		"bunks" 290
 		"mass" 4130
 		#"mass" 4130
 		"drag" 27.4
 		#"drag" 32.4
-		"heat dissipation" 1
-		"fuel capacity" 1000
-		"cargo space" 200
-		"outfit space" 2100
-		"weapon capacity" 1000
-		"engine capacity" 500
+		"heat dissipation" 0.3
+		"fuel capacity" 700
+		"cargo space" 310
+		"outfit space" 2010
+		"weapon capacity" 980
+		"engine capacity" 270
 		"ZPM capacity" 2
 		weapon
 			"blast radius" 400
@@ -167,8 +168,10 @@ ship "Aurora"
 			"hit force" 4500
 	outfits
 		"Ancient Drone Bay" 4
+		"Ancient Drone Storage"
 		"Ancient Anti-Missile" 2
 		"Ancient Pulse Turret" 8
+		"Ancient Drone" 1008
 		
 		"ADRX-III Draconic Reactor" 2
 		"ASSX-IV Shield System"
@@ -370,15 +373,15 @@ ship "Paragon"
 		"shields" 97500
 		"hull" 83000
 		"required crew" 21
-		"bunks" 300
+		"bunks" 96
 		"mass" 1400
 		"drag" 9.0
-		"heat dissipation" 1
+		"heat dissipation" 0.4
 		"fuel capacity" 900
 		"cargo space" 200
-		"outfit space" 1000
-		"weapon capacity" 600
-		"engine capacity" 300
+		"outfit space" 1050
+		"weapon capacity" 580
+		"engine capacity" 240
 		"ZPM capacity" 1
 		weapon
 			"blast radius" 260
@@ -387,15 +390,18 @@ ship "Paragon"
 			"hit force" 3900
 	outfits
 		"Ancient Drone Launcher" 4
+		"Ancient Drone Storage"
 		"Ancient Pulse Turret" 5
 		"Ancient Anti-Missile" 2
+		"Ancient Drone" 188
 		
-		"ADRX-II Draconic Reactor"
+		"ADRX-III Draconic Reactor"
+		"AAUX-II Accumulation Unit"
 		"ASSX-III Shield System"
 		"AACX-II Cooling System"
 		
-		"AAGTX-II Anti-Grav Steering"
-		"AAGTX-II Anti-Grav Thruster"
+		"AAGTX-III Anti-Grav Steering"
+		"AAGTX-III Anti-Grav Thruster"
 		"AJX Star Drive"
 
 	engine -48 180
@@ -431,12 +437,12 @@ ship "Praesidium"
 		"hull" 29500
 		"required crew" 6
 		"bunks" 21
-		"mass" 330
+		"mass" 410
 		"drag" 3.1
 		"heat dissipation" 1
 		"fuel capacity" 700
 		"cargo space" 40
-		"outfit space" 810
+		"outfit space" 620
 		"weapon capacity" 290
 		"engine capacity" 125
 		"ZPM capacity" 1
@@ -450,12 +456,15 @@ ship "Praesidium"
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"
 		"Ancient Singular Pulse" 2
+		"Ancient Drone" 40
 		
 		"ADRX-II Draconic Reactor"
 		"ASSX-II Shield System"
 		"AACX-I Cooling System"
 		
+		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 		

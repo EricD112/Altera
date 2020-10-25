@@ -74,9 +74,11 @@ outfit "AACX-I Cooling System"
 	category "Systems"
 	cost 4000000
 	thumbnail "outfit/plasma core"
-	"mass" 25
-	"outfit space" -25
-	"cooling" 50
+	"mass" 17
+	"outfit space" -17
+	"cooling" 32
+	"active cooling" 52
+	"cooling energy" 3.5
 	description "The Alpina cooler is a small Ancient Cooler and the little brother of the Arctica Cooler and Antarctica Cooler."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 	
@@ -84,9 +86,11 @@ outfit "AACX-II Cooling System"
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/double plasma core"
-	"mass" 50
-	"outfit space" -50
-	"cooling" 110
+	"mass" 34
+	"outfit space" -34
+	"cooling" 67.2
+	"active cooling" 119.6
+	"cooling energy" 7
 	description "The Arctica Cooler is bigger and even more effective that the Alpina Cooler due to its size."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
 
@@ -94,8 +98,8 @@ outfit "AACX-III Cooling System"
 	category "Systems"
 	cost 8000000
 	thumbnail "outfit/triple plasma core"
-	"mass" 100
-	"outfit space" -100
+	"mass" 78
+	"outfit space" -78
 	"cooling" 240
 	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites.
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
