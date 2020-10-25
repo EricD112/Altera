@@ -48,48 +48,6 @@ ship "Caesar"
 	"final explode" "final explosion medium"
 	description "The Alteran's main Transporter, the Caesar. It has place for hundreds of people to live comfortably, because of its size being equal to that of a Heavy Warship, such as the Aurora. It has few weapons, only 3 turret spots, which are filled with an anti-missile turret and 2 plasma beam turrets."
 
-ship "Centurion"
-	sprite "ship/centurion"
-	attributes
-		category "Heavy Freighter"
-		"cost" 100000000
-		"shields" 30000
-		"hull" 12500
-		"required crew" 32
-		"bunks" 50
-		"mass" 5000
-		"drag" 20.0
-		"heat dissipation" 1
-		"fuel capacity" 900
-		"cargo space" 720
-		"outfit space" 650
-		"weapon capacity" 270
-		"engine capacity" 240
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"Ancient Anti-Missile" 1
-		"Ancient Plasma Turret" 2
-		
-		"AGX-3 Gamma Core"
-		"ASX-2 Moon Shielding"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
-		
-		"AAGTX-3.0 Anti-Grav Thruster"
-		"AAGTX-3.5 Anti-Grav Steering"
-		"Ancient Star Drive"
-
-	engine 0 147	
-	engine -12 147
-	engine 12 147
-	turret 0 35 "Ancient Anti-Missile"
-	turret -10 62 "Ancient Plasma Turret"
-	turret 10 62 "Ancient Plasma Turret"
-
 ship "Titan Defensive Satellite"
 	sprite "ship/tds"
 	attributes

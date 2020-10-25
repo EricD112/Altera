@@ -273,7 +273,94 @@ ship "Azrael"
 	"final explode" "final explosion large"
 	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
 	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
-	
+
+ship "Centurion"
+	sprite "ship/centurion"
+	thumbnail "thumbnail/centurion"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000000
+		"shields" 30000
+		"hull" 12500
+		"required crew" 7
+		"bunks" 15
+		"mass" 930
+		"drag" 12.4
+		"heat dissipation" 0.55
+		"fuel capacity" 900
+		"cargo space" 720
+		"outfit space" 470
+		"weapon capacity" 195
+		"engine capacity" 100
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Anti-Missile" 2
+		"Ancient Pulse Turret"
+		
+		"ADRX-II Draconic Reactor"
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -40 176 0.3
+	engine 40 176 0.3
+	engine -28 180.5 0.3
+	engine 28 180.5 0.3
+	engine 0 194.5 1.7
+	turret 10.5 -112.5
+	turret 0 -70.5 "Ancient Anti-Missile"
+	turret -16 -1 "Ancient Pulse Turret"
+	turret 0 82 "Ancient Anti-Missile"
+
+ship "Decurion"
+	sprite "ship/decurion"
+	thumbnail "thumbnail/decurion"
+	attributes
+		category "Light Freighter"
+		"cost" 970000
+		"shields" 5100
+		"hull" 2300
+		"required crew" 1
+		"bunks" 5
+		"mass" 85
+		"drag" 4
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 130
+		"outfit space" 210
+		"weapon capacity" 65
+		"engine capacity" 55
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Anti-Missile" 1
+		
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
+		
+	engine -10 44.5 0.8
+	engine 10 44.5 0.8
+	engine 0 56
+	turret 0 0.5 "Ancient Anti-Missile"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+
 ship "Paragon"
 	sprite "ship/paragon"
 	thumbnail "thumbnail/paragon"

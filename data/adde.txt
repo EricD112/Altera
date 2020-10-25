@@ -44,6 +44,7 @@ shipyard plugin
 	Azrael
 	Caesar
 	Centurion
+	Decurion
 	Paragon
 	Praesidium
 	Raziel

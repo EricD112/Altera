@@ -62,7 +62,8 @@ outfitter "Ancient Advanced"
 	"AJX Star Drive"
 
 shipyard "Ancient Basic"
-	Praesidium
+	"Decurion"
+	"Praesidium"
 	
 shipyard "Ancient Advanced"
 	"Aegis"
@@ -71,6 +72,7 @@ shipyard "Ancient Advanced"
 	"Azrael"
 	"Caesar"
 	"Centurion"
+	"Decurion"
 	"Paragon"
 	"Praesidium"
 	"Raziel"
