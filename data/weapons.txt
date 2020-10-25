@@ -7,12 +7,15 @@ outfit "Ancient Drone Launcher"
 	"outfit space" -12
 	"weapon capacity" -12
 	"gun ports" -1
+	"fuel capacity" 100
+	"ancient drone capacity" 20
 	weapon
 		sprite "projectile/Drone/Ancient Drone"
 			"frame rate" 4
 			"random start frame"
 		
 		sound "typhoon"
+		ammo "Ancient Drone"
 		icon "icon/drone"
 		"fire effect" "torpedo fire"
 		"hit effect" "Drone Impact"
@@ -24,6 +27,7 @@ outfit "Ancient Drone Launcher"
 		"burst count" 2
 		"burst reload" 4
 		"firing energy" 10
+		"firing fuel" 2
 		"firing heat" 1
 		"acceleration" 1
 		"drag" .1
@@ -49,12 +53,15 @@ outfit "Ancient Drone Bay"
 	"outfit space" -56
 	"weapon capacity" -56
 	"gun ports" -1
+	"fuel capacity" 200
+	"ancient drone capacity" 144
 	weapon
 		sprite "projectile/Drone/Ancient Drone"
 			"frame rate" 4
 			"random start frame"
 		
 		sound "typhoon"
+		ammo "Ancient Drone"
 		icon "icon/drone"
 		"fire effect" "torpedo fire"
 		"hit effect" "Drone Impact"
@@ -68,8 +75,8 @@ outfit "Ancient Drone Bay"
 		"firing energy" 10
 		"firing fuel" 2
 		"firing heat" 1
-		"acceleration" 1
-		"drag" .1
+		"acceleration" 2
+		"drag" .2
 		"homing" 3
 		"piercing" .75
 		"shield damage" 10
@@ -82,6 +89,22 @@ outfit "Ancient Drone Bay"
 		"optical tracking" 1
 		"radar tracking" 1
 		"phasing"
+		
+outfit "Ancient Drone"
+	plural "Ancient Drones"
+	category "Ammunition"
+	cost 7600
+	thumbnail "outfit/Ancient Drone"
+	"mass" .2
+	"ancient drone capacity" -1
+	
+outfit "Ancient Drone Storage"
+	category "Ammunition"
+	cost 3000
+	thumbnail "outfit/Ancient Drone Storage"
+	outfit space 20
+	mass 5
+	"ancient drone capacity" 108
 
 outfit "Ancient Singular Pulse"
 	category "Guns"
@@ -101,7 +124,7 @@ outfit "Ancient Singular Pulse"
 		"velocity" 30
 		"lifetime" 50
 		"reload" 30
-		"firing energy" 95
+		"firing energy" 57
 		"firing heat" 110
 		"hit force" 45
 		"shield damage" 130
@@ -130,7 +153,7 @@ outfit "Ancient Pulse Turret"
 		"reload" 10
 		"burst count" 3
 		"burst reload" 5
-		"firing energy" 95
+		"firing energy" 57
 		"firing heat" 110
 		"hit force" 45
 		"shield damage" 130
@@ -271,7 +294,7 @@ outfit "Ancient Shock Turret"
 		"drag" 0.1
 		
 outfit "Ancient Gauss Driver"
-	category "Guns"
+	category "Secondary Weapons"
 	cost 1340000
 	thumbnail "outfit/ancient gauss driver"
 	"mass" 76
@@ -279,10 +302,13 @@ outfit "Ancient Gauss Driver"
 	"weapon capacity" -76
 	"energy capacity" 1600
 	"gun ports" -1
+	"railgun slug capacity" 100
 	weapon
 		sprite "projectile/detainer"
 			"frame rate" 2.5
 		sound "detainer"
+		icon "icon/rail gun"
+		ammo "Railgun Slug"
 		"hit effect" "detainer impact" 3
 		"hit effect" "detainer smoke" 5
 		"live effect" "detainer sparks" 50
@@ -291,14 +317,14 @@ outfit "Ancient Gauss Driver"
 		"lifetime" 140
 		"reload" 90
 		"firing energy" 756
-		"firing force" 40
+		"firing force" 720
 		"firing heat" 400
 		"hit force" 720
-		"shield damage" 590
-		"hull damage" 1850
+		"shield damage" 790
+		"hull damage" 3150
 		
 outfit "Ancient Gauss Turret"
-	category "Turrets"
+	category "Secondary Weapons"
 	cost 1340000
 	thumbnail "outfit/ancient gauss turret"
 	"mass" 83
@@ -306,12 +332,15 @@ outfit "Ancient Gauss Turret"
 	"weapon capacity" -83
 	"energy capacity" 1600
 	"turret mounts" -1
+	"railgun slug capacity" 100
 	weapon
 		sprite "projectile/detainer"
 			"frame rate" 2.5
 		"hardpoint sprite" "hardpoint/annihilator turret"
 		"hardpoint offset" 15.
 		sound "detainer"
+		icon "icon/rail gun"
+		ammo "Railgun Slug"
 		"hit effect" "detainer impact" 3
 		"hit effect" "detainer smoke" 5
 		"live effect" "detainer sparks" 50
@@ -321,8 +350,8 @@ outfit "Ancient Gauss Turret"
 		"lifetime" 140
 		"reload" 90
 		"firing energy" 756
-		"firing force" 40
+		"firing force" 720
 		"firing heat" 400
 		"hit force" 720
-		"shield damage" 590
-		"hull damage" 1850
+		"shield damage" 790
+		"hull damage" 3150
