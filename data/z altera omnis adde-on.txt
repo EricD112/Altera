@@ -92,7 +92,7 @@ system "Omnis"
 		sprite "sprite/black-hole-core-land"
 		distance 10500
 	add object "altera gateway"
-		sprite "sprite/wisp_red"
+		sprite "sprite/wisp_green"
 		distance 10500
 	add object "Aegis"
 		sprite "ship/aegis"
@@ -138,7 +138,7 @@ system "Omnis"
 			
 system "Light of Altera"
 	add object "altera gateway"
-		sprite "sprite/wisp_red"
+		sprite "sprite/wisp_green"
 		distance 2000
 
 outfitter altera
