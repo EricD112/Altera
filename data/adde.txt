@@ -1,3 +1,66 @@
+# ---------------------
+#   PLANETS AES-OMNIS
+# ---------------------
+
+planet "Altera"
+	description ``
+	landscape landscape/station6
+	spaceport ``
+	outfitter "altera"
+	shipyard "altera"
+	bribe 0
+
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
+
+system "Omnis"
+	add object "Altera"
+		sprite "sprite/black-hole-core-land"
+		distance 10500
+		object
+			sprite "sprite/wisp_red"
+
+outfitter altera
+	"AAGTX-I Anti-Grav Steering"
+	"AAGTX-I Anti-Grav Thruster"
+	"AAGTX-II Anti-Grav Steering"
+	"AAGTX-II Anti-Grav Thruster"
+	"AAGTX-III Anti-Grav Steering"
+	"AAGTX-III Anti-Grav Thruster"
+	"AAGTX-IV Anti-Grav Steering"
+	"AAGTX-IV Anti-Grav Thruster"
+	"AACX-I Cooling System"
+	"AACX-II Cooling System"
+	"AACX-III Cooling System"
+	"AAUX-I Accumulation Unit"
+	"AAUX-II Accumulation Unit"
+	"ACSX Cloaking System"
+	"ADRX-I Draconic Reactor"
+	"ADRX-II Draconic Reactor"
+	"ADRX-III Draconic Reactor"
+	"AJX Star Drive"
+	"AMCX-I Module Converter"
+	"Ancient Anti-Missile"
+	"Ancient Drone"
+	"Ancient Drone Bay"
+	"Ancient Drone Launcher"
+	"Ancient Drone Storage"
+	"Ancient Gauss Driver"
+	"Ancient Gauss Turret"
+	"Ancient Plasma Beam"
+	"Ancient Plasma Turret"
+	"Ancient Pulse Turret"
+	"Ancient Satellite Plasma Beam"
+	"Ancient Shock Turret"
+	"Ancient Singular Pulse"
+	"ASGX Solar Collector"
+	"ASSX-I Shield System"
+	"ASSX-II Shield System"
+	"ASSX-III Shield System"
+	"ASSX-IV Shield System"
+	"AZPMX Zero Point Module"
+
 outfitter plugin
 	"AAGTX-I Anti-Grav Steering"
 	"AAGTX-I Anti-Grav Thruster"
@@ -37,6 +100,21 @@ outfitter plugin
 	"ASSX-III Shield System"
 	"ASSX-IV Shield System"
 	"AZPMX Zero Point Module"
+
+shipyard altera
+	"Titan Defensive Satellite"
+	Aegis
+	Aetheris
+	"Aetheris (Interceptor)"
+	Aurora
+	Azrael
+	Caesar
+	Centurion
+	Decurion
+	Paragon
+	Praesidium
+	Raziel
+
 shipyard plugin
 	"Titan Defensive Satellite"
 	Aegis
