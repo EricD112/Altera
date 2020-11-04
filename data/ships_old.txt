@@ -1,4 +1,45 @@
-	
+
+ship "Aetheris (Interceptor)"
+	sprite "ship/aetheris"
+	thumbnail "thumbnail/aetheris"
+	attributes
+		category "Interceptor"
+		"cost" 970000
+		"shields" 4200
+		"hull" 1900
+		"required crew" 1
+		"bunks" 2
+		"mass" 40
+		"drag" .7
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 5
+		"outfit space" 240
+		"weapon capacity" 85
+		"engine capacity" 50
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Plasma Beam" 2
+		
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
+		
+	engine 0 48.5
+	gun 8 -7.5
+	gun -8 -7.5
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+
 ship "Caesar"
 	sprite "ship/caesar"
 	attributes

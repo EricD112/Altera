@@ -59,47 +59,6 @@ ship "Aegis"
 	description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the side in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
 	description "Only very rarely seen without an escort, even in Alteran space, for good reason. Alone, an Aegis is worthless, but with a sizeable squadron (commonly deployed in triplets), the Aegis becomes an offensive powerhouse, it is akin to an offensive shield, an impenetrable wall demolishing anything brave enough to stand in its path."
 
-ship "Aetheris (Interceptor)"
-	sprite "ship/aetheris"
-	thumbnail "thumbnail/aetheris"
-	attributes
-		category "Interceptor"
-		"cost" 970000
-		"shields" 4200
-		"hull" 1900
-		"required crew" 1
-		"bunks" 2
-		"mass" 40
-		"drag" .7
-		"heat dissipation" .9
-		"fuel capacity" 600
-		"cargo space" 5
-		"outfit space" 240
-		"weapon capacity" 85
-		"engine capacity" 50
-		weapon
-			"blast radius" 20
-			"shield damage" 250
-			"hull damage" 160
-			"hit force" 330
-	outfits
-		"Ancient Plasma Beam" 2
-		
-		"ADRX-I Draconic Reactor"
-		"ASSX-I Shield System"
-		"AACX-I Cooling System"
-		
-		"AAGTX-I Anti-Grav Steering"
-		"AAGTX-I Anti-Grav Thruster"
-		"AJX Star Drive"
-		
-	engine 0 48.5
-	gun 8 -7.5
-	gun -8 -7.5
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description ""
-
 ship "Aetheris"
 	sprite "ship/aetheris"
 	thumbnail "thumbnail/aetheris"
