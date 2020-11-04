@@ -145,12 +145,99 @@ ship "Aurora"
 		"AJX Star Drive"
 		
 	engine -85.5 322
+		zoom 1
+		angle 10
+		under
 	engine 85.5 322
-	engine -32.5 324 0.8
-	engine 32.5 324 0.8
-	engine -20.5 326 0.2
-	engine 20.5 326 0.2
-	engine 0 326 0.2
+		zoom 1
+		angle -10
+		under
+	engine -32.5 324
+		zoom 0.8
+		angle 0
+		under
+	engine 32.5 324
+		zoom 0.8
+		angle 0
+		under
+	engine -20.5 326
+		zoom 0.2
+		angle 0
+		under
+	engine 20.5 326
+		zoom 0.2
+		angle 0
+		under
+	engine 0 326
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" -27 -328.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" 27 -328.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" -89 212.5
+		zoom 0.6
+		angle -18
+		under
+	"reverse engine" 89 212.5
+		zoom 0.6
+		angle 18
+		under
+	"steering engine" -39 -239
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -239
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -39 -227
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -227
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -39 -215
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -215
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -52 171
+		zoom 0.5
+		angle 90
+		under
+		left
+	"steering engine" 52 171
+		zoom 0.5
+		angle -90
+		under
+		right
+	"steering engine" -52 183
+		zoom 0.5
+		angle 90
+		under
+		left
+	"steering engine" 52 183
+		zoom 0.5
+		angle -90
+		under
+		right
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun 35.5 -281.5 "ASGX Solar Collector"
