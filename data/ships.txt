@@ -85,7 +85,7 @@ ship "Aetheris"
 			"hull damage" 160
 			"hit force" 330
 	outfits
-		"Ancient Plasma Beam" 2
+		"Ancient Singular Pulse" 2
 		
 		"ABGX Backup Generator"
 		"ASSX-I Shield System"
@@ -95,8 +95,8 @@ ship "Aetheris"
 		"AAGTX-I Anti-Grav Thruster"
 		
 	engine 0 48.5
-	gun 8 -7.5
-	gun -8 -7.5
+	gun 8 -7.5 "Ancient Singular Pulse"
+	gun -8 -7.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
@@ -266,7 +266,8 @@ ship "Centurion"
 		"Ancient Anti-Missile" 2
 		"Ancient Pulse Turret"
 		
-		"ADRX-II Draconic Reactor"
+		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-II Shield System"
 		"AACX-I Cooling System"
 		
@@ -310,7 +311,7 @@ ship "Decurion"
 	outfits
 		"Ancient Anti-Missile" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		
