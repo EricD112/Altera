@@ -37,10 +37,10 @@ mission "Satellites at Light of Altera"
 		system "Light of Altera"
 		ship "Titan Defensive Satellite" "T.D.S. Olympus Mons"
 		
-mission "Satellites at Helvetia"
+mission "Satellites at Melianea"
 	invisible
 	npc kill
 		government Altera
 		personality heroic staying
-		system "Helvetia"
+		system "Melianea"
 		ship "Titan Defensive Satellite" "T.D.S. Chopfab"
