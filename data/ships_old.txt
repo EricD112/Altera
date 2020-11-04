@@ -107,6 +107,7 @@ ship "Titan Defensive Satellite"
 		"weapon capacity" 600
 		"engine capacity" 500
 		"ZPM capacity" 3
+		"spinal mount" 1
 		weapon
 			"blast radius"640
 			"shield damage" 7500

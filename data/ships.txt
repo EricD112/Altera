@@ -10,7 +10,7 @@ ship "Aegis"
 		"required crew" 20
 		"bunks" 32
 		"mass" 540
-		"drag" 9.0
+		"drag" 7.0
 		"heat dissipation" 0.6
 		"fuel capacity" 700
 		"cargo space" 40
@@ -53,7 +53,9 @@ ship "Aegis"
 	gun 29 10 "Ancient Plasma Beam"
 	gun -36 15.5 "Ancient Drone Launcher"
 	gun 36 15.5 "Ancient Drone Launcher"
+	turret 0 -94
 	turret 0 -55 "Ancient Anti-Missile"
+	turret 0 -5.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the side in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
@@ -65,8 +67,8 @@ ship "Aetheris"
 	attributes
 		category "Fighter"
 		"cost" 970000
-		"shields" 4200
-		"hull" 1900
+		"shields" 10200
+		"hull" 2900
 		"required crew" 1
 		"bunks" 2
 		"mass" 40
@@ -85,9 +87,9 @@ ship "Aetheris"
 	outfits
 		"Ancient Plasma Beam" 2
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
+		"AAUX-I Accumulation Unit" 2
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
@@ -132,7 +134,8 @@ ship "Aurora"
 		"Ancient Pulse Turret" 8
 		"Ancient Drone" 1008
 		
-		"ADRX-III Draconic Reactor" 2
+		"ADRX-III Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-IV Shield System"
 		"AACX-III Cooling System"
 		"ASGX Solar Collector" 4
@@ -327,14 +330,14 @@ ship "Paragon"
 	sprite "ship/paragon"
 	thumbnail "thumbnail/paragon"
 	attributes
-		category "Medium Warship"
+		category "Heavy Warship"
 		"cost" 64000000
 		"shields" 97500
 		"hull" 83000
 		"required crew" 21
 		"bunks" 96
 		"mass" 1400
-		"drag" 9.0
+		"drag" 10.2
 		"heat dissipation" 0.4
 		"fuel capacity" 900
 		"cargo space" 200
