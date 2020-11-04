@@ -29,6 +29,16 @@ outfit "AAUX-II Accumulation Unit"
 	"energy capacity" 10080
 	description "An Alteran battery, the AAUX-II is fairly large and mainly used to support the Draconic Reactors on particularly problematic ships."
 
+outfit "ABGX Backup Generator"
+	category "Power"
+	cost "20500"
+	thumbnail "outfit/ancient generator"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 6.7
+	"heat generation" 7.3
+	description "The ABGX Backup Generator was initially used as its name suggests, but has since then been replaced by integrated backup storage/generator systems in the Draconic Reactors. As such, this generator model is seeing a lot of use in smaller craft that don't need anything as large as a Draconic Reactor."
+
 outfit "ADRX-I Draconic Reactor"
 	category "Power"
 	cost 12000000
