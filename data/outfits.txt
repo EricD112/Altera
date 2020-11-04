@@ -7,11 +7,9 @@ outfit "AJX Star Drive"
 	"outfit space" -20
 	"jump speed" 2.0
 	"jump drive" 1
-	"scram drive" 1.0
 	"hyperdrive" 1
 	"quantum keystone" 1
-	"ramscoop" 10
-	"multi jump" 5
+	"fuel generation" 0.05
 	"jump fuel" 50
 	description "The Ancients were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Ancient Ramscoop."
 
