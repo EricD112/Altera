@@ -174,11 +174,13 @@ outfit "Ancient Satellite Plasma Beam"
 		sprite "projectile/Plasma/Ancient Satellite Plasma"
 			"frame rate" 1.3 
 		icon "icon/nuke"
-		sound "Ancient Satellite Plasma"
+		sound "ancient satellite plasma"
 		"hit effect" "Drone Impact"
+		"hit effect" "satellite plasma"
+		"hit effect" "dragonflame debris"
 		"inaccuracy" 0.0
 		"velocity" 2500
-		"lifetime" 1
+        "lifetime" 1
 		"reload" 5
 		"burst count" 100
 		"burst reload" 1
@@ -187,7 +189,18 @@ outfit "Ancient Satellite Plasma Beam"
 		"shield damage" 2000
 		"hull damage" 4000
 		"heat damage" 10000
-		
+
+effect "satellite plasma"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 5
+	"random angle" .5
+	"random velocity" 40
+	"velocity scale" 0.002
+	
 outfit "Ancient Plasma Beam"
 	category "Guns"
 	cost 25000000
