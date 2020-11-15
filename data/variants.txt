@@ -1,56 +1,9 @@
-ship "Raziel" "Raziel (no Cloak)"
+ship "Aetheris" "Aetheris (Interceptor)"
 	outfits
-		"Ancient Plasma Beam" 2
-		"Ancient Drone Launcher" 2
-		"AGX-1 Alpha Core"
-		"ASX-1 Asteroid Shielding"
-		"ACX-1 Alpina Cooler"
-		"Ancient Captain's Chair"
-		"AAGTX-1.0 Anti-Grav Thruster"
-		"AAGTX-1.5 Anti-Grav Steering"
-		"Ancient Star Drive"
-		"Outfit Scanner"
-		"Cargo Scanner"
-
-ship "Raziel" "Raziel (no Scan)"
-	outfits
-		"Ancient Plasma Beam" 2
-		"Ancient Drone Launcher" 2
-		"AGX-1 Alpha Core"
-		"ASX-1 Asteroid Shielding"
-		"ACX-1 Alpina Cooler"
-		"Ancient Captain's Chair"
-		"AAGTX-1.0 Anti-Grav Thruster"
-		"AAGTX-1.5 Anti-Grav Steering"
-		"Ancient Star Drive"
-
-ship "Aurora" "Aurora (Plasma)"
-	outfits
-		"Ancient Drone Launcher" 4
-		"Ancient Anti-Missile" 1
-		"Ancient Plasma Turret" 4
-		"Ancient Plasma Beam" 2
-		"AGX-3 Gamma Core"
-		"ASX-4 Star Shielding"
-		"Large Radar Jammer"
-		"ACX-2 Arctica Cooler"
-		"Ancient Captain's Chair"
-		"AAGTX-3.0 Anti-Grav Thruster"
-		"AAGTX-3.5 Anti-Grav Steering"
-		"Ancient Star Drive"
-
-ship "Azrael" "Azrael (Pulse)"
-	outfits
-		"Ancient Drone Launcher" 4
-		"Ancient Anti-Missile" 2
-		"Ancient Plasma Turret" 2
-		"Ancient Pulse Turret" 6
-		"Ancient ZPM"
-		"AGX-3 Gamma Core"
-		"ASX-4 Star Shielding"
-		"Large Radar Jammer"
-		"ACX-2 Arctica Cooler"
-		"Ancient Command Chair"
-		"AAGTX-4.0 Anti-Grav Thruster"
-		"AAGTX-4.5 Anti-Grav Steering"
-		"Ancient Star Drive"
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AAUX-I Accumulation Unit" 2
+		"ABGX Backup Generator"
+		"AJX Star Drive"
+		"Ancient Singular Pulse" 2
+		"ASSX-I Shield System"
