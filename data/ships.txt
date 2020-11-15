@@ -93,8 +93,107 @@ ship "Aetheris"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
-		
+
 	engine 0 48.5
+		zoom 1
+		angle 0
+		under
+	engine -22 22.5
+		zoom 0.5
+		angle 0
+		under
+	engine 22 22.5
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" -20.5 2.5
+		zoom 0.25
+		angle 0
+		under
+	"reverse engine" 20.5 2.5
+		zoom 0.25
+		angle 0
+		under
+	"steering engine" -20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		left
+	"steering engine" 20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		right
+	"steering engine" -22 22.5
+		zoom 0.5
+		angle 0
+		under
+		right
+	"steering engine" 22 22.5
+		zoom 0.5
+		angle 0
+		under
+		left
+	"steering engine" -3.5 -34
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 3.5 -34
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -3.75 -32
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 3.75 -32
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -4 -30
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 4 -30
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -6.5 34
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 34
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -6.5 36
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 36
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -6.5 38
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 38
+		zoom 0.2
+		angle -90
+		under
+		right
 	gun 8 -7.5 "Ancient Singular Pulse"
 	gun -8 -7.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
@@ -256,6 +355,8 @@ ship "Aurora"
 	turret 0 78 "Ancient Anti-Missile"
 	turret -78.5 268 "Ancient Pulse Turret"
 	turret 78.5 268 "Ancient Pulse Turret"
+	fighter -63.5 31.5
+	fighter -63.5 31.5
 	fighter -63.5 31.5
 	explode "small explosion" 25
 	explode "medium explosion" 35
