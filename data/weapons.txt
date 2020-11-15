@@ -148,6 +148,7 @@ outfit "Ancient Pulse Turret"
 		sound "ion"
 		"hit effect" "Ancient-Pulse Impact"
 		"inaccuracy" .1
+		"turret turn" 2.3
 		"velocity" 30
 		"lifetime" 50
 		"reload" 10
@@ -180,7 +181,7 @@ outfit "Ancient Satellite Plasma Beam"
 		"hit effect" "dragonflame debris"
 		"inaccuracy" 0.0
 		"velocity" 2500
-        "lifetime" 1
+		"lifetime" 1
 		"reload" 5
 		"burst count" 100
 		"burst reload" 1
@@ -246,6 +247,7 @@ outfit "Ancient Plasma Turret"
 		sound "ancient plasma"
 		"hit effect" "Drone Impact"
 		"inaccuracy" 0.0
+		"turret turn" 3.5
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
@@ -290,6 +292,7 @@ outfit "Ancient Shock Turret"
 		sound "plasma"
 		"hit effect" "fire-lance impact"
 		"inaccuracy" 0
+		"turret turn" 1.6
 		"velocity" 20
 		"lifetime" 80
 		"reload" 50

@@ -314,6 +314,7 @@ system Akasia
 
 system Allusia
 	pos 879.012 49.0376
+	government Uninhabited
 	habitable 1313.28
 	link "Light of Aldnoah"
 	link Regalia
@@ -488,7 +489,7 @@ system Argus
 
 system Ascaris
 	pos 225.012 565.461
-	government Ascaria
+	government Uninhabited
 	habitable 486.68
 	link Mataya
 	link Sirenum
@@ -900,6 +901,7 @@ system Caelum
 
 system Cardia
 	pos 1012.78 -10.8348
+	government Uninhabited
 	habitable 233.28
 	link Fiore
 	link Ishgar
@@ -940,6 +942,7 @@ system Cardia
 
 system Carthacia
 	pos 1026.31 135.28
+	government Uninhabited
 	habitable 625
 	link Elithia
 	link Irassia
@@ -1141,6 +1144,7 @@ system Elemira
 
 system Elithia
 	pos 985.42 167.222
+	government Uninhabited
 	habitable 1111.68
 	link Carthacia
 	link Icathia
@@ -1412,6 +1416,7 @@ system Ferrlana
 
 system Fiore
 	pos 986.274 -70.1247
+	government Uninhabited
 	habitable 455
 	link Cardia
 	link Ishgar
@@ -1798,6 +1803,7 @@ system Hybernia
 
 system Icathia
 	pos 1022.14 236.454
+	government Uninhabited
 	habitable 1080
 	link Elithia
 	link Mithra
@@ -2018,6 +2024,7 @@ system Infernalis
 
 system Irassia
 	pos 983.167 92.6034
+	government Uninhabited
 	habitable 1080
 	link Carthacia
 	link "Light of Aldnoah"
@@ -2130,6 +2137,7 @@ system Iresha
 
 system Ishgar
 	pos 942.071 -24.3905
+	government Uninhabited
 	habitable 625
 	link Cardia
 	link Fiore
@@ -2181,6 +2189,7 @@ system Ishgar
 
 system Ishmael
 	pos 860.012 -10.3414
+	government Uninhabited
 	habitable 486.68
 	link Ishgar
 	asteroids "small rock" 7 3.06
@@ -2229,7 +2238,7 @@ system Ishmael
 
 system Karaya
 	pos 250.99 517.477
-	government Altera
+	government Uninhabited
 	habitable 625
 	link Mataya
 	link Vastaya
@@ -2401,6 +2410,7 @@ system Lantea
 
 system "Light of Aldnoah"
 	pos 947.133 30.3399
+	government Uninhabited
 	habitable 1566.68
 	link Allusia
 	link Cardia
@@ -2484,6 +2494,9 @@ system "Light of Altera"
 	trade Medical 710
 	trade Metal 420
 	trade Plastic 440
+	fleet "Large Alteran Navy" 1300
+	fleet "Small Alteran Navy" 740
+	fleet "Altera Freight" 900
 	object
 		sprite star/g5
 		distance 44.1758
@@ -2621,7 +2634,7 @@ system Marea
 
 system Mataya
 	pos 289.012 549.461
-	government Ascaria
+	government Uninhabited
 	habitable 1080
 	link Ascaris
 	link Caelum
@@ -2780,6 +2793,7 @@ system Menus
 
 system Meshuria
 	pos 1045.23 71.55
+	government Uninhabited
 	habitable 621.68
 	link Carthacia
 	link Irassia
@@ -2886,6 +2900,7 @@ system Minarica
 
 system Mithra
 	pos 1054.52 198.454
+	government Uninhabited
 	habitable 1313.28
 	link Carthacia
 	link Elithia
@@ -3198,6 +3213,7 @@ system Ophelia
 
 system Oratoria
 	pos 857.833 116.296
+	government Uninhabited
 	habitable 320
 	link Regalia
 	asteroids "medium rock" 17 1.232
@@ -3269,6 +3285,7 @@ system Oratoria
 
 system Regalia
 	pos 923.246 85.3267
+	government Uninhabited
 	habitable 625
 	link Allusia
 	link Irassia
@@ -4001,6 +4018,7 @@ system Troyca
 
 system Valenthia
 	pos 1114.71 254.918
+	government Uninhabited
 	habitable 945
 	link Mithra
 	asteroids "large metal" 1 4.95

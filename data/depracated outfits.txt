@@ -133,7 +133,7 @@ outfit "Ancient Solar Collector"
 	"solar collection" 10
 	"ramscoop" 5
 	"gun ports" -1
-	"The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection.
+	description "The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection."
 
 outfit "AGX-1 Alpha Core"
 	category "Power"
@@ -235,7 +235,7 @@ outfit "Ancient Pilot's Chair"
 	mass 10
 	"outfit space" -10
 	"energy generation" -1
-	description "
+	description ""
 	
 outfit "Ancient Captain's Chair"
 	category "Systems"
@@ -355,5 +355,5 @@ outfit "ACX-3 Antarctica Cooler"
 	"mass" 100
 	"outfit space" -100
 	"cooling" 240
-	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites.
+	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."

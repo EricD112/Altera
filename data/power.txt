@@ -9,7 +9,7 @@ outfit "ASGX Solar Collector"
 	"solar heat" 10
 	"ramscoop" 5
 	"gun ports" -1
-	"The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection.
+	description "The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection."
 	
 outfit "AAUX-I Accumulation Unit"
 	category "Power"

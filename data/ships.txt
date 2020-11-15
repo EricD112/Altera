@@ -282,7 +282,7 @@ ship "Azrael"
 		"outfit space" 1700
 		"weapon capacity" 700
 		"engine capacity" 500
-		"ZPM capacity 2
+		"ZPM capacity" 2
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
@@ -531,7 +531,7 @@ ship "Praesidium"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Praesidium-class Frigate was part of the first post-war fleet update, with a noticable change in visual style and a stronger reliance on shielding, resulting in a fairly strong and incredibly agile warship. Its main purpose is that of an escort, making use of its agility and light armaments to take out fighters and interceptors or anything that would be hard to track with the heavy armaments of an Aegis or Paragon."
-	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath.
+	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath."
 
 ship "Spectre"
 	sprite "ship/spectre"

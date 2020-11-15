@@ -99,5 +99,5 @@ outfit "AACX-III Cooling System"
 	"mass" 78
 	"outfit space" -78
 	"cooling" 240
-	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites.
+	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."
