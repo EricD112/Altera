@@ -34,7 +34,7 @@ outfit "Ancient Drone Launcher"
 		"homing" 4
 		"piercing" .75
 		"shield damage" 10
-		"hull damage" 160
+		"hull damage" 240
 		"hit force" 5
 		"missile strength" 30
 		"turn" 100
@@ -69,7 +69,7 @@ outfit "Ancient Drone Bay"
 		"inaccuracy" 2
 		"velocity" 2
 		"lifetime" 10000
-		"reload" 25
+		"reload" 18
 		"burst count" 18
 		"burst reload" 1
 		"firing energy" 10
@@ -80,7 +80,7 @@ outfit "Ancient Drone Bay"
 		"homing" 3
 		"piercing" .75
 		"shield damage" 10
-		"hull damage" 160
+		"hull damage" 240
 		"hit force" 5
 		"missile strength" 30
 		"turn" 100
@@ -126,7 +126,7 @@ outfit "Ancient Singular Pulse"
 		"reload" 30
 		"firing energy" 57
 		"firing heat" 110
-		"hit force" 45
+		"hit force" 15
 		"shield damage" 130
 		"hull damage" 145
 		"heat damage" 95
@@ -148,6 +148,7 @@ outfit "Ancient Pulse Turret"
 		sound "ion"
 		"hit effect" "Ancient-Pulse Impact"
 		"inaccuracy" .1
+		"turret turn" 2.3
 		"velocity" 30
 		"lifetime" 50
 		"reload" 10
@@ -155,7 +156,7 @@ outfit "Ancient Pulse Turret"
 		"burst reload" 5
 		"firing energy" 57
 		"firing heat" 110
-		"hit force" 45
+		"hit force" 15
 		"shield damage" 130
 		"hull damage" 145
 		"heat damage" 95
@@ -168,14 +169,16 @@ outfit "Ancient Satellite Plasma Beam"
 	"outfit space" -250
 	"weapon capacity" -250
 	"gun ports" -1
-	"Satellite Weapon Ports" -1
+	"spinal mount" -1
 	description "The Ancients developed a weapon of massive caliber, specifically for their satellite defence system, the Titan Defensive System (TDS). The damage is insane, even the  Ancient Drone Weapons can't be compared to this. It forms plasma into a beam that burns through any kind of shielding in no time and without shields, they just rip apart nearly any ship before you even notice. However, the massive amounts of energy required make them practically useless without a ZPM, dual wielding one of these is out of the question."
 	weapon
 		sprite "projectile/Plasma/Ancient Satellite Plasma"
 			"frame rate" 1.3 
 		icon "icon/nuke"
-		sound "Ancient Satellite Plasma"
+		sound "ancient satellite plasma"
 		"hit effect" "Drone Impact"
+		"hit effect" "satellite plasma"
+		"hit effect" "dragonflame debris"
 		"inaccuracy" 0.0
 		"velocity" 2500
 		"lifetime" 1
@@ -187,7 +190,18 @@ outfit "Ancient Satellite Plasma Beam"
 		"shield damage" 2000
 		"hull damage" 4000
 		"heat damage" 10000
-		
+
+effect "satellite plasma"
+	sprite "effect/explosion/large"
+		"no repeat"
+		"frame rate" 20
+	"lifetime" 25
+	"random frame rate" 20
+	"random spin" 5
+	"random angle" .5
+	"random velocity" 40
+	"velocity scale" 0.002
+	
 outfit "Ancient Plasma Beam"
 	category "Guns"
 	cost 25000000
@@ -233,6 +247,7 @@ outfit "Ancient Plasma Turret"
 		sound "ancient plasma"
 		"hit effect" "Drone Impact"
 		"inaccuracy" 0.0
+		"turret turn" 3.5
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
@@ -277,6 +292,7 @@ outfit "Ancient Shock Turret"
 		sound "plasma"
 		"hit effect" "fire-lance impact"
 		"inaccuracy" 0
+		"turret turn" 1.6
 		"velocity" 20
 		"lifetime" 80
 		"reload" 50
@@ -290,8 +306,9 @@ outfit "Ancient Shock Turret"
 		"ion damage" 7.1
 		"homing" 4
 		"acceleration" 3
-		"turn" 0.5
+		"turn" 1.5
 		"drag" 0.1
+		"tracking" 0.5
 		
 outfit "Ancient Gauss Driver"
 	category "Secondary Weapons"

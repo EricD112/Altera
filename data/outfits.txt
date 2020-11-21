@@ -7,11 +7,9 @@ outfit "AJX Star Drive"
 	"outfit space" -20
 	"jump speed" 2.0
 	"jump drive" 1
-	"scram drive" 1.0
 	"hyperdrive" 1
 	"quantum keystone" 1
-	"ramscoop" 10
-	"multi jump" 5
+	"fuel generation" 0.05
 	"jump fuel" 50
 	description "The Ancients were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Ancient Ramscoop."
 
@@ -32,8 +30,8 @@ outfit "ASSX-I Shield System"
 	thumbnail "outfit/small ancient shield"
 	"mass" 20
 	"outfit space" -20
-	"shield generation" 1.5
-	"shield energy" 2.1
+	"shield generation" 1.7
+	"shield energy" 1.5
 	description "The Asteroid Shielding system is a single generator that projects the shield around the ship when needed. Ancient Jumpers and smaller vessels use the single generator because of its high efficiency compared to simpler systems that are no longer being sold."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -43,8 +41,8 @@ outfit "ASSX-II Shield System"
 	thumbnail "outfit/medium ancient shield"
 	"mass" 38
 	"outfit space" -38
-	"shield generation" 3
-	"shield energy" 4.0
+	"shield generation" 3.4
+	"shield energy" 2.8
 	description "The Moon Shielding consists of not one but 2 generators that are directly connected and share the burden of projecting the shield. They are Typically located in the front and the back of the ship. Ancient transport ships and the Destiny-Class utilise these Shielding systems because the space isn't available or more isn't required."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -54,8 +52,8 @@ outfit "ASSX-III Shield System"
 	thumbnail "outfit/large ancient shield"
 	"mass" 72
 	"outfit space" -72
-	"shield generation" 6.0
-	"shield energy" 7.6
+	"shield generation" 6.6
+	"shield energy" 5.3
 	description "The Planet Shielding has 4 generators to project the shields. These can usually be found in the front, the back and in the center: one on each side. Just like the Moon Shielding, they are connected for improved effectiveness. The Ancient's Aurora-Class use these Shielding systems in that combination."
 	description "The Ancient shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 	
@@ -101,5 +99,5 @@ outfit "AACX-III Cooling System"
 	"mass" 78
 	"outfit space" -78
 	"cooling" 240
-	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites.
+	description "The Antarctica Cooler is the largest Ancient Cooler currently in use, mainly on the TDS Satellites."
 	description "The Ancient Coolers send the heat outside the ship in order to keep the inside cool. The exhausts are heavily shielded and only very rarely breached."

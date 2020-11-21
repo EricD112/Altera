@@ -6,14 +6,16 @@ fleet "Altera Navy Warfleet"
 	personality
 		heroic opportunistic
 	variant 10
+		"Aegis" 4
+		"Aetheris (Interceptor)" 9
 		"Aurora" 1
 		"Paragon" 3
-		"Aegis" 4
 		"Praesidium" 2
 	variant 5
+		"Aegis" 6
+		"Aetheris (Interceptor)" 6
 		"Aurora" 1
 		"Paragon" 2
-		"Aegis" 6
 		"Praesidium" 3
 		
 fleet "Large Alteran Navy"
@@ -27,15 +29,15 @@ fleet "Large Alteran Navy"
 		"Aurora" 1
 		"Paragon" 1
 		"Praesidium" 3
-		"Aetheris" 1
+		"Aetheris (Interceptor)" 3
 	variant 2
+		"Aegis" 3
+		"Aetheris (Interceptor)" 6
 		"Aurora" 1
-		"Aegis" 3
 		"Praesidium" 1
-		"Aetheris" 1
 	variant 4
-		"Paragon" 2
 		"Aegis" 3
+		"Paragon" 2
 		"Praesidium" 2
 
 fleet "Small Alteran Navy"
@@ -45,12 +47,14 @@ fleet "Small Alteran Navy"
 	cargo 0
 	personality
 		heroic opportunistic
-	variant
+	variant 1
 		"Aegis" 2
-		"Praesidium" 2
-	variant
+		"Aetheris (Interceptor)" 4
+		"Praesidium" 1
+	variant 1
+		"Aetheris (Interceptor)" 2
 		"Praesidium" 3
-	variant
+	variant 1
 		"Paragon" 1
 		"Praesidium" 2
 
@@ -60,57 +64,22 @@ fleet "Altera Navy Recon"
 	cargo 0
 	personality
 		timid entering surveillance
-	variant 8
-		"Raziel (no Cloak)" 1
-		"Raziel" "Raziel (no Scan)" 4
+	variant 1
+		"Aetheris (Interceptor)" 2
+		"Praesidium" 1
 
 fleet "Altera Freight"
 	government Altera
 	names "Altera Freight"
 	personality
 		forbearing
-	variant 5
-		"Centurion" 5
-		"Destiny" 2
-		"Raziel (no Scan)" 4
+	variant
+		"Aetheris (Interceptor)" 4
+		"Centurion" 3
+		"Praesidium" 2
 
 fleet "Altera Merchant"
 	government "Merchant"
 	names "civilian"
 	personality
 		timid
-	variant 10
-		"Centurion" 1
-		"Raziel (no Scan)" 2
-	variant 5
-		"Centurion" 2
-		"Destiny" 1
-		"Raziel (no Scan)" 2
-	variant 5
-		"Caesar" 1
-	variant 5
-		"Raziel (no Scan)" 3
-
-fleet "Ascaris Navy"
-	government Ascaris
-	names ""
-	cargo 0
-	personality
-		
-	variant 3
-		"Deucalion" 1
-		"Tharsis" 2
-		"Areion" 2
-	variant 5
-		"Tharsis" 2
-		"Areion" 5
-
-fleet "Ascaris Merchant"
-	government "Merchant"
-	names "civilian"
-	personality
-		timid
-	variant 3
-		"Tharsis" 1
-		"Areion" 2
-		"Sleipnir" 4

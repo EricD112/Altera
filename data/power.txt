@@ -9,7 +9,7 @@ outfit "ASGX Solar Collector"
 	"solar heat" 10
 	"ramscoop" 5
 	"gun ports" -1
-	"The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection.
+	description "The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection."
 	
 outfit "AAUX-I Accumulation Unit"
 	category "Power"
@@ -17,7 +17,7 @@ outfit "AAUX-I Accumulation Unit"
 	thumbnail "outfit/small alteran battery"
 	"mass" 16
 	"outfit space" -16
-	"energy capacity" 2800
+	"energy capacity" 4320
 	description "An Alteran battery, the AAUX-I is compact and mainly used to support the Draconic Reactors on smaller ships."	
 
 outfit "AAUX-II Accumulation Unit"
@@ -26,8 +26,18 @@ outfit "AAUX-II Accumulation Unit"
 	thumbnail "outfit/medium alteran battery"
 	"mass" 48
 	"outfit space" -48
-	"energy capacity" 10080
+	"energy capacity" 15230
 	description "An Alteran battery, the AAUX-II is fairly large and mainly used to support the Draconic Reactors on particularly problematic ships."
+
+outfit "ABGX Backup Generator"
+	category "Power"
+	cost "20500"
+	thumbnail "outfit/ancient generator"
+	"mass" 34
+	"outfit space" -34
+	"energy generation" 6.7
+	"heat generation" 7.3
+	description "The ABGX Backup Generator was initially used as its name suggests, but has since then been replaced by integrated backup storage/generator systems in the Draconic Reactors. As such, this generator model is seeing a lot of use in smaller craft that don't need anything as large as a Draconic Reactor."
 
 outfit "ADRX-I Draconic Reactor"
 	category "Power"
@@ -35,7 +45,7 @@ outfit "ADRX-I Draconic Reactor"
 	thumbnail "outfit/small draconic reactor"
 	"mass" 58
 	"outfit space" -58
-	"energy generation" 12.4
+	"energy generation" 18.6
 	#"energy generation" 9.2
 	#11
 	"energy capacity" 5850
@@ -52,7 +62,7 @@ outfit "ADRX-II Draconic Reactor"
 	thumbnail "outfit/medium draconic reactor"
 	"mass" 116
 	"outfit space" -116
-	"energy generation" 27.3
+	"energy generation" 40.9
 	#"energy generation" 18.9
 	#24.2
 	"energy capacity" 11700
@@ -69,7 +79,7 @@ outfit "ADRX-III Draconic Reactor"
 	thumbnail "outfit/large draconic reactor"
 	"mass" 174
 	"outfit space" -174
-	"energy generation" 46.4
+	"energy generation" 69.6
 	#"energy generation" 29.0
 	#39.5
 	"energy capacity" 17500

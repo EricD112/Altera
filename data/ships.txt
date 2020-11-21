@@ -10,7 +10,7 @@ ship "Aegis"
 		"required crew" 20
 		"bunks" 32
 		"mass" 540
-		"drag" 9.0
+		"drag" 7.0
 		"heat dissipation" 0.6
 		"fuel capacity" 700
 		"cargo space" 40
@@ -53,52 +53,13 @@ ship "Aegis"
 	gun 29 10 "Ancient Plasma Beam"
 	gun -36 15.5 "Ancient Drone Launcher"
 	gun 36 15.5 "Ancient Drone Launcher"
+	turret 0 -94
 	turret 0 -55 "Ancient Anti-Missile"
+	turret 0 -5.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the side in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
 	description "Only very rarely seen without an escort, even in Alteran space, for good reason. Alone, an Aegis is worthless, but with a sizeable squadron (commonly deployed in triplets), the Aegis becomes an offensive powerhouse, it is akin to an offensive shield, an impenetrable wall demolishing anything brave enough to stand in its path."
-
-ship "Aetheris (Interceptor)"
-	sprite "ship/aetheris"
-	thumbnail "thumbnail/aetheris"
-	attributes
-		category "Interceptor"
-		"cost" 970000
-		"shields" 4200
-		"hull" 1900
-		"required crew" 1
-		"bunks" 2
-		"mass" 40
-		"drag" .7
-		"heat dissipation" .9
-		"fuel capacity" 600
-		"cargo space" 5
-		"outfit space" 240
-		"weapon capacity" 85
-		"engine capacity" 50
-		weapon
-			"blast radius" 20
-			"shield damage" 250
-			"hull damage" 160
-			"hit force" 330
-	outfits
-		"Ancient Plasma Beam" 2
-		
-		"ADRX-I Draconic Reactor"
-		"ASSX-I Shield System"
-		"AACX-I Cooling System"
-		
-		"AAGTX-I Anti-Grav Steering"
-		"AAGTX-I Anti-Grav Thruster"
-		"AJX Star Drive"
-		
-	engine 0 48.5
-	gun 8 -7.5
-	gun -8 -7.5
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description ""
 
 ship "Aetheris"
 	sprite "ship/aetheris"
@@ -106,8 +67,8 @@ ship "Aetheris"
 	attributes
 		category "Fighter"
 		"cost" 970000
-		"shields" 4200
-		"hull" 1900
+		"shields" 10200
+		"hull" 2900
 		"required crew" 1
 		"bunks" 2
 		"mass" 40
@@ -124,18 +85,117 @@ ship "Aetheris"
 			"hull damage" 160
 			"hit force" 330
 	outfits
-		"Ancient Plasma Beam" 2
+		"Ancient Singular Pulse" 2
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
+		"AAUX-I Accumulation Unit" 2
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
-		
+
 	engine 0 48.5
-	gun 8 -7.5
-	gun -8 -7.5
+		zoom 1
+		angle 0
+		under
+	engine -22 22.5
+		zoom 0.5
+		angle 0
+		under
+	engine 22 22.5
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" -20.5 2.5
+		zoom 0.25
+		angle 0
+		under
+	"reverse engine" 20.5 2.5
+		zoom 0.25
+		angle 0
+		under
+	"steering engine" -20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		left
+	"steering engine" 20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		right
+	"steering engine" -22 22.5
+		zoom 0.5
+		angle 0
+		under
+		right
+	"steering engine" 22 22.5
+		zoom 0.5
+		angle 0
+		under
+		left
+	"steering engine" -3.5 -34
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 3.5 -34
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -3.75 -32
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 3.75 -32
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -4 -30
+		zoom 0.2
+		angle 95
+		under
+		right
+	"steering engine" 4 -30
+		zoom 0.2
+		angle -95
+		under
+		left
+	"steering engine" -6.5 34
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 34
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -6.5 36
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 36
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -6.5 38
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 6.5 38
+		zoom 0.2
+		angle -90
+		under
+		right
+	gun 8 -7.5 "Ancient Singular Pulse"
+	gun -8 -7.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
@@ -173,7 +233,8 @@ ship "Aurora"
 		"Ancient Pulse Turret" 8
 		"Ancient Drone" 1008
 		
-		"ADRX-III Draconic Reactor" 2
+		"ADRX-III Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-IV Shield System"
 		"AACX-III Cooling System"
 		"ASGX Solar Collector" 4
@@ -183,12 +244,99 @@ ship "Aurora"
 		"AJX Star Drive"
 		
 	engine -85.5 322
+		zoom 1
+		angle 10
+		under
 	engine 85.5 322
-	engine -32.5 324 0.8
-	engine 32.5 324 0.8
-	engine -20.5 326 0.2
-	engine 20.5 326 0.2
-	engine 0 326 0.2
+		zoom 1
+		angle -10
+		under
+	engine -32.5 324
+		zoom 0.8
+		angle 0
+		under
+	engine 32.5 324
+		zoom 0.8
+		angle 0
+		under
+	engine -20.5 326
+		zoom 0.2
+		angle 0
+		under
+	engine 20.5 326
+		zoom 0.2
+		angle 0
+		under
+	engine 0 326
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" -27 -328.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" 27 -328.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" -89 212.5
+		zoom 0.6
+		angle -18
+		under
+	"reverse engine" 89 212.5
+		zoom 0.6
+		angle 18
+		under
+	"steering engine" -39 -239
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -239
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -39 -227
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -227
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -39 -215
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 39 -215
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -52 171
+		zoom 0.5
+		angle 90
+		under
+		left
+	"steering engine" 52 171
+		zoom 0.5
+		angle -90
+		under
+		right
+	"steering engine" -52 183
+		zoom 0.5
+		angle 90
+		under
+		left
+	"steering engine" 52 183
+		zoom 0.5
+		angle -90
+		under
+		right
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun 35.5 -281.5 "ASGX Solar Collector"
@@ -207,6 +355,8 @@ ship "Aurora"
 	turret 0 78 "Ancient Anti-Missile"
 	turret -78.5 268 "Ancient Pulse Turret"
 	turret 78.5 268 "Ancient Pulse Turret"
+	fighter -63.5 31.5
+	fighter -63.5 31.5
 	fighter -63.5 31.5
 	explode "small explosion" 25
 	explode "medium explosion" 35
@@ -233,7 +383,7 @@ ship "Azrael"
 		"outfit space" 1700
 		"weapon capacity" 700
 		"engine capacity" 500
-		"ZPM capacity 2
+		"ZPM capacity" 2
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
@@ -304,7 +454,8 @@ ship "Centurion"
 		"Ancient Anti-Missile" 2
 		"Ancient Pulse Turret"
 		
-		"ADRX-II Draconic Reactor"
+		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-II Shield System"
 		"AACX-I Cooling System"
 		
@@ -348,7 +499,7 @@ ship "Decurion"
 	outfits
 		"Ancient Anti-Missile" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		
@@ -368,14 +519,14 @@ ship "Paragon"
 	sprite "ship/paragon"
 	thumbnail "thumbnail/paragon"
 	attributes
-		category "Medium Warship"
+		category "Heavy Warship"
 		"cost" 64000000
 		"shields" 97500
 		"hull" 83000
 		"required crew" 21
 		"bunks" 96
 		"mass" 1400
-		"drag" 9.0
+		"drag" 10.2
 		"heat dissipation" 0.4
 		"fuel capacity" 900
 		"cargo space" 200
@@ -481,7 +632,7 @@ ship "Praesidium"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The Praesidium-class Frigate was part of the first post-war fleet update, with a noticable change in visual style and a stronger reliance on shielding, resulting in a fairly strong and incredibly agile warship. Its main purpose is that of an escort, making use of its agility and light armaments to take out fighters and interceptors or anything that would be hard to track with the heavy armaments of an Aegis or Paragon."
-	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath.
+	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath."
 
 ship "Spectre"
 	sprite "ship/spectre"
