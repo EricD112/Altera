@@ -378,7 +378,7 @@ system Allusia
 
 system Arcana
 	pos 411.828 237.276
-	government Altera
+	government Uninhabited
 	habitable 1080
 	link Nazeru
 	link Thanatos
@@ -3065,7 +3065,7 @@ system Nasconya
 
 system Nazeru
 	pos 374.754 285.377
-	government Altera
+	government Uninhabited
 	habitable 320
 	link Arcana
 	link Thanatos
@@ -3460,7 +3460,7 @@ system Rosalia
 
 system Rubica
 	pos 336.678 333.473
-	government Altera
+	government Uninhabited
 	habitable 1566.68
 	link Argus
 	link Thanatos
@@ -3760,7 +3760,7 @@ system Silva
 
 system Sirenum
 	pos 283.012 596.461
-	government Ascaria
+	government Uninhabited
 	habitable 486.68
 	link Ascaris
 	link Mataya
@@ -4072,7 +4072,7 @@ system Valenthia
 
 system Vastaya
 	pos 337.99 504.477
-	government Altera
+	government Uninhabited
 	habitable 2798.68
 	link Karaya
 	link Mataya
