@@ -3163,7 +3163,7 @@ system Ophelia
 	habitable 621.68
 	link Acidalia
 	link Menus
-	link Solaris
+	link Karyllis
 	asteroids "medium rock" 2 5.985
 	asteroids "large rock" 1 2.8975
 	asteroids "small metal" 2 3.23
@@ -3809,7 +3809,7 @@ system Sirenum
 		distance 2763.78
 		period 2634.47
 
-system Solaris
+system Karyllis
 	pos 944.435 397.652
 	government Altera
 	habitable 1080
