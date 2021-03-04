@@ -73,12 +73,13 @@ ship "Aetheris"
 		"bunks" 2
 		"mass" 40
 		"drag" .7
-		"heat dissipation" .9
+		"heat dissipation" .95
 		"fuel capacity" 600
 		"cargo space" 5
-		"outfit space" 240
+		"outfit space" 220
 		"weapon capacity" 85
 		"engine capacity" 50
+		"radar jamming" 2
 		weapon
 			"blast radius" 20
 			"shield damage" 250
@@ -207,7 +208,7 @@ ship "Aurora"
 		category "Heavy Warship"
 		"cost" 92000000
 		"shields" 165000
-		"hull" 157000
+		"hull" 187000
 		"required crew" 117
 		"bunks" 290
 		"mass" 4130
@@ -366,6 +367,83 @@ ship "Aurora"
 	description "The Aurora-class Battleship is an old Alteran warship, having seen use even in the Drak-Alteran War. A truly massive design, with a significant hull strength and a powerful loadout, capable of taking on Quarg warships by itself. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Azrael-class Battleship, a much more effective design."
 	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlane gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms. This communication system is an absolute necessity for the Alteran Military, but will cause a strong combat-oriented inefficiency, as it takes up a significant portion of the ship's interior."
 
+ship "Auxilus"
+	sprite "ship/auxilus"
+	thumbnail "thumbnail/auxilus"
+	attributes
+		category "Heavy Warship"
+		"cost" 135000000
+		"shields" 98500
+		"hull" 76000
+		"required crew" 35
+		"bunks" 420
+		"mass" 3640
+		"drag" 26.3
+		"heat dissipation" 1
+		"fuel capacity" 2400
+		"cargo space" 320
+		"outfit space" 1090
+		"weapon capacity" 355
+		"engine capacity" 260
+		"ZPM capacity" 2
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Drone Bay" 2
+		"Ancient Drone Storage" 5
+		"Ancient Anti-Missile" 1
+		"Ancient Shock Turret" 2
+		"Ancient Drone" 828
+		
+		"ADRX-III Draconic Reactor"
+		"ASSX-IV Shield System"
+		"AACX-III Cooling System"
+		
+		"AAGTX-III Anti-Grav Steering"
+		"AAGTX-IV Anti-Grav Thruster"
+		"AJX Star Drive"
+		
+	engine -53 248.5
+		zoom 1
+		angle 0
+		under
+	engine 53 248.5
+		zoom 1
+		angle 0
+		under
+	engine -0.5 254.5
+		zoom 1
+		angle 0
+		under
+	turret -0.5 -216.5 "Ancient Shock Turret""
+	turret -0.5 -161.5 "Ancient Shock Turret"
+	turret -0.5 61 "Ancient Anti-Missile"
+	gun -29 -263.5 "Ancient Drone Bay"
+	gun 29 -263.5 "Ancient Drone Bay"
+	fighter -49.5 -75.5
+	fighter 49.5 -75.5
+	fighter -49.5 -75.5
+	fighter 49.5 -75.5
+	fighter -49.5 -75.5
+	fighter 49.5 -75.5
+	fighter -48 -14
+	fighter 48 -14
+	fighter -48 -14
+	fighter 48 -14
+	fighter -48 -14
+	fighter 48 -14
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
+	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
+
 ship "Azrael"
 	sprite "ship/azrael"
 	attributes
@@ -427,55 +505,9 @@ ship "Azrael"
 	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
 	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
 
-ship "Centurion"
-	sprite "ship/centurion"
-	thumbnail "thumbnail/centurion"
-	attributes
-		category "Heavy Freighter"
-		"cost" 100000000
-		"shields" 30000
-		"hull" 12500
-		"required crew" 7
-		"bunks" 15
-		"mass" 930
-		"drag" 12.4
-		"heat dissipation" 0.55
-		"fuel capacity" 900
-		"cargo space" 720
-		"outfit space" 470
-		"weapon capacity" 195
-		"engine capacity" 100
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"Ancient Anti-Missile" 2
-		"Ancient Pulse Turret"
-		
-		"ADRX-I Draconic Reactor"
-		"ABGX Backup Generator"
-		"ASSX-II Shield System"
-		"AACX-I Cooling System"
-		
-		"AAGTX-II Anti-Grav Steering"
-		"AAGTX-II Anti-Grav Thruster"
-		"AJX Star Drive"
-
-	engine -40 176 0.3
-	engine 40 176 0.3
-	engine -28 180.5 0.3
-	engine 28 180.5 0.3
-	engine 0 194.5 1.7
-	turret 10.5 -112.5
-	turret 0 -70.5 "Ancient Anti-Missile"
-	turret -16 -1 "Ancient Pulse Turret"
-	turret 0 82 "Ancient Anti-Missile"
-
-ship "Decurion"
-	sprite "ship/decurion"
-	thumbnail "thumbnail/decurion"
+ship "Carrum"
+	sprite "ship/carrum"
+	thumbnail "thumbnail/carrum"
 	attributes
 		category "Light Freighter"
 		"cost" 970000
@@ -511,6 +543,94 @@ ship "Decurion"
 	engine 10 44.5 0.8
 	engine 0 56
 	turret 0 0.5 "Ancient Anti-Missile"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+
+ship "Castrum"
+	sprite "ship/castrum"
+	thumbnail "thumbnail/castrum"
+	attributes
+		category "Heavy Freighter"
+		"cost" 970000
+		"shields" 5100
+		"hull" 2300
+		"required crew" 1
+		"bunks" 5
+		"mass" 85
+		"drag" 4
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 130
+		"outfit space" 210
+		"weapon capacity" 65
+		"engine capacity" 55
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Anti-Missile" 1
+		
+		"ABGX Backup Generator"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
+		
+	engine -10 44.5 0.8
+	engine 10 44.5 0.8
+	engine 0 56
+	turret 0 0.5 "Ancient Anti-Missile"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+	
+ship "Gladius"
+	sprite "ship/gladius"
+	thumbnail "thumbnail/gladius"
+	attributes
+		category "Fighter"
+		"cost" 970000
+		"shields" 5300
+		"hull" 5700
+		"required crew" 1
+		"bunks" 2
+		"mass" 40
+		"drag" .7
+		"heat dissipation" .9
+		"fuel capacity" 600
+		"cargo space" 5
+		"outfit space" 220
+		"weapon capacity" 85
+		"engine capacity" 50
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Singular Pulse" 2
+		
+		"ABGX Backup Generator"
+		"ASSX-I Shield System"
+		"AAUX-I Accumulation Unit" 2
+		
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+	engine -15.5 28
+		zoom 1
+		angle 0
+		under
+	engine 15.5 28
+		zoom 1
+		angle 0
+		under
+	gun -9.5 -35.5 "Ancient Singular Pulse"
+	gun 9.5 -35.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
@@ -577,6 +697,52 @@ ship "Paragon"
 	"final explode" "final explosion medium"
 	description "Developed together with the Aurora, the Paragon shares the same unique style as its sibling, though it is much more combat oriented. A pair of Paragons are capable of rivalling an Aurora, with a single one matching a Quarg Wardragon. The hull itself is almost symmetric, with weaponry on or next to its spine. As the name suggests, this ship is a well designed jack of all trades, with a slight tendency towards a defensive frontline warship."
 	description "Unlike the Aurora, this ship still fits its combat role and will likely stay in service as a mainstay warship with a central frontline role for the forseeable future, supplementing the newer Alteran Vessels such as the Azrael or Raziel. Even now, its raw combat strength is astounding, with the only real downside being its overreliance on hull and the resulting very lacking agility, stemming from its age, dating back to pre-war Altera, a time during which shielding was only really being used by the military, due to its experimental nature."
+
+ship "Plaustrum"
+	sprite "ship/plaustrum"
+	thumbnail "thumbnail/plaustrum"
+	attributes
+		category "Heavy Freighter"
+		"cost" 100000000
+		"shields" 30000
+		"hull" 12500
+		"required crew" 7
+		"bunks" 15
+		"mass" 930
+		"drag" 12.4
+		"heat dissipation" 0.55
+		"fuel capacity" 900
+		"cargo space" 720
+		"outfit space" 470
+		"weapon capacity" 195
+		"engine capacity" 100
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Anti-Missile" 2
+		"Ancient Pulse Turret"
+		
+		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -40 176 0.3
+	engine 40 176 0.3
+	engine -28 180.5 0.3
+	engine 28 180.5 0.3
+	engine 0 194.5 1.7
+	turret 10.5 -112.5
+	turret 0 -70.5 "Ancient Anti-Missile"
+	turret -16 -1 "Ancient Pulse Turret"
+	turret 0 82 "Ancient Anti-Missile"
 	
 ship "Praesidium"
 	sprite "ship/praesidium"
@@ -636,28 +802,30 @@ ship "Praesidium"
 
 ship "Spectre"
 	sprite "ship/spectre"
+	thumbnail "thumbnail/spectre"
 	attributes
 		category "Interceptor"
 		"cost" 2000000
-		"shields" 5000
-		"hull" 2500
+		"shields" 11300
+		"hull" 4200
 		"required crew" 1
-		"bunks" 10
-		"mass" 350
-		"drag" 1.0
+		"bunks" 4
+		"mass" 130
+		"drag" 1.3
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 20
 		"outfit space" 300
 		"weapon capacity" 90
 		"engine capacity" 70
+		"scan interference" 1
+		"radar jamming" 4
 		weapon
 			"blast radius" 16
 			"shield damage" 160
 			"hull damage" 80
 			"hit force" 240
 	outfits
-		"Ancient Drone Launcher" 2
 		"Ancient Plasma Beam" 2
 		
 		"ADRX-I Draconic Reactor"
@@ -669,13 +837,45 @@ ship "Spectre"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
 		
-	engine -7 42
-	engine 7 42
-	gun -11 -6 "Ancient Plasma Beam"
-	gun 11 -6 "Ancient Plasma Beam"
-	gun -16 16 "Ancient Drone Launcher"
-	gun 16 16 "Ancient Drone Launcher"
+	engine -9 57.5
+		zoom 1
+		angle 0
+		under
+	engine 9 57.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -23 24.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" 23 24.5
+		zoom 1
+		angle 0
+		under
+	"steering engine" -8 -48.5
+		zoom 0.25
+		angle 90
+		under
+		right
+	"steering engine" 8 -48.5
+		zoom 0.25
+		angle -90
+		under
+		left
+	"steering engine" -8 -42.5
+		zoom 0.25
+		angle 90
+		under
+		right
+	"steering engine" 8 -42.5
+		zoom 0.25
+		angle -90
+		under
+		left
+	gun -11.5 -38.5
+	gun 11.5 -38.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "The Ancient Raziel is a small multi-use vessel that can carry out small deliveries, transport passengers or act as an interceptor. It's Ancient weaponry makes it equal to a light or medium warship."
+	description "The Ancient Spectre is a small multi-use vessel that can carry out small deliveries, transport passengers or act as an interceptor. It's Ancient weaponry makes it equal to a light or medium warship."
