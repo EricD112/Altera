@@ -1,3 +1,4 @@
+
 ship "Aetheris" "Aetheris (Interceptor)"
 	outfits
 		"AAGTX-I Anti-Grav Steering"
