@@ -75,9 +75,10 @@ outfitter "Ancient Advanced"
 
 shipyard "Ancient Basic"
 	"Aqueus"
-	"Decurion"
+	"Arqueus"
+	"Carrum"
+	"Castrum"
 	"Gladius"
-	"Legion"
 	"Praesidium"
 	
 shipyard "Ancient Advanced"

@@ -153,11 +153,11 @@ ship "Aetheris"
 		"mass" 40
 		"drag" .7
 		"heat dissipation" .95
-		"fuel capacity" 600
+		"fuel capacity" 300
 		"cargo space" 5
-		"outfit space" 220
-		"weapon capacity" 85
-		"engine capacity" 50
+		"outfit space" 190
+		"weapon capacity" 60
+		"engine capacity" 45
 		"radar jamming" 2
 		weapon
 			"blast radius" 20
@@ -682,8 +682,8 @@ ship "Carrum"
 		"mass" 85
 		"drag" 4
 		"heat dissipation" 0.9
-		"fuel capacity" 600
-		"cargo space" 130
+		"fuel capacity" 500
+		"cargo space" 120
 		"outfit space" 210
 		"weapon capacity" 65
 		"engine capacity" 55
@@ -696,6 +696,7 @@ ship "Carrum"
 		"Ancient Anti-Missile" 1
 		
 		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		
@@ -800,16 +801,16 @@ ship "Castrum"
 		"cost" 970000
 		"shields" 5100
 		"hull" 2300
-		"required crew" 1
-		"bunks" 5
-		"mass" 85
-		"drag" 4
-		"heat dissipation" 0.9
-		"fuel capacity" 600
-		"cargo space" 130
-		"outfit space" 210
-		"weapon capacity" 65
-		"engine capacity" 55
+		"required crew" 3
+		"bunks" 10
+		"mass" 192
+		"drag" 9.1
+		"heat dissipation" 0.67
+		"fuel capacity" 700
+		"cargo space" 270
+		"outfit space" 500
+		"weapon capacity" 500
+		"engine capacity" 500
 		weapon
 			"blast radius" 20
 			"shield damage" 250
@@ -818,12 +819,12 @@ ship "Castrum"
 	outfits
 		"Ancient Anti-Missile" 1
 		
-		"ABGX Backup Generator"
+		"ADRX-I Draconic Reactor"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		
 		"AAGTX-I Anti-Grav Steering"
-		"AAGTX-I Anti-Grav Thruster"
+		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 
 	engine -22.5 144
@@ -937,12 +938,12 @@ ship "Gladius"
 		"hull" 5700
 		"required crew" 1
 		"bunks" 2
-		"mass" 40
-		"drag" .7
+		"mass" 65
+		"drag" 1.5
 		"heat dissipation" .9
-		"fuel capacity" 600
-		"cargo space" 5
-		"outfit space" 220
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 205
 		"weapon capacity" 85
 		"engine capacity" 50
 		weapon
