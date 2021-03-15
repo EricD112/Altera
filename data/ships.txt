@@ -41,8 +41,87 @@ ship "Aegis"
 		"AJX Star Drive"
 		
 	engine -29 136.5
+		zoom 0.67
+		angle 0
+		under
 	engine 29 136.5
+		zoom 0.67
+		angle 0
+		under
 	engine 0 154
+		zoom 0.67
+		angle 0
+		under
+
+	"reverse engine" -3 -146
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 3 -146
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" -36 91.5
+		zoom 0.5
+		angle -27
+		under
+	"reverse engine" 36 91.5
+		zoom 0.5
+		angle 27
+		under
+
+	"steering engine" -7.5 -126
+		zoom 0.25
+		angle 90
+		under
+		right
+	"steering engine" 7.5 -126
+		zoom 0.25
+		angle -90
+		under
+		left
+	"steering engine" -7.5 -122
+		zoom 0.25
+		angle 90
+		under
+		right
+	"steering engine" 7.5 -122
+		zoom 0.25
+		angle -90
+		under
+		left
+	"steering engine" -7.5 -118
+		zoom 0.25
+		angle 90
+		under
+		right
+	"steering engine" 7.5 -118
+		zoom 0.25
+		angle -90
+		under
+		left
+
+	"steering engine" -32.5 103.5
+		zoom 0.38
+		angle 90
+		under
+		left
+	"steering engine" 32.5 103.5
+		zoom 0.38
+		angle -90
+		under
+		right
+	"steering engine" -32.5 109.5
+		zoom 0.38
+		angle 90
+		under
+		left
+	"steering engine" 32.5 109.5
+		zoom 0.38
+		angle -90
+		under
+		right
+
 	gun -18 -44 "Ancient Plasma Beam"
 	gun -18 -44 "Ancient Plasma Beam"
 	gun 18 -44 "Ancient Plasma Beam"
@@ -107,6 +186,7 @@ ship "Aetheris"
 		zoom 0.5
 		angle 0
 		under
+
 	"reverse engine" -20.5 2.5
 		zoom 0.25
 		angle 0
@@ -115,26 +195,7 @@ ship "Aetheris"
 		zoom 0.25
 		angle 0
 		under
-	"steering engine" -20.5 2.5
-		zoom 0.25
-		angle 180
-		under
-		left
-	"steering engine" 20.5 2.5
-		zoom 0.25
-		angle 180
-		under
-		right
-	"steering engine" -22 22.5
-		zoom 0.5
-		angle 0
-		under
-		right
-	"steering engine" 22 22.5
-		zoom 0.5
-		angle 0
-		under
-		left
+
 	"steering engine" -3.5 -34
 		zoom 0.2
 		angle 95
@@ -165,6 +226,29 @@ ship "Aetheris"
 		angle -95
 		under
 		left
+
+	"steering engine" -20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		left
+	"steering engine" 20.5 2.5
+		zoom 0.25
+		angle 180
+		under
+		right
+
+	"steering engine" -22 22.5
+		zoom 0.5
+		angle 0
+		under
+		right
+	"steering engine" 22 22.5
+		zoom 0.5
+		angle 0
+		under
+		left
+
 	"steering engine" -6.5 34
 		zoom 0.2
 		angle 90
@@ -195,6 +279,7 @@ ship "Aetheris"
 		angle -90
 		under
 		right
+
 	gun 8 -7.5 "Ancient Singular Pulse"
 	gun -8 -7.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
@@ -243,7 +328,7 @@ ship "Aurora"
 		"AAGTX-IV Anti-Grav Steering"
 		"AAGTX-IV Anti-Grav Thruster"
 		"AJX Star Drive"
-		
+
 	engine -85.5 322
 		zoom 1
 		angle 10
@@ -272,6 +357,7 @@ ship "Aurora"
 		zoom 0.2
 		angle 0
 		under
+
 	"reverse engine" -27 -328.5
 		zoom 0.4
 		angle 0
@@ -288,6 +374,7 @@ ship "Aurora"
 		zoom 0.6
 		angle 18
 		under
+
 	"steering engine" -39 -239
 		zoom 0.33
 		angle 90
@@ -318,6 +405,7 @@ ship "Aurora"
 		angle -90
 		under
 		left
+
 	"steering engine" -52 171
 		zoom 0.5
 		angle 90
@@ -338,6 +426,7 @@ ship "Aurora"
 		angle -90
 		under
 		right
+
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun -35.5 -281.5 "ASGX Solar Collector"
 	gun 35.5 -281.5 "ASGX Solar Collector"
@@ -364,6 +453,7 @@ ship "Aurora"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
+
 	description "The Aurora-class Battleship is an old Alteran warship, having seen use even in the Drak-Alteran War. A truly massive design, with a significant hull strength and a powerful loadout, capable of taking on Quarg warships by itself. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Azrael-class Battleship, a much more effective design."
 	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran design long-range communications, capable of bridging hyperlane gaps, by creating a weak and unstable link, too weak for travel, but capable of transmitting comms. This communication system is an absolute necessity for the Alteran Military, but will cause a strong combat-oriented inefficiency, as it takes up a significant portion of the ship's interior."
 
@@ -405,19 +495,91 @@ ship "Auxilus"
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-IV Anti-Grav Thruster"
 		"AJX Star Drive"
-		
+
 	engine -53 248.5
 		zoom 1
-		angle 0
+		angle 3
 		under
 	engine 53 248.5
 		zoom 1
-		angle 0
+		angle -3
 		under
 	engine -0.5 254.5
 		zoom 1
 		angle 0
 		under
+
+	"reverse engine" -31 -256.5
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" 31 -256.5
+		zoom 0.5
+		angle 0
+		under
+
+	"steering engine" -52 -174
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 52 -174
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -50 -184
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 50 -184
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -48 -194
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 48 -194
+		zoom 0.33
+		angle -90
+		under
+		left
+
+	"steering engine" -77.5 146.5
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 77.5 146.5
+		zoom 0.33
+		angle -90
+		under
+		right
+	"steering engine" -77.5 156.5
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 77.5 156.5
+		zoom 0.33
+		angle -90
+		under
+		right
+	"steering engine" -77.5 166.5
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 77.5 166.5
+		zoom 0.33
+		angle -90
+		under
+		right
+
 	turret -0.5 -216.5 "Ancient Shock Turret""
 	turret -0.5 -161.5 "Ancient Shock Turret"
 	turret -0.5 61 "Ancient Anti-Missile"
@@ -441,6 +603,7 @@ ship "Auxilus"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
+
 	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
 	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
 
@@ -479,7 +642,7 @@ ship "Azrael"
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-III Anti-Grav Thruster"
 		"AJX Star Drive"
-		
+
 	engine -25 172
 	engine 25 172
 	gun -10 -174 "Ancient Drone Launcher"
@@ -502,6 +665,7 @@ ship "Azrael"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
+
 	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
 	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
 
@@ -538,13 +702,94 @@ ship "Carrum"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
-		
-	engine -10 44.5 0.8
-	engine 10 44.5 0.8
-	engine 0 56
+
+	engine 0 47
+		zoom 1
+		angle 0
+		under
+	engine 0 47
+		zoom 1
+		angle 0
+		under
+
+	"reverse engine" -4 -46
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" 4 -46
+		zoom 0.5
+		angle 0
+		under
+
+	"steering engine" -6 -42
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 6 -42
+		zoom 0.3
+		angle -90
+		under
+		left
+	"steering engine" -7 -40.5
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 7 -40.5
+		zoom 0.3
+		angle -90
+		under
+		left
+	"steering engine" -8 -39
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 8 -39
+		zoom 0.3
+		angle -90
+		under
+		left
+
+	"steering engine" -7.5 42.5
+		zoom 0.2
+		angle 80
+		under
+		left
+	"steering engine" 7.5 42.5
+		zoom 0.2
+		angle -80
+		under
+		right
+	"steering engine" -7.5 42.5
+		zoom 0.5
+		angle 80
+		under
+		left
+	"steering engine" 7.5 42.5
+		zoom 0.5
+		angle -80
+		under
+		right
+	"steering engine" -7.5 42.5
+		zoom 0.2
+		angle 80
+		under
+		left
+	"steering engine" 7.5 42.5
+		zoom 0.2
+		angle -80
+		under
+		right
+
+	#engine -10 44.5 0.8
+	#engine 10 44.5 0.8
+	#engine 0 56
 	turret 0 0.5 "Ancient Anti-Missile"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
+
 	description ""
 
 ship "Castrum"
@@ -580,15 +825,108 @@ ship "Castrum"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
-		
-	engine -10 44.5 0.8
-	engine 10 44.5 0.8
-	engine 0 56
-	turret 0 0.5 "Ancient Anti-Missile"
+
+	engine -22.5 144
+		zoom 0.5
+		angle 0
+		under
+	engine 22.5 144
+		zoom 0.5
+		angle 0
+		under
+	engine 0 154
+		zoom 1
+		angle 0
+		under
+
+	"reverse engine" -10.5 -152
+		zoom 0.25
+		angle 0
+		under
+	"reverse engine" 10.5 -152
+		zoom 0.25
+		angle 0
+		under
+	"reverse engine" -35.5 55
+		zoom 0.5
+		angle -30
+		under
+	"reverse engine" 35.5 55
+		zoom 0.5
+		angle 30
+		under
+
+	"steering engine" -20 -125.5
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 20 -125.5
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -20 -121.5
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 20 -121.5
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -20 -117.5
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 20 -117.5
+		zoom 0.33
+		angle -90
+		under
+		left
+
+	"steering engine" -40 106
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 40 106
+		zoom 0.33
+		angle -90
+		under
+		right
+	"steering engine" -40 110
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 40 110
+		zoom 0.33
+		angle -90
+		under
+		right
+	"steering engine" -40 114
+		zoom 0.33
+		angle 90
+		under
+		left
+	"steering engine" 40 114
+		zoom 0.33
+		angle -90
+		under
+		right
+
+	gun -18 -137
+	gun 18 -137
+	turret 0 -98.5 "Ancient Anti-Missile"
+	turret 0 49.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
+
 	description ""
-	
+
 ship "Gladius"
 	sprite "ship/gladius"
 	thumbnail "thumbnail/gladius"
@@ -621,14 +959,67 @@ ship "Gladius"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
+
 	engine -15.5 28
 		zoom 1
-		angle 0
+		angle 5
 		under
 	engine 15.5 28
 		zoom 1
+		angle -5
+		under
+
+	"reverse engine" -5.5 -37.5
+		zoom 0.5
 		angle 0
 		under
+	"reverse engine" 5.5 -37.5
+		zoom 0.5
+		angle 0
+		under
+
+	"steering engine" -6 -25.5
+		zoom 0.25
+		angle 90
+		over
+		right
+	"steering engine" 6 -25.5
+		zoom 0.25
+		angle -90
+		over
+		left
+	"steering engine" -6.5 -23
+		zoom 0.25
+		angle 90
+		over
+		right
+	"steering engine" 6.5 -23
+		zoom 0.25
+		angle -90
+		over
+		left
+
+	"steering engine" -5 30
+		zoom 0.25
+		angle 90
+		over
+		left
+	"steering engine" 5 30
+		zoom 0.25
+		angle -90
+		over
+		right
+	"steering engine" -4 33.5
+		zoom 0.25
+		angle 90
+		over
+		left
+	"steering engine" 4 33.5
+		zoom 0.25
+		angle -90
+		over
+		right
+
 	gun -9.5 -35.5 "Ancient Singular Pulse"
 	gun 9.5 -35.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
@@ -676,9 +1067,89 @@ ship "Paragon"
 		"AJX Star Drive"
 
 	engine -48 180
+		zoom 0.6
+		angle 4
+		under
 	engine 48 180
+		zoom 0.6
+		angle -4
+		under
 	engine -28 182
+		zoom 0.6
+		angle 4
+		under
 	engine 28 182
+		zoom 0.6
+		angle -4
+		under
+
+	"reverse engine" -3.5 -186
+		zoom 0.15
+		angle 0
+		under
+	"reverse engine" 3.5 -186
+		zoom 0.15
+		angle 0
+		under
+	"reverse engine" -42 16
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 42 16
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" -47 132.5
+		zoom 0.55
+		angle -8
+		under
+	"reverse engine" 47 132.5
+		zoom 0.55
+		angle 8
+		under
+
+	"steering engine" -23 -136.5
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 25 -136.5
+		zoom 0.3
+		angle -90
+		under
+		left
+	"steering engine" -23 -129.5
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 25 -129.5
+		zoom 0.3
+		angle -90
+		under
+		left
+
+	"steering engine" -57 148
+		zoom 0.3
+		angle 90
+		under
+		left
+	"steering engine" 57 148
+		zoom 0.3
+		angle -90
+		under
+		right
+	"steering engine" -57 153
+		zoom 0.3
+		angle 90
+		under
+		left
+	"steering engine" 57 153
+		zoom 0.3
+		angle -90
+		under
+		right
+
 	gun -10 -186.5 "Ancient Drone Launcher"
 	gun 10 -186.5 "Ancient Drone Launcher"
 	gun -23 -156.5 "Ancient Drone Launcher"
@@ -695,6 +1166,7 @@ ship "Paragon"
 	explode "large explosion" 35
 	explode "huge explosion" 10
 	"final explode" "final explosion medium"
+	
 	description "Developed together with the Aurora, the Paragon shares the same unique style as its sibling, though it is much more combat oriented. A pair of Paragons are capable of rivalling an Aurora, with a single one matching a Quarg Wardragon. The hull itself is almost symmetric, with weaponry on or next to its spine. As the name suggests, this ship is a well designed jack of all trades, with a slight tendency towards a defensive frontline warship."
 	description "Unlike the Aurora, this ship still fits its combat role and will likely stay in service as a mainstay warship with a central frontline role for the forseeable future, supplementing the newer Alteran Vessels such as the Azrael or Raziel. Even now, its raw combat strength is astounding, with the only real downside being its overreliance on hull and the resulting very lacking agility, stemming from its age, dating back to pre-war Altera, a time during which shielding was only really being used by the military, due to its experimental nature."
 
@@ -734,16 +1206,101 @@ ship "Plaustrum"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 
-	engine -40 176 0.3
-	engine 40 176 0.3
-	engine -28 180.5 0.3
-	engine 28 180.5 0.3
-	engine 0 194.5 1.7
+	engine -42 184
+		zoom 0.15
+		angle 0
+		under
+	engine 42 184
+		zoom 0.15
+		angle 0
+		under
+	engine -29 189
+		zoom 0.15
+		angle 0
+		under
+	engine 29 189
+		zoom 0.15
+		angle 0
+		under
+	engine 0 200
+		zoom 1.4
+		angle 0
+		under
+
+	"reverse engine" -21 -199
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" 21 -199
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" -13 -199
+		zoom 0.5
+		angle 0
+		under
+	"reverse engine" 13 -199
+		zoom 0.5
+		angle 0
+		under
+
+	"steering engine" -43 -184
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 43 -184
+		zoom 0.3
+		angle -90
+		under
+		left
+	"steering engine" -43 -176
+		zoom 0.3
+		angle 90
+		under
+		right
+	"steering engine" 43 -176
+		zoom 0.3
+		angle -90
+		under
+		left
+
+	"steering engine" -63 146
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 63 146
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -63 152
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 63 152
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -63 158
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 63 158
+		zoom 0.2
+		angle -90
+		under
+		right
+
 	turret 10.5 -112.5
 	turret 0 -70.5 "Ancient Anti-Missile"
 	turret -16 -1 "Ancient Pulse Turret"
 	turret 0 82 "Ancient Anti-Missile"
-	
+
 ship "Praesidium"
 	sprite "ship/praesidium"
 	thumbnail "thumbnail/praesidium"
@@ -784,10 +1341,107 @@ ship "Praesidium"
 		"AAGTX-I Anti-Grav Thruster"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
-		
+
 	engine -18 97
+		zoom 0.75
+		angle 0
+		under
 	engine 18 97
+		zoom 0.75
+		angle 0
+		under
 	engine 0 97
+		zoom 0.5
+		angle 0
+		under
+
+	"reverse engine" -4 -104
+		zoom 0.25
+		angle -360
+		under
+	"reverse engine" 4 -104
+		zoom 0.25
+		angle -360
+		under
+	"reverse engine" -21.5 -3.5
+		zoom 0.3
+		angle -9.9975586
+		under
+	"reverse engine" 21.5 -3.5
+		zoom 0.3
+		angle -350.00244
+		under
+	"reverse engine" -25.5 55
+		zoom 0.45
+		angle -20.00061
+		under
+	"reverse engine" 25.5 55
+		zoom 0.45
+		angle -339.99939
+		under
+
+	"steering engine" -6.5 -92
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 6.5 -92
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -7.5 -86
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 7.5 -86
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -8.5 -80
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 8.5 -80
+		zoom 0.2
+		angle -90
+		under
+		left
+
+	"steering engine" -28.5 69
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 28.5 69
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -27.5 75
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 27.5 75
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -26.5 81
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 26.5 81
+		zoom 0.2
+		angle -90
+		under
+		right
+
 	gun -8 -80.5 "Ancient Drone Launcher"
 	gun -8 -80.5 "Ancient Singular Pulse"
 	gun 8 -80.5 "Ancient Drone Launcher"
@@ -797,6 +1451,7 @@ ship "Praesidium"
 	turret 0 32.5 "Ancient Anti-Missile"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
+
 	description "The Praesidium-class Frigate was part of the first post-war fleet update, with a noticable change in visual style and a stronger reliance on shielding, resulting in a fairly strong and incredibly agile warship. Its main purpose is that of an escort, making use of its agility and light armaments to take out fighters and interceptors or anything that would be hard to track with the heavy armaments of an Aegis or Paragon."
 	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath."
 
@@ -836,7 +1491,7 @@ ship "Spectre"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
-		
+
 	engine -9 57.5
 		zoom 1
 		angle 0
@@ -845,6 +1500,7 @@ ship "Spectre"
 		zoom 1
 		angle 0
 		under
+
 	"reverse engine" -23 24.5
 		zoom 1
 		angle 0
@@ -853,6 +1509,7 @@ ship "Spectre"
 		zoom 1
 		angle 0
 		under
+
 	"steering engine" -8 -48.5
 		zoom 0.25
 		angle 90
@@ -873,9 +1530,32 @@ ship "Spectre"
 		angle -90
 		under
 		left
-	gun -11.5 -38.5
-	gun 11.5 -38.5
+
+	"steering engine" -24 34.5
+		zoom 0.25
+		angle 90
+		under
+		left
+	"steering engine" 24 34.5
+		zoom 0.25
+		angle -90
+		under
+		right
+	"steering engine" -24 40
+		zoom 0.25
+		angle 90
+		under
+		left
+	"steering engine" 24 40
+		zoom 0.25
+		angle -90
+		under
+		right
+
+	gun -11.5 -38.5 "Ancient Plasma Beam"
+	gun 11.5 -38.5 "Ancient Plasma Beam"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
+
 	description "The Ancient Spectre is a small multi-use vessel that can carry out small deliveries, transport passengers or act as an interceptor. It's Ancient weaponry makes it equal to a light or medium warship."
