@@ -14,12 +14,12 @@ outfitter "Ancient Basic"
 	"AAGTX-I Anti-Grav Steering"
 	"AAGTX-II Anti-Grav Steering"
 	
-	"ADRX-1 Draconic Reactor"
-	"ADRX-2 Draconic Reactor"
+	"ABGX Backup Generator"
+	"ADRX-I Draconic Reactor"
 	"AAUX-I Accumulation Unit"
 	
-	"ASSX-1 Shield System"
-	"ASSX-2 Shield System"
+	"ASSX-I Shield System"
+	"ASSX-II Shield System"
 	
 	"AACX-1 Cooling System"
 
@@ -57,7 +57,7 @@ outfitter "Ancient Advanced"
 	"ADRX-III Draconic Reactor"
 	"AAUX-I Accumulation Unit"
 	"AAUX-II Accumulation Unit"
-	"AMCX Module Converter"
+	"AMCX-I Module Converter"
 	"ASGX Solar Collector"
 	"AZPMX Zero Point Module"
 	
@@ -74,7 +74,6 @@ outfitter "Ancient Advanced"
 	"AJX Star Drive"
 
 shipyard "Ancient Basic"
-	"Aqueus"
 	"Arqueus"
 	"Carrum"
 	"Castrum"
