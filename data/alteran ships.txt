@@ -155,7 +155,7 @@ ship "Aetheris"
 		"heat dissipation" .95
 		"fuel capacity" 300
 		"cargo space" 5
-		"outfit space" 190
+		"outfit space" 178
 		"weapon capacity" 60
 		"engine capacity" 45
 		"radar jamming" 2
@@ -678,9 +678,9 @@ ship "Carrum"
 		"shields" 5100
 		"hull" 2300
 		"required crew" 1
-		"bunks" 5
+		"bunks" 3
 		"mass" 85
-		"drag" 4
+		"drag" 2.5
 		"heat dissipation" 0.9
 		"fuel capacity" 500
 		"cargo space" 120
@@ -698,7 +698,6 @@ ship "Carrum"
 		"ABGX Backup Generator"
 		"AAUX-I Accumulation Unit"
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
@@ -799,13 +798,13 @@ ship "Castrum"
 	attributes
 		category "Heavy Freighter"
 		"cost" 970000
-		"shields" 5100
-		"hull" 2300
+		"shields" 33000
+		"hull" 17000
 		"required crew" 3
-		"bunks" 10
-		"mass" 192
-		"drag" 9.1
-		"heat dissipation" 0.67
+		"bunks" 17
+		"mass" 530
+		"drag" 10.4
+		"heat dissipation" 0.47
 		"fuel capacity" 700
 		"cargo space" 270
 		"outfit space" 500
@@ -823,7 +822,7 @@ ship "Castrum"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		
-		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 
@@ -938,12 +937,12 @@ ship "Gladius"
 		"hull" 5700
 		"required crew" 1
 		"bunks" 2
-		"mass" 65
+		"mass" 85
 		"drag" 1.5
 		"heat dissipation" .9
 		"fuel capacity" 400
 		"cargo space" 20
-		"outfit space" 205
+		"outfit space" 200
 		"weapon capacity" 85
 		"engine capacity" 50
 		weapon
@@ -1043,8 +1042,8 @@ ship "Paragon"
 		"fuel capacity" 900
 		"cargo space" 200
 		"outfit space" 1050
-		"weapon capacity" 580
-		"engine capacity" 240
+		"weapon capacity" 550
+		"engine capacity" 180
 		"ZPM capacity" 1
 		weapon
 			"blast radius" 260
@@ -1471,9 +1470,9 @@ ship "Spectre"
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 20
-		"outfit space" 300
-		"weapon capacity" 90
-		"engine capacity" 70
+		"outfit space" 214
+		"weapon capacity" 60
+		"engine capacity" 45
 		"scan interference" 1
 		"radar jamming" 4
 		weapon
@@ -1482,7 +1481,7 @@ ship "Spectre"
 			"hull damage" 80
 			"hit force" 240
 	outfits
-		"Ancient Plasma Beam" 2
+		"Ancient Singular Pulse" 2
 		
 		"ADRX-I Draconic Reactor"
 		"ASSX-I Shield System"
@@ -1553,8 +1552,8 @@ ship "Spectre"
 		under
 		right
 
-	gun -11.5 -38.5 "Ancient Plasma Beam"
-	gun 11.5 -38.5 "Ancient Plasma Beam"
+	gun -11.5 -38.5 "Ancient Singular Pulse"
+	gun 11.5 -38.5 "Ancient Singular Pulse"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
