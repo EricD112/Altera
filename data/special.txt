@@ -139,7 +139,7 @@ ship "Aetheris (Gauss)"
 	explode "small explosion" 5
 	description ""
 
-ship "Aurora (Satellite)"
+ship "Aurora (Spinal)"
 	sprite "ship/aurora"
 	thumbnail "thumbnail/aurora"
 	attributes
@@ -293,10 +293,10 @@ ship "Aurora (Satellite)"
 	turret 31.5 -148.5 "Ancient Pulse Turret"
 	turret -31.5 -88.5 "Ancient Pulse Turret"
 	turret 7.5 -40.5 "Ancient Pulse Turret"
-	turret -62.5 -14.5 "Ancient Pulse Turret"
+	turret -62.5 -14.5
 	turret 0 78 "Ancient Anti-Missile"
-	turret -78.5 268 "Ancient Pulse Turret"
-	turret 78.5 268 "Ancient Pulse Turret"
+	turret -78.5 268
+	turret 78.5 268
 	fighter -63.5 31.5
 	fighter -63.5 31.5
 	fighter -63.5 31.5
