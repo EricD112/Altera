@@ -66,6 +66,27 @@ ship "Aetheris" "Aetheris (Interceptor)"
 	gun "Ancient Singular Pulse"
 	gun "Ancient Singular Pulse"
 
+ship "Arqueus" "Arqueus (Armed)"
+	outfits
+		"Ancient Drone Launcher" 2
+		"Ancient Drone Storage"
+		"Ancient Drone" 148
+		"Ancient Pulse Turret"
+		"Ancient Anti-Missile"
+		"ADRX-I Draconic Reactor"
+		"AAUX-I	Accumulation Unit" 2
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+	gun "Ancient Drone Launcher"
+	gun "Ancient Drone Launcher"
+	gun
+	gun
+	turret "Ancient Anti-Missile"
+	turret "Ancient Pulse Turret"
+
 ship "Aurora" "Aurora (Gauss)"
 	outfits
 		"Ancient Drone Bay" 4
@@ -101,7 +122,7 @@ ship "Aurora" "Aurora (Gauss)"
 	turret "Ancient Gauss Turret"
 	turret "Ancient Gauss Turret"
 
-ship "Castrum" "Castrum (Military)"
+ship "Castrum" "Castrum (Armed)"
 	outfits
 		"Ancient Drone Launcher" 2
 		"Ancient Drone" 40
@@ -110,6 +131,7 @@ ship "Castrum" "Castrum (Military)"
 		"ADRX-I Draconic Reactor"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
+		"Outfits Expansion" 3
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
@@ -163,12 +185,10 @@ ship "Paragon" "Paragon (Shock)"
 		"Ancient Shock Turret" 2
 		"Ancient Anti-Missile" 2
 		"Ancient Drone" 188
-		
 		"ADRX-III Draconic Reactor"
 		"AAUX-II Accumulation Unit"
 		"ASSX-III Shield System"
 		"AACX-II Cooling System"
-		
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-III Anti-Grav Thruster"
 		"AJX Star Drive"
@@ -183,6 +203,23 @@ ship "Paragon" "Paragon (Shock)"
 	turret "Ancient Shock Turret"
 	turret "Ancient Shock Turret"
 	turret "Ancient Anti-Missile"
+
+ship "Plaustrum" "Plaustrum (Armed)
+	outfits
+		"Ancient Pulse Turret" 2
+		"Ancient Anti-Missile"
+		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit" 2
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+	turret "Ancient Pulse Turret"
+	turret "Ancient Anti-Missile"
+	turret "Ancient Pulse Turret"
+	turret
 
 ship "Spectre" "Spectre (Drone)"
 	outfits
