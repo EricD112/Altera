@@ -286,6 +286,164 @@ ship "Aetheris"
 	explode "small explosion" 5
 	description ""
 
+ship "Arqueus"
+	sprite "ship/arqueus"
+	thumbnail "thumbnail/arqueus"
+	attributes
+		category "Transport"
+		"cost" 6400000
+		"shields" 41000
+		"hull" 22500
+		"required crew" 24
+		"bunks" 230
+		"mass" 470
+		"drag" 7.2
+		"heat dissipation" 0.65
+		"fuel capacity" 600
+		"cargo space" 75
+		"outfit space" 380
+		"weapon capacity" 220
+		"engine capacity" 105
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Anti-Missile"
+
+		"ADRX-I Draconic Reactor"
+		"AAUX-I	Accumulation Unit" 2
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+		
+	engine -16.5 149.5
+		zoom 1
+		angle 0
+		under
+	engine 16.5 149.5
+		zoom 1
+		angle 0
+		under
+
+	"reverse engine" -18 -137
+		zoom 0.35
+		angle 0
+		under
+	"reverse engine" 18 -137
+		zoom 0.35
+		angle 0
+		under
+	"reverse engine" -18 -137
+		zoom 0.35
+		angle 0
+		under
+	"reverse engine" 18 -137
+		zoom 0.35
+		angle 0
+		under
+	"reverse engine" -24 -130
+		zoom 0.15
+		angle 0
+		under
+	"reverse engine" 24 -130
+		zoom 0.15
+		angle 0
+		under
+	"reverse engine" -24 -130
+		zoom 0.15
+		angle 0
+		under
+	"reverse engine" 24 -130
+		zoom 0.15
+		angle 0
+		under
+
+	"steering engine" -31 -84.5
+		zoom 0.15
+		angle 90
+		under
+		right
+	"steering engine" 31 -84.5
+		zoom 0.15
+		angle -90
+		under
+		left
+	"steering engine" -31 -84.5
+		zoom 0.15
+		angle 90
+		under
+		right
+	"steering engine" 31 -84.5
+		zoom 0.15
+		angle -90
+		under
+		left
+	"steering engine" -31 -77
+		zoom 0.15
+		angle 90
+		under
+		right
+	"steering engine" 31 -77
+		zoom 0.15
+		angle -90
+		under
+		left
+	"steering engine" -31 -77
+		zoom 0.15
+		angle 90
+		under
+		right
+	"steering engine" 31 -77
+		zoom 0.15
+		angle -90
+		under
+		left
+
+	"steering engine" -47 110
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 47 110
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -47 115
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 47 115
+		zoom 0.2
+		angle -90
+		under
+		right
+	"steering engine" -47 120
+		zoom 0.2
+		angle 90
+		under
+		left
+	"steering engine" 47 120
+		zoom 0.2
+		angle -90
+		under
+		right
+
+	gun -17.5 -140
+	gun 17.5 -140
+	gun -26.5 -127.5
+	gun 26.5 -127.5
+	turret 0 -39.5 "Ancient Anti-Missile"
+	turret 6.5 39
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+
 ship "Aurora"
 	sprite "ship/aurora"
 	thumbnail "thumbnail/aurora"
@@ -1025,6 +1183,125 @@ ship "Gladius"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
+	
+ship "Modified Tutela"
+	sprite "ship/mtutela"
+	thumbnail "thumbnail/mtutela"
+	attributes
+		category "Light Warship"
+		"cost" 6400000
+		"shields" 37500
+		"hull" 27000
+		"required crew" 7
+		"bunks" 29
+		"mass" 435
+		"drag" 5
+		"heat dissipation" 0.6
+		"fuel capacity" 700
+		"cargo space" 45
+		"outfit space" 475
+		"weapon capacity" 205
+		"engine capacity" 85
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"Ancient Drone Launcher" 2
+		"Ancient Pulse Turret"
+		"Ancient Anti-Missile"
+		"Ancient Drone" 40
+		
+		"ADRX-II Draconic Reactor"
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -22.5 97
+		zoom 0.8
+		angle 0
+		under
+	engine 22.5 97
+		zoom 0.8
+		angle 0
+		under
+
+	"reverse engine" -7.5 -101.5
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 7.5 -101.5
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 0 -101.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" -30 57
+		zoom 0.5
+		angle -20
+		under
+	"reverse engine" 30 57
+		zoom 0.5
+		angle 20
+		under
+
+	"steering engine" -19 -74
+		zoom 0.12
+		angle 90
+		over
+		right
+	"steering engine" 19 -74
+		zoom 0.12
+		angle -90
+		over
+		left
+	"steering engine" -19 -65
+		zoom 0.12
+		angle 90
+		over
+		right
+	"steering engine" 19 -65
+		zoom 0.12
+		angle -90
+		over
+		left
+
+	"steering engine" -21 57.5
+		zoom 0.12
+		angle 90
+		over
+		left
+	"steering engine" 21 57.5
+		zoom 0.12
+		angle -90
+		over
+		right
+	"steering engine" -20 66.5
+		zoom 0.12
+		angle 90
+		over
+		left
+	"steering engine" 20 66.5
+		zoom 0.12
+		angle -90
+		over
+		right
+
+	gun -17 -89.5
+	gun 17 -89.5
+	gun -32 -79.5
+	gun 32 -79.5
+	turret 0 -31
+	turret 0 1
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
 
 ship "Paragon"
 	sprite "ship/paragon"
@@ -1559,3 +1836,120 @@ ship "Spectre"
 	"final explode" "final explosion small"
 
 	description "The Ancient Spectre is a small multi-use vessel that can carry out small deliveries, transport passengers or act as an interceptor. It's Ancient weaponry makes it equal to a light or medium warship."
+	
+ship "Tutela"
+	sprite "ship/tutela"
+	thumbnail "thumbnail/tutela"
+	attributes
+		category "Light Warship"
+		"cost" 6400000
+		"shields" 34000
+		"hull" 29500
+		"required crew" 7
+		"bunks" 41
+		"mass" 410
+		"drag" 5
+		"heat dissipation" 0.6
+		"fuel capacity" 700
+		"cargo space" 70
+		"outfit space" 440
+		"weapon capacity" 185
+		"engine capacity" 85
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Drone Launcher" 2
+		"Ancient Pulse Turret"
+		"Ancient Anti-Missile"
+		"Ancient Drone" 40
+		
+		"ADRX-II Draconic Reactor"
+		"ASSX-II Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -22.5 97
+		zoom 0.8
+		angle 0
+		under
+	engine 22.5 97
+		zoom 0.8
+		angle 0
+		under
+
+	"reverse engine" -7.5 -101.5
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 7.5 -101.5
+		zoom 0.3
+		angle 0
+		under
+	"reverse engine" 0 -101.5
+		zoom 0.4
+		angle 0
+		under
+	"reverse engine" -30 57
+		zoom 0.5
+		angle -20
+		under
+	"reverse engine" 30 57
+		zoom 0.5
+		angle 20
+		under
+
+	"steering engine" -19 -74
+		zoom 0.12
+		angle 90
+		over
+		right
+	"steering engine" 19 -74
+		zoom 0.12
+		angle -90
+		over
+		left
+	"steering engine" -19 -65
+		zoom 0.12
+		angle 90
+		over
+		right
+	"steering engine" 19 -65
+		zoom 0.12
+		angle -90
+		over
+		left
+
+	"steering engine" -21 57.5
+		zoom 0.12
+		angle 90
+		over
+		left
+	"steering engine" 21 57.5
+		zoom 0.12
+		angle -90
+		over
+		right
+	"steering engine" -20 66.5
+		zoom 0.12
+		angle 90
+		over
+		left
+	"steering engine" 20 66.5
+		zoom 0.12
+		angle -90
+		over
+		right
+
+	gun -17 -89.5 "Ancient Drone Launcher"
+	gun 17 -89.5 "Ancient Drone Launcher"
+	turret 0 -31 "Ancient Anti-Missile"
+	turret 0 1 "Ancient Pulse Turret"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
