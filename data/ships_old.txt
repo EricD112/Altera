@@ -104,7 +104,7 @@ ship "Titan Defensive Satellite"
 		"fuel capacity" 100
 		"cargo space" 120
 		"outfit space" 1750
-		"weapon capacity" 600
+		"weapon capacity" 750
 		"engine capacity" 500
 		"ZPM capacity" 3
 		"spinal mount" 1
