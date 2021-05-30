@@ -147,7 +147,7 @@ ship "Aetheris"
 		category "Fighter"
 		"cost" 970000
 		"shields" 10200
-		"hull" 2900
+		"hull" 3900
 		"required crew" 1
 		"bunks" 2
 		"mass" 40
@@ -169,7 +169,7 @@ ship "Aetheris"
 		
 		"ABGX Backup Generator"
 		"ASSX-I Shield System"
-		"AAUX-I Accumulation Unit" 2
+		"AAUX-I Accumulation Unit"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
@@ -842,7 +842,7 @@ ship "Carrum"
 		"heat dissipation" 0.9
 		"fuel capacity" 500
 		"cargo space" 120
-		"outfit space" 210
+		"outfit space" 185
 		"weapon capacity" 65
 		"engine capacity" 55
 		weapon
@@ -941,9 +941,6 @@ ship "Carrum"
 		under
 		right
 
-	#engine -10 44.5 0.8
-	#engine 10 44.5 0.8
-	#engine 0 56
 	turret 0 0.5 "Ancient Anti-Missile"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -956,8 +953,8 @@ ship "Castrum"
 	attributes
 		category "Heavy Freighter"
 		"cost" 970000
-		"shields" 33000
-		"hull" 17000
+		"shields" 28000
+		"hull" 15500
 		"required crew" 3
 		"bunks" 17
 		"mass" 530
@@ -965,9 +962,9 @@ ship "Castrum"
 		"heat dissipation" 0.47
 		"fuel capacity" 700
 		"cargo space" 270
-		"outfit space" 500
-		"weapon capacity" 500
-		"engine capacity" 500
+		"outfit space" 295
+		"weapon capacity" 145
+		"engine capacity" 80
 		weapon
 			"blast radius" 20
 			"shield damage" 250
@@ -1113,7 +1110,7 @@ ship "Gladius"
 		
 		"ABGX Backup Generator"
 		"ASSX-I Shield System"
-		"AAUX-I Accumulation Unit" 2
+		"AAUX-I Accumulation Unit"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
@@ -1453,8 +1450,8 @@ ship "Plaustrum"
 	attributes
 		category "Heavy Freighter"
 		"cost" 100000000
-		"shields" 30000
-		"hull" 12500
+		"shields" 46000
+		"hull" 18000
 		"required crew" 7
 		"bunks" 15
 		"mass" 930
@@ -1584,38 +1581,36 @@ ship "Praesidium"
 	attributes
 		category "Light Warship"
 		"cost" 6400000
-		"shields" 34000
-		"hull" 29500
+		"shields" 43000
+		"hull" 25000
 		"required crew" 6
-		"bunks" 21
-		"mass" 410
+		"bunks" 13
+		"mass" 250
 		"drag" 3.1
-		"heat dissipation" 1
-		"fuel capacity" 700
-		"cargo space" 40
-		"outfit space" 620
-		"weapon capacity" 290
-		"engine capacity" 125
-		"ZPM capacity" 1
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 25
+		"outfit space" 520
+		"weapon capacity" 250
+		"engine capacity" 105
 		weapon
 			"blast radius" 260
 			"shield damage" 2600
 			"hull damage" 1300
 			"hit force" 3900
 	outfits
-		"Ancient Drone Launcher" 2
+		"Ancient Drone Launcher" 4
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"
-		"Ancient Singular Pulse" 2
-		"Ancient Drone" 40
+		"Ancient Drone" 80
 		
 		"ADRX-II Draconic Reactor"
 		"ASSX-II Shield System"
 		"AACX-I Cooling System"
 		
-		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Steering" 0
 		"AAGTX-II Anti-Grav Steering"
-		"AAGTX-I Anti-Grav Thruster"
+		"AAGTX-I Anti-Grav Thruster" 0
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 
@@ -1720,9 +1715,9 @@ ship "Praesidium"
 		right
 
 	gun -8 -80.5 "Ancient Drone Launcher"
-	gun -8 -80.5 "Ancient Singular Pulse"
+	gun -8 -80.5 "Ancient Drone Launcher"
 	gun 8 -80.5 "Ancient Drone Launcher"
-	gun 8 -80.5 "Ancient Singular Pulse"
+	gun 8 -80.5 "Ancient Drone Launcher"
 	turret 0 -44 "Ancient Pulse Turret"
 	turret 0 1 "Ancient Pulse Turret"
 	turret 0 32.5 "Ancient Anti-Missile"
@@ -1742,7 +1737,7 @@ ship "Spectre"
 		"hull" 4200
 		"required crew" 1
 		"bunks" 4
-		"mass" 130
+		"mass" 105
 		"drag" 1.3
 		"heat dissipation" .8
 		"fuel capacity" 600
@@ -1760,10 +1755,10 @@ ship "Spectre"
 	outfits
 		"Ancient Singular Pulse" 2
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		"ACSX Cloaking System"
+		"AAUX-I Accumulation Unit"
 		
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"

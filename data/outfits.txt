@@ -10,7 +10,7 @@ outfit "AJX Star Drive"
 	"hyperdrive" 1
 	"quantum keystone" 1
 	"fuel generation" 0.05
-	"jump fuel" 50
+	"jump fuel" 150
 	description "The Ancients were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Ancient Ramscoop."
 
 outfit "ACSX Cloaking System"
