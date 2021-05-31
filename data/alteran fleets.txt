@@ -75,7 +75,6 @@ fleet "Altera Freight"
 		forbearing
 	variant
 		"Aetheris (Interceptor)" 4
-		"Centurion" 3
 		"Praesidium" 2
 
 fleet "Altera Merchant"
@@ -83,3 +82,5 @@ fleet "Altera Merchant"
 	names "civilian"
 	personality
 		timid
+	variant
+		"Carrum"

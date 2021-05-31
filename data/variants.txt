@@ -1,13 +1,13 @@
 
-ship "Aegis" "Aegis (Pulse)
+ship "Aegis" "Aegis (Pulse)"
 	outfits
 		"Ancient Drone Launcher" 2
-		"Ancient Singular Pulse" 10
+		"Ancient Singular Pulse" 8
 		"Ancient Pulse Turret"
 		"Ancient Anti-Missile"
 		"Ancient Drone" 4
 		"ADRX-II Draconic Reactor"
-		"AAUX-I	Accumulation Unit"
+		"AAUX-I Accumulation Unit"
 		"AAUX-II Accumulation Unit"
 		"ASSX-II Shield System"
 		"AACX-II Cooling System"
@@ -68,20 +68,20 @@ ship "Aetheris" "Aetheris (Interceptor)"
 
 ship "Arqueus" "Arqueus (Armed)"
 	outfits
-		"Ancient Drone Launcher" 2
+		"Ancient Drone Launcher"
 		"Ancient Drone Storage"
 		"Ancient Drone" 148
 		"Ancient Pulse Turret"
 		"Ancient Anti-Missile"
 		"ADRX-I Draconic Reactor"
-		"AAUX-I	Accumulation Unit" 2
+		"AAUX-I Accumulation Unit" 2
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 	gun "Ancient Drone Launcher"
-	gun "Ancient Drone Launcher"
+	gun
 	gun
 	gun
 	turret "Ancient Anti-Missile"
@@ -148,8 +148,8 @@ ship "Gladius" "Gladius (Beam)"
 		"AACX-I Cooling System"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
-	gun "Ancient Singular Pulse"
-	gun "Ancient Singular Pulse"
+	gun "Ancient Plasma Beam"
+	gun "Ancient Plasma Beam"
 
 ship "Gladius" "Gladius (Drone)"
 	outfits
@@ -162,8 +162,8 @@ ship "Gladius" "Gladius (Drone)"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
-	gun "Ancient Singular Pulse"
-	gun "Ancient Singular Pulse"
+	gun "Ancient Drone Launcher"
+	gun "Ancient Drone Launcher"
 
 ship "Gladius" "Gladius (Interceptor)"
 	outfits
@@ -180,11 +180,10 @@ ship "Gladius" "Gladius (Interceptor)"
 ship "Paragon" "Paragon (Shock)"
 	outfits
 		"Ancient Drone Launcher" 4
-		"Ancient Drone Storage"
 		"Ancient Pulse Turret" 3
 		"Ancient Shock Turret" 2
 		"Ancient Anti-Missile" 2
-		"Ancient Drone" 188
+		"Ancient Drone" 80
 		"ADRX-III Draconic Reactor"
 		"AAUX-II Accumulation Unit"
 		"ASSX-III Shield System"
@@ -204,7 +203,7 @@ ship "Paragon" "Paragon (Shock)"
 	turret "Ancient Shock Turret"
 	turret "Ancient Anti-Missile"
 
-ship "Plaustrum" "Plaustrum (Armed)
+ship "Plaustrum" "Plaustrum (Armed)"
 	outfits
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"

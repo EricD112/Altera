@@ -157,7 +157,7 @@ ship "Aurora (Spinal)"
 		"fuel capacity" 700
 		"cargo space" 180
 		"outfit space" 2010
-		"weapon capacity" 980
+		"weapon capacity" 1140
 		"engine capacity" 270
 		"ZPM capacity" 2
 		weapon
@@ -278,10 +278,10 @@ ship "Aurora (Spinal)"
 		angle -90
 		under
 		right
-	gun -35.5 -281.5 "ASGX Solar Collector"
-	gun -35.5 -281.5 "ASGX Solar Collector"
-	gun 35.5 -281.5 "ASGX Solar Collector"
-	gun 35.5 -281.5 "ASGX Solar Collector"
+	gun -35.5 -281.5 #"ASGX Solar Collector"
+	gun -35.5 -281.5 #"ASGX Solar Collector"
+	gun 35.5 -281.5 #"ASGX Solar Collector"
+	gun 35.5 -281.5 #"ASGX Solar Collector"
 	gun -46.5 -162.5 "Ancient Drone Bay"
 	gun -46.5 -162.5 "Ancient Drone Bay"
 	gun 46.5 -162.5 "Ancient Drone Bay"

@@ -21,7 +21,7 @@ outfitter "Ancient Basic"
 	"ASSX-I Shield System"
 	"ASSX-II Shield System"
 	
-	"AACX-1 Cooling System"
+	"AACX-I Cooling System"
 
 	"AJX Star Drive"
 
@@ -78,7 +78,7 @@ shipyard "Ancient Basic"
 	"Carrum"
 	"Castrum"
 	"Gladius"
-	"Modified Tetula"
+	"Modified Tutela"
 	"Praesidium"
 	"Tutela"
 	

@@ -55,7 +55,7 @@ ship "Caesar"
 		"fuel capacity" 800
 		"cargo space" 750
 		"outfit space" 540
-		"weapon capacity" 170
+		"weapon capacity" 180
 		"engine capacity" 230
 		weapon
 			"blast radius" 190

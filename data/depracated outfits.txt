@@ -12,7 +12,7 @@ outfit "AAGTX-1.0 Anti-Grav Thruster"
 	"reverse thrust" 30
 	"reverse thrusting energy" 4.2
 	"reverse thrusting heat" 2
-	"flare sprite" "effect/Anti-Grav/Tier 1 Flare"
+	#"flare sprite" "effect/Anti-Grav/Tier 1 Flare"
 	"flare sound" "Anti-Grav T1"
 	description "Of all the Alteran Thrusters, this is the smallest and weakest. If compared to those of other races, it is very efficient and still powerful."
 	description "The Alteran Anti-Gravitational Thrusters require Ancient Technology to function, Alteran Shield Systems to be exact. The Anti-Grav Thrusters are infused with Draconium, which the moves the ship with the help of the Shield System's Anti-Gravitational Field."
@@ -30,7 +30,7 @@ outfit "AAGTX-2.0 Anti-Grav Thruster"
 	"reverse thrust" 70
 	"reverse thrusting energy" 8.0
 	"reverse thrusting heat" 4
-	"flare sprite" "effect/Anti-Grav/Tier 2 Flare"
+	#"flare sprite" "effect/Anti-Grav/Tier 2 Flare"
 	"flare sound" "Anti-Grav T2"
 	description "A larger variant of the Alteran Thrusting module, more efficient and more powerful than the smallest one. It can be compared to an upper half Plasma Thruster, in terms of pure strength."
 	description "The Alteran Anti-Gravitational Thrusters require Ancient Technology to function, Alteran Shield Systems to be exact. The Anti-Grav Thrusters are infused with Draconium, which the moves the ship with the help of the Shield System's Anti-Gravitational Field."
@@ -48,7 +48,7 @@ outfit "AAGTX-3.0 Anti-Grav Thruster"
 	"reverse thrust" 145.2
 	"reverse thrusting energy" 15.2
 	"reverse thrusting heat" 8.8
-	"flare sprite" "effect/Anti-Grav/Tier 3 Flare"
+	#"flare sprite" "effect/Anti-Grav/Tier 3 Flare"
 	"flare sound" "Anti-Grav T3"
 	description "The second-largest of the Alteran Thrusters is more powerful than all of the Human Thrusters, including the Atomic Thrusters. It is highly efficient, more efficient than even the Quarg Graviton Thrusters."
 	description "The Alteran Anti-Gravitational Thrusters require Ancient Technology to function, Alteran Shield Systems to be exact. The Anti-Grav Thrusters are infused with Draconium, which the moves the ship with the help of the Shield System's Anti-Gravitational Field."
@@ -66,8 +66,8 @@ outfit "AAGTX-4.0 Anti-Grav Thruster"
 	"reverse thrust" 319.4
 	"reverse thrusting energy" 28.8
 	"reverse thrusting heat" 19.4
-	"flare sprite" "effect/Anti-Grav/Tier 4 Flare"
-		"frame rate" 10
+	#"flare sprite" "effect/Anti-Grav/Tier 4 Flare"
+		#"frame rate" 10
 	"flare sound" "Anti-Grav T4"
 	description "The very expensive and truly gargantuan AAGTX-4.0 is nearly unrivalled in both power and efficiency. It's the peak of Alteran thrusting technology."
 	description "The Alteran Anti-Gravitational Thrusters require Ancient Technology to function, Alteran Shield Systems to be exact. The Anti-Grav Thrusters are infused with Draconium, which the moves the ship with the help of the Shield System's Anti-Gravitational Field."
