@@ -68,20 +68,20 @@ ship "Aetheris" "Aetheris (Interceptor)"
 
 ship "Arqueus" "Arqueus (Armed)"
 	outfits
-		"Ancient Drone Launcher"
+		"Ancient Drone Launcher" 2
 		"Ancient Drone Storage"
 		"Ancient Drone" 148
 		"Ancient Pulse Turret"
 		"Ancient Anti-Missile"
 		"ADRX-I Draconic Reactor"
-		"AAUX-I Accumulation Unit" 2
+		"AAUX-I Accumulation Unit"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
 	gun "Ancient Drone Launcher"
-	gun
+	gun "Ancient Drone Launcher"
 	gun
 	gun
 	turret "Ancient Anti-Missile"
@@ -180,14 +180,16 @@ ship "Gladius" "Gladius (Interceptor)"
 ship "Paragon" "Paragon (Shock)"
 	outfits
 		"Ancient Drone Launcher" 4
+		"Ancient Drone Storage"
 		"Ancient Pulse Turret" 3
 		"Ancient Shock Turret" 2
 		"Ancient Anti-Missile" 2
-		"Ancient Drone" 80
+		"Ancient Drone" 188
 		"ADRX-III Draconic Reactor"
 		"AAUX-II Accumulation Unit"
 		"ASSX-III Shield System"
 		"AACX-II Cooling System"
+		"Outfits Expansion"
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-III Anti-Grav Thruster"
 		"AJX Star Drive"
