@@ -117,16 +117,6 @@ system "Altera"
 		distance 1200
 		offset 320
 #
-	object "Decurion"
-		sprite "ship/decurion"
-		distance 1500
-		offset 40
-#
-	object "Centurion"
-		sprite "ship/centurion"
-		distance 1650
-		offset 80
-#
 	object "Spectre"
 		sprite "ship/spectre"
 		distance 1500
@@ -210,20 +200,6 @@ planet "Azrael"
 		threshold 0
 		fleet "azrael"
 
-planet "Centurion"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "centurion"
-
-planet "Decurion"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "decurion"
-
 planet "Paragon"
 	bribe 0
 	government "arena"
@@ -244,6 +220,9 @@ planet "Spectre"
 	tribute 1
 		threshold 0
 		fleet "spectre"
+
+planet "altera gateway"
+	description ``
 
 # ----------
 #   FLEETS
@@ -276,20 +255,6 @@ fleet "azrael"
 		heroic
 	variant
 		"Azrael"
-
-fleet "centurion"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Centurion"
-
-fleet "decurion"
-	government "arena"
-	personality
-		heroic
-	variant
-		"Decurion"
 
 fleet "paragon"
 	government "arena"

@@ -1,13 +1,13 @@
 
-ship "Aegis" "Aegis (Pulse)
+ship "Aegis" "Aegis (Pulse)"
 	outfits
 		"Ancient Drone Launcher" 2
-		"Ancient Singular Pulse" 10
+		"Ancient Singular Pulse" 8
 		"Ancient Pulse Turret"
 		"Ancient Anti-Missile"
 		"Ancient Drone" 4
 		"ADRX-II Draconic Reactor"
-		"AAUX-I	Accumulation Unit"
+		"AAUX-I Accumulation Unit"
 		"AAUX-II Accumulation Unit"
 		"ASSX-II Shield System"
 		"AACX-II Cooling System"
@@ -74,7 +74,7 @@ ship "Arqueus" "Arqueus (Armed)"
 		"Ancient Pulse Turret"
 		"Ancient Anti-Missile"
 		"ADRX-I Draconic Reactor"
-		"AAUX-I	Accumulation Unit" 2
+		"AAUX-I Accumulation Unit"
 		"ASSX-I Shield System"
 		"AACX-I Cooling System"
 		"AAGTX-II Anti-Grav Steering"
@@ -148,8 +148,8 @@ ship "Gladius" "Gladius (Beam)"
 		"AACX-I Cooling System"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
-	gun "Ancient Singular Pulse"
-	gun "Ancient Singular Pulse"
+	gun "Ancient Plasma Beam"
+	gun "Ancient Plasma Beam"
 
 ship "Gladius" "Gladius (Drone)"
 	outfits
@@ -162,8 +162,8 @@ ship "Gladius" "Gladius (Drone)"
 		"AAGTX-I Anti-Grav Steering"
 		"AAGTX-I Anti-Grav Thruster"
 		"AJX Star Drive"
-	gun "Ancient Singular Pulse"
-	gun "Ancient Singular Pulse"
+	gun "Ancient Drone Launcher"
+	gun "Ancient Drone Launcher"
 
 ship "Gladius" "Gladius (Interceptor)"
 	outfits
@@ -189,6 +189,7 @@ ship "Paragon" "Paragon (Shock)"
 		"AAUX-II Accumulation Unit"
 		"ASSX-III Shield System"
 		"AACX-II Cooling System"
+		"Outfits Expansion"
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-III Anti-Grav Thruster"
 		"AJX Star Drive"
@@ -204,7 +205,7 @@ ship "Paragon" "Paragon (Shock)"
 	turret "Ancient Shock Turret"
 	turret "Ancient Anti-Missile"
 
-ship "Plaustrum" "Plaustrum (Armed)
+ship "Plaustrum" "Plaustrum (Armed)"
 	outfits
 		"Ancient Pulse Turret" 2
 		"Ancient Anti-Missile"

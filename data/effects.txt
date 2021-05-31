@@ -15,7 +15,7 @@ effect "Drone Impact"
 	"velocity scale" -.0001
 	
 effect "Ancient-Pulse Impact"
-	sprite "effect/Pulse/Ancient-Pulse Explosion"
+	sprite "effect/Pulse/Ancient-Pulse explosion"
 		"no repeat"
 		"frame rate" 5
 	"lifetime" 3
