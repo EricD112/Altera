@@ -310,10 +310,10 @@ outfit "Ancient Shock Turret"
 		"drag" 0.1
 		"tracking" 0.5
 		
-outfit "Ancient Gauss Driver"
+outfit "Ancient Gauss Cannon"
 	category "Secondary Weapons"
 	cost 1340000
-	thumbnail "outfit/ancient gauss driver"
+	thumbnail "outfit/ancient gauss cannon"
 	"mass" 76
 	"outfit space" -76
 	"weapon capacity" -76

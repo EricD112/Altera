@@ -1,3 +1,32 @@
+outfit "Ancient Gauss Cannon"
+	category "Secondary Weapons"
+	cost 1340000
+	thumbnail "outfit/ancient gauss cannon"
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
+	"energy capacity" 1600
+	"gun ports" -1
+	"railgun slug capacity" 100
+	weapon
+		sprite "projectile/detainer"
+			"frame rate" 2.5
+		sound "detainer"
+		icon "icon/rail gun"
+		ammo "Railgun Slug"
+		"hit effect" "detainer impact" 3
+		"hit effect" "detainer smoke" 5
+		"live effect" "detainer sparks" 50
+		"inaccuracy" .2
+		"velocity" 32
+		"lifetime" 140
+		"reload" 90
+		"firing energy" 756
+		"firing force" 720
+		"firing heat" 400
+		"hit force" 720
+		"shield damage" 790
+		"hull damage" 3150
 
 outfit "AAGTX-1.0 Anti-Grav Thruster"
 	category "Engines"
