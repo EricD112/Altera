@@ -5,9 +5,9 @@ outfit "ASGX Solar Collector"
 	thumbnail "outfit/ancient solar"
 	"mass" 20
 	"outfit space" -20
-	"solar collection" 10
-	"solar heat" 10
-	"ramscoop" 5
+	"solar collection" 2.1
+	"solar heat" 2.1
+	"ramscoop" 6
 	"gun ports" -1
 	description "The Ancients designed a solar collector that Produces huge amounts of energy from  stars, however, it uses a gun port to be on the outside, for improved collection."
 	
