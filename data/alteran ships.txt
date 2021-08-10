@@ -1082,6 +1082,123 @@ ship "Castrum"
 
 	description ""
 
+ship "Delicia"
+	plural "Deliciae"
+	sprite "ship/delicia"
+	thumbnail "thumbnail/delicia"
+	attributes
+		category "Transport"
+		"cost" 6400000
+		"shields" 28000
+		"hull" 9000
+		"required crew" 29
+		"bunks" 105
+		"mass" 310
+		"drag" 5.6
+		"heat dissipation" 0.6
+		#"solar collection" 4
+		"fuel capacity" 700
+		"cargo space" 60
+		"outfit space" 270
+		"weapon capacity" 70
+		"engine capacity" 65
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Ancient Anti-Missile" 1
+		
+		"ASGX Solar Collector" 2
+		"ABGX Backup Generator"
+		"AAUX-II Accumulation Unit"
+		"ASSX-I Shield System"
+		"Luxury Accommodations"
+		
+		"AAGTX-I Anti-Grav Steering"
+		"AAGTX-I Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -24.5 111.5
+		zoom 0.5
+		angle 0
+		under
+	engine 24.5 111.5
+		zoom 0.5
+		angle 0
+		under
+	engine 0 143
+		zoom 1
+		angle 0
+		under
+
+	"reverse engine" -13.5 -134.5
+		zoom 0.33
+		angle 0
+		under
+	"reverse engine" 13.5 -134.5
+		zoom 0.33
+		angle -0
+		under
+
+	"steering engine" -23.5 -105
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 23.5 -105
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -24 -100.5
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 24 -100.5
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -24.5 -95.5
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 24.5 -95.5
+		zoom 0.2
+		angle -90
+		under
+		left
+
+	"steering engine" -31.5 70
+		zoom 0.3
+		angle 90
+		under
+		left
+	"steering engine" 31.5 70
+		zoom 0.3
+		angle -90
+		under
+		right
+	"steering engine" -30.5 75.5
+		zoom 0.3
+		angle 90
+		under
+		left
+	"steering engine" 30.5 75.5
+		zoom 0.3
+		angle -90
+		under
+		right
+	"gun" -13.5 -137.5 "ASGX Solar Collector"
+	"gun" 13.5 -137.5 "ASGX Solar Collector"
+	"turret" 0 47 "Ancient Anti-Missile"
+
+	description "With the recent reduction in Korath raids, luxury cruises have become much more viable than before, resulting in an increase in demand for relevant ship designs. Following that, the Delicia, with its big panoramic dome was made to fill that specific niche. As it is a luxury liner, Delicae can typically be seen in the Alteran Core and the Utopian Cluster, as well as the more developed Borean and Draconic systems in rare cases."
+
 ship "Gladius"
 	sprite "ship/gladius"
 	thumbnail "thumbnail/gladius"
@@ -1724,6 +1841,144 @@ ship "Praesidium"
 
 	description "The Praesidium-class Frigate was part of the first post-war fleet update, with a noticable change in visual style and a stronger reliance on shielding, resulting in a fairly strong and incredibly agile warship. Its main purpose is that of an escort, making use of its agility and light armaments to take out fighters and interceptors or anything that would be hard to track with the heavy armaments of an Aegis or Paragon."
 	description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath."
+
+ship "Rebus"
+	plural "Rebae"
+	sprite "ship/rebus"
+	thumbnail "thumbnail/rebus"
+	attributes
+		category "Heavy Freighter"
+		"cost" 970000
+		"shields" 21000
+		"hull" 17500
+		"required crew" 7
+		"bunks" 23
+		"mass" 650
+		"drag" 12.1
+		"heat dissipation" 0.42
+		"fuel capacity" 800
+		"cargo space" 465
+		"outfit space" 410
+		"weapon capacity" 190
+		"engine capacity" 80
+		weapon
+			"blast radius" 20
+			"shield damage" 250
+			"hull damage" 160
+			"hit force" 330
+	outfits
+		"Ancient Pulse Turret" 2
+		"Ancient Anti-Missile" 1
+		
+		"ADRX-I Draconic Reactor"
+		"ASSX-I Shield System"
+		"AACX-I Cooling System"
+		
+		"AAGTX-II Anti-Grav Steering"
+		"AAGTX-II Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -36 155
+		zoom 0.6
+		angle 0
+		under
+	engine 36 155
+		zoom 0.6
+		angle 0
+		under
+	engine -24 155
+		zoom 0.6
+		angle 1
+		under
+	engine 24 155
+		zoom 0.6
+		angle -1
+		under
+
+	"reverse engine" -8 -162.5
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" 8 -162.5
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" 0 -162.5
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" 0 -162.5
+		zoom 0.2
+		angle 0
+		under
+	"reverse engine" -42.5 92.5
+		zoom 0.4
+		angle -30
+		under
+	"reverse engine" 42.5 92.5
+		zoom 0.4
+		angle 30
+		under
+
+	"steering engine" -28 -150
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 28 -150
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -28 -145
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 28 -145
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -28 -140
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 28 -140
+		zoom 0.33
+		angle -90
+		under
+		left
+
+	"steering engine" -48 125.5
+		zoom 0.4
+		angle 91
+		under
+		left
+	"steering engine" 48 125.5
+		zoom 0.4
+		angle -91
+		under
+		right
+	"steering engine" -48 132.5
+		zoom 0.4
+		angle 91
+		under
+		left
+	"steering engine" 48 132.5
+		zoom 0.4
+		angle -91
+		under
+		right
+
+	gun -17.5 -159.5
+	gun 17.5 -159.5
+	turret 0 -109.5 "Ancient Pulse Turret"
+	turret 0 -70 "Ancient Anti-Missile"
+	turret 0 25.5 "Ancient Pulse Turret"
+
+	description "A relatively old, but popular design, the Rebus-class heavy freighter is a well armed vessel, with a particularly strong hull. And although its age is starting to show itself, particularly in its shield systems which are commonly out-classed by smaller vessels, it is still a highly capable freighter. What it loses in terms of durability, it makes up with its offensive power, rivalling that of a dedicated warship without impacting its cargo space."
 
 ship "Spectre"
 	sprite "ship/spectre"
