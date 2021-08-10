@@ -24,7 +24,7 @@ ship "Aetheris (Gauss)"
 			"hull damage" 160
 			"hit force" 330
 	outfits
-		"Ancient Gauss Driver"
+		"Ancient Gauss Cannon"
 		
 		"ABGX Backup Generator"
 		"ASSX-I Shield System"
@@ -134,7 +134,7 @@ ship "Aetheris (Gauss)"
 		angle -90
 		under
 		right
-	gun 0 -48 "Ancient Gauss Driver"
+	gun 0 -48 "Ancient Gauss Cannon"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description ""
