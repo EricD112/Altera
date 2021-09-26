@@ -73,6 +73,9 @@ outfitter "Ancient Advanced"
 	
 	"ACSX Cloaking System"
 	"AJX Star Drive"
+	
+	"Cargo Expansion"
+	"Outfits Expansion"
 
 shipyard "Ancient Basic"
 	"Arqueus"
