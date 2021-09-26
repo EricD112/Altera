@@ -3,15 +3,15 @@ outfit "AAGTX-I Anti-Grav Thruster"
 	category "Engines"
 	"cost" 2000000
 	thumbnail "outfit/small ancient thruster"
-	"mass" 25
-	"outfit space" -25
-	"engine capacity" -25
-	"thrust" 21
-	"thrusting energy" 3.5
-	"thrusting heat" 2
-	"reverse thrust" 21
-	"reverse thrusting energy" 4.2
-	"reverse thrusting heat" 2
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 16.8
+	"thrusting energy" 1.84
+	"thrusting heat" 1.6
+	"reverse thrust" 16.8
+	"reverse thrusting energy" 1.84
+	"reverse thrusting heat" 1.6
 	"flare sprite" "effect/anti-grav/small alteran engine"
 		"frame rate" 8
 	"reverse flare sprite" "effect/anti-grav/small alteran engine"
@@ -29,15 +29,15 @@ outfit "AAGTX-II Anti-Grav Thruster"
 	category "Engines"
 	"cost" 4500000
 	thumbnail "outfit/medium ancient thruster"
-	"mass" 45
-	"outfit space" -45
-	"engine capacity" -45
-	"thrust" 45.4
-	"thrusting energy" 8.0
-	"thrusting heat" 4.3
-	"reverse thrust" 45.4
-	"reverse thrusting energy" 8.0
-	"reverse thrusting heat" 4.3
+	"mass" 36
+	"outfit space" -36
+	"engine capacity" -36
+	"thrust" 36.3
+	"thrusting energy" 4
+	"thrusting heat" 3.44
+	"reverse thrust" 36.3
+	"reverse thrusting energy" 4
+	"reverse thrusting heat" 3.44
 	"flare sprite" "effect/anti-grav/medium alteran engine"
 		"frame rate" 7
 	"reverse flare sprite" "effect/anti-grav/medium alteran engine"
@@ -55,15 +55,15 @@ outfit "AAGTX-III Anti-Grav Thruster"
 	category "Engines"
 	"cost" 10000000
 	thumbnail "outfit/large ancient thruster"
-	"mass" 81
-	"outfit space" -81
-	"engine capacity" -81
-	"thrust" 98.0
-	"thrusting energy" 15.2
-	"thrusting heat" 8.8
-	"reverse thrust" 98.0
-	"reverse thrusting energy" 15.2
-	"reverse thrusting heat" 8.8
+	"mass" 65
+	"outfit space" -65
+	"engine capacity" -65
+	"thrust" 78.4
+	"thrusting energy" 8.56
+	"thrusting heat" 7.44
+	"reverse thrust" 78.4
+	"reverse thrusting energy" 8.56
+	"reverse thrusting heat" 7.44
 	"flare sprite" "effect/anti-grav/large alteran engine"
 		"frame rate" 6
 	"reverse flare sprite" "effect/anti-grav/large alteran engine"
@@ -81,15 +81,15 @@ outfit "AAGTX-IV Anti-Grav Thruster"
 	category "Engines"
 	"cost" 24000000
 	thumbnail "outfit/large ancient thruster"
-	"mass" 146
-	"outfit space" -146
-	"engine capacity" -146
-	"thrust" 211.6
-	"thrusting energy" 21.6
-	"thrusting heat" 14.6
-	"reverse thrust" 211.6
-	"reverse thrusting energy" 21.6
-	"reverse thrusting heat" 14.6
+	"mass" 117
+	"outfit space" -117
+	"engine capacity" -117
+	"thrust" 169.3
+	"thrusting energy" 12.8
+	"thrusting heat" 12
+	"reverse thrust" 169.3
+	"reverse thrusting energy" 12.8
+	"reverse thrusting heat" 12
 	"flare sprite" "effect/anti-grav/huge alteran engine"
 		"frame rate" 5
 	"flare sprite" "effect/atomic flare/huge"
@@ -111,8 +111,8 @@ outfit "AAGTX-I Anti-Grav Steering"
 	"outfit space" -19
 	"engine capacity" -19
 	"turn" 525
-	"turning energy" 2.1
-	"turning heat" 2
+	"turning energy" 1.2
+	"turning heat" 1.04
 	"steering flare sprite" "effect/anti-grav/small alteran engine"
 		"frame rate" 8
 	"steering flare sprite" "effect/atomic flare/small"
@@ -129,8 +129,8 @@ outfit "AAGTX-II Anti-Grav Steering"
 	"outfit space" -34
 	"engine capacity" -34
 	"turn" 1134
-	"turning energy" 4.0
-	"turning heat" 4.4
+	"turning energy" 2.6
+	"turning heat" 2.3
 	"steering flare sprite" "effect/anti-grav/medium alteran engine"
 		"frame rate" 7
 	"steering flare sprite" "effect/atomic flare/medium"
@@ -147,8 +147,8 @@ outfit "AAGTX-III Anti-Grav Steering"
 	"outfit space" -62
 	"engine capacity" -62
 	"turn" 2449
-	"turning energy" 7.6
-	"turning heat" 9.7
+	"turning energy" 5.6
+	"turning heat" 4.9
 	"steering flare sprite" "effect/anti-grav/large alteran engine"
 		"frame rate" 6
 	"steering flare sprite" "effect/atomic flare/large"
@@ -165,8 +165,8 @@ outfit "AAGTX-IV Anti-Grav Steering"
 	"outfit space" -111
 	"engine capacity" -111
 	"turn" 5291
-	"turning energy" 10.8
-	"turning heat" 16.0
+	"turning energy" 12.1
+	"turning heat" 10.5
 	"steering flare sprite" "effect/anti-grav/huge alteran engine"
 		"frame rate" 5
 	"steering flare sprite" "effect/atomic flare/huge"

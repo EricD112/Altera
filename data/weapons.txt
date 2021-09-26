@@ -36,7 +36,7 @@ outfit "Ancient Drone Launcher"
 		"shield damage" 10
 		"hull damage" 240
 		"hit force" 5
-		"missile strength" 30
+		"missile strength" 25
 		"turn" 100
 		"tracking" 1
 		"infrared tracking" 1
@@ -82,7 +82,7 @@ outfit "Ancient Drone Bay"
 		"shield damage" 10
 		"hull damage" 240
 		"hit force" 5
-		"missile strength" 30
+		"missile strength" 25
 		"turn" 100
 		"tracking" 1
 		"infrared tracking" 1
@@ -110,9 +110,9 @@ outfit "Ancient Singular Pulse"
 	category "Guns"
 	cost 50000000
 	thumbnail "outfit/ancient singular pulse"
-	"mass" 22
-	"outfit space" -22
-	"weapon capacity" -22
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
 	"gun ports" -1
 	description "The Ancient Pulse Turrets of the first generation were developed for the Ancient's Destiny-Class Light Warships. These weapons launch a directed energy pulse, capable of severely damaging ships with a volley or two."
 	weapon
@@ -124,20 +124,20 @@ outfit "Ancient Singular Pulse"
 		"velocity" 30
 		"lifetime" 50
 		"reload" 30
-		"firing energy" 57
-		"firing heat" 110
-		"hit force" 15
-		"shield damage" 130
-		"hull damage" 145
-		"heat damage" 95
+		"firing energy" 32
+		"firing heat" 77
+		"hit force" 4
+		"shield damage" 84
+		"hull damage" 91
+		"heat damage" 66.5
 
 outfit "Ancient Pulse Turret"
 	category "Turrets"
 	cost 50000000
 	thumbnail "outfit/ancient pulse turret"
-	"mass" 70
-	"outfit space" -70
-	"weapon capacity" -70
+	"mass" 49
+	"outfit space" -49
+	"weapon capacity" -49
 	"turret mounts" -1
 	description "The Ancient Pulse Turrets of the first generation were developed for the Ancient's Destiny-Class Light Warships. These weapons launch a directed energy pulse, capable of severely damaging ships with a volley or two."
 	weapon
@@ -150,16 +150,16 @@ outfit "Ancient Pulse Turret"
 		"inaccuracy" .1
 		"turret turn" 2.3
 		"velocity" 30
-		"lifetime" 50
+		"lifetime" 40
 		"reload" 10
 		"burst count" 3
 		"burst reload" 5
-		"firing energy" 57
-		"firing heat" 110
-		"hit force" 15
-		"shield damage" 130
-		"hull damage" 145
-		"heat damage" 95
+		"firing energy" 32
+		"firing heat" 77
+		"hit force" 4
+		"shield damage" 84
+		"hull damage" 91
+		"heat damage" 66.5
 				
 outfit "Ancient Satellite Plasma Beam"
 	category "Secondary Weapons"
@@ -222,7 +222,7 @@ outfit "Ancient Plasma Beam"
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 5.8
+		"firing energy" 4.2
 		"firing heat" 14.0
 		"shield damage" 9.2
 		"hull damage" 3.4
@@ -251,7 +251,7 @@ outfit "Ancient Plasma Turret"
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 10.6
+		"firing energy" 8.4
 		"firing heat" 29.0
 		"shield damage" 18.4
 		"hull damage" 6.8
@@ -261,9 +261,9 @@ outfit "Ancient Anti-Missile"
 	category "Turrets"
 	cost 7000000
 	thumbnail "outfit/wanderer anti-missile"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
 	"turret mounts" -1
 	description "The Ancient Anti-Missile Turrets shoot a small and short beam of energy to severely damage or destroy incoming rockets and torpedoes. It's comparable to the Quarg Anti-Missile Turret, though slightly more advanced."
 	weapon
@@ -273,16 +273,16 @@ outfit "Ancient Anti-Missile"
 		"anti-missile" 30
 		"velocity" 500
 		"lifetime" 1
-		"reload" 5
+		"reload" 8
 		"firing energy" 60
 
 outfit "Ancient Shock Turret"
 	category "Turrets"
 	cost 300000
 	thumbnail "outfit/ancient shock turret"
-	"mass" 96
-	"outfit space" -96
-	"weapon capacity" -96
+	"mass" 76
+	"outfit space" -76
+	"weapon capacity" -76
 	"turret mounts" -1
 	weapon
 		sprite "projectile/Rail Burst"
@@ -296,14 +296,14 @@ outfit "Ancient Shock Turret"
 		"velocity" 20
 		"lifetime" 80
 		"reload" 50
-		"firing energy" 500
-		"firing heat" 350
-		"hit force" 420
-		"shield damage" 470
-		"hull damage" 290
+		"firing energy" 394
+		"firing heat" 276
+		"hit force" 167
+		"shield damage" 370
+		"hull damage" 229
 		"cluster"
-		"disruption damage" 18.6
-		"ion damage" 7.1
+		"disruption damage" 14.7
+		"ion damage" 5.7
 		"homing" 4
 		"acceleration" 3
 		"turn" 1.5
@@ -314,9 +314,9 @@ outfit "Ancient Gauss Cannon"
 	category "Secondary Weapons"
 	cost 1340000
 	thumbnail "outfit/ancient gauss cannon"
-	"mass" 76
-	"outfit space" -76
-	"weapon capacity" -76
+	"mass" 58
+	"outfit space" -58
+	"weapon capacity" -58
 	"energy capacity" 1600
 	"gun ports" -1
 	"railgun slug capacity" 100
@@ -333,20 +333,20 @@ outfit "Ancient Gauss Cannon"
 		"velocity" 32
 		"lifetime" 140
 		"reload" 90
-		"firing energy" 756
-		"firing force" 720
-		"firing heat" 400
-		"hit force" 720
-		"shield damage" 790
-		"hull damage" 3150
+		"firing energy" 575
+		"firing force" 320
+		"firing heat" 304
+		"hit force" 320
+		"shield damage" 600
+		"hull damage" 2395
 		
 outfit "Ancient Gauss Turret"
 	category "Secondary Weapons"
 	cost 1340000
 	thumbnail "outfit/ancient gauss turret"
-	"mass" 83
-	"outfit space" -83
-	"weapon capacity" -83
+	"mass" 63
+	"outfit space" -63
+	"weapon capacity" -63
 	"energy capacity" 1600
 	"turret mounts" -1
 	"railgun slug capacity" 100
@@ -366,9 +366,9 @@ outfit "Ancient Gauss Turret"
 		"velocity" 32
 		"lifetime" 140
 		"reload" 90
-		"firing energy" 756
-		"firing force" 720
-		"firing heat" 400
-		"hit force" 720
-		"shield damage" 790
-		"hull damage" 3150
+		"firing energy" 575
+		"firing force" 320
+		"firing heat" 304
+		"hit force" 320
+		"shield damage" 600
+		"hull damage" 2395
