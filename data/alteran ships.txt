@@ -1248,8 +1248,8 @@ ship "Fulmen"
 		"heat dissipation" 0.4
 		"fuel capacity" 600
 		"cargo space" 100
-		"outfit space" 1620
-		"weapon capacity" 815
+		"outfit space" 1650
+		"weapon capacity" 845
 		"engine capacity" 230
 		"ZPM capacity" 1
 		weapon
