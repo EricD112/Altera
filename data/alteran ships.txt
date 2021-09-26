@@ -777,58 +777,6 @@ ship "Auxilus"
 	description "As part of the overhaul project, the Alteran navy designed the Auxilus, a dedicated carrier to replace the Aurora as the only carrier in the fleet. Unlike the Aurora, the Auxilus is trimmed far less towards direct combat and takes on the role of a carrier and fleet supply vessel. Its few weapon hardpoints are equipped with long range weaponry and the majority of the interior is used for hangars or ammunition/fuel storage."
 	description "With the Aurora starting to show its age, the Auxilus was designed to supplement the Aurorae in service as fleet supply vessels, with a dedicated design. Since the Auxilus is not properly equipped for direct combat, it will only ever be seen without an escort if this very escort was destroyed."
 
-ship "Azrael"
-	sprite "ship/azrael"
-	attributes
-		category "Heavy Warship"
-		"cost" 135000000
-		"shields" 120000
-		"hull" 59000
-		"required crew" 35
-		"bunks" 420
-		"mass" 2730
-		"drag" 15.0
-		"heat dissipation" 1
-		"fuel capacity" 800
-		"cargo space" 70
-		"outfit space" 1700
-		"weapon capacity" 700
-		"engine capacity" 500
-		"ZPM capacity" 2
-		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
-	outfits
-		"Ancient Drone Launcher" 4
-		"Ancient Anti-Missile" 2
-		"Ancient Plasma Turret" 8
-		
-		"ADRX-III Draconic Reactor"
-		"ASSX-IV Shield System"
-		"AACX-III Cooling System"
-		
-		"AAGTX-III Anti-Grav Steering"
-		"AAGTX-III Anti-Grav Thruster"
-		"AJX Star Drive"
-
-	engine -25 172
-	engine 25 172
-	gun -10 -174 "Ancient Drone Launcher"
-	gun 10 -174 "Ancient Drone Launcher"
-	gun -20 -161 "Ancient Drone Launcher"
-	gun 20 -161 "Ancient Drone Launcher"
-	turret 0 -106 "Ancient Anti-Missile"
-	turret 0 -63 "Ancient Anti-Missile"
-	turret -50 -46 "Ancient Plasma Turret"
-	turret 50 -46 "Ancient Plasma Turret"
-	turret -50 6 "Ancient Plasma Turret"
-	turret 50 6 "Ancient Plasma Turret" 
-	turret -50 58 "Ancient Plasma Turret"
-	turret 50 58 "Ancient Plasma Turret"
-	turret -50 110 "Ancient Plasma Turret"
-	turret 50 110 "Ancient Plasma Turret"
 	explode "tiny explosion" 50
 	explode "small explosion" 50
 	explode "medium explosion" 50
@@ -836,8 +784,6 @@ ship "Azrael"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 
-	description "The Azrael-class Battleship is a recent Alteran design, stronger and newer than the Aurora-class, acting as a sort of replacement for ships of that class, at least for combat purposes. Unlike the Aurora, the Azrael was designed to be used as a dedicated frontline battleships. In order to be both more effective and efficient than the Aurora, more space was used for its weaponry, allowing the use of larger and newer Alteran designs, at the cost of proper long range comms that can be seen only on the Aurora."
-	description "A single Azrael is powerful enough to take on a Quarg Wardragon head on, without issues, but will never be left unescorted, as it is very expensive to produce and such a loss should be prevented where possible. It is however not intended to be used as a command ship and will always work in conjunction with an Aurora, to ensure communication with Alteran space."
 
 ship "Carrum"
 	plural "Carra"
