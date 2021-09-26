@@ -1232,6 +1232,247 @@ ship "Delicia"
 
 	description "With the recent reduction in Korath raids, luxury cruises have become much more viable than before, resulting in an increase in demand for relevant ship designs. Following that, the Delicia, with its big panoramic dome was made to fill that specific niche. As it is a luxury liner, Delicae can typically be seen in the Alteran Core and the Utopian Cluster, as well as the more developed Borean and Draconic systems in rare cases."
 
+ship "Fulmen"
+	plural "Fulmeni"
+	sprite "ship/fulmen"
+	thumbnail "thumbnail/fulmen"
+	attributes
+		category "Heavy Warship"
+		"cost" 92000000
+		"shields" 144000
+		"hull" 88000
+		"required crew" 56
+		"bunks" 113
+		"mass" 1945
+		"drag" 21
+		"heat dissipation" 0.4
+		"fuel capacity" 600
+		"cargo space" 100
+		"outfit space" 1620
+		"weapon capacity" 815
+		"engine capacity" 230
+		"ZPM capacity" 1
+		weapon
+			"blast radius" 400
+			"shield damage" 3200
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Ancient Drone Bay" 4
+		"Ancient Drone Storage"
+		"Ancient Gauss Cannon" 2
+		"Ancient Anti-Missile" 3
+		"Ancient Plasma Turret" 4
+		"Ancient Pulse Turret" 2
+		"Ancient Drone" 1008
+		"Railgun Slug" 200
+		
+		"ADRX-II Draconic Reactor"
+		"ADRX-III Draconic Reactor"
+		"ASSX-IV Shield System"
+		"AACX-III Cooling System"
+		"AAUX-II Accumulation Unit" 2
+		
+		"AAGTX-IV Anti-Grav Steering"
+		"AAGTX-IV Anti-Grav Thruster"
+		"AJX Star Drive"
+
+	engine -54.5 201
+		zoom 0.7
+		angle 10
+		under
+	engine 54.5 201
+		zoom 0.7
+		angle -10
+		under
+	engine -22.5 244
+		zoom 0.2
+		angle 0
+		under
+	engine 22.5 244
+		zoom 0.2
+		angle 0
+		under
+	engine 0 254
+		zoom 0.6
+		angle 0
+		under
+
+	"reverse engine" -77 78
+		zoom 0.25
+		angle -15
+		under
+	"reverse engine" 77 78
+		zoom 0.25
+		angle 15
+		under
+	"reverse engine" -83 83
+		zoom 0.25
+		angle -15
+		under
+	"reverse engine" 83 83
+		zoom 0.25
+		angle 15
+		under
+	"reverse engine" -89 88
+		zoom 0.25
+		angle -15
+		under
+	"reverse engine" 89 88
+		zoom 0.25
+		angle 15
+		under
+
+	"steering engine" -25 -223
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 25 -223
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -25 -219
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 25 -219
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -25 -215
+		zoom 0.2
+		angle 90
+		under
+		right
+	"steering engine" 25 -215
+		zoom 0.2
+		angle -90
+		under
+		left
+	"steering engine" -52 -150
+		zoom 0.33
+		angle 90
+		under
+		right
+	"steering engine" 52 -150
+		zoom 0.33
+		angle -90
+		under
+		left
+	"steering engine" -52 -143
+		zoom 0.32
+		angle 90
+		under
+		right
+	"steering engine" 52 -143
+		zoom 0.33
+		angle -90
+		under
+		left
+
+	"steering engine" -95 130
+		zoom 0.25
+		angle 85
+		under
+		left
+	"steering engine" 95 130
+		zoom 0.25
+		angle -85
+		under
+		right
+	"steering engine" -91 136
+		zoom 0.25
+		angle 85
+		under
+		left
+	"steering engine" 91 136
+		zoom 0.25
+		angle -85
+		under
+		right
+	"steering engine" -88 142
+		zoom 0.25
+		angle 85
+		under
+		left
+	"steering engine" 88 142
+		zoom 0.25
+		angle -85
+		under
+		right
+	"steering engine" -85 148
+		zoom 0.25
+		angle 85
+		under
+		left
+	"steering engine" 85 148
+		zoom 0.25
+		angle -85
+		under
+		right
+	"steering engine" -82 154
+		zoom 0.25
+		angle 85
+		under
+		left
+	"steering engine" 82 154
+		zoom 0.25
+		angle -85
+		under
+		right
+
+	gun -15.5 -243.5 "Ancient Drone Bay"
+		under
+	gun 15.5 -243.5 "Ancient Drone Bay"
+		under
+	gun -15.5 -243.5 "Ancient Drone Bay"
+		under
+	gun 15.5 -243.5 "Ancient Drone Bay"
+		under
+	gun -23 -235 "Ancient Gauss Cannon"
+		under
+	gun 23 -235 "Ancient Gauss Cannon"
+		under
+	gun -40 -175
+		under
+	gun 40 -175
+		under
+	gun -45 -170
+		under
+	gun 45 -170
+		under
+
+	turret 0 -186 "Ancient Plasma Turret"
+		over
+	turret 0 -147 "Ancient Anti-Missile"
+		over
+	turret 15 -98 "Ancient Plasma Turret"
+		over
+	turret 15 -57 "Ancient Plasma Turret"
+		over
+	turret -14 -16 "Ancient Plasma Turret"
+		over
+	turret -71 106.5 "Ancient Anti-Missile"
+		over
+	turret 71 106.5 "Ancient Anti-Missile"
+		over
+	turret -60 162.5 "Ancient Plasma Turret"
+		over
+	turret 60 162.5 "Ancient Plasma Turret"
+		over
+
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+
+	description "The Fulmen-class Battleship is the newest Alteran development. With the aging Aurora and Paragon-class Vessels, it was time for a long term replacement. Over the course of a few years, this design was made. An incredibly powerful yet easily replaceable ship"
+
 ship "Gladius"
 	plural "Gladiae"
 	sprite "ship/gladius"
