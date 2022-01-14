@@ -1,4 +1,3 @@
-
 ship "Aegis"
 	plural "Aegii"
 	sprite "ship/aegis"
@@ -39,7 +38,6 @@ ship "Aegis"
 		"AAGTX-I Anti-Grav Thruster"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
-		
 	engine -29 136.5
 		zoom 0.67
 		angle 0
@@ -52,7 +50,6 @@ ship "Aegis"
 		zoom 0.67
 		angle 0
 		under
-
 	"reverse engine" -3 -146
 		zoom 0.3
 		angle 0
@@ -69,7 +66,6 @@ ship "Aegis"
 		zoom 0.5
 		angle 27
 		under
-
 	"steering engine" -7.5 -126
 		zoom 0.25
 		angle 90
@@ -100,7 +96,6 @@ ship "Aegis"
 		angle -90
 		under
 		left
-
 	"steering engine" -32.5 103.5
 		zoom 0.38
 		angle 90
@@ -142,14 +137,12 @@ ship "Aegis"
 		under
 	gun 36 15.5 "Ancient Drone Launcher"
 		under
-
 	turret 0 -94
 		over
 	turret 0 -55 "Ancient Anti-Missile"
 		over
 	turret 0 -5.5
 		over
-
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 
@@ -659,11 +652,11 @@ ship "Aurora"
 	turret 78.5 268 "Ancient Pulse Turret"
 		over
 
-	bay fighter -63.5 31.5
+	bay "Fighter" -63.5 31.5
 		"launch effect" "basic launch"
-	bay fighter -63.5 31.5
+	bay "Fighter" -63.5 31.5
 		"launch effect" "basic launch"
-	bay fighter -63.5 31.5
+	bay "Fighter" -63.5 31.5
 		"launch effect" "basic launch"
 
 	explode "small explosion" 25
@@ -811,29 +804,29 @@ ship "Auxilus"
 	turret -0.5 61 "Ancient Anti-Missile"
 		over
 
-	bay fighter -49.5 -75.5
+	bay "Fighter" -49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter 49.5 -75.5
+	bay "Fighter" 49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter -49.5 -75.5
+	bay "Fighter" -49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter 49.5 -75.5
+	bay "Fighter" 49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter -49.5 -75.5
+	bay "Fighter" -49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter 49.5 -75.5
+	bay "Fighter" 49.5 -75.5
 		"launch effect" "basic launch"
-	bay fighter -48 -14
+	bay "Fighter" -48 -14
 		"launch effect" "basic launch"
-	bay fighter 48 -14
+	bay "Fighter" 48 -14
 		"launch effect" "basic launch"
-	bay fighter -48 -14
+	bay "Fighter" -48 -14
 		"launch effect" "basic launch"
-	bay fighter 48 -14
+	bay "Fighter" 48 -14
 		"launch effect" "basic launch"
-	bay fighter -48 -14
+	bay "Fighter" -48 -14
 		"launch effect" "basic launch"
-	bay fighter 48 -14
+	bay "Fighter" 48 -14
 		"launch effect" "basic launch"
 
 	explode "tiny explosion" 50
