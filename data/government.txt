@@ -19,9 +19,9 @@ government "Altera"
 		"Akashic" .1
 		"Coalition" 10
 		"Heliarch" 10
-	"friendly hail" "friendly Altera"
-	"hostile hail" "hostile Altera"
+	#"friendly hail" "friendly Altera"
+	#"hostile hail" "hostile Altera"
 	
-government "Ascaria"
-	swizzle 7
-	color 1 1 1
+#government "Union"
+#	swizzle 7
+#	color 1 1 1
