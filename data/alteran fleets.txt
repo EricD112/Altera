@@ -28,7 +28,8 @@ fleet "Large Alteran Navy"
 	variant 1
 		"Aurora" 1
 		"Paragon" 1
-		"Praesidium" 3
+		"Tutela" 3
+		"Gladius"
 		"Aetheris (Interceptor)" 3
 	variant 2
 		"Aegis" 3
