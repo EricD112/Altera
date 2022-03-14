@@ -1,7 +1,7 @@
 fleet "Altera Navy Warfleet"
 	government "Altera"
-	names "Altera Navy"
-	fighters "Altera Fighter"
+	names "altera navy"
+	fighters "altera fighter"
 	cargo 0
 	personality
 		heroic opportunistic
@@ -20,8 +20,8 @@ fleet "Altera Navy Warfleet"
 		
 fleet "Large Alteran Navy"
 	government "Altera"
-	names "Altera Navy"
-	fighters "Altera Fighter"
+	names "altera navy"
+	fighters "altera fighter"
 	cargo 0
 	personality
 		heroic opportunistic
@@ -29,7 +29,7 @@ fleet "Large Alteran Navy"
 		"Aurora" 1
 		"Paragon" 1
 		"Tutela" 3
-		"Gladius"
+		"Gladius (Interceptor)"
 		"Aetheris (Interceptor)" 3
 	variant 2
 		"Aegis" 3
@@ -43,8 +43,8 @@ fleet "Large Alteran Navy"
 
 fleet "Small Alteran Navy"
 	government "Altera"
-	names "Altera Navy"
-	fighters "Altera Fighter"
+	names "altera navy"
+	fighters "altera fighter"
 	cargo 0
 	personality
 		heroic opportunistic
