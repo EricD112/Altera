@@ -1,3 +1,29 @@
+#
+# List of Fleets
+#
+
+# Small Alteran Navy
+# Large Alteran Navy
+# Alteran Warfleet
+# Alteran Recon
+# Alteran Surveillance
+# Small Alteran Logistics
+# Large Alteran NLogistics
+# Small Alteran Army
+# Large Alteran Army
+
+# Small Alteran Merchant
+# Large Alteran Merchant
+# Alteran Corporate
+# Alteran Public Transport
+# Alteran Transport
+# Alteran Cruise
+# Alteran Mining
+
+#
+# Fleet Definitions
+#
+
 fleet "Small Alteran Navy"
 	government "Altera"
 	names "altera navy"
