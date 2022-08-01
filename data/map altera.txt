@@ -8,63 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-galaxy "Milky Way"
-	pos 0 0
-	sprite ui/galaxy
-
-galaxy "label core"
-	pos -136 130
-	sprite label/core
-
-galaxy "label deep"
-	pos -658 -300
-	sprite label/deep
-
-galaxy "label dirt belt"
-	pos -515 260
-	sprite "label/dirt belt"
-
-galaxy "label earth"
-	pos -420 94
-	sprite label/earth
-
-galaxy "label north"
-	pos -324 -332
-	sprite label/north
-
-galaxy "label paradise"
-	pos -345 -136
-	sprite label/paradise
-
-galaxy "label rim"
-	pos -778 265
-	sprite label/rim
-
-galaxy "label south"
-	pos -566 501
-	sprite label/south
-
-galaxy "label wanderers"
-	pos -145 -753
-
-galaxy "label hai"
-	pos -74 -497
-
-galaxy "label korath"
-	pos 165 -347
-
-galaxy "label saryds"
-	pos -1080 678
-
-galaxy "label kimek"
-	pos -1250 215
-
-galaxy "label arachi"
-	pos -750 615
-
-galaxy "label waste"
-	pos 80 315
-
 system Acidalia
 	pos 937.028 335.349
 	government Altera
