@@ -325,7 +325,7 @@ ship "Arqueus"
 	sprite "ship/arqueus"
 	thumbnail "thumbnail/arqueus"
 	attributes
-		category "Transport"
+		category "Utility"
 		"cost" 6400000
 		"shields" 36000
 		"hull" 20500
@@ -1281,7 +1281,7 @@ ship "Delicia"
 	sprite "ship/delicia"
 	thumbnail "thumbnail/delicia"
 	attributes
-		category "Transport"
+		category "Space Liner"
 		"cost" 6400000
 		"shields" 24700
 		"hull" 9300
