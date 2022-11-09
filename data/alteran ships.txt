@@ -825,7 +825,7 @@ ship "Auxilus"
 	sprite "ship/auxilus"
 	thumbnail "thumbnail/auxilus"
 	attributes
-		category "Heavy Warship"
+		category "Utility"
 		"cost" 135000000
 		"shields" 78500
 		"hull" 61400
@@ -860,135 +860,147 @@ ship "Auxilus"
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-IV Anti-Grav Thruster"
 		"AJX Star Drive"
-
-	engine -53 248.5
-		zoom 1
-		angle 3
+#	Forward Engines
+	engine -60 249
+		zoom 0.25
+		angle 0
 		under
-	engine 53 248.5
-		zoom 1
-		angle -3
+	engine 60 249
+		zoom 0.25
+		angle 0
 		under
-	engine -0.5 254.5
+	engine -50 249
+		zoom 0.25
+		angle 0
+		under
+	engine 50 249
+		zoom 0.25
+		angle 0
+		under
+	engine -40 249
+		zoom 0.25
+		angle 0
+		under
+	engine 40 249
+		zoom 0.25
+		angle 0
+		under
+	engine 0 274.5
 		zoom 1
 		angle 0
 		under
-
-	"reverse engine" -31 -256.5
-		zoom 0.5
+#	Reverse Engines
+	"reverse engine" -10 -240
+		zoom 0.3
 		angle 0
 		under
-	"reverse engine" 31 -256.5
-		zoom 0.5
+	"reverse engine" 10 -240
+		zoom 0.3
 		angle 0
 		under
-
-	"steering engine" -52 -174
-		zoom 0.33
+	"reverse engine" -58.5 126
+		zoom 0.3
+		angle -20
+		under
+	"reverse engine" 58.5 126
+		zoom 0.3
+		angle 20
+		under
+	"reverse engine" -64 133
+		zoom 0.3
+		angle -20
+		under
+	"reverse engine" 64 133
+		zoom 0.3
+		angle 20
+		under
+#	Front Steering
+	"steering engine" -32.5 -204.5 
+		zoom 0.25
 		angle 90
-		under
 		right
-	"steering engine" 52 -174
-		zoom 0.33
+	"steering engine" 32.5 -204.5 
+		zoom 0.25
 		angle -90
-		under
 		left
-	"steering engine" -50 -184
-		zoom 0.33
+	"steering engine" -35.5 -198.5 
+		zoom 0.25
 		angle 90
-		under
 		right
-	"steering engine" 50 -184
-		zoom 0.33
+	"steering engine" 35.5 -198.5 
+		zoom 0.25
 		angle -90
-		under
 		left
-	"steering engine" -48 -194
-		zoom 0.33
+	"steering engine" -37.5 -192.5 
+		zoom 0.25
 		angle 90
-		under
 		right
-	"steering engine" 48 -194
-		zoom 0.33
+	"steering engine" 37.5 -192.5 
+		zoom 0.25
 		angle -90
-		under
 		left
-
-	"steering engine" -77.5 146.5
-		zoom 0.33
+#	Rear Steering
+	"steering engine" -70 146.5
+		zoom 0.4
 		angle 90
-		under
 		left
-	"steering engine" 77.5 146.5
-		zoom 0.33
+	"steering engine" 70 146.5
+		zoom 0.4
 		angle -90
-		under
 		right
-	"steering engine" -77.5 156.5
-		zoom 0.33
+	"steering engine" -70 163.5
+		zoom 0.4
 		angle 90
-		under
 		left
-	"steering engine" 77.5 156.5
-		zoom 0.33
+	"steering engine" 70 163.5
+		zoom 0.4
 		angle -90
-		under
 		right
-	"steering engine" -77.5 166.5
-		zoom 0.33
-		angle 90
+#	Gun Ports
+	gun -7 -240 "Alteran Drone Bay"
 		under
-		left
-	"steering engine" 77.5 166.5
-		zoom 0.33
-		angle -90
+	gun 7 -240 "Alteran Drone Bay"
 		under
-		right
-
-	gun -29 -263.5 "Alteran Drone Bay"
-		under
-	gun 29 -263.5 "Alteran Drone Bay"
-		under
-
-	turret -0.5 -216.5 "Alteran Shock Turret"
+#	Turret Mounts
+	turret 0 -107 "Alteran Shock Turret"
 		over
-	turret -0.5 -161.5 "Alteran Shock Turret"
+	turret 0 32 "Alteran Heavy AM"
 		over
-	turret -0.5 61 "Alteran Heavy AM"
+	turret 0 68 "Alteran Shock Turret"
 		over
-
-	bay "Fighter" -49.5 -75.5
+#	Fighter Bays
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 49.5 -75.5
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" -49.5 -75.5
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 49.5 -75.5
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" -49.5 -75.5
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 49.5 -75.5
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" -48 -14
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 48 -14
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" -48 -14
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 48 -14
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" -48 -14
+	bay "Fighter" -51 -78
 		"launch effect" "basic launch"
-	bay "Fighter" 48 -14
+	bay "Fighter" 51 -78
 		"launch effect" "basic launch"
-
+#	Die Effects
 	explode "tiny explosion" 50
 	explode "small explosion" 50
 	explode "medium explosion" 50
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-
+#	Description
 	description "The Auxilus is a very recent development and the first dedicated carrier for the Alteran military in over a thousand years. It’s designed to stay in the backline during combat, supporting the fleet with its 12 fighters, as well as long range weaponry. Outside of combat, the Auxilus-class acts as a mobile supply base, supplementing and potentially replacing the Aurora-class in this regard."
 	description "As it is optimized for backline support, the Auxilus comes with relatively weak hull and shielding for its size and being as massive as it is, its maneuverability is just as lacking. Because of this, Auxilae can almost never be found without a sizeable escort in addition to its complement of fighters. "
 
