@@ -105,7 +105,7 @@ outfit "AASX Scanning System"
 	"outfit scan speed" 1
 	"cargo scan power" 40
 	"cargo scan speed" 1
-	"tactical scan power" 50
+	"tactical scan power" 55
 	description "Mainly developed for the Military, the ACSX Common Scanning System is made up of multiple different scanners, allowing for complete scanning of ships at mid-range."
 
 outfit "ACPX Comms Pod"
@@ -115,9 +115,9 @@ outfit "ACPX Comms Pod"
 	"mass" 24
 	"outfit space" -24
 	"outfit scan power" 230
-	"outfit scan speed" 1
+	"outfit scan speed" 3
 	"cargo scan power" 230
-	"cargo scan speed" 1
+	"cargo scan speed" 3
 	"tactical scan power" 450
 	description "The ACPX Comms Pod was developed purely for the Aurora-class Battleships and is part of the interstellar comms array attached to an Aurora. It is capable of long-range interior scanning and almost system-wide tactical scanning."
 
