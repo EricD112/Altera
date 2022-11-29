@@ -6,7 +6,7 @@ outfit "ASGX Solar Collector"
 	"mass" 20
 	"outfit space" -20
 	"solar collection" 2.1
-	"solar heat" 2.1
+	"solar heat" 1.7
 	"ramscoop" 6
 	"gun ports" -1
 	description "This odd outfit is capable of harvesting power and fuel simultaneously from nearby stars. While the ASGX Solar Collector is highly efficient, it comes with the major drawback of using a gun port. The original designers decided that for supply and recon vessels, where guns aren't particularly important, the efficiency improvements were worth the gun port."
