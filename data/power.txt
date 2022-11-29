@@ -15,10 +15,10 @@ outfit "AAUX-I Accumulation Unit"
 	category "Power"
 	cost 124000
 	thumbnail "outfit/small alteran battery"
-	"mass" 16
-	"outfit space" -16
-	"energy capacity" 4320
-	"cooling inefficiency" 1
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 6300
+	"cooling inefficiency" 0.5
 	description "the AAUX-I is standard on most Alteran vessels to even out peak power, supplementing solar collectors or other generators."
 	description "The Alteran Accumulation Units suffer from cooling inefficiency, a major drawback, that quincidentally works well in combination with Draconic Reactors."
 
@@ -26,9 +26,9 @@ outfit "AAUX-II Accumulation Unit"
 	category "Power"
 	cost 470500
 	thumbnail "outfit/medium alteran battery"
-	"mass" 48
-	"outfit space" -48
-	"energy capacity" 15230
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 25200
 	"cooling inefficiency" 1.5
 	description "Far less common than the AAUX-I, these batteries are commonly used by warships with high power requirements."
 	description "The Alteran Accumulation Units suffer from cooling inefficiency, a major drawback, that quincidentally works well in combination with Draconic Reactors."
@@ -93,7 +93,7 @@ outfit "AZPMX Zero Point Module"
 	cost 54900000
 	thumbnail "outfit/zpm"
 	"energy generation" -3.2
-	"energy capacity" 250000
+	"energy capacity" 1000000
 	"heat generation" 9.7
 	"ZPM capacity" -1
 	description "The Zero Point Module (ZPM) extracts vacuum energy from an artificial region of subspace-time until it reaches maximum entropy. This allows it to generate tremendous amounts of energy, however, its energy source is finite and when maximum entropy is reached, the subspace-time region collapses and only the ZPM shell is left."
