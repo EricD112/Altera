@@ -7,7 +7,6 @@ outfit "Alteran Drone Launcher"
 	"outfit space" -12
 	"weapon capacity" -12
 	"gun ports" -1
-	"fuel capacity" 100
 	"alteran drone capacity" 20
 	weapon
 		sprite "projectile/drone/alteran drone"
@@ -52,7 +51,7 @@ outfit "Alteran Drone Bay"
 	"outfit space" -56
 	"weapon capacity" -56
 	"gun ports" -1
-	"fuel capacity" 200
+	"fuel capacity" 100
 	"alteran drone capacity" 144
 	weapon
 		sprite "projectile/drone/alteran drone"
@@ -93,7 +92,7 @@ outfit "Alteran Drone"
 	category "Ammunition"
 	cost 7600
 	thumbnail "outfit/alteran drone"
-	"mass" .2
+	"mass" .1
 	"alteran drone capacity" -1
 
 outfit "Alteran Drone Storage"

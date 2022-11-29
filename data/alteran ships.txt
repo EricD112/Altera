@@ -496,7 +496,7 @@ ship "Aurora"
 	sprite "ship/aurora-a"
 	thumbnail "thumbnail/aurora-a"
 	attributes
-		category "Heavy Warship"
+		category "Superheavy"
 		"cost" 158144000
 		"shields" 115000
 		"hull" 147000
@@ -1309,7 +1309,7 @@ ship "Delicia"
 		"Alteran Light AM" 1
 		
 		"ABGX Backup Generator"
-		"AAUX-II Accumulation Unit"
+		"AAUX-I Accumulation Unit"
 		"ASGX Solar Collector" 2
 
 		"ASSX-I Shield System"
