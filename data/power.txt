@@ -47,14 +47,13 @@ outfit "ADRX-I Draconic Reactor"
 	category "Power"
 	cost 7448000
 	thumbnail "outfit/small draconic reactor"
-	"mass" 58
+	"mass" 76
 	"outfit space" -58
-	"energy generation" 13.4
-	"energy capacity" 4095
+	"energy generation" 11.4
+	"energy capacity" 5850
 	"heat generation" 24.1
-	#"energy generation" 13.4
-	#"energy capacity" 5850
-	#"heat generation" 34.4
+	"active cooling" 30
+	"cooling energy" -10
 	description "Due to their efficiency, Draconic Reactors are present on most Alteran ships. With the ADRX-I being the smallest standard reactor and although it is relatively small, it is still very powerful and hot."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
 	
@@ -62,14 +61,13 @@ outfit "ADRX-II Draconic Reactor"
 	category "Power"
 	cost 21600000
 	thumbnail "outfit/medium draconic reactor"
-	"mass" 116
+	"mass" 152
 	"outfit space" -116
-	"energy generation" 29.5
-	"energy capacity" 8190
-	"heat generation" 60.5
-	#"energy generation" 29.5
-	#"energy capacity" 11700
-	#"heat generation" 86.4
+	"energy generation" 23.9
+	"energy capacity" 11700
+	"heat generation" 53
+	"active cooling" 63
+	"cooling energy" -21
 	description "The ADRX-II is installed whenever the smaller ADRX-I's power supply is insufficient and is considerably larger and more powerful. While it is more space efficient, it does run less efficiently, producing more heat in the process."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
 	
@@ -77,14 +75,13 @@ outfit "ADRX-III Draconic Reactor"
 	category "Power"
 	cost 6264000
 	thumbnail "outfit/large draconic reactor"
-	"mass" 174
+	"mass" 228
 	"outfit space" -174
-	"energy generation" 42.3
-	"energy capacity" 12250
-	"heat generation" 106.5
-	#"energy generation" 42.3
-	#"energy capacity" 17500
-	#"heat generation" 151.2
+	"energy generation" 38.2
+	"energy capacity" 17500
+	"heat generation" 92.8
+	"active cooling" 100.8
+	"cooling energy" -33.6
 	description "Used only by Alteran capital ships, the ADRX-III is the most powerful Draconic Reactor. Most ships would never need this much power and would most certainly be unable to fit one of these properly. Sale of the ADRX-III is heavily restricted."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
 	
