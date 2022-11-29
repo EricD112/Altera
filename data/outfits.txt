@@ -14,6 +14,7 @@ outfit "ASSX-I Shield System"
 	"active cooling" 11
 	"cooling energy" -1.15
 	"energy consumption" 0.25
+	"burn resistance" 0.04
 	"piercing resistance" 0.03
 	description "The Asteroid Shielding system is a single generator that projects the shield around the ship when needed. Alteran Jumpers and smaller vessels use the single generator because of its high efficiency compared to simpler systems that are no longer being sold."
 	description "The Alteran shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
@@ -29,6 +30,7 @@ outfit "ASSX-II Shield System"
 	"active cooling" 24
 	"cooling energy" -2.56
 	"energy consumption" 0.56
+	"burn resistance" 0.074
 	"piercing resistance" 0.56
 	description "The Moon Shielding consists of not one but 2 generators that are directly connected and share the burden of projecting the shield. They are Typically located in the front and the back of the ship. Alteran transport ships and the Destiny-Class utilise these Shielding systems because the space isn't available or more isn't required."
 	description "The Alteran shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
@@ -44,6 +46,7 @@ outfit "ASSX-III Shield System"
 	"active cooling" 54
 	"cooling energy" -5.76
 	"energy consumption" 1.26
+	"burn resistance" 0.139
 	"piercing resistance" 0.104
 	description "The Planet Shielding has 4 generators to project the shields. These can usually be found in the front, the back and in the center: one on each side. Just like the Moon Shielding, they are connected for improved effectiveness. The Alteran's Aurora-Class use these Shielding systems in that combination."
 	description "The Alteran shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
@@ -60,6 +63,7 @@ outfit "ASSX-IV Shield System"
 	"active cooling" 120
 	"cooling energy" -12.8
 	"energy consumption" 2.8
+	"burn resistance" 0.257
 	"piercing resistance" 0.194
 	description "The Star Shielding is the the strongest of the Alteran Shielding systems and utilises a combination of 8 shield generators, directly connected, to maximise efficiency and strength. The Alterans use this generator in their Azrael-Class and it is advised to use the same combination of 2 in the front, 2 in the back, and 4 around the center, making a rhombus across the horizontal axis."
 	description "The Alteran shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
