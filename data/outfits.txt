@@ -1,28 +1,7 @@
 
-outfit "AJX Star Drive"
-	category "Systems"
-	cost 5000000
-	thumbnail "outfit/star drive"
-	"mass" 20
-	"outfit space" -20
-	"jump speed" 2.0
-	"jump drive" 1
-	"hyperdrive" 1
-	"quantum keystone" 1
-	"fuel generation" 0.05
-	"jump fuel" 150
-	description "The Alterans were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Alteran Ramscoop."
-
-outfit "ACSX Cloaking System"
-	category "Systems"
-	cost 4000000
-	thumbnail "outfit/interference plating"
-	"mass" 10
-	"outfit space" -10
-	"cloak" .05
-	"cloaking energy" 5
-	"heat generation" 5
-	description "The Alteran cloaking device is very efficient and only requires energy. However, it generates heat, equal to its energy requirements."
+#
+#	Shield Systems
+#
 
 outfit "ASSX-I Shield System"
 	category "Systems"
@@ -85,6 +64,10 @@ outfit "ASSX-IV Shield System"
 	description "The Star Shielding is the the strongest of the Alteran Shielding systems and utilises a combination of 8 shield generators, directly connected, to maximise efficiency and strength. The Alterans use this generator in their Azrael-Class and it is advised to use the same combination of 2 in the front, 2 in the back, and 4 around the center, making a rhombus across the horizontal axis."
 	description "The Alteran shields follow the form of the ship and only require energy when being hit, this allows them to boost your shield strength by decreasing the loss of shield energy."
 
+#
+#	Coolers
+#
+
 outfit "AACX-I Cooling System"
 	category "Systems"
 	cost 4000000
@@ -95,6 +78,10 @@ outfit "AACX-I Cooling System"
 	"active cooling" 26.7
 	"cooling energy" 2.5
 	description "The AACX-I Cooling System is the smallest of 3 Alteran hybrid cooling systems."
+
+#
+#	Scanners
+#
 
 outfit "AASX Scanning System"
 	category "Systems"
@@ -120,6 +107,10 @@ outfit "ACPX Comms Pod"
 	"cargo scan speed" 1
 	"tactical scan power" 450
 
+#
+#	Misc Systems
+#
+
 outfit "AFCX Fuel Compressor"
 	category "Systems"
 	cost 180000
@@ -129,3 +120,27 @@ outfit "AFCX Fuel Compressor"
 	"fuel capacity" 200
 	"energy consumption" 1
 
+outfit "AJX Star Drive"
+	category "Systems"
+	cost 5000000
+	thumbnail "outfit/star drive"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" 2.0
+	"jump drive" 1
+	"hyperdrive" 1
+	"quantum keystone" 1
+	"fuel generation" 0.05
+	"jump fuel" 150
+	description "The Alterans were able to build a Jump Drive with the ability to function as a scram drive. It also has a built in Alteran Ramscoop."
+
+outfit "ACSX Cloaking System"
+	category "Systems"
+	cost 4000000
+	thumbnail "outfit/interference plating"
+	"mass" 10
+	"outfit space" -10
+	"cloak" .05
+	"cloaking energy" 5
+	"heat generation" 5
+	description "The Alteran cloaking device is very efficient and only requires energy. However, it generates heat, equal to its energy requirements."
