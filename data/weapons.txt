@@ -1,7 +1,7 @@
 
 outfit "Alteran Drone Launcher"
 	category "Secondary Weapons"
-	cost 10000000
+	cost 509000
 	thumbnail "outfit/alteran drone"
 	"mass" 6
 	"outfit space" -12
@@ -46,7 +46,7 @@ outfit "Alteran Drone Launcher"
 
 outfit "Alteran Drone Bay"
 	category "Secondary Weapons"
-	cost 10000000
+	cost 6810000
 	thumbnail "outfit/alteran drone"
 	"mass" 28
 	"outfit space" -56
@@ -98,7 +98,7 @@ outfit "Alteran Drone"
 
 outfit "Alteran Drone Storage"
 	category "Ammunition"
-	cost 3000
+	cost 41000
 	thumbnail "outfit/unknown"
 	#thumbnail "outfit/alteran drone storage"
 	"outfit space" -20
@@ -123,7 +123,7 @@ effect "drone impact"
 
 outfit "Alteran Singular Pulse"
 	category "Guns"
-	cost 50000000
+	cost 768000
 	thumbnail "outfit/alteran singular pulse"
 	"mass" 13
 	"outfit space" -13
@@ -151,7 +151,7 @@ outfit "Alteran Singular Pulse"
 
 outfit "Alteran Pulse Turret"
 	category "Turrets"
-	cost 50000000
+	cost 965000
 	thumbnail "outfit/alteran pulse turret"
 	"mass" 16
 	"outfit space" -16
@@ -179,7 +179,7 @@ outfit "Alteran Pulse Turret"
 
 outfit "Alteran Tri-Pulse Turret"
 	category "Turrets"
-	cost 50000000
+	cost 3370000
 	thumbnail "outfit/alteran tri-pulse turret"
 	"mass" 43
 	"outfit space" -43
@@ -260,7 +260,7 @@ effect "satellite plasma"
 
 outfit "Alteran Plasma Beam"
 	category "Guns"
-	cost 25000000
+	cost 1490000
 	thumbnail "outfit/alteran plasma beam"
 	"mass" 21
 	"outfit space" -21
@@ -286,7 +286,7 @@ outfit "Alteran Plasma Beam"
 
 outfit "Alteran Plasma Turret"
 	category "Turrets"
-	cost 40000000
+	cost 3820000
 	thumbnail "outfit/alteran plasma turret"
 	"mass" 45
 	"outfit space" -45
@@ -315,7 +315,7 @@ outfit "Alteran Plasma Turret"
 
 outfit "Alteran Heavy Plasma"
 	category "Guns"
-	cost 25000000
+	cost 2970000
 	thumbnail "outfit/alteran heavy plasma"
 	"mass" 37
 	"outfit space" -37
@@ -343,7 +343,7 @@ outfit "Alteran Heavy Plasma"
 
 outfit "Alteran Heavy Plasma Turret"
 	category "Turrets"
-	cost 25000000
+	cost 3560000
 	thumbnail "outfit/alteran heavy plasma turret"
 	"mass" 42
 	"outfit space" -42
@@ -374,7 +374,7 @@ outfit "Alteran Heavy Plasma Turret"
 
 outfit "Alteran Light AM"
 	category "Turrets"
-	cost 7000000
+	cost 1120000
 	thumbnail "outfit/alteran light anti-missile"
 	"mass" 18
 	"outfit space" -18
@@ -395,7 +395,7 @@ outfit "Alteran Light AM"
 
 outfit "Alteran Heavy AM"
 	category "Turrets"
-	cost 7000000
+	cost 2740000
 	thumbnail "outfit/alteran heavy anti-missile"
 	"mass" 38
 	"outfit space" -38
@@ -422,7 +422,7 @@ effect "alteran anti-missile"
 
 outfit "Alteran Shock Turret"
 	category "Turrets"
-	cost 300000
+	cost 6408000
 	thumbnail "outfit/alteran shock turret"
 	"mass" 66
 	"outfit space" -66
@@ -456,7 +456,7 @@ outfit "Alteran Shock Turret"
 
 outfit "Alteran Gauss Cannon"
 	category "Secondary Weapons"
-	cost 1340000
+	cost 4750000
 	thumbnail "outfit/alteran gauss cannon"
 	"mass" 54
 	"outfit space" -54
@@ -486,7 +486,7 @@ outfit "Alteran Gauss Cannon"
 
 outfit "Alteran Gauss Turret"
 	category "Secondary Weapons"
-	cost 1340000
+	cost 5830000
 	thumbnail "outfit/alteran gauss turret"
 	"mass" 59
 	"outfit space" -59

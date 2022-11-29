@@ -5,7 +5,7 @@ ship "Aegis"
 	thumbnail "thumbnail/aegis"
 	attributes
 		category "Medium Warship"
-		"cost" 6400000
+		"cost" 30712000
 		"shields" 52000
 		"hull" 27100
 		"required crew" 20
@@ -170,7 +170,7 @@ ship "Aetheris"
 	thumbnail "thumbnail/aetheris"
 	attributes
 		category "Fighter"
-		"cost" 970000
+		"cost" 1870000
 		"shields" 6700
 		"hull" 2300
 		"required crew" 1
@@ -326,7 +326,7 @@ ship "Arqueus"
 	thumbnail "thumbnail/arqueus"
 	attributes
 		category "Utility"
-		"cost" 6400000
+		"cost" 21405000
 		"shields" 36000
 		"hull" 20500
 		"required crew" 19
@@ -497,7 +497,7 @@ ship "Aurora"
 	thumbnail "thumbnail/aurora-a"
 	attributes
 		category "Heavy Warship"
-		"cost" 92000000
+		"cost" 158144000
 		"shields" 115000
 		"hull" 147000
 		"required crew" 117
@@ -826,7 +826,7 @@ ship "Auxilus"
 	thumbnail "thumbnail/auxilus"
 	attributes
 		category "Utility"
-		"cost" 135000000
+		"cost" 72859000
 		"shields" 78500
 		"hull" 61400
 		"required crew" 97
@@ -1010,7 +1010,7 @@ ship "Carrum"
 	thumbnail "thumbnail/carrum"
 	attributes
 		category "Light Freighter"
-		"cost" 970000
+		"cost" 947000
 		"shields" 5100
 		"hull" 2300
 		"required crew" 1
@@ -1137,7 +1137,7 @@ ship "Castrum"
 	thumbnail "thumbnail/castrum"
 	attributes
 		category "Light Freighter"
-		"cost" 970000
+		"cost" 3725000
 		"shields" 28000
 		"hull" 15400
 		"required crew" 5
@@ -1282,7 +1282,7 @@ ship "Delicia"
 	thumbnail "thumbnail/delicia"
 	attributes
 		category "Space Liner"
-		"cost" 6400000
+		"cost" 15048000
 		"shields" 24700
 		"hull" 9300
 		"required crew" 29
@@ -1407,7 +1407,7 @@ ship "Fulmen"
 	thumbnail "thumbnail/fulmen"
 	attributes
 		category "Heavy Warship"
-		"cost" 92000000
+		"cost" 92030000
 		"shields" 144000
 		"hull" 88000
 		"required crew" 56
@@ -1653,7 +1653,7 @@ ship "Gladius"
 	thumbnail "thumbnail/gladius"
 	attributes
 		category "Fighter"
-		"cost" 970000
+		"cost" 1503000
 		"shields" 4200
 		"hull" 3700
 		"required crew" 1
@@ -1762,7 +1762,7 @@ ship "Modified Tutela"
 	thumbnail "thumbnail/mtutela"
 	attributes
 		category "Light Warship"
-		"cost" 6400000
+		"cost" 19405000
 		"shields" 33600
 		"hull" 22100
 		"required crew" 8
@@ -1894,7 +1894,7 @@ ship "Paragon"
 	thumbnail "thumbnail/paragon"
 	attributes
 		category "Heavy Warship"
-		"cost" 64000000
+		"cost" 44027000
 		"shields" 74500
 		"hull" 63400
 		"required crew" 27
@@ -2059,7 +2059,7 @@ ship "Plaustrum"
 	thumbnail "thumbnail/plaustrum"
 	attributes
 		category "Heavy Freighter"
-		"cost" 100000000
+		"cost" 13052000
 		"shields" 37000
 		"hull" 15200
 		"required crew" 13
@@ -2199,7 +2199,7 @@ ship "Praesidium"
 	thumbnail "thumbnail/praesidium"
 	attributes
 		category "Light Warship"
-		"cost" 6400000
+		"cost" 24095000
 		"shields" 36000
 		"hull" 19700
 		"required crew" 6
@@ -2365,7 +2365,7 @@ ship "Rebus"
 	thumbnail "thumbnail/rebus"
 	attributes
 		category "Heavy Freighter"
-		"cost" 970000
+		"cost" 7582000
 		"shields" 26600
 		"hull" 23500
 		"required crew" 7
@@ -2512,7 +2512,7 @@ ship "Spectre"
 	thumbnail "thumbnail/spectre"
 	attributes
 		category "Interceptor"
-		"cost" 2000000
+		"cost" 5298000
 		"shields" 11300
 		"hull" 4200
 		"required crew" 1
@@ -2625,7 +2625,7 @@ ship "Tutela"
 	thumbnail "thumbnail/tutela"
 	attributes
 		category "Light Warship"
-		"cost" 6400000
+		"cost" 16407000
 		"shields" 30800
 		"hull" 23300
 		"required crew" 7

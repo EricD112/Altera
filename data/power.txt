@@ -1,7 +1,7 @@
 	
 outfit "ASGX Solar Collector"
 	category "Power"
-	cost 9000000
+	cost 265000
 	thumbnail "outfit/alteran solar"
 	"mass" 20
 	"outfit space" -20
@@ -13,7 +13,7 @@ outfit "ASGX Solar Collector"
 	
 outfit "AAUX-I Accumulation Unit"
 	category "Power"
-	cost 1000000
+	cost 124000
 	thumbnail "outfit/small alteran battery"
 	"mass" 16
 	"outfit space" -16
@@ -23,7 +23,7 @@ outfit "AAUX-I Accumulation Unit"
 
 outfit "AAUX-II Accumulation Unit"
 	category "Power"
-	cost 4000000
+	cost 470500
 	thumbnail "outfit/medium alteran battery"
 	"mass" 48
 	"outfit space" -48
@@ -33,7 +33,7 @@ outfit "AAUX-II Accumulation Unit"
 
 outfit "ABGX Backup Generator"
 	category "Power"
-	cost "20500"
+	cost 1337000
 	thumbnail "outfit/alteran generator"
 	"mass" 34
 	"outfit space" -34
@@ -43,7 +43,7 @@ outfit "ABGX Backup Generator"
 
 outfit "ADRX-I Draconic Reactor"
 	category "Power"
-	cost 12000000
+	cost 7448000
 	thumbnail "outfit/small draconic reactor"
 	"mass" 58
 	"outfit space" -58
@@ -58,7 +58,7 @@ outfit "ADRX-I Draconic Reactor"
 	
 outfit "ADRX-II Draconic Reactor"
 	category "Power"
-	cost 25000000
+	cost 21600000
 	thumbnail "outfit/medium draconic reactor"
 	"mass" 116
 	"outfit space" -116
@@ -73,7 +73,7 @@ outfit "ADRX-II Draconic Reactor"
 	
 outfit "ADRX-III Draconic Reactor"
 	category "Power"
-	cost 45000000
+	cost 6264000
 	thumbnail "outfit/large draconic reactor"
 	"mass" 174
 	"outfit space" -174
@@ -88,7 +88,7 @@ outfit "ADRX-III Draconic Reactor"
 	
 outfit "AZPMX Zero Point Module"
 	category "Power"
-	cost 10000000
+	cost 54900000
 	thumbnail "outfit/zpm"
 	"energy generation" -3.2
 	"energy capacity" 250000
@@ -99,7 +99,7 @@ outfit "AZPMX Zero Point Module"
 	
 outfit "AMCX-I Module Converter"
 	category "Power"
-	cost 20000000
+	cost 20800000
 	thumbnail "outfit/zpm converter"
 	"mass" 50
 	"outfit space" -50

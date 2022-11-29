@@ -5,7 +5,7 @@
 
 outfit "ASSX-I Shield System"
 	category "Systems"
-	cost 4000000
+	cost 193000
 	thumbnail "outfit/small alteran shield"
 	"mass" 15
 	"outfit space" -15
@@ -21,7 +21,7 @@ outfit "ASSX-I Shield System"
 
 outfit "ASSX-II Shield System"
 	category "Systems"
-	cost 10000000
+	cost 562000
 	thumbnail "outfit/medium alteran shield"
 	"mass" 28
 	"outfit space" -28
@@ -37,7 +37,7 @@ outfit "ASSX-II Shield System"
 	
 outfit "ASSX-III Shield System"
 	category "Systems"
-	cost 240000000
+	cost 1630000
 	thumbnail "outfit/large alteran shield"
 	"mass" 52
 	"outfit space" -52
@@ -53,7 +53,7 @@ outfit "ASSX-III Shield System"
 
 outfit "ASSX-IV Shield System"
 	category "Systems"
-	cost 50000000
+	cost 4727000
 	thumbnail "outfit/huge alteran shield"
 	"mass" 97
 	"outfit space" -97
@@ -74,7 +74,7 @@ outfit "ASSX-IV Shield System"
 
 outfit "AACX-I Cooling System"
 	category "Systems"
-	cost 4000000
+	cost 392000
 	thumbnail "outfit/small alteran cooling"
 	"mass" 11
 	"outfit space" -11
@@ -89,7 +89,7 @@ outfit "AACX-I Cooling System"
 
 outfit "AASX Scanning System"
 	category "Systems"
-	cost 500000
+	cost 843000
 	thumbnail "outfit/alteran scanner"
 	"mass" 5
 	"outfit space" -5
@@ -117,7 +117,7 @@ outfit "ACPX Comms Pod"
 
 outfit "AFCX Fuel Compressor"
 	category "Systems"
-	cost 180000
+	cost 186000
 	thumbnail "outfit/alteran fuel compressor"
 	"mass" 12
 	"outfit space" -9
