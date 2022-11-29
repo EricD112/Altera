@@ -339,7 +339,7 @@ outfit "Alteran Heavy Plasma"
 		"burst reload" 1
 		"firing energy" 12	
 		"firing heat" 30.4
-		"shield damage" 16.9
+		"shield damage" 17.9
 		"hull damage" 14.3
 		"heat damage" 42
 	description "Developed as part of the most recent fleet modernization project, Alteran Heavy Plasma is the result of downscaling the spinal beam built into the defensive satellites. This was done because the older Plasma Beams suffered from a relatively short range. Unlike the standard Plasma Beams, the Heavy Plasma fires in short bursts, rather than continuously, which allowed for hotter and more powerful beams."
@@ -369,7 +369,7 @@ outfit "Alteran Heavy Plasma Turret"
 		"burst reload" 1
 		"firing energy" 12	
 		"firing heat" 30.4
-		"shield damage" 16.9
+		"shield damage" 17.9
 		"hull damage" 14.3
 		"heat damage" 42
 	description "As turrets are generally preferred on larger vessels, the Heavy Plasma can also be mounted on a turret. A single heavy Plasma Turret outranges and almost overpowers the older Plasma Turrets which mount two beam emitters."
@@ -386,7 +386,7 @@ outfit "Alteran Light AM"
 		"hardpoint sprite" "hardpoint/wanderer anti-missile old"
 		"hardpoint offset" 6.
 		"hit effect" "alteran anti-missile"
-		"anti-missile" 34
+		"anti-missile" 17
 		"velocity" 500
 		"lifetime" 1
 		"reload" 15
@@ -407,7 +407,7 @@ outfit "Alteran Heavy AM"
 		"hardpoint sprite" "hardpoint/wanderer anti-missile old"
 		"hardpoint offset" 6.
 		"hit effect" "alteran anti-missile"
-		"anti-missile" 50
+		"anti-missile" 17
 		"velocity" 500
 		"lifetime" 1
 		"reload" 5
