@@ -1,4 +1,8 @@
 	
+#
+# Solar Collectors
+#
+
 outfit "ASGX Solar Collector"
 	category "Power"
 	cost 265000
@@ -10,7 +14,11 @@ outfit "ASGX Solar Collector"
 	"ramscoop" 6
 	"gun ports" -1
 	description "This odd outfit is capable of harvesting power and fuel simultaneously from nearby stars. While the ASGX Solar Collector is highly efficient, it comes with the major drawback of using a gun port. The original designers decided that for supply and recon vessels, where guns aren't particularly important, the efficiency improvements were worth the gun port."
-	
+
+#
+# Batteries
+#
+
 outfit "AAUX-I Accumulation Unit"
 	category "Power"
 	cost 124000
@@ -33,6 +41,10 @@ outfit "AAUX-II Accumulation Unit"
 	description "Far less common than the AAUX-I, these batteries are commonly used by warships with high power requirements."
 	description "The Alteran Accumulation Units suffer from cooling inefficiency, a major drawback, that quincidentally works well in combination with Draconic Reactors."
 
+#
+# Generators
+#
+
 outfit "ABGX Backup Generator"
 	category "Power"
 	cost 1337000
@@ -42,6 +54,10 @@ outfit "ABGX Backup Generator"
 	"energy generation" 6.7
 	"heat generation" 7.3
 	description "The ABGX Backup Generator was initially used as its name suggests, but has since been replaced by integrated backup storage/generator systems in the Draconic Reactors. Instead, this generator model sees a lot of use in smaller craft a Draconic Reactor wouldn't make sense."
+
+#
+# Draconic Reactors
+#
 
 outfit "ADRX-I Draconic Reactor"
 	category "Power"
@@ -56,7 +72,7 @@ outfit "ADRX-I Draconic Reactor"
 	"cooling energy" -10
 	description "Due to their efficiency, Draconic Reactors are present on most Alteran ships. With the ADRX-I being the smallest standard reactor and although it is relatively small, it is still very powerful and hot."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
-	
+
 outfit "ADRX-II Draconic Reactor"
 	category "Power"
 	cost 21600000
@@ -70,7 +86,7 @@ outfit "ADRX-II Draconic Reactor"
 	"cooling energy" -21
 	description "The ADRX-II is installed whenever the smaller ADRX-I's power supply is insufficient and is considerably larger and more powerful. While it is more space efficient, it does run less efficiently, producing more heat in the process."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
-	
+
 outfit "ADRX-III Draconic Reactor"
 	category "Power"
 	cost 6264000
@@ -84,7 +100,11 @@ outfit "ADRX-III Draconic Reactor"
 	"cooling energy" -33.6
 	description "Used only by Alteran capital ships, the ADRX-III is the most powerful Draconic Reactor. Most ships would never need this much power and would most certainly be unable to fit one of these properly. Sale of the ADRX-III is heavily restricted."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
-	
+
+#
+# Zero Point Modules
+#
+
 outfit "AZPMX Zero Point Module"
 	category "Power"
 	cost 54900000
@@ -94,7 +114,7 @@ outfit "AZPMX Zero Point Module"
 	"heat generation" 9.7
 	"ZPM capacity" -1
 	description "The Zero Point Module (ZPM) extracts vacuum energy from an artificial region of subspace-time until it reaches maximum entropy. This allows it to generate tremendous amounts of energy, however, its energy source is finite and when maximum entropy is reached, the subspace-time region collapses and only the ZPM shell is left."
-	
+
 outfit "AMCX-I Module Converter"
 	category "Power"
 	cost 20800000

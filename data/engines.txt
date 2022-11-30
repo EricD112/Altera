@@ -1,4 +1,8 @@
 
+#
+# Thrusters
+#
+
 outfit "AAGTX-I Anti-Grav Thruster"
 	category "Engines"
 	"cost" 236000
@@ -102,6 +106,10 @@ outfit "AAGTX-IV Anti-Grav Thruster"
 	"reverse flare sound" "alteran huge"
 	description "The very expensive and truly gargantuan AAGTX-4.0 is nearly unrivalled in both power and efficiency. It's the peak of Alteran thrusting technology."
 	description "The Alteran Anti-Gravitational Thrusters require alteran Technology to function, Alteran Shield Systems to be exact. The Anti-Grav Thrusters are infused with Draconium, which the moves the ship with the help of the Shield System's Anti-Gravitational Field."
+
+#
+# Steering
+#
 
 outfit "AAGTX-I Anti-Grav Steering"
 	category "Engines"
