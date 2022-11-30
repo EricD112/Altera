@@ -95,7 +95,7 @@ outfit "AACX-I Cooling System"
 #	Scanners
 #
 
-outfit "ACSX Scanning System" #"AASX Scanning System"
+outfit "AASX Scanning System"
 	category "Systems"
 	cost 843000
 	thumbnail "outfit/alteran scanner"
@@ -106,7 +106,7 @@ outfit "ACSX Scanning System" #"AASX Scanning System"
 	"cargo scan power" 40
 	"cargo scan speed" 1
 	"tactical scan power" 55
-	description "Mainly developed for the Military, the ACSX Common Scanning System is made up of multiple different scanners, allowing for complete scanning of ships at mid-range."
+	description "Mainly developed for the Military, the AASX Active Scanning System is made up of multiple different scanners, allowing for complete scanning of ships at mid-range."
 
 outfit "ACPX Comms Pod"
 	category "Systems"
