@@ -351,8 +351,9 @@ ship "Arqueus"
 
 		"ABGX Backup Generator"
 		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector"
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -472,9 +473,9 @@ ship "Arqueus"
 		under
 		right
 # Gun Ports
-	gun -17.5 -140
+	gun -17.5 -140 #"ASGX Solar Collector"
 		under
-	gun 17.5 -140
+	gun 17.5 -140 #"ASGX Solar Collector"
 		under
 	gun -26.5 -127.5
 		under
@@ -1163,9 +1164,11 @@ ship "Castrum"
 	outfits
 		"Alteran Light AM" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector" 2
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -1263,9 +1266,9 @@ ship "Castrum"
 		under
 		right
 # Gun Ports
-	gun -18 -137
+	gun -18 -137 #"ASGX Solar Collector"
 		under
-	gun 18 -137
+	gun 18 -137 #"ASGX Solar Collector"
 		under
 # Turret Mounts
 	turret 0 -98.5 "Alteran Light AM"
@@ -2392,9 +2395,11 @@ ship "Rebus"
 		"Alteran Pulse Turret" 2
 		"Alteran Heavy AM" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector" 2
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -2494,9 +2499,9 @@ ship "Rebus"
 		under
 		right
 # Gun Ports
-	gun -17.5 -159.5
+	gun -17.5 -159.5 #"ASGX Solar Collector"
 		under
-	gun 17.5 -159.5
+	gun 17.5 -159.5 #"ASGX Solar Collector"
 		under
 # Turret Mounts
 	turret 0 -109.5 "Alteran Pulse Turret"
