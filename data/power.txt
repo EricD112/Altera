@@ -71,7 +71,7 @@ outfit "ADRX-I Draconic Reactor"
 	"active cooling" 2.5
 	"cooling energy" -10
 	description "Due to their efficiency, Draconic Reactors are present on most Alteran ships. With the ADRX-I being the smallest standard reactor and although it is relatively small, it is still very powerful and hot."
-	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
+	description "Draconic Reactor outputs and efficiency increase with core temperature, doubling the energy generation near max heat. A Battery is built-in to account for short but strong power bursts."
 
 outfit "ADRX-II Draconic Reactor"
 	category "Power"
@@ -85,7 +85,7 @@ outfit "ADRX-II Draconic Reactor"
 	"active cooling" 5.25
 	"cooling energy" -21
 	description "The ADRX-II is installed whenever the smaller ADRX-I's power supply is insufficient and is considerably larger and more powerful. While it is more space efficient, it does run less efficiently, producing more heat in the process."
-	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
+	description "Draconic Reactor outputs and efficiency increase with core temperature, doubling the energy generation near max heat. A Battery is built-in to account for short but strong power bursts."
 
 outfit "ADRX-III Draconic Reactor"
 	category "Power"
@@ -99,7 +99,7 @@ outfit "ADRX-III Draconic Reactor"
 	"active cooling" 8.4
 	"cooling energy" -33.6
 	description "Used only by Alteran capital ships, the ADRX-III is the most powerful Draconic Reactor. Most ships would never need this much power and would most certainly be unable to fit one of these properly. Sale of the ADRX-III is heavily restricted."
-	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
+	description "Draconic Reactor outputs and efficiency increase with core temperature, doubling the energy generation near max heat. A Battery is built-in to account for short but strong power bursts."
 
 #
 # Zero Point Modules

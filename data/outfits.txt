@@ -89,7 +89,7 @@ outfit "AACX-I Cooling System"
 	"active cooling" 26.7
 	"cooling energy" 2.5
 	description "While the Alteran shield systems repurposing of thermal energy provides a lot of cooling, it is not sufficient in some cases. The Alteran Active Cooling System AACX-I was developed to fill this gap."
-	description `Although it is defined as an "active" cooling system, the AACX-I, is a hybrid cooler. Its primarily an active cooler, but includes a passive heatsink.`
+	description `Although it is defined as an "active" cooling system, the AACX-I, is actually a hybrid cooler. It's primarily an active cooler, but includes a passive heatsink.`
 
 #
 #	Scanners
