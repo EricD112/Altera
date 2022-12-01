@@ -507,7 +507,7 @@ ship "Aurora"
 		"drag" 27.4
 		"heat dissipation" 0.3
 
-		"fuel capacity" 700
+		"fuel capacity" 800
 		"cargo space" 310
 		"outfit space" 1370
 		"weapon capacity" 715
@@ -839,7 +839,7 @@ ship "Auxilus"
 		"drag" 26.3
 		"heat dissipation" 1
 
-		"fuel capacity" 2400
+		"fuel capacity" 2000
 		"cargo space" 320
 		"outfit space" 825
 		"weapon capacity" 285
@@ -861,7 +861,7 @@ ship "Auxilus"
 		"ADRX-III Draconic Reactor"
 
 		"ASSX-III Shield System"
-		"AASX Scanning System" 3
+		"ACPX Comms Pod"
 
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-IV Anti-Grav Thruster"
@@ -1937,7 +1937,8 @@ ship "Paragon"
 		"Alteran Drone Storage"
 		"Alteran Drone" 188
 
-		"ADRX-III Draconic Reactor"
+		"ADRX-II Draconic Reactor"
+		"ABGX Backup Generator"
 		"AAUX-II Accumulation Unit"
 
 		"ASSX-III Shield System"
