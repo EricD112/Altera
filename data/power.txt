@@ -65,10 +65,10 @@ outfit "ADRX-I Draconic Reactor"
 	thumbnail "outfit/small draconic reactor"
 	"mass" 76
 	"outfit space" -58
-	"energy generation" 11.4
+	"energy generation" 9.2
 	"energy capacity" 5850
-	"heat generation" 24.1
-	"active cooling" 12
+	"heat generation" 19.3
+	"active cooling" 2.5
 	"cooling energy" -10
 	description "Due to their efficiency, Draconic Reactors are present on most Alteran ships. With the ADRX-I being the smallest standard reactor and although it is relatively small, it is still very powerful and hot."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
@@ -79,10 +79,10 @@ outfit "ADRX-II Draconic Reactor"
 	thumbnail "outfit/medium draconic reactor"
 	"mass" 152
 	"outfit space" -116
-	"energy generation" 23.9
+	"energy generation" 19.1
 	"energy capacity" 11700
-	"heat generation" 53
-	"active cooling" 25.2
+	"heat generation" 42.4
+	"active cooling" 5.25
 	"cooling energy" -21
 	description "The ADRX-II is installed whenever the smaller ADRX-I's power supply is insufficient and is considerably larger and more powerful. While it is more space efficient, it does run less efficiently, producing more heat in the process."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
@@ -93,10 +93,10 @@ outfit "ADRX-III Draconic Reactor"
 	thumbnail "outfit/large draconic reactor"
 	"mass" 228
 	"outfit space" -174
-	"energy generation" 38.2
+	"energy generation" 30.6
 	"energy capacity" 17500
-	"heat generation" 92.8
-	"active cooling" 40.3
+	"heat generation" 74.2
+	"active cooling" 8.4
 	"cooling energy" -33.6
 	description "Used only by Alteran capital ships, the ADRX-III is the most powerful Draconic Reactor. Most ships would never need this much power and would most certainly be unable to fit one of these properly. Sale of the ADRX-III is heavily restricted."
 	description "Draconic Reactor outputs and efficiency increase with core temperature. A Battery is built-in to account for short but strong power bursts."
