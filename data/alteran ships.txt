@@ -159,10 +159,8 @@ ship "Aegis"
 	explode "small explosion" 5
 # Description
 	description "In recent years the Alteran military developed several new classes, to supplement or replace the aging Alteran fleet. One such example being the Aegis-class destroyer, an agile, gun-based warship, filling a gap in the Alteran loadout. With the large Alteran vessels tending towards heavy and slow loadouts, the Aegis complements the current fleet quite well."
-	description "The Alteran Aegis also represents the recent shift in Alteran design and equipment philosophy. Rather than building massive, hull-heavy ships, lighter alloys and improvements in shield technology have made agile, shield-based ships viable. As such, the Aegis’ biggest weakness is its weak hull."
+	description "The Alteran Aegis also represents the recent shift in Alteran design and equipment philosophy. Rather than building massive, hull-heavy ships, lighter alloys and improvements in shield technology have made agile, shield-based ships viable. As such, the Aegis' biggest weakness is its weak hull."
 
-	#description "The Aegis, a relatively agile, but awfully fragile vessel, that outdamages anything in its category, is the mainstay Alteran destroyer. It is a relatively new design, based around several sets of guns mounted along the sides in pairs or triplets. Being a relatively recent design, the Aegis heavily relies on shielding, and due to its overclassed armament which takes up a significant portion of the hull, it would not be able to function properly without proper shielding."
-	#description "Only very rarely seen without an escort, even in Alteran space, for good reason. Alone, an Aegis is worthless, but with a sizeable squadron (commonly deployed in triplets), the Aegis becomes an offensive powerhouse, it is akin to an offensive shield, an impenetrable wall demolishing anything brave enough to stand in its path."
 
 ship "Aetheris"
 	plural "Aetherii"
@@ -317,8 +315,9 @@ ship "Aetheris"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 # Description
-	description "The smaller of the Auxilus project’s two designs is the Aetheris, a sleek and compact fighter, which supplements the much older Gladii where needed. As the introduction of the Auxilus-class carrier removes the need for small squadrons of tough fighter/interceptors like the Gladius, the Alteran military opted for a fast and maneuverable fighter."
+	description "The smaller of the Auxilus project's two designs is the Aetheris, a sleek and compact fighter, which supplements the much older Gladii where needed. As the introduction of the Auxilus-class carrier removes the need for small squadrons of tough fighter/interceptors like the Gladius, the Alteran military opted for a fast and maneuverable fighter."
 	description "Its compactness is a double-edged sword, making the Aetheris very agile, but rather weak and purpose-specific in turn. To negate its weak armor, experimental hull materials were used, making it harder to track."
+
 
 ship "Arqueus"
 	plural "Arqueae"
@@ -351,8 +350,9 @@ ship "Arqueus"
 
 		"ABGX Backup Generator"
 		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector"
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -472,9 +472,9 @@ ship "Arqueus"
 		under
 		right
 # Gun Ports
-	gun -17.5 -140
+	gun -17.5 -140 #"ASGX Solar Collector"
 		under
-	gun 17.5 -140
+	gun 17.5 -140 #"ASGX Solar Collector"
 		under
 	gun -26.5 -127.5
 		under
@@ -491,6 +491,7 @@ ship "Arqueus"
 # Description
 	description "In order to facilitate cross-system passenger travel, the massive Arqueus-class transport is but the most recent iteration of mass transit vessels. Highly optimised for passenger transport, the Arqueus does not have much cargo space, though some of its outfit space can be used for this purpose if necessary. Additionally, the Alteran military sometimes uses these vessels as army transports, for this purpose, the ship has more hardpoints than necessary and some spare outfit space."
 
+
 ship "Aurora"
 	plural "Aurorae"
 	sprite "ship/aurora-a"
@@ -506,7 +507,7 @@ ship "Aurora"
 		"drag" 27.4
 		"heat dissipation" 0.3
 
-		"fuel capacity" 700
+		"fuel capacity" 800
 		"cargo space" 310
 		"outfit space" 1370
 		"weapon capacity" 715
@@ -689,6 +690,7 @@ ship "Aurora"
 	description "The Aurora-class battleship is an old Alteran warship, currently the longest serving class. A truly massive design, with a significant hull strength and a powerful loadout. Though the Alteran Military has given everything it can to keep it up to date, its age has started to show, as such, its battleship role is currently being replaced with the far newer Fulmen-class Battleship, a much more effective design. An Aurora can also carry several fighters, or planetary shuttles, for scouting or air support."
 	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran designed long-range communications, capable of acting as a comms relay. This system was an absolute necessity for the Alteran Military, but due to its sheer size, heavily impacts the combat-oriented efficiency."
 
+
 ship "Aurora" "Aurora (Comms)"
 	sprite "ship/aurora-b"
 	thumbnail "thumbnail/aurora-b"
@@ -821,6 +823,7 @@ ship "Aurora" "Aurora (Comms)"
 	description "However, it will not be removed from service in the forseeable future, mainly due to its secondary purpose as a mobile base, it is equipped with Alteran designed long-range communications, capable of acting as a comms relay. This system was an absolute necessity for the Alteran Military, but due to its sheer size, heavily impacts the combat-oriented efficiency."
 	description "Since the war last war resulted in a separate hyperlane cluster, the potential of invasions from outside the Alteran hyperspace system has resulted in some more recent Aurorae to be built with a second set of antennae, capable of bridging hyperlane gaps."
 
+
 ship "Auxilus"
 	plural "Auxilae"
 	sprite "ship/auxilus"
@@ -836,7 +839,7 @@ ship "Auxilus"
 		"drag" 26.3
 		"heat dissipation" 1
 
-		"fuel capacity" 2400
+		"fuel capacity" 2000
 		"cargo space" 320
 		"outfit space" 825
 		"weapon capacity" 285
@@ -858,7 +861,7 @@ ship "Auxilus"
 		"ADRX-III Draconic Reactor"
 
 		"ASSX-III Shield System"
-		"AASX Scanning System" 3
+		"ACPX Comms Pod"
 
 		"AAGTX-III Anti-Grav Steering"
 		"AAGTX-IV Anti-Grav Thruster"
@@ -1004,8 +1007,9 @@ ship "Auxilus"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 # Description
-	description "The Auxilus is a very recent development and the first dedicated carrier for the Alteran military in over a thousand years. It’s designed to stay in the backline during combat, supporting the fleet with its 12 fighters, as well as long range weaponry. Outside of combat, the Auxilus-class acts as a mobile supply base, supplementing and potentially replacing the Aurora-class in this regard."
+	description "The Auxilus is a very recent development and the first dedicated carrier for the Alteran military in over a thousand years. It's designed to stay in the backline during combat, supporting the fleet with its 12 fighters, as well as long range weaponry. Outside of combat, the Auxilus-class acts as a mobile supply base, supplementing and potentially replacing the Aurora-class in this regard."
 	description "As it is optimized for backline support, the Auxilus comes with relatively weak hull and shielding for its size and being as massive as it is, its maneuverability is just as lacking. Because of this, Auxilae can almost never be found without a sizeable escort in addition to its complement of fighters. "
+
 
 ship "Carrum"
 	plural "Carra"
@@ -1134,6 +1138,7 @@ ship "Carrum"
 	description "The Carrum-class light freighter is a small and agile freighter, particularly popular in the Borean sector, as it can outrun most ships, making it ideal for fleeing from a Korath raid. Its highly recognizable modular container system allows for a fast loading process, by simply switching the pods and even supports the launching of cargo towards a planet if needed."
 	description "Although it is already quite new and expensive, the Carrum is among the cheapest Alteran ships. New pilots will typically start with a Carrum, as the Alteran government supports the purchase with a low interest loan."
 
+
 ship "Castrum"
 	plural "Castra"
 	sprite "ship/castrum"
@@ -1163,9 +1168,11 @@ ship "Castrum"
 	outfits
 		"Alteran Light AM" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector" 2
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -1263,9 +1270,9 @@ ship "Castrum"
 		under
 		right
 # Gun Ports
-	gun -18 -137
+	gun -18 -137 #"ASGX Solar Collector"
 		under
-	gun 18 -137
+	gun 18 -137 #"ASGX Solar Collector"
 		under
 # Turret Mounts
 	turret 0 -98.5 "Alteran Light AM"
@@ -1278,6 +1285,7 @@ ship "Castrum"
 # Description
 	description "The large, but sleek Castrum is a rather new Alteran freighter and comes with a quite strong shield system for a medium freighter. Initially, the Castrum was designed as a civilian vessel, however, the Alteran military was looking to replace part of its supply fleet with dedicated freighters. As such, several spare hardpoints and high-level shield systems were included."
 	description "A system similar to that of the Carrum is also part of the Castrum, although only the pods at the front can be launched. Overall, the Castrum is a well-rounded design, capable of holding its own when equipped properly, while also able to run a blockade."
+
 
 ship "Delicia"
 	plural "Deliciae"
@@ -1403,6 +1411,7 @@ ship "Delicia"
 # Description
 	description "With the current period of peace, space cruises have become viable and popular, resulting in the luxurious Delicia. A ship easily recognized by its large panoramic dome. To minimize landing, the Delicia comes with several Alteran Solar Collectors, refueling the ship, while also acting as generators."
 	description "Deliciae can commonly be found in the Alteran Core and Utopian Cluster, serving either as cruise ships or luxury transports. When outside these systems, they are typically joined by a small escort, as there is a danger of raids in the Borean and Draconic Sectors are viewed as the less safe frontier."
+
 
 ship "Fulmen"
 	plural "Fulmeni"
@@ -1650,6 +1659,7 @@ ship "Fulmen"
 	description "As the Aurora-class battleship both old and inefficient, the Alteran military developed a more combat oriented alternative, the Fulmen-class battleship which has entered production only recently. Although in pure strength, a Fulmen is still beaten by its predecessor, its combat-dedicated design makes it much more efficient than an Aurora."
 	description "Fulmen-class battleships can act as fleet command vessels but lack the comms array and cargo space to replace the Aurora as a forward base. The growing number of Fulmeni will supplement and replace the aging Aurorae as the mainstay battleship of the Alteran navy and fleet command in Alteran space."
 
+
 ship "Gladius"
 	plural "Gladiae"
 	sprite "ship/gladius"
@@ -1758,6 +1768,7 @@ ship "Gladius"
 # Description
 	description "With the Aurora being the only Alteran ship class, at the time, with enough room to carry a fighter, the Gladius was designed as a light interceptor, rather than a dedicated fighter. As such, Gladii can often be found escorting small civilian fleets in the Borean sector, or alongside Aurorae."
 	description "The Gladius is a rather large and bulky fighter, as it also serves as the mainstay interceptor and was, until recently, used for the purpose of scouting nearby planets or systems."
+
 
 ship "Modified Tutela"
 	plural "Modified Tutelae"
@@ -1890,7 +1901,8 @@ ship "Modified Tutela"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 # Description
-	description "In order to further bolster the Alteran fleet, the Alteran Military has opted to refurbish some of its Tutelae, rebuilding their interior almost from scratch and adding two weapon pods at the front. These modified Tutalae support a stronger armament at the cost of some hull strength and the Tutela’s multi-purpose design, leaving them with little cargo space and spare bunks. As part of the refurbishment, the ships also received improved shield systems, as there was no need to keep the previous, outdated systems."
+	description "In order to further bolster the Alteran fleet, the Alteran Military has opted to refurbish some of its Tutelae, rebuilding their interior almost from scratch and adding two weapon pods at the front. These modified Tutalae support a stronger armament at the cost of some hull strength and the Tutela's multi-purpose design, leaving them with little cargo space and spare bunks. As part of the refurbishment, the ships also received improved shield systems, as there was no need to keep the previous, outdated systems."
+
 
 ship "Paragon"
 	sprite "ship/paragon"
@@ -1925,7 +1937,8 @@ ship "Paragon"
 		"Alteran Drone Storage"
 		"Alteran Drone" 188
 
-		"ADRX-III Draconic Reactor"
+		"ADRX-II Draconic Reactor"
+		"ABGX Backup Generator"
 		"AAUX-II Accumulation Unit"
 
 		"ASSX-III Shield System"
@@ -2053,8 +2066,6 @@ ship "Paragon"
 	description "Developed just after the Aurora, the Paragon-class cruiser is an almost ancient design and has served as the backbone of the Alteran navy for centuries. With its strong but heavy hull and the lacking mobility coming with it, the Paragon represents the Alteran previous design philosophy quite well."
 	description "Unlike its older sibling, the Aurora, it was designed with only combat in mind and as such does not come with a long-range comms array as seen on the Aurora, making it more efficient and much cheaper to produce."
 
-	#description "Developed together with the Aurora, the Paragon shares the same unique style as its sibling, though it is much more combat oriented. A pair of Paragons are capable of rivalling an Aurora, with a single one matching a Quarg Wardragon. The hull itself is almost symmetric, with weaponry on or next to its spine. As the name suggests, this ship is a well designed jack of all trades, with a slight tendency towards a defensive frontline warship."
-	#description "Unlike the Aurora, this ship still fits its combat role and will likely stay in service as a mainstay warship with a central frontline role for the forseeable future, supplementing the newer Alteran Vessels such as the Azrael or Raziel. Even now, its raw combat strength is astounding, with the only real downside being its overreliance on hull and the resulting very lacking agility, stemming from its age, dating back to pre-war Altera, a time during which shielding was only really being used by the military, due to its experimental nature."
 
 ship "Plaustrum"
 	plural "Plaustra"
@@ -2194,7 +2205,8 @@ ship "Plaustrum"
 		over
 # Description
 	description "Designed with only one purpose in mind, the Plaustrum is the heaviest mass-produced freighter in Alteran history. With over 700 tons of cargo space, consisting almost exclusively of cargo containers, even large loads can be transferred with minimal wasted time. Unlike its two brothers, the Carrum and Castrum, the Plaustrum has neither agility, nor a strong hull, making it a comparatively vulnerable vessel during engagements."
-	description "Most Plaustra are in corporate ownership, as even a single Plaustrum is prohibitively expensive and needlessly large for an individual. Those not owned by corporations are serve as part of the Alteran military’s logistics department, in which case, some of the internal cargo space is used for improved defensive systems."
+	description "Most Plaustra are in corporate ownership, as even a single Plaustrum is prohibitively expensive and needlessly large for an individual. Those not owned by corporations are serve as part of the Alteran military's logistics department, in which case, some of the internal cargo space is used for improved defensive systems."
+
 
 ship "Praesidium"
 	plural "Praesidia"
@@ -2359,8 +2371,8 @@ ship "Praesidium"
 	explode "small explosion" 5
 # Description
 	description "The Praesidum is a prime example of the recent shift in Alteran design philosophy, from slow, and rather bulky, hull-based vessels towards sleeker and more agile designs. Improvements in Alteran shield systems since the development of its predecessor, the Tutela, have made lightweight hulls supported by strong shielding a viable alternative. The resulting Praesidium is very agile which combined with its armament is more than enough to serve as an escort."
-	description "The Praesidium is not available for civilian purchase as of yet, in part due to its age, but also to preserve the military’s cutting edge. Praesidia are often included in the escort of an Aurora or Fulmen, as its agility makes it ideal for countering fast and hard to track vessels and depending on the loadout even catch up to fighters.  "
-	#description "While it is a military vessel, restrictions on the purchase of this ship are relatively lax, allowing a sizeable portion of civilian pilots to purchase them. As a result, many civilian fleets travelling near the border are escorted by at least one of these vessels, as just like the Remnant, the Alterans are also subjected to raids by the Korath."
+	description "The Praesidium is not available for civilian purchase as of yet, in part due to its age, but also to preserve the military's cutting edge. Praesidia are often included in the escort of an Aurora or Fulmen, as its agility makes it ideal for countering fast and hard to track vessels and depending on the loadout even catch up to fighters."
+
 
 ship "Rebus"
 	plural "Rebae"
@@ -2392,9 +2404,11 @@ ship "Rebus"
 		"Alteran Pulse Turret" 2
 		"Alteran Heavy AM" 1
 		
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
+		"AAUX-I Accumulation Unit"
+		"ASGX Solar Collector" 2
+
 		"ASSX-I Shield System"
-		"AACX-I Cooling System"
 		
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
@@ -2494,9 +2508,9 @@ ship "Rebus"
 		under
 		right
 # Gun Ports
-	gun -17.5 -159.5
+	gun -17.5 -159.5 #"ASGX Solar Collector"
 		under
-	gun 17.5 -159.5
+	gun 17.5 -159.5 #"ASGX Solar Collector"
 		under
 # Turret Mounts
 	turret 0 -109.5 "Alteran Pulse Turret"
@@ -2507,7 +2521,8 @@ ship "Rebus"
 		over
 # Description
 	description "A relatively old, but popular design, the Rebus-class heavy freighter is a well-armed vessel, with a particularly strong hull. And although its age is starting to show itself, particularly in its shield systems which are commonly outclassed by smaller Alteran vessels, it is still a highly capable freighter. What it loses in terms of durability, it makes up with its offensive power, rivalling that of a dedicated warship without impacting its cargo space."
-	description "The Rebus is typically considered the strongest civilian vessel in Alteran space, in terms of combat power. Because of this, the Rebus plays an important role in the Alteran military’s logistics chain, as well as the civilian fleets in the Borean sector."
+	description "The Rebus is typically considered the strongest civilian vessel in Alteran space, in terms of combat power. Because of this, the Rebus plays an important role in the Alteran military's logistics chain, as well as the civilian fleets in the Borean sector."
+
 
 ship "Spectre"
 	plural "Spectra"
@@ -2620,8 +2635,9 @@ ship "Spectre"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 # Description
-	description "In recent years, the Alteran military has started to experiment with special hull materials and systems, the pinnacle of which is the Spectre, a stealth interceptor. For the purpose of scouting, the Spectre comes with active and passive interference systems built into its hull, as well as a cloaking system. The tracking interference, while primarily developed for scouting, is particularly useful in combat as well, although the Spectre’s 2 guns make it a rather weak interceptor."
-	
+	description "In recent years, the Alteran military has started to experiment with special hull materials and systems, the pinnacle of which is the Spectre, a stealth interceptor. For the purpose of scouting, the Spectre comes with active and passive interference systems built into its hull, as well as a cloaking system. The tracking interference, while primarily developed for scouting, is particularly useful in combat as well, although the Spectre's 2 guns make it a rather weak interceptor."
+
+
 ship "Tutela"
 	plural "Tutelae"
 	sprite "ship/tutela"

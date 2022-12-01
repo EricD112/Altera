@@ -12,7 +12,7 @@ outfit "ASSX-I Shield System"
 	"shield generation" 0.9
 	"shield energy" 0.5
 	"shield heat" -1.2
-	"active cooling" 10
+	"active cooling" 3
 	"cooling energy" -0.25
 	"energy consumption" 0.25
 	"burn resistance" 0.04
@@ -30,7 +30,7 @@ outfit "ASSX-II Shield System"
 	"shield generation" 2
 	"shield energy" 1.1
 	"shield heat" -2.7
-	"active cooling" 23
+	"active cooling" 6.72
 	"cooling energy" -0.56
 	"energy consumption" 0.56
 	"burn resistance" 0.074
@@ -48,7 +48,7 @@ outfit "ASSX-III Shield System"
 	"shield generation" 4.5
 	"shield energy" 2.5
 	"shield heat" -6
-	"active cooling" 52.9
+	"active cooling" 15.1
 	"cooling energy" -1.26
 	"energy consumption" 1.26
 	"burn resistance" 0.139
@@ -66,7 +66,7 @@ outfit "ASSX-IV Shield System"
 	"shield generation" 10
 	"shield energy" 5.5
 	"shield heat" -13.5
-	"active cooling" 121.7
+	"active cooling" 33.6
 	"cooling energy" -2.8
 	"energy consumption" 2.8
 	"burn resistance" 0.257
@@ -89,7 +89,7 @@ outfit "AACX-I Cooling System"
 	"active cooling" 26.7
 	"cooling energy" 2.5
 	description "While the Alteran shield systems repurposing of thermal energy provides a lot of cooling, it is not sufficient in some cases. The Alteran Active Cooling System AACX-I was developed to fill this gap."
-	description `Although it is defined as an "active" cooling system, the AACX-I, is a hybrid cooler. Its primarily an active cooler, but includes a passive heatsink.`
+	description `Although it is defined as an "active" cooling system, the AACX-I, is actually a hybrid cooler. It's primarily an active cooler, but includes a passive heatsink.`
 
 #
 #	Scanners
@@ -106,7 +106,7 @@ outfit "AASX Scanning System"
 	"cargo scan power" 40
 	"cargo scan speed" 1
 	"tactical scan power" 55
-	description "Mainly developed for the Military, the ACSX Common Scanning System is made up of multiple different scanners, allowing for complete scanning of ships at mid-range."
+	description "Mainly developed for the Military, the AASX Active Scanning System is made up of multiple different scanners, allowing for complete scanning of ships at mid-range."
 
 outfit "ACPX Comms Pod"
 	category "Systems"
