@@ -532,6 +532,7 @@ ship "Aurora"
 		"ASGX Solar Collector" 4
 
 		"ASSX-IV Shield System"
+		"AACX-I Cooling System"
 		"ACPX Comms Pod"
 
 		"AAGTX-IV Anti-Grav Steering"
@@ -711,6 +712,7 @@ ship "Aurora" "Aurora (Comms)"
 
 		"ASSX-III Shield System"
 		"ASSX-II Shield System"
+		"AACX-II Cooling System"
 		"ACPX Comms Pod"
 		"Outfits Expansion" 2
 
@@ -853,10 +855,10 @@ ship "Auxilus"
 			"hit force" 3900
 	outfits
 		"Alteran Drone Bay" 2
-		"Alteran Drone Storage" 5
+		"Alteran Drone Storage" 4
 		"Alteran Shock Turret" 2
 		"Alteran Heavy AM"
-		"Alteran Drone" 828
+		"Alteran Drone" 720
 
 		"ADRX-III Draconic Reactor"
 
@@ -1455,7 +1457,7 @@ ship "Fulmen"
 		"AAUX-II Accumulation Unit"
 
 		"ASSX-IV Shield System"
-		"AACX-I Cooling System"
+		"AACX-II Cooling System"
 		"AASX Scanning System" 2
 
 		"AAGTX-IV Anti-Grav Steering"
