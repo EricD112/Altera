@@ -855,10 +855,10 @@ ship "Auxilus"
 			"hit force" 3900
 	outfits
 		"Alteran Drone Bay" 2
-		"Alteran Drone Storage" 5
+		"Alteran Drone Storage" 4
 		"Alteran Shock Turret" 2
 		"Alteran Heavy AM"
-		"Alteran Drone" 828
+		"Alteran Drone" 720
 
 		"ADRX-III Draconic Reactor"
 
