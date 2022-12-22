@@ -155,6 +155,7 @@ ship "Aurora" "Aurora (Gauss)"
 
 		"ASSX-III Shield System"
 		"ASSX-II Shield System"
+		"AACX-I Cooling System"
 		"ACPX Comms Pod"
 		"Outfits Expansion" 2
 
@@ -219,6 +220,7 @@ ship "Fulmen" "Fulmen (Gauss)"
 		"AAUX-II Accumulation Unit"
 
 		"ASSX-IV Shield System"
+		"AACX-I Cooling System"
 		"AASX Scanning System" 2
 		"Outfits Expansion" 2
 
