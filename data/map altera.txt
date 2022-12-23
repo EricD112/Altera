@@ -790,6 +790,73 @@ system Elemira
 			distance 371
 			period 29.1018
 
+system "Emedia" # Gate of the Ascended
+	pos 734.157 105.198
+	government Altera
+	attributes "central rim"
+	habitable 2795
+	link Rubica
+	asteroids "small rock" 1 4.692
+	asteroids "medium rock" 32 4.318
+	asteroids "large rock" 11 4.692
+	asteroids "small metal" 12 1.836
+	asteroids "medium metal" 10 4.352
+	asteroids "large metal" 91 4.522
+	trade Clothing 230
+	trade Electronics 710
+	trade Equipment 490
+	trade Food 250
+	trade "Heavy Metals" 770
+	trade Industrial 520
+	trade "Luxury Goods" 1020
+	trade Medical 700
+	trade Metal 260
+	trade Plastic 280
+	fleet "Small Alteran Merchant" 2000
+	fleet "Large Alteran Merchant" 4000
+	fleet "Alteran Surveillance" 800
+	fleet "Small Alteran Navy" 900
+	fleet "Large Alteran Navy" 1500
+	fleet "Small Alteran Logistics" 2300
+	fleet "Large Alteran Logistics" 5000
+	object
+		sprite star/f5
+		distance 49.4597
+		period 10.9568
+		offset 180
+	object
+		sprite star/g0
+		distance 78.5403
+		period 10.9568
+	object
+		sprite planet/cloud2
+		distance 274.75
+		period 34.4569
+	object
+		sprite planet/rock8
+		distance 505.19
+		period 85.9115
+	object
+		sprite planet/desert6
+		distance 1251.4
+		period 334.937
+		object
+			sprite planet/europa
+			distance 155
+			period 20.1059
+	object
+		sprite planet/mercury
+		distance 1809.36
+		period 582.313
+	object
+		sprite planet/gas0
+		distance 2283.97
+		period 825.857
+		object
+			sprite planet/dust7
+			distance 287
+			period 14.2488
+
 system Empyrius
 	pos 562.354 136.245
 	government Altera
@@ -1108,137 +1175,6 @@ system Gargantua
 		distance 812
 		period 360
 		offset 340
-
-system "Emedia" # Gate of the Ascended
-	pos 734.157 105.198
-	government Altera
-	attributes "central rim"
-	habitable 2795
-	link Rubica
-	asteroids "small rock" 1 4.692
-	asteroids "medium rock" 32 4.318
-	asteroids "large rock" 11 4.692
-	asteroids "small metal" 12 1.836
-	asteroids "medium metal" 10 4.352
-	asteroids "large metal" 91 4.522
-	trade Clothing 230
-	trade Electronics 710
-	trade Equipment 490
-	trade Food 250
-	trade "Heavy Metals" 770
-	trade Industrial 520
-	trade "Luxury Goods" 1020
-	trade Medical 700
-	trade Metal 260
-	trade Plastic 280
-	fleet "Small Alteran Merchant" 2000
-	fleet "Large Alteran Merchant" 4000
-	fleet "Alteran Surveillance" 800
-	fleet "Small Alteran Navy" 900
-	fleet "Large Alteran Navy" 1500
-	fleet "Small Alteran Logistics" 2300
-	fleet "Large Alteran Logistics" 5000
-	object
-		sprite star/f5
-		distance 49.4597
-		period 10.9568
-		offset 180
-	object
-		sprite star/g0
-		distance 78.5403
-		period 10.9568
-	object
-		sprite planet/cloud2
-		distance 274.75
-		period 34.4569
-	object
-		sprite planet/rock8
-		distance 505.19
-		period 85.9115
-	object
-		sprite planet/desert6
-		distance 1251.4
-		period 334.937
-		object
-			sprite planet/europa
-			distance 155
-			period 20.1059
-	object
-		sprite planet/mercury
-		distance 1809.36
-		period 582.313
-	object
-		sprite planet/gas0
-		distance 2283.97
-		period 825.857
-		object
-			sprite planet/dust7
-			distance 287
-			period 14.2488
-
-system "Ostium" # Gate of the Fallen
-	pos 507.275 382.106
-	government Altera
-	attributes "outer altera"
-	habitable 425.92
-	link Assuria
-	link Curia
-	link Selesia
-	asteroids "small rock" 3 5.34
-	asteroids "medium rock" 9 5.04
-	asteroids "large rock" 2 6.24
-	asteroids "small metal" 5 4.44
-	asteroids "medium metal" 46 3.24
-	asteroids "large metal" 164 4.44
-	trade Clothing 310
-	trade Electronics 777
-	trade Equipment 630
-	trade Food 450
-	trade "Heavy Metals" 990
-	trade Industrial 750
-	trade "Luxury Goods" 1203
-	trade Medical 580
-	trade Metal 450
-	trade Plastic 390
-	fleet "Small Alteran Merchant" 450
-	fleet "Large Alteran Merchant" 700
-	fleet "Alteran Corporate" 1500
-	fleet "Alteran Surveillance" 900
-	fleet "Small Alteran Navy" 1000
-	fleet "Large Alteran Navy" 1800
-	fleet "Small Alteran Logistics" 2400
-	fleet "Large Alteran Logistics" 4000
-	object
-		sprite star/k5
-		period 10
-	object "Guardia Alpha"
-		sprite planet/desert9
-		distance 141.24
-		period 32.5336
-	object
-		sprite planet/dust0
-		distance 504.28
-		period 219.484
-	object
-		sprite planet/gas7
-		distance 758.24
-		period 404.675
-	object
-		sprite planet/rock0
-		distance 1102.05
-		period 709.084
-	object
-		sprite planet/neptune
-		distance 1834.89
-		period 1523.39
-		object
-			sprite planet/desert4
-			distance 187
-			period 12.7407
-		object
-			sprite planet/ice7
-			distance 303
-			period 26.2782
 
 system Grancrest
 	pos 808.319 352.239
@@ -2370,6 +2306,136 @@ system Ophelia
 			distance 383
 			period 26.436
 
+system "Ostium" # Gate of the Fallen
+	pos 507.275 382.106
+	government Altera
+	attributes "outer altera"
+	habitable 425.92
+	link Assuria
+	link Curia
+	link Selesia
+	asteroids "small rock" 3 5.34
+	asteroids "medium rock" 9 5.04
+	asteroids "large rock" 2 6.24
+	asteroids "small metal" 5 4.44
+	asteroids "medium metal" 46 3.24
+	asteroids "large metal" 164 4.44
+	trade Clothing 310
+	trade Electronics 777
+	trade Equipment 630
+	trade Food 450
+	trade "Heavy Metals" 990
+	trade Industrial 750
+	trade "Luxury Goods" 1203
+	trade Medical 580
+	trade Metal 450
+	trade Plastic 390
+	fleet "Small Alteran Merchant" 450
+	fleet "Large Alteran Merchant" 700
+	fleet "Alteran Corporate" 1500
+	fleet "Alteran Surveillance" 900
+	fleet "Small Alteran Navy" 1000
+	fleet "Large Alteran Navy" 1800
+	fleet "Small Alteran Logistics" 2400
+	fleet "Large Alteran Logistics" 4000
+	object
+		sprite star/k5
+		period 10
+	object "Guardia Alpha"
+		sprite planet/desert9
+		distance 141.24
+		period 32.5336
+	object
+		sprite planet/dust0
+		distance 504.28
+		period 219.484
+	object
+		sprite planet/gas7
+		distance 758.24
+		period 404.675
+	object
+		sprite planet/rock0
+		distance 1102.05
+		period 709.084
+	object
+		sprite planet/neptune
+		distance 1834.89
+		period 1523.39
+		object
+			sprite planet/desert4
+			distance 187
+			period 12.7407
+		object
+			sprite planet/ice7
+			distance 303
+			period 26.2782
+
+system Rosalia
+	pos 956.104 283.14
+	government Altera
+	attributes "draconic rim"
+	habitable 2340
+	link Acidalia
+	link Deliorum
+	asteroids "medium rock" 14 1.9435
+	asteroids "large rock" 1 2.2425
+	asteroids "medium metal" 1 3.6478
+	asteroids "large metal" 1 2.0033
+	trade Clothing 260
+	trade Electronics 830
+	trade Equipment 440
+	trade Food 180
+	trade "Heavy Metals" 780
+	trade Industrial 600
+	trade "Luxury Goods" 1070
+	trade Medical 740
+	trade Metal 340
+	trade Plastic 340
+	fleet "Small Alteran Merchant" 1000
+	fleet "Large Alteran Merchant" 1900
+	fleet "Alteran Corporate" 3000
+	fleet "Alteran Surveillance" 750
+	fleet "Small Alteran Navy" 1100
+	fleet "Large Alteran Navy" 2000
+	fleet "Small Alteran Logistics" 3500
+	object
+		sprite star/f5
+		distance 36.5919
+		period 13.2597
+		offset 180
+	object
+		sprite star/g5
+		distance 100.408
+		period 13.2597
+	object
+		sprite planet/mars
+		distance 273.418
+		period 37.3846
+	object
+		sprite planet/gas0
+		distance 823.028
+		period 195.242
+		object
+			sprite planet/dust3
+			distance 249
+			period 11.5148
+	object
+		sprite planet/cloud0
+		distance 1310.72
+		period 392.388
+	object
+		sprite planet/gas14
+		distance 2068.16
+		period 777.728
+		object
+			sprite planet/rock17
+			distance 223
+			period 13.5618
+		object
+			sprite planet/rock3
+			distance 332
+			period 24.6358
+
 system Rubica # Rekota
 	pos 695.157 162.198
 	government Altera
@@ -2443,134 +2509,6 @@ system Rubica # Rekota
 			sprite planet/tethys
 			distance 519
 			period 62.2369
-
-system Rosalia
-	pos 956.104 283.14
-	government Altera
-	attributes "draconic rim"
-	habitable 2340
-	link Acidalia
-	link Deliorum
-	asteroids "medium rock" 14 1.9435
-	asteroids "large rock" 1 2.2425
-	asteroids "medium metal" 1 3.6478
-	asteroids "large metal" 1 2.0033
-	trade Clothing 260
-	trade Electronics 830
-	trade Equipment 440
-	trade Food 180
-	trade "Heavy Metals" 780
-	trade Industrial 600
-	trade "Luxury Goods" 1070
-	trade Medical 740
-	trade Metal 340
-	trade Plastic 340
-	fleet "Small Alteran Merchant" 1000
-	fleet "Large Alteran Merchant" 1900
-	fleet "Alteran Corporate" 3000
-	fleet "Alteran Surveillance" 750
-	fleet "Small Alteran Navy" 1100
-	fleet "Large Alteran Navy" 2000
-	fleet "Small Alteran Logistics" 3500
-	object
-		sprite star/f5
-		distance 36.5919
-		period 13.2597
-		offset 180
-	object
-		sprite star/g5
-		distance 100.408
-		period 13.2597
-	object
-		sprite planet/mars
-		distance 273.418
-		period 37.3846
-	object
-		sprite planet/gas0
-		distance 823.028
-		period 195.242
-		object
-			sprite planet/dust3
-			distance 249
-			period 11.5148
-	object
-		sprite planet/cloud0
-		distance 1310.72
-		period 392.388
-	object
-		sprite planet/gas14
-		distance 2068.16
-		period 777.728
-		object
-			sprite planet/rock17
-			distance 223
-			period 13.5618
-		object
-			sprite planet/rock3
-			distance 332
-			period 24.6358
-
-system Vanedia # Sakura
-	pos 693.157 253.198
-	government Altera
-	attributes "central rim"
-	habitable 320
-	link Ocharia
-	asteroids "medium rock" 16 4.0986
-	asteroids "large rock" 1 3.2292
-	asteroids "large metal" 1 3.3534
-	trade Clothing 260
-	trade Electronics 730
-	trade Equipment 610
-	trade Food 370
-	trade "Heavy Metals" 940
-	trade Industrial 650
-	trade "Luxury Goods" 1260
-	trade Medical 700
-	trade Metal 430
-	trade Plastic 360
-	fleet "Small Alteran Merchant" 2500
-	fleet "Alteran Surveillance" 1000
-	fleet "Small Alteran Navy" 2050
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/rock10
-		distance 177
-		period 52.6556
-	object
-		sprite planet/cloud1
-		distance 629.49
-		period 353.157
-	object
-		sprite planet/desert8
-		distance 1004.78
-		period 712.183
-	object
-		sprite planet/gas8
-		distance 1372.03
-		period 1136.4
-	object
-		sprite planet/jupiter
-		distance 3558.99
-		period 4747.61
-		object
-			sprite planet/dust0
-			distance 272
-			period 14.0966
-		object
-			sprite planet/desert4
-			distance 406
-			period 25.707
-		object
-			sprite planet/dust3
-			distance 507
-			period 35.8735
-		object
-			sprite planet/dust5
-			distance 632
-			period 49.9272
 
 system Selesia
 	pos 503.011 302.411
@@ -2975,6 +2913,68 @@ system Troyca
 			distance 222
 			period 10.9096
 
+system Vanedia # Sakura
+	pos 693.157 253.198
+	government Altera
+	attributes "central rim"
+	habitable 320
+	link Ocharia
+	asteroids "medium rock" 16 4.0986
+	asteroids "large rock" 1 3.2292
+	asteroids "large metal" 1 3.3534
+	trade Clothing 260
+	trade Electronics 730
+	trade Equipment 610
+	trade Food 370
+	trade "Heavy Metals" 940
+	trade Industrial 650
+	trade "Luxury Goods" 1260
+	trade Medical 700
+	trade Metal 430
+	trade Plastic 360
+	fleet "Small Alteran Merchant" 2500
+	fleet "Alteran Surveillance" 1000
+	fleet "Small Alteran Navy" 2050
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock10
+		distance 177
+		period 52.6556
+	object
+		sprite planet/cloud1
+		distance 629.49
+		period 353.157
+	object
+		sprite planet/desert8
+		distance 1004.78
+		period 712.183
+	object
+		sprite planet/gas8
+		distance 1372.03
+		period 1136.4
+	object
+		sprite planet/jupiter
+		distance 3558.99
+		period 4747.61
+		object
+			sprite planet/dust0
+			distance 272
+			period 14.0966
+		object
+			sprite planet/desert4
+			distance 406
+			period 25.707
+		object
+			sprite planet/dust3
+			distance 507
+			period 35.8735
+		object
+			sprite planet/dust5
+			distance 632
+			period 49.9272
+
 system Verangia
 	pos 426.257 96.146
 	government Altera
@@ -3210,41 +3210,48 @@ system Zephyrius
 planet Asuras
 	attributes factory "outer altera" textiles urban
 	landscape land/city6
-	description `Asuras is the most populous of the Alteran worlds and an unchallenged industrial center with over 20 billion inhabitants. Unlike most Alteran core worlds, there doesn’t seem to be much beauty to be found. Large factory complexes can be found everywhere, and the residential sections are designed for mass housing, rather than looks. There is little greenery to be found in the cities themselves.`
-	description `	During the last Alteran war, Asuras was the target if intense bombing and while nature has recovered, sometimes even more than before, the same can’t be said for the inhabited parts of the planet. Although that is in part due to the decentralization plan, implemented after the war.`
-	spaceport `In part due to the traffic and in part for efficiency’s sake, several spaceports were sprinkled around the planet. One of them, usually considered the main spaceport, is located in the administrative capital of the planet. It is as disgusting as it is massive and is made up of simple, purpose-built hangars and terminals, surrounded by large multi-purpose landing pads.`
-	shipyard "Ancient Basic"
-	outfitter "Ancient Advanced"
+	description `Asuras is the most populous of the Alteran worlds and an unchallenged industrial center with over 20 billion inhabitants. Unlike most Alteran core worlds, there doesn't seem to be much beauty to be found. Large factory complexes can be found everywhere, and the residential sections are designed for mass housing, rather than looks. There is little greenery to be found in the cities themselves.`
+	description `	During the last Alteran war, Asuras was the target if intense bombing and while nature has recovered, sometimes even more than before, the same can't be said for the inhabited parts of the planet. Although that is in part due to the decentralization plan, implemented after the war.`
+	spaceport `In part due to the traffic and in part for efficiency's sake, several spaceports were sprinkled around the planet. One of them, usually considered the main spaceport, is located in the administrative capital of the planet. It is as disgusting as it is massive and is made up of simple, purpose-built hangars and terminals, surrounded by large multi-purpose landing pads.`
+	shipyard "Alteran Basic"
+	outfitter "Alteran Advanced"
 
 planet Atlantis
 	attributes "alteran paradise" "lantean cluster" fortified rich tourism
 	landscape land/beach11-harro
-	description `On this planet, mostly covered in water, floating in the middle of the ocean is the city of Atlantis, a former and presumably still functional Alteran city-ship. It follows a general star shape with arms several kilometers in length with towering skyscrapers on top. Due to both the history and topography of this world, it’s still the population center, in fact, apart from a few settlements around the coastal areas in proximity to Atlantis there really isn’t much going on. No actual manufacturing and very little mining, instead, the nature is practically untouched.`
+	description `On this planet, mostly covered in water, floating in the middle of the ocean is the city of Atlantis, a former and presumably still functional Alteran city-ship. It follows a general star shape with arms several kilometers in length with towering skyscrapers on top. Due to both the history and topography of this world, it's still the population center, in fact, apart from a few settlements around the coastal areas in proximity to Atlantis there really isn't much going on. No actual manufacturing and very little mining, instead, the nature is practically untouched.`
 	description `	Being a ship, the city is equipped with a shield system, as well as several other defensive measures. During the last war, the Atlantis was submerged in its entirety, making it an unviable target and an incredibly safe location, resulting in exorbitant housing prices, quite similar to the human paradise worlds.`
 	spaceport `The spaceport is placed around the city on its arms and appears to be well guarded, not only by the military personnel present, but also by the air support checking every ship before landing. Unlike your usual human spaceport, everything is highly organized here and almost eerily quiet, the personnel immediately take care of both yourself and your fleet.`
 	spaceport `	Even the landing terminal is unnecessarily luxurious in design and not a single step behind the rest of the city.  The spaceport bar is very well located, offering great views of the spaceport and the surrounding ocean. The food and drinks here leave nothing to be desired, even considering the prices.`
-	shipyard "Ancient Basic"
-	outfitter "Ancient Basic"
+	shipyard "Alteran Basic"
+	outfitter "Alteran Basic"
 
 planet Aurelis
 	attributes "ember line" military mining
 	landscape land/dmottl1
 	description `Aurelis, in the Verangia system, on the outermost edge of Alteran space, is a mineral rich world that is stuck in an almost permanent winter. Its oceans and hills are covered by ice throughout most of the year. Despite all the snow and ice, it carries a sizeable population, heavily engaged in mining operations.`
-	description `	The Alteran Military also has a heavy presence on Aurelis. Aurelis’ gravity is particularly strong, which caused problems initially, but has resulted in a genetically different, unusually well-built population. As such, the planet is very attractive for the army, as grounds for both training and recruitment of foot soldiers.`
+	description `	The Alteran Military also has a heavy presence on Aurelis. Aurelis' gravity is particularly strong, which caused problems initially, but has resulted in a genetically different, unusually well-built population. As such, the planet is very attractive for the army, as grounds for both training and recruitment of foot soldiers.`
 	spaceport `Landing in the Aurelis spaceport is actually quite difficult, the port itself isn't too big or busy, but the low temperatures and the regular snowfall cause the spaceport to be buried under snow for most of the time. The spaceport agency on Aurelis is unable to keep up with the snow during storms and their immediate aftermath. To combat this, the spaceport was expanded with a heated section, however, due to the costs involved, the local government has decided against rebuilding the whole spaceport to install this system everywhere.`
-	shipyard "Ancient Advanced"
-	outfitter "Ancient Advanced"
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
+
+planet Caelum # Naharis
+	attributes "central rim" farming
+	landscape land/valley12-harro
+	description `Caelum is mainly an agricultural world with a population of around one billion and provides a significant portion of the Alteran Core’s food. Its proximity to the Alteran Core and ideal landscape for agriculture have resulted in very heavy agriculture, covering most of the planet's plains. The natural biosphere is present in the cold or mountainous Regions, as well as some nature reserves. As the destruction of the biosphere would have caused an ecosystem collapse, a lot of effort was put into developing technologies that keep the ecosystem alive, albeit artificially.`
+	description `	Apart from a few large cities, the population is spread in smaller clusters around the planet, providing a local workforce for the agricultural sector. The cities are made up of buildings with greenery on their walls and roofs. In recent times, attempts have been made to shift away from agriculture and rebuild the natural ecosystem.`
+	spaceport `Most of the Freight traffic is handled by the main spaceport, with intra-planetary transport of the good to the spaceport via an advanced, efficient and fast rail system. As such, a large portion of the traffic here is made up of freighters, landing on pads around freight terminals which are connected to the rail network. Both the freight and passenger terminals were designed to remind visitors of agriculture while simultaneously supplying space for the local ecosystem.`
 
 planet Celestis
 	attributes "inner altera" military rich tourism urban
 	landscape land/city7
 	description `Celestis is a highly populous and economically powerful world, with a significant portion of its wealth and power stemming from its position as the Alteran capital world. It's located at the center of the original Alteran territory. For a planet this densely populated, it is covered in a very large amount amounts of both natural and artificial greenery. Significant portions of the planet are left practically untouched, and the ocean is as clean as could be.`
 	description `	Being the Alteran capital, Celestis is the seat of government for the Alteran Inner Core and Altera as a whole. The governmental complex is not too far from the spaceport, right next to the waterfront and is generally busy.`
-	spaceport `The spaceport is an architectural masterpiece, both beautiful and efficient, more than capable of handling the business it gets. It’s positioned on an artificial extension into the ocean, giving a great view of the city while descending.`
+	spaceport `The spaceport is an architectural masterpiece, both beautiful and efficient, more than capable of handling the business it gets. It's positioned on an artificial extension into the ocean, giving a great view of the city while descending.`
 	spaceport `	Rather than building up, the Alterans decided to go down, so the majority of the spaceport is located beneath the ocean. The landing pads also act as lifts, moving ships into the lower levels, where they can be parked while the other vessels land and take off up top.`
 	spaceport `	Apart from the landing pads, there a several buildings topside, most notably an air control tower, with a bar on one of the upper floors.`
-	shipyard "Ancient Advanced"
-	outfitter "Ancient Advanced"
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
 
 planet Dakara
 	attributes "ember line" mining
@@ -3259,20 +3266,20 @@ planet Draconis
 	description `Draconis is the eastern co-capital of the Alteran Empire. It was initially used for regular mining, as it was a mineral rich world. Then Draconium was discovered on this world, making it one of the few worlds with known deposits of Draconium. There are multiple large cities located on the main continent and some of the larger mining complexes can even be seen from space.`
 	description `	At this point, Draconis is no longer just a mining world, but has been appointed as the seat of one of the progenitors, who rule the eastern space from here. It is one of the most populated and economically strongest worlds of the Alterans.`
 	spaceport `Multiple spaceports can be found on Draconis, though the commercial one is by far the largest. It appears to be very busy, but the Alteran government has imposed strict traffic regulations, resulting in an efficient, high capacity spaceport. The spaceport bar is located right next to a park, making it a very attractive and surprisingly quiet location.`
-	shipyard "Ancient Advanced"
-	outfitter "Ancient Advanced"
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
 
 planet Eidolon
 	attributes "draconic rim" farming
 	landscape land/sky9
-	description WIP
-	spaceport WIP
+	description `WIP`
+	spaceport `WIP`
 
 planet Elarum
 	attributes "ember line" factory urban
 	landscape land/city8
 	description `Elarum lies in the Selphius system, only two jumps from Altera and has profited greatly from its position as the direct connection between the Alteran core and the Borean sector.`
-	description `	The system of Selphius lies on the Alteran Ember Line, a set of systems whose stars show properties similar those in the Ember Waste. The star at the center of this system is dying and the effects can already be felt on Elarum, which has put an end to the planet’s economic boom.`
+	description `	The system of Selphius lies on the Alteran Ember Line, a set of systems whose stars show properties similar those in the Ember Waste. The star at the center of this system is dying and the effects can already be felt on Elarum, which has put an end to the planet's economic boom.`
 	spaceport `As the dying star has gotten rather unstable, the spaceport has recently undergone several modifications to counter sudden bursts of radiation. Most of the landing pads are covered by shield systems with a short activation procedure.`
 
 planet "Forta Dracone"
@@ -3280,7 +3287,7 @@ planet "Forta Dracone"
 	landscape land/nasa0
 	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from potential threats. While the moon looks barren from space, it is actually inhabitable and a few navy-owned farms can be seen while landing.`
 	spaceport `The spaceport looks exactly as expected from a military spaceport, a miriad of landing pads with a slightly lesser number of large hangars and large roads connecting them. Nearly all of the ships here are warships, except for a few freighters, most of which belong to the navy as well. Surprisingly, the personnel appears to be very friendly to anyone visiting here.`
-	outfitter "Ancient Advanced"
+	outfitter "Alteran Advanced"
 	"required reputation" 200
 
 planet "Guardia Alpha"
@@ -3303,16 +3310,8 @@ planet Heliopolis
 	description `	As part of the Inner Core, Heliopolis was an important but well protected target during the last war. It was left practically untouched, with the memorials being the only reminder of the war.`
 	spaceport `The main spaceport on Heliopolis looks like it was grown over time and not built as one piece, resulting in a somewhat Frankenstein-like landing area with even different surfaces for the landing pads and green areas of all shapes and sizes mixed in. It does have a certain wild beauty to it that other Alteran spaceports tend to lack, as they are highly organized and planned out.`
 	spaceport `	A large park surrounds the spaceport on three sides, with the fourth side bordering a river and its promenade, likely in order to keep the spaceport's noise pollution down. From the bar, located in a corner between the promenade and the park, you have a gorgeous view of not only the main city and its spaceport, but also the sunset behind the skyline.`
-	shipyard "Ancient Basic"
-	outfitter "Ancient Basic"
-
-planet Orario # Kaitac
-	attributes "outer altera" textiles urban
-	landscape land/mountain14-sfiera
-	description WIP
-	spaceport WIP
-	shipyard "Ancient Basic"
-	outfitter "Ancient Basic"
+	shipyard "Alteran Basic"
+	outfitter "Alteran Basic"
 
 planet Linirea
 	attributes fortified "inner altera" military
@@ -3322,32 +3321,27 @@ planet Linirea
 	description `	While Wyvernhaven is only 2 jumps away, the military still has a large presence on Linirea, as it acts as a barrier for Celestis and the other Alteran core worlds. The planet has several different invasion countermeasures, some of which are hidden under normal circumstances.`
 	spaceport `The spaceport is located in the outskirts of the largest city and built similarly to the city, with landing pads slightly below ground. In case of an attack, the pads can be covered and moved even lower if necessary. Since they are underground, the terminals consist of long, well decorated pathways with few windows, exclusively towards the landing pads and a handful of halls with open spaces or greenery.`
 	spaceport `	A significant portion of the spaceport is built entirely different, with several vertical entry tunnels of varying proportions leading to an underground spaceport. This is the military spaceport and generally closed off to civilians.`
-	shipyard "Ancient Advanced"
-	outfitter "Ancient Advanced"
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
 
 planet Lykos
 	attributes "draconic rim"
 	landscape land/bwerner3
-	description WIP
-	spaceport WIP
+	description `WIP`
+	spaceport `WIP`
 
 planet Meldinium
 	attributes "central rim" mining
 	landscape land/mountain24-spfld
-	description WIP
-	spaceport WIP
-
-planet Caelum # Naharis
-	attributes "central rim"
-	landscape land/mountain19-harro
-	description WIP
-	spaceport WIP
+	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, compared to other planets in the Alteran Sector, is concentrated in cities in close proximity to these mines.`
+	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans. While the atmospheric composition was not ideal to begin with, the mining activity has pushed it closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
+	spaceport `As is expected from a mining world like Meldinium, the spaceport was constructed with large freighters in mind, making up a significant amount of the traffic here. All the landing pads can be reached via a network of pressurized hallways, minimizing atmospheric contact.`
 
 planet Noctillum
 	attributes "borean cluster" oil
 	landscape land/fog10
 	description `The world of Noctillum is covered by dense forests in the warmer portions.`
-	spaceport `Noctillum’s spaceport is rather small and most of its buildings are partially made from wood.`
+	spaceport `Noctillum's spaceport is rather small and most of its buildings are partially made from wood.`
 
 planet Noricum
 	attributes "borean cluster" military mining urban
@@ -3359,8 +3353,17 @@ planet Noricum
 planet Okeanos
 	attributes "draconic rim"
 	landscape land/beach4
-	description WIP
-	spaceport WIP
+	description `WIP`
+	spaceport `WIP`
+
+planet Orario # Kaitac
+	attributes farming mining "outer altera" textiles urban
+	landscape land/city4
+	description `Located in the Nasconya system, Orario is the most populous world north of the Alteran core and sits on the only internal connection between the Draconic Sector and the rest of Altera. Before the expansion into the Draconic sector, Nasconya was a border system, strategically important to begin with and the flow of trade since the Great War has only made it more important. This ideal position has allowed the planet of Orario to not just recover from the war, but flourish beyond imagination, with little scars still visible.`
+	description `	The several billion inhabitants live in cities of various sizes, spread around the planet, many of which did not exist before the war. Orario's economy is generally balanced, excluding trade, with textile industry, agriculture and mining making up the local economy.`
+	spaceport `As is the case with highly populated worlds, Orario has several spaceports located near the larger cities, although the “main” spaceport is located in the largest city. The planet's growth is also visible in the spaceport which is made up of multiple inter-connected terminals and landing pad groups of varying ages, built over the years. Due to the planet's importance, the military occupies a significant part of the main spaceport and has a large military base with its own spaceport located near one of the other large cities.`
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
 
 planet "Orbis Alteran"
 	attributes "altera quarg" quarg ringworld
@@ -3393,16 +3396,16 @@ planet Raetorum
 planet "Stacia Centoria"
 	attributes "borean cluster" mining station
 	landscape land/station35
-	description `At the center of the Borean sector lies the Troyca system, the asteroid activity has made all possible candidates uninhabitable. With the resources on both the planets and the surrounding asteroids, it would have been quite wasteful to not setup a mining base. Towards that end the responsible parties opted for a space station rather than a planetary base. At the center of the system’s activity lies Stacia Centoria, a well built and high capacity mining station, refueling, repairing and processing almost all mining vessels in the Troyca system.`
+	description `At the center of the Borean sector lies the Troyca system, the asteroid activity has made all possible candidates uninhabitable. With the resources on both the planets and the surrounding asteroids, it would have been quite wasteful to not setup a mining base. Towards that end the responsible parties opted for a space station rather than a planetary base. At the center of the system's activity lies Stacia Centoria, a well built and high capacity mining station, refueling, repairing and processing almost all mining vessels in the Troyca system.`
 	spaceport `Were it not for the stations defensive systems, the approach to Stacia Centoria would be by far the most dangerous in Alteran space. As it would be unfeasible to build a station capable of housing heavy freighters, the spaceport is split in two, with several docks on the outside and a handful of hangars for smaller vessels. The spaceport is very busy, with most of the activity coming from the mining vessels processed here.`
 
 planet Turicum
 	attributes "alteran paradise" "lantean cluster" rich textiles tourism urban
-	landscape land/valley12-harro
+	landscape land/mountain14-sfiera
 	description `Turicum, probably the least expensive of the Alteran Paradise Worlds, is full of rolling green hills and rocky mountains, resulting in more weather variation than on Atlantis and Halcyon, including some less pleasant snow storms. As a result, the tourism industry is very large, both during summer and winter, giving Turicum a more casual economy. Several large cities are visible from space which have a large parks and green zones placed in their interior, reducing the population density.`
 	description `	While some material industry is present here, Turicum is a net importer of almost everything. Additionally, a significant portion of the planet is still in its natural state and will stay this way due to the environmental protection laws in place.`
-	spaceport `On the other side of a hill from one of the cities, connected by a maglev line, lies the only public spaceport on this world. It’s made up of several landing areas and terminals for spaceships. Due to the tourism on this world, a lot of the traffic is made up of transport vessels. As such, a large section of the spaceport is trimmed towards and reserved almost exclusively for passenger transports. The military presence on Turicum on the other hand is barely large enough to justify a military section at the spaceport.`
-	outfitter "Ancient Basic"
+	spaceport `On the other side of a hill from one of the cities, connected by a maglev line, lies the only public spaceport on this world. It's made up of several landing areas and terminals for spaceships. Due to the tourism on this world, a lot of the traffic is made up of transport vessels. As such, a large section of the spaceport is trimmed towards and reserved almost exclusively for passenger transports. The military presence on Turicum on the other hand is barely large enough to justify a military section at the spaceport.`
+	outfitter "Alteran Basic"
 
 planet Vanir
 	attributes "outer altera" research
@@ -3410,7 +3413,7 @@ planet Vanir
 	description `The permafrost world of Vanir is just outside of the Alteran Inner Core and can be reached from Celestis with just 2 jumps. It hasn't seen an ice-free day in the last millennium and is nearly inhospitable as a result. In its past, Vanir used to be abundant with life, though for an unknown reason, the planet started cooling, becoming a frozen wasteland, with no end in sight, even at this point in time.`
 	description `	As a result of the ice age, most of the cities have been abandoned over the course of the last few millennia, except for a few smaller cities, which have had a dome built over them, to allow greenery on this white planet. They house researchers working in the laboratories, which benefit from the low legal restrictions of this world. Additionally, Draconium deposits have been found on Vanir, resulting in several mines spread over the planet. The Alteran Military conducts invasion training operations on Vanir as well.`
 	spaceport `Compared to the other Alteran spaceports, this one is smaller and less open. Due to the planet's hostile nature, there are several gated horizontal entrances to some kind of underground spaceport, protecting the ships from the storms raging outside. This has however resulted and a less efficient design, only capable of properly handling small ships, as larger vessels don't fit through the gates. Consequently, only few large ships can be seen in the sky, and they only land near the military facilities, keeping their power and shields on for protection.`
-	outfitter "Ancient Advanced"
+	outfitter "Alteran Advanced"
 
 planet Wyvernhaven
 	attributes factory "inner altera" military urban
@@ -3419,12 +3422,12 @@ planet Wyvernhaven
 	description `	While the military has a strong presence here, Wyvernhaven is also one of the more populous Alteran worlds, with a population lower than that of Celestis, but still relatively high, as it was settled millennia ago. Since a large part of the economy and populace are based around the military, Wyvernhaven can barely be called a civilian world.`
 	spaceport `The civilian section of the spaceport is by no means small, mostly because of the amount of freighters coming in for the shipyards. As a result, the landing pads are very large and the surrounding infrastructure was designed to support highly efficient loading and transportation.`
 	spaceport `	The military section, however, is even larger than the civilian section, built to handle a massive fleet. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground and above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular have a large presence in the hangar.`
-	shipyard "Ancient Advanced"
-	outfitter "Ancient Advanced"
+	shipyard "Alteran Advanced"
+	outfitter "Alteran Advanced"
 
 planet Zirkonis
 	attributes "draconic cluster"
 	landscape land/beach1
-	description WIP
-	spaceport WIP
+	description `WIP`
+	spaceport `WIP`
 
