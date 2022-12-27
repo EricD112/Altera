@@ -29,15 +29,15 @@ ship "Aegis"
 	outfits
 		"Alteran Drone Launcher" 2
 		"Alteran Plasma Beam" 6
+		"Alteran Tri-Pulse Turret"
 		"Alteran Heavy AM"
 		"Alteran Drone Storage"
 		"Alteran Drone" 148
 
-		"ADRX-II Draconic Reactor"
-		"AAUX-I Accumulation Unit" 2
+		"ADRX-I Draconic Reactor"
+		"AAUX-II Accumulation Unit"
 
 		"ASSX-II Shield System"
-		"AACX-I Cooling System"
 		"AASX Scanning System" 2
 
 		"AAGTX-III Anti-Grav Steering"
@@ -148,7 +148,7 @@ ship "Aegis"
 	gun 36 15.5 "Alteran Plasma Beam"
 		under
 # Turret Mounts
-	turret 0 -94
+	turret 0 -94 "Alteran Tri-Pulse Turret"
 		over
 	turret 0 -55 "Alteran Heavy AM"
 		over
@@ -1453,7 +1453,7 @@ ship "Fulmen"
 		"Alteran Drone" 684
 
 		"ADRX-III Draconic Reactor"
-		"ADRX-I Draconic Reactor"
+		"ABGX Backup Generator"
 		"AAUX-II Accumulation Unit"
 
 		"ASSX-IV Shield System"

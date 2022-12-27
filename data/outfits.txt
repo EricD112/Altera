@@ -95,11 +95,11 @@ outfit "AACX-II Cooling System"
 	category "Systems"
 	cost 392000
 	thumbnail "outfit/medium alteran cooling"
-	"mass" 11
-	"outfit space" -11
+	"mass" 12
+	"outfit space" -12
 	"cooling" 18.6
-	"active cooling" 36.8
-	"cooling energy" 3.5
+	"active cooling" 42.5
+	"cooling energy" 4.4
 	description "While the Alteran shield systems repurposing of thermal energy provides a lot of cooling, it is not sufficient in some cases. The Alteran Active Cooling System AACX-I was developed to fill this gap."
 	description `Although it is defined as an "active" cooling system, the AACX-I, is actually a hybrid cooler. It's primarily an active cooler, but includes a passive heatsink.`
 
