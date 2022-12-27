@@ -1080,7 +1080,6 @@ system Gargantua
 	fleet "Alteran Corporate" 1100
 	fleet "Alteran Surveillance" 2400
 	fleet "Small Alteran Navy" 2100
-	fleet "Large Alteran Navy" 
 	fleet "Small Alteran Logistics" 4000
 	fleet "Large Alteran Logistics" 9000
 	object

@@ -353,7 +353,7 @@ ship "Arqueus"
 		"ASGX Solar Collector"
 
 		"ASSX-I Shield System"
-		
+
 		"AAGTX-II Anti-Grav Steering"
 		"AAGTX-II Anti-Grav Thruster"
 		"AJX Star Drive"
