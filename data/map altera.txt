@@ -1085,94 +1085,115 @@ system Gargantua
 	object
 		sprite star/g5
 		period 10
+	object
+		sprite star/g3
+		period 10
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 20
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 40
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 60
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 80
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 100
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 120
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 140
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 160
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 180
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 200
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 220
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 240
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 260
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 280
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 300
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 320
 	object "Orbis Alteran"
 		sprite planet/ringworld
+			scale 0.5
 		distance 812
-		period 360
+		period 349.820
 		offset 340
 
 system Grancrest
@@ -3422,6 +3443,7 @@ planet Wyvernhaven
 	spaceport `The civilian section of the spaceport is by no means small, mostly because of the amount of freighters coming in for the shipyards. As a result, the landing pads are very large and the surrounding infrastructure was designed to support highly efficient loading and transportation.`
 	spaceport `	The military section, however, is even larger than the civilian section, built to handle a massive fleet. A large portion of the Alteran fleet is generally stationed here, both offensive and defensive fleet compositions can be seen on the ground and above, in the sky. The Alteran Military Shipyards produce a considerable percentage of their ships here, the medium and heavy warships in particular have a large presence in the hangar.`
 	shipyard "Alteran Advanced"
+	shipyard "Alteran Variants"
 	outfitter "Alteran Advanced"
 
 planet Zirkonis

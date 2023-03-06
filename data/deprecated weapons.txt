@@ -21,7 +21,7 @@ outfit "Ancient Drone Launcher"
 		ammo "Ancient Drone"
 		icon "icon/drone"
 		"fire effect" "torpedo fire"
-		"hit effect" "drone Impact"
+		"hit effect" "drone impact"
 		"die effect" "small explosion"
 		"inaccuracy" 2
 		"velocity" 2

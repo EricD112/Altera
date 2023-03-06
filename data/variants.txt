@@ -53,9 +53,9 @@ ship "Aegis" "Aegis (Heavy)"
 		"AJX Star Drive"
 
 	gun
-	gun "Alteran Heavy Plasma"
 	gun
-	gun "Alteran Heavy Plasma"
+	gun
+	gun
 	gun "Alteran Heavy Plasma"
 	gun
 	gun "Alteran Heavy Plasma"
@@ -204,7 +204,7 @@ ship "Castrum" "Castrum (Armed)"
 	gun "Alteran Drone Launcher"
 
 	turret "Alteran Tri-Pulse Turret"
-	turret "Alteran Heavy AM"
+	turret "Alteran Light AM"
 
 ship "Fulmen" "Fulmen (Gauss)"
 	outfits

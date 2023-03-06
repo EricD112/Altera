@@ -142,7 +142,7 @@ fleet "Large Alteran Logistics"
 		"Tutela" 2
 		"Rebus" 2
 	variant 16
-		"Gladius (Interceptor" 3
+		"Gladius (Interceptor)" 3
 		"Praesidium" 2
 		"Castrum (Armed)" 3
 
