@@ -13,7 +13,7 @@
 
 # 
 # Regional Attributes
-# "inner altera", "outer altera", "central rim", "lantean cluster", "draconic cluster", "draconic rim", "borean cluster", "ember line",
+# "inner altera", "outer altera", "central alteran rim", "lantean cluster", "draconic cluster", "draconic rim", "borean cluster", "ember line",
 # 
 # Planetary Attributes 
 # "mining", "research", "factory", "farming", "fishing", "military", "tourism", "retirement", "frontier", "oil", "draconium",
@@ -407,7 +407,7 @@ system Ayata
 system Azalea
 	pos 632.319 186.239
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 233.28
 	link Namerai
 	link Nasconya
@@ -793,7 +793,7 @@ system Elemira
 system "Emedia" # Gate of the Ascended
 	pos 734.157 105.198
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 2795
 	link Rubica
 	asteroids "small rock" 1 4.692
@@ -1260,7 +1260,7 @@ system Grancrest
 system Hybernia
 	pos 604.382 116.076
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 1250
 	link Empyrius
 	link Namerai
@@ -2063,7 +2063,7 @@ system Minarica
 system Namerai
 	pos 579.319 182.239
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 625
 	link Azalea
 	link Empyrius
@@ -2132,7 +2132,7 @@ system Namerai
 system Nasconya
 	pos 695.157 209.198
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 486.68
 	link Azalea
 	link Ocharia
@@ -2189,7 +2189,7 @@ system Nasconya
 system Ocharia
 	pos 634.012 239.461
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 4087.76
 	link Azalea
 	link Kyteka
@@ -2459,7 +2459,7 @@ system Rosalia
 system Rubica # Rekota
 	pos 695.157 162.198
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 1250
 	link Azalea
 	link "Emedia"
@@ -2936,7 +2936,7 @@ system Troyca
 system Vanedia # Sakura
 	pos 693.157 253.198
 	government Altera
-	attributes "central rim"
+	attributes "central alteran rim"
 	habitable 320
 	link Ocharia
 	asteroids "medium rock" 16 4.0986
@@ -3256,7 +3256,7 @@ planet Aurelis
 	outfitter "Alteran Advanced"
 
 planet Caelum # Naharis
-	attributes "central rim" farming
+	attributes "central alteran rim" farming
 	landscape land/valley12-harro
 	description `Caelum is mainly an agricultural world with a population of around one billion and provides a significant portion of the Alteran Core’s food. Its proximity to the Alteran Core and ideal landscape for agriculture have resulted in very heavy agriculture, covering most of the planet's plains. The natural biosphere is present in the cold or mountainous Regions, as well as some nature reserves. As the destruction of the biosphere would have caused an ecosystem collapse, a lot of effort was put into developing technologies that keep the ecosystem alive, albeit artificially.`
 	description `	Apart from a few large cities, the population is spread in smaller clusters around the planet, providing a local workforce for the agricultural sector. The cities are made up of buildings with greenery on their walls and roofs. In recent times, attempts have been made to shift away from agriculture and rebuild the natural ecosystem.`
@@ -3351,7 +3351,7 @@ planet Lykos
 	spaceport `WIP`
 
 planet Meldinium
-	attributes "central rim" mining
+	attributes "central alteran rim" mining
 	landscape land/mountain24-spfld
 	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, compared to other planets in the Alteran Sector, is concentrated in cities in close proximity to these mines.`
 	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans. While the atmospheric composition was not ideal to begin with, the mining activity has pushed it closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
