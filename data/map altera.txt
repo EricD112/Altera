@@ -568,7 +568,7 @@ system Boreas
 		sprite star/m4
 		period 10
 	object Noricum
-		sprite planet/cloud2
+		sprite planet/cloud7-b
 		distance 183.44
 		period 65.0672
 	object
@@ -861,7 +861,7 @@ system Empyrius
 	pos 562.354 136.245
 	government Altera
 	attributes "borean cluster"
-	habitable 621.68
+	habitable 1050.92
 	link Boreas
 	link Hybernia
 	link Namerai
@@ -891,42 +891,47 @@ system Empyrius
 	fleet "Small Alteran Logistics" 2400
 	fleet "Large Alteran Logistics" 4400
 	object
-		sprite star/k0
-		distance 17.1551
-		period 11.2646
-	object
-		sprite star/m8
-		distance 61.8449
-		period 11.2646
+		sprite star/g5
+		distance 38.5019
+		period 11.4251
 		offset 180
+		attributes
 	object
-		sprite planet/rock12
-		distance 307.885
-		period 86.6681
+		sprite star/k5
+		distance 56.4981
+		period 11.4251
 	object
-		sprite planet/gas8
-		distance 1035.24
-		period 534.369
+		sprite planet/cloud1
+		distance 366.988
+		period 86.7467
 		object
-			sprite planet/dust0
-			distance 211
-			period 16.3155
-		object
-			sprite planet/dust1
-			distance 321
-			period 30.615
-		object
-			sprite planet/ice0
-			distance 467
-			period 53.722
+			sprite planet/rhea
+			distance 195
+			period 22.2334
 	object
-		sprite planet/gas17
-		distance 1753.48
-		period 1177.96
+		sprite planet/io
+		distance 753.398
+		period 255.16
+	object Mandrona
+		sprite planet/desert5
+		distance 991.893
+		period 385.454
+		offset 94.3769
 	object
-		sprite planet/gas6
-		distance 2186.73
-		period 1640.48
+		sprite planet/ganymede
+		distance 1344.89
+		period 608.565
+		offset 233.422
+	object
+		sprite planet/fog0
+		distance 1554.05
+		period 755.917
+		offset 270.379
+	object
+		sprite planet/jupiter
+		distance 1910.94
+		period 1030.73
+		offset 305.489
 
 system Eryth
 	pos 632.23 432.816
@@ -1281,8 +1286,8 @@ system Hybernia
 	trade Metal 280
 	trade Plastic 320
 	fleet "Small Alteran Merchant" 1000
-	fleet "Large Alteran Merchant" 1500
-	fleet "Alteran Corporate" 3000
+	fleet "Large Alteran Merchant" 2100
+	fleet "Alteran Corporate" 3900
 	fleet "Alteran Surveillance" 900
 	fleet "Small Alteran Navy" 2200
 	object
@@ -1300,20 +1305,9 @@ system Hybernia
 		period 34.1571
 	object
 		sprite planet/gas7
-		distance 838.5
-		period 274.701
-		object
-			sprite planet/ice8
-			distance 245
-			period 13.642
-		object
-			sprite planet/rhea
-			distance 397
-			period 28.1395
-	object
-		sprite planet/gas3
-		distance 1906.51
-		period 941.811
+		distance 957.126
+		period 335.011
+		offset 244.448
 		object
 			sprite planet/callisto
 			distance 292
@@ -1326,6 +1320,19 @@ system Hybernia
 			sprite planet/rock14
 			distance 506
 			period 29.073
+	object Sylvalum
+		sprite planet/ice6
+		distance 1999.13
+		period 1011.27
+		offset 29.8791
+		object
+			sprite planet/ice8
+			distance 245
+			period 13.642
+		object
+			sprite planet/rhea
+			distance 397
+			period 28.1395
 
 system Ida
 	pos 541.012 286.461
@@ -2100,22 +2107,26 @@ system Namerai
 		sprite planet/desert3
 		distance 174.44
 		period 36.8629
-	object
-		sprite planet/desert6
-		distance 395.08
-		period 125.646
+	object Argus
+		sprite planet/rock19
+		distance 547.867
+		period 205.179
+		offset 108.83
 	object
 		sprite planet/gas14
-		distance 801.44
-		period 363.017
+		distance 954.227
+		period 471.626
+		offset 244.924
 	object
 		sprite planet/lava3
-		distance 1138.44
-		period 614.59
+		distance 1291.23
+		period 742.376
+		offset 108.137
 	object
 		sprite planet/gas1
-		distance 4020.2
-		period 4078.42
+		distance 4172.99
+		period 4313.11
+		offset 5.15145
 		object
 			sprite planet/callisto
 			distance 247
@@ -3226,6 +3237,13 @@ system Zephyrius
 		sprite planet/gas7
 		distance 3928.23
 		period 6447.87
+		attributes "ember line"
+
+planet Argus
+	attributes "central alteran rim" urban
+	landscape land/city12
+	description `The Namerai system is one of only two systems connecting the Borean and Alteran sectors and lies on the central Alteran Rim, which connects the Borean and Draconic sectors. This makes both Namerai and the inhabited planet of Argus strategically and economically important.`
+	spaceport `As is expected from its location, Argus’ spaceport sees a lot of traffic and was expanded to be able to handle it properly. However, a large portion of this traffic lands here in order to refuel, rather than load/off-load cargo. While all landing pads support the exchange of cargo, some are better suited and as such are rarely used for through traffic, with the older pads being the primary target for refueling.`
 
 planet Asuras
 	attributes factory "outer altera" textiles urban
@@ -3298,9 +3316,9 @@ planet Eidolon
 planet Elarum
 	attributes "ember line" factory urban
 	landscape land/city8
-	description `Elarum lies in the Selphius system, only two jumps from Altera and has profited greatly from its position as the direct connection between the Alteran core and the Borean sector.`
+	description `Elarum, in the Selphius system, is only two jumps from Celestis and has profited greatly from its position as the direct connection between the Alteran core and the Borean sector. Among the planets of the Borean sector, Elarum is the second most populous, with a population of just over a billion, which is siginificantly less than both the sector capital of Noricum and the median of the Alteran Core.`
 	description `	The system of Selphius lies on the Alteran Ember Line, a set of systems whose stars show properties similar those in the Ember Waste. The star at the center of this system is dying and the effects can already be felt on Elarum, which has put an end to the planet's economic boom.`
-	spaceport `As the dying star has gotten rather unstable, the spaceport has recently undergone several modifications to counter sudden bursts of radiation. Most of the landing pads are covered by shield systems with a short activation procedure.`
+	spaceport `As the dying star has gotten rather unstable, the spaceport has recently undergone several modifications to counter sudden bursts of radiation. Most of the landing pads are covered by shield systems with a short activation procedure. The older terminals were also retrofitted with upgraded shield systems and radiation protection layers, making them bulkier than their original design. Due to these measures, the dying star has had little impact on the volume of traffic at the spaceport, for now.`
 
 planet "Forta Dracone"
 	attributes "draconic cluster" draconium farming military mining moon
@@ -3350,6 +3368,13 @@ planet Lykos
 	description `WIP`
 	spaceport `WIP`
 
+planet Mandrona
+	attributes "borean cluster" industrial
+	landscape land/fields2
+	description `Neighboring the Borean sector capital lies Mandrona in the Empyrius system. The climate is rather temperate, making it more habitable than most of the surrounding systems, but due to its out of the way location and lack of valuable raw materials, it has been unable to grow into a world of economic importance.`
+	description `	Although not it’s not particularly strong, economically, Mandrona is still a well-developed industrial and urban world with a moderate population. Various attempts were made, over the last couple centuries, to change this and the most recent attempt seems to have been at least somewhat successful, resulting in immigration and an influx of industry, mainly manufacturing and refining.`
+	spaceport `One of the economic attraction attempts, also came with an investment to expand the spaceport. The result is a relatively recent and efficient design, similar to other high-capacity spaceports in Alteran space. For now, however, the spaceport is a bit oversized, as the choice was made to add a significant amount of spare capacity, to account for future growth. As such, many of the landing pads are empty and a portion of the spaceport is not currently in use.`
+
 planet Meldinium
 	attributes "central alteran rim" mining
 	landscape land/mountain24-spfld
@@ -3360,8 +3385,9 @@ planet Meldinium
 planet Noctillum
 	attributes "borean cluster" oil
 	landscape land/fog10
-	description `The world of Noctillum is covered by dense forests in the warmer portions.`
-	spaceport `Noctillum's spaceport is rather small and most of its buildings are partially made from wood.`
+	description `The world of Noctillum is covered by dense forests in the warmer portions, made up of particularly large trees. Hidden beneath the forests of Noctillum lie an abundance of resources which are extracted at various locations and refined locally. As most of the local population works at the extraction and refining sites, large settlements are almost exclusively in proximity of these sites.`
+	description `	 With the large and plentiful trees in and around the cities, many buildings are constructed with wood as their main component. Some smaller buildings are even built vertically along the stems of particularly thick trees.`
+	spaceport `As the inhabited areas are surrounded by dense forests, unsuitable for flight, Noctillum’s spaceport is located much closer to the equator, a region that the forests have been unable to reach. The settlements are connected by an extensive high-capacity rail network, transporting goods and people at high speeds. Unlike the buildings in the settlements, only the interior of the spaceport is made of wood. `
 
 planet Noricum
 	attributes "borean cluster" military mining urban
@@ -3418,6 +3444,14 @@ planet "Stacia Centoria"
 	landscape land/station35
 	description `At the center of the Borean sector lies the Troyca system, the asteroid activity has made all possible candidates uninhabitable. With the resources on both the planets and the surrounding asteroids, it would have been quite wasteful to not setup a mining base. Towards that end the responsible parties opted for a space station rather than a planetary base. At the center of the system's activity lies Stacia Centoria, a well built and high capacity mining station, refueling, repairing and processing almost all mining vessels in the Troyca system.`
 	spaceport `Were it not for the stations defensive systems, the approach to Stacia Centoria would be by far the most dangerous in Alteran space. As it would be unfeasible to build a station capable of housing heavy freighters, the spaceport is split in two, with several docks on the outside and a handful of hangars for smaller vessels. The spaceport is very busy, with most of the activity coming from the mining vessels processed here.`
+
+planet "Sylvalum"
+	attributes "central alteran rim" tourism
+	landscape land/snow20
+	description `Sylvalum is a world of natural beauty, of sand and snow, with its sand seas, covering many flat portions of the landmass, being a particularly prominent feature. Temperatures on Sylvalum drop below freezing on a regular basis, resulting in a layer of snow, hiding much of the surface and, as well as the sand seas.`
+	description `	Little industry exists on Sylvalum, as it has not yet become economically feasible to extract resources from below the sand seas or even the oceans. Instead, most of the population works in the tourism sector. Many visitors come in hopes of experiencing the mystical rising spores, an unforgettable, but also unpredictable phenomenon.`
+	spaceport `The spaceport sits on a mostly rocky set of hills between a sand sea and the ocean, giving travelers a good view and ships an easy arrival vector. A city is located nearby, on a less pronounced section of hills, housing the vast majority of both permanent inhabitants and visitors. `
+	spaceport `	As is to be expected from a tourism destination, most of the traffic is made up of transport vessels and luxury liners, as well as freighters, supplying the localities. This is also reflected in the layout, where most of the landing pads are right next to the passenger terminal and its extensions.`
 
 planet Turicum
 	attributes "alteran paradise" "lantean cluster" rich textiles tourism urban
