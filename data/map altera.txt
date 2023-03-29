@@ -895,6 +895,7 @@ system Empyrius
 		distance 38.5019
 		period 11.4251
 		offset 180
+		attributes
 	object
 		sprite star/k5
 		distance 56.4981
@@ -3236,6 +3237,7 @@ system Zephyrius
 		sprite planet/gas7
 		distance 3928.23
 		period 6447.87
+		attributes "ember line"
 
 planet Argus
 	attributes "central alteran rim" urban
@@ -3367,7 +3369,7 @@ planet Lykos
 	spaceport `WIP`
 
 planet Mandrona
-	attributes "borean cluster" industrial urban
+	attributes "borean cluster" industrial
 	landscape land/fields2
 	description `Neighboring the Borean sector capital lies Mandrona in the Empyrius system. The climate is rather temperate, making it more habitable than most of the surrounding systems, but due to its out of the way location and lack of valuable raw materials, it has been unable to grow into a world of economic importance.`
 	description `	Although not it’s not particularly strong, economically, Mandrona is still a well-developed industrial and urban world with a moderate population. Various attempts were made, over the last couple centuries, to change this and the most recent attempt seems to have been at least somewhat successful, resulting in immigration and an influx of industry, mainly manufacturing and refining.`
