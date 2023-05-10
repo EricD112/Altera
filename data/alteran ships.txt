@@ -1662,10 +1662,10 @@ ship "Fulmen"
 	description "Fulmen-class battleships can act as fleet command vessels but lack the comms array and cargo space to replace the Aurora as a forward base. The growing number of Fulmeni will supplement and replace the aging Aurorae as the mainstay battleship of the Alteran navy and fleet command in Alteran space."
 
 
-ship "Gladius"
+ship "Alteran Gladius"
 	plural "Gladiae"
-	sprite "ship/gladius"
-	thumbnail "thumbnail/gladius"
+	sprite "ship/agladius"
+	thumbnail "thumbnail/agladius"
 	attributes
 		category "Fighter"
 		"cost" 1503000
@@ -2526,10 +2526,10 @@ ship "Rebus"
 	description "The Rebus is typically considered the strongest civilian vessel in Alteran space, in terms of combat power. Because of this, the Rebus plays an important role in the Alteran military's logistics chain, as well as the civilian fleets in the Borean sector."
 
 
-ship "Spectre"
+ship "Alteran Spectre"
 	plural "Spectra"
-	sprite "ship/spectre"
-	thumbnail "thumbnail/spectre"
+	sprite "ship/aspectre"
+	thumbnail "thumbnail/aspectre"
 	attributes
 		category "Interceptor"
 		"cost" 5298000
