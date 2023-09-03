@@ -3241,7 +3241,8 @@ planet Argus
 	attributes "central alteran rim" urban
 	landscape land/city12
 	description `The Namerai system is one of only two systems connecting the Borean and Alteran sectors and lies on the central Alteran Rim, which connects the Borean and Draconic sectors. This makes both Namerai and the inhabited planet of Argus strategically and economically important.`
-	spaceport `As is expected from its location, Argus’ spaceport sees a lot of traffic and was expanded to be able to handle it properly. However, a large portion of this traffic lands here in order to refuel, rather than load/off-load cargo. While all landing pads support the exchange of cargo, some are better suited and as such are rarely used for through traffic, with the older pads being the primary target for refueling.`
+	description `	Recent growth in both the Draconic and Borean Sectors has further strengthened Argus' economy.`
+	spaceport `As is expected from its location, Argus' spaceport sees a lot of traffic and was expanded to be able to handle it properly. However, a large portion of this traffic lands here in order to refuel, rather than load/off-load cargo. While all landing pads support the exchange of cargo, some are better suited and as such are rarely used for through traffic, with the older pads being the primary target for refueling.`
 
 planet Asuras
 	attributes factory "outer altera" textiles urban
@@ -3299,17 +3300,19 @@ planet Dakara
 planet Draconis
 	attributes "draconic cluster" factory fortified mining urban
 	landscape land/city14-sfiera
-	description `Draconis is the eastern co-capital of the Alteran Empire. It was initially used for regular mining, as it was a mineral rich world. Then Draconium was discovered on this world, making it one of the few worlds with known deposits of Draconium. There are multiple large cities located on the main continent and some of the larger mining complexes can even be seen from space.`
-	description `	At this point, Draconis is no longer just a mining world, but has been appointed as the seat of one of the progenitors, who rule the eastern space from here. It is one of the most populated and economically strongest worlds of the Alterans.`
-	spaceport `Multiple spaceports can be found on Draconis, though the commercial one is by far the largest. It appears to be very busy, but the Alteran government has imposed strict traffic regulations, resulting in an efficient, high capacity spaceport. The spaceport bar is located right next to a park, making it a very attractive and surprisingly quiet location.`
+	description `Although Draconis, was initially settled as a mining world, after the last war, it has since become an economic powerhouse comparable to planets in the Inner Alteran Core and is the capital of the Draconic Sector. Not long after being settled, miners came across a material now known as Draconium, which at the time was only found on Draconis. The resulting economic boom and immigration quickly urbanized and expanded the small mining colony into an industrial center.`
+	description `	Draconis acts as hub for the surrounding systems, with the majority of the sector's traffic passing through the system, if not landing on Draconis or its moon, Forta Dracone. The local population is around 10 billion and generally well off, living in various large, efficient cities spread across the planet.`
+	spaceport `As is the case on the more populous Alteran worlds, Draconis has several large spaceport complexes spread around the planet. Designed to handle heavy traffic and recently refurbished and expanded, the one in the local capital is the busiest of the bunch and typically considered to be the main spaceport. It consists of a large multi-purpose hub, surrounded by landing pads and inter-connected, dedicated terminals. The spaceport terminals follow a distinctly Alteran, edgy, hexagonal pattern.`
 	shipyard "Alteran Advanced"
 	outfitter "Alteran Advanced"
 
 planet Eidolon
 	attributes "draconic rim" farming
 	landscape land/sky9
-	description `WIP`
-	spaceport `WIP`
+	description `Eidolon and the arable plains that cover large portions of the planet are best described as the breadbasket of Alteran space. The so-called plains of Eidolon have ideal conditions for food production and are being farmed extensively as a result. Most of the local population works in the agricultural sector or an industry related to it.`
+	description `	As agricultural activity is not well-suited for centralization, many small towns litter the planet's surface. The harvest is usually transported to the nearest town via a maglev network and then processed into something exportable.`
+	spaceport `Although the planet is decentralized, traffic is routed almost exclusively through a single high-capacity spaceport. Much of the traffic here consists of freighters, with a particularly high rate of heavy freighters, landing on pads optimized for food products and launching once local business is taken care of.`
+	spaceport `	Various pairs maglev tracks lead into an underground station under the spaceport with long freight trains from all over the planet arriving and departing in short intervals. One side of the spaceport bar has windows right above the track, giving a great view of both the maglev and spaceship traffic.`
 
 planet Elarum
 	attributes "ember line" factory urban
@@ -3321,8 +3324,10 @@ planet Elarum
 planet "Forta Dracone"
 	attributes "draconic cluster" draconium farming military mining moon
 	landscape land/nasa0
-	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from potential threats. While the moon looks barren from space, it is actually inhabitable and a few navy-owned farms can be seen while landing.`
-	spaceport `The spaceport looks exactly as expected from a military spaceport, a miriad of landing pads with a slightly lesser number of large hangars and large roads connecting them. Nearly all of the ships here are warships, except for a few freighters, most of which belong to the navy as well. Surprisingly, the personnel appears to be very friendly to anyone visiting here.`
+	description `Considering the importance of Draconis and its Draconium deposits, the moon orbiting Draconis is used as a large military base, protecting not only the Draconis, but also the surrounding systems from potential threats. While the moon looks barren from space, it is actually inhabitable and a few navy owned farms can be seen while landing.`
+	description `	Excluding Wyvernhaven, Forta Dracone is home to the largest naval base in Alteran space, and its low gravity has made it very attractive for shipbuilding. Even the largest Alteran vessels are produced here, although most of the civilian vessels are shipped to Draconis, for ease of access.`
+	spaceport `The spaceport is rather large and most of it is inaccessible to civilians, stemming from the military traffic. A single, small terminal surrounded by landing pads of all sizes and a set of shipbuilding hangars for heavier vessels make up the civilian portion.`
+	spaceport `	Separated from the civilian lie the shipyards and landing pads of the Alteran navy, as well as various entrances to an underground area with hangars for anything smaller than a medium warship. Particularly notable are the various gargantuan hangars for the production of Aurora-class battleships, which are being used as storage and maintenance facilities, as Aurorae are no longer being constructed.`
 	outfitter "Alteran Advanced"
 	"required reputation" 200
 
@@ -3391,8 +3396,9 @@ planet Noricum
 planet Okeanos
 	attributes "draconic rim"
 	landscape land/beach4
-	description `WIP`
-	spaceport `WIP`
+	description `The world of Okeanos lies on the main trade route from Draconic Sector to the rest of Alteran space converges in the Sidonia system before crossing into the Alteran Sector. Were it not for its vast oceans, hindering its economic development, Okeanos would have become a major trading hub.`
+	description `	As oceans cover the majority of the surface, most Alteran settlements are situated on a single temperate continent. A handful of smaller settlements are spread around the planet, floating on the ocean or surrounded by ice and snow near the poles.`
+	spaceport `Given by the planet's surface, the spaceport was built on the coast of the largest city. As there was little room for expansion on land, the spaceport was extended into the ocean, with pads elevated above the water.`
 
 planet Orario # Kaitac
 	attributes farming mining "outer altera" textiles urban
