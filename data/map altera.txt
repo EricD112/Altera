@@ -895,7 +895,6 @@ system Empyrius
 		distance 38.5019
 		period 11.4251
 		offset 180
-		attributes
 	object
 		sprite star/k5
 		distance 56.4981
@@ -2372,7 +2371,7 @@ system "Ostium" # Gate of the Fallen
 	object
 		sprite star/k5
 		period 10
-	object "Guardia Alpha"
+	object
 		sprite planet/desert9
 		distance 141.24
 		period 32.5336
@@ -3237,7 +3236,6 @@ system Zephyrius
 		sprite planet/gas7
 		distance 3928.23
 		period 6447.87
-		attributes "ember line"
 
 planet Argus
 	attributes "central alteran rim" urban
@@ -3260,7 +3258,7 @@ planet Atlantis
 	description `On this planet, mostly covered in water, floating in the middle of the ocean is the city of Atlantis, a former and presumably still functional Alteran city-ship. It follows a general star shape with arms several kilometers in length with towering skyscrapers on top. Due to both the history and topography of this world, it's still the population center, in fact, apart from a few settlements around the coastal areas in proximity to Atlantis there really isn't much going on. No actual manufacturing and very little mining, instead, the nature is practically untouched.`
 	description `	Being a ship, the city is equipped with a shield system, as well as several other defensive measures. During the last war, the Atlantis was submerged in its entirety, making it an unviable target and an incredibly safe location, resulting in exorbitant housing prices, quite similar to the human paradise worlds.`
 	spaceport `The spaceport is placed around the city on its arms and appears to be well guarded, not only by the military personnel present, but also by the air support checking every ship before landing. Unlike your usual human spaceport, everything is highly organized here and almost eerily quiet, the personnel immediately take care of both yourself and your fleet.`
-	spaceport `	Even the landing terminal is unnecessarily luxurious in design and not a single step behind the rest of the city.  The spaceport bar is very well located, offering great views of the spaceport and the surrounding ocean. The food and drinks here leave nothing to be desired, even considering the prices.`
+	spaceport `	Even the landing terminal is unnecessarily luxurious in design and not a single step behind the rest of the city.  The spaceport bar is very well located, offering great views of the spaceport and the surrounding ocean. The food and drinks here leave nothing to be desired.`
 	shipyard "Alteran Basic"
 	outfitter "Alteran Basic"
 
@@ -3328,11 +3326,6 @@ planet "Forta Dracone"
 	outfitter "Alteran Advanced"
 	"required reputation" 200
 
-planet "Guardia Alpha"
-	landscape land/nasa0
-	description `Alteran Border Post`
-	spaceport `Alteran Border Post`
-
 planet Halcyon
 	attributes "alteran paradise" "lantean cluster" rich
 	landscape land/fields6
@@ -3354,9 +3347,8 @@ planet Heliopolis
 planet Linirea
 	attributes fortified "inner altera" military
 	landscape land/forest2
-	description `Part of the Alteran Outer Core, Linirea was a prime target during the last war. It's position as one of three entrances to the Alteran Core and close proximity to Celestis makes it strategically important. During the pre-war tensions, the local capital was designated a fortress city and subsequently re-built over a relatively short time span. The result was a city following a grid pattern, capable of lowering the buildings underground, to keep the populace safe from bombings.`
+	description `Part of the Alteran Outer Core, Linirea was a prime target during the last war. It's position as one of three entrances to the Alteran Core and close proximity to Celestis makes it strategically important. While Wyvernhaven is only 2 jumps away, the military still has a large presence on Linirea, as it acts as a barrier for Celestis and the other Alteran core worlds. During the pre-war tensions, the local capital re-built into grid pattern, capable of lowering the buildings underground, to keep the populace safe from bombings.`
 	description `	Linirea has a rather warm climate and a green landscape, filled with forests and rolling hills. The local wildlife is mostly harmless and peaceful, making it a fairly popular world to live on.`
-	description `	While Wyvernhaven is only 2 jumps away, the military still has a large presence on Linirea, as it acts as a barrier for Celestis and the other Alteran core worlds. The planet has several different invasion countermeasures, some of which are hidden under normal circumstances.`
 	spaceport `The spaceport is located in the outskirts of the largest city and built similarly to the city, with landing pads slightly below ground. In case of an attack, the pads can be covered and moved even lower if necessary. Since they are underground, the terminals consist of long, well decorated pathways with few windows, exclusively towards the landing pads and a handful of halls with open spaces or greenery.`
 	spaceport `	A significant portion of the spaceport is built entirely different, with several vertical entry tunnels of varying proportions leading to an underground spaceport. This is the military spaceport and generally closed off to civilians.`
 	shipyard "Alteran Advanced"
@@ -3372,14 +3364,14 @@ planet Mandrona
 	attributes "borean cluster" industrial
 	landscape land/fields2
 	description `Neighboring the Borean sector capital lies Mandrona in the Empyrius system. The climate is rather temperate, making it more habitable than most of the surrounding systems, but due to its out of the way location and lack of valuable raw materials, it has been unable to grow into a world of economic importance.`
-	description `	Although not it’s not particularly strong, economically, Mandrona is still a well-developed industrial and urban world with a moderate population. Various attempts were made, over the last couple centuries, to change this and the most recent attempt seems to have been at least somewhat successful, resulting in immigration and an influx of industry, mainly manufacturing and refining.`
+	description `	Although not it's not particularly strong, economically, Mandrona is still a well-developed industrial and urban world with a moderate population. Various attempts were made, over the last couple centuries, to change this and the most recent attempt seems to have been at least somewhat successful, resulting in immigration and an influx of industry, mainly manufacturing and refining.`
 	spaceport `One of the economic attraction attempts, also came with an investment to expand the spaceport. The result is a relatively recent and efficient design, similar to other high-capacity spaceports in Alteran space. For now, however, the spaceport is a bit oversized, as the choice was made to add a significant amount of spare capacity, to account for future growth. As such, many of the landing pads are empty and a portion of the spaceport is not currently in use.`
 
 planet Meldinium
 	attributes "central alteran rim" mining
 	landscape land/mountain24-spfld
-	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, compared to other planets in the Alteran Sector, is concentrated in cities in close proximity to these mines.`
-	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans. While the atmospheric composition was not ideal to begin with, the mining activity has pushed it closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
+	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, is concentrated in cities in close proximity to these mines.`
+	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans and while it was not ideal to begin with, the mining activity has pushed the acidity closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
 	spaceport `As is expected from a mining world like Meldinium, the spaceport was constructed with large freighters in mind, making up a significant amount of the traffic here. All the landing pads can be reached via a network of pressurized hallways, minimizing atmospheric contact.`
 
 planet Noctillum
@@ -3387,7 +3379,7 @@ planet Noctillum
 	landscape land/fog10
 	description `The world of Noctillum is covered by dense forests in the warmer portions, made up of particularly large trees. Hidden beneath the forests of Noctillum lie an abundance of resources which are extracted at various locations and refined locally. As most of the local population works at the extraction and refining sites, large settlements are almost exclusively in proximity of these sites.`
 	description `	 With the large and plentiful trees in and around the cities, many buildings are constructed with wood as their main component. Some smaller buildings are even built vertically along the stems of particularly thick trees.`
-	spaceport `As the inhabited areas are surrounded by dense forests, unsuitable for flight, Noctillum’s spaceport is located much closer to the equator, a region that the forests have been unable to reach. The settlements are connected by an extensive high-capacity rail network, transporting goods and people at high speeds. Unlike the buildings in the settlements, only the interior of the spaceport is made of wood. `
+	spaceport `As the inhabited areas are surrounded by dense forests, unsuitable for flight, Noctillum's spaceport is located much closer to the equator, a region that the forests have been unable to reach. The settlements are connected by an extensive high-capacity rail network, transporting goods and people at high speeds. Unlike the buildings in the settlements, only the interior of the spaceport is made of wood. `
 
 planet Noricum
 	attributes "borean cluster" military mining urban
