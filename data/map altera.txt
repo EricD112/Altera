@@ -122,28 +122,32 @@ system Adragon
 	fleet "Large Alteran Navy" 2000
 	fleet "Small Alteran Logistics" 2700
 	object
-		sprite star/m0
+		sprite star/g5
 		period 10
 	object
-		sprite planet/lava7
-		distance 140.89
-		period 37.3943
+		sprite planet/lava1
+		distance 144
+		period 27.648
 	object
-		sprite planet/gas17
-		distance 595.33
-		period 324.804
+		sprite planet/rock1
+		distance 327
+		period 94.611
+	object Acronis
+		sprite planet/rock5
+		distance 610.09
+		period 241.108
 	object
-		sprite planet/desert9
-		distance 865.58
-		period 569.437
-	object
-		sprite planet/gas13
-		distance 1715.94
-		period 1589.42
+		sprite planet/jupiter
+		distance 1578.09
+		period 1003.04
 		object
-			sprite planet/ice8
-			distance 273
-			period 12.7337
+			sprite planet/callisto
+			distance 289
+			period 15.4386
+		object
+			sprite planet/rhea
+			distance 454
+			period 30.398
 
 system Akasia
 	pos 530.014 51.6198
@@ -689,32 +693,28 @@ system Deliorum
 	fleet "Large Alteran Navy" 1800
 	fleet "Small Alteran Logistics" 3200
 	object
-		sprite star/g5
+		sprite star/m0
 		period 10
 	object
-		sprite planet/lava1
-		distance 144
-		period 27.648
+		sprite planet/lava7
+		distance 140.89
+		period 37.3943
 	object
-		sprite planet/rock1
-		distance 327
-		period 94.611
+		sprite planet/gas17
+		distance 595.33
+		period 324.804
 	object
-		sprite planet/rock5
-		distance 610.09
-		period 241.108
+		sprite planet/desert9
+		distance 865.58
+		period 569.437
 	object
-		sprite planet/jupiter
-		distance 1578.09
-		period 1003.04
+		sprite planet/gas13
+		distance 1715.94
+		period 1589.42
 		object
-			sprite planet/callisto
-			distance 289
-			period 15.4386
-		object
-			sprite planet/rhea
-			distance 454
-			period 30.398
+			sprite planet/ice8
+			distance 273
+			period 12.7337
 
 system Elemira
 	pos 868.685 232.071
@@ -769,7 +769,7 @@ system Elemira
 			sprite planet/dust5
 			distance 182
 			period 30.2581
-	object
+	object Miranium
 		sprite planet/rock11
 		distance 990.706
 		period 412.892
@@ -1473,7 +1473,7 @@ system Iresha
 	pos 833.576 194.986
 	government Altera
 	attributes "draconic rim"
-	habitable 2160
+	habitable 486.68
 	link Ayata
 	link Elemira
 	link Sidonia
@@ -1501,50 +1501,36 @@ system Iresha
 	fleet "Small Alteran Logistics" 3000
 	fleet "Large Alteran Logistics" 6000
 	object
-		sprite star/g0
-		distance 68
-		period 13.6503
-		offset 180
+		sprite star/k0
+		period 10
 	object
-		sprite star/g0
-		distance 68
-		period 13.6503
+		sprite planet/cloud1
+		distance 187.44
+		period 46.5299
+	object Illimerea
+		sprite planet/rock5
+		distance 487.69
+		period 195.278
 	object
-		sprite planet/cloud2
-		distance 286.21
-		period 41.6735
+		sprite planet/desert4
+		distance 779.53
+		period 394.628
 	object
-		sprite planet/gas10
-		distance 632.05
-		period 136.76
+		sprite planet/cloud6
+		distance 1671.69
+		period 1239.29
+		object
+			sprite planet/rock17
+			distance 136
+			period 16.237
 	object
-		sprite planet/gas12
-		distance 1312.49
-		period 409.239
+		sprite planet/gas6
+		distance 4651.94
+		period 5752.93
 		object
-			sprite planet/luna
-			distance 272
-			period 11.7825
-		object
-			sprite planet/europa
-			distance 388
-			period 20.0739
-	object
-		sprite planet/gas15
-		distance 2532.5
-		period 1096.88
-		object
-			sprite planet/dust3
-			distance 204
-			period 15.3371
-		object
-			sprite planet/rock0
-			distance 319
-			period 29.9905
-		object
-			sprite planet/dust7
-			distance 492
-			period 57.444
+			sprite planet/rhea
+			distance 273
+			period 11.5215
 
 system Karyllis
 	pos 944.435 397.652
@@ -3237,6 +3223,13 @@ system Zephyrius
 		distance 3928.23
 		period 6447.87
 
+planet Acronis
+	attributes "draconic cluster" factory textiles urban
+	landscape land/city24
+	description `Acronis was the second world to be colonized in the Draconic Sector. It is situated on any major trade route which has somewhat hindered its economic growth. As the planet itself was well-suited, Acronis has nonetheless become an important industrial world in the Draconic Sector. Local processing has evolved to complement that of Draconis and its foundries, primarily the assembling or manufacturing of low complexity goods.`
+	description `	Several cities are spread across Acronis, mainly on the largest continent. Notable is the layout of the major cities, with large gaps between buildings and vegetation wherever possible. The temperatures here see strong seasonal variation, with particularly hot summers, so the cities were designed  to reduce the summer heat.`
+	spaceport `Even more so than at most Alteran spaceports, you don't spend much time outside. Several interconnected terminals, surrounded by landing pads on all sides make up the majority of the spaceport. As is the case with the rest of Acronis, the terminals' roofs are covered with vegetation and green plots litter the spaceport area wherever possible. Additionally, the spaceport is some distance away from the local capital and transport to the closer cities is handled by a ground-based mass transit network.`
+
 planet Argus
 	attributes "central alteran rim" urban
 	landscape land/city12
@@ -3349,6 +3342,12 @@ planet Heliopolis
 	shipyard "Alteran Basic"
 	outfitter "Alteran Basic"
 
+planet Illimerea
+	attributes "draconic rim" farming urban
+	landscape land/valley10-sfiera
+	description `Illimerea acts as a a hub for the agricultural goods from the Draconic Rim.`
+	spaceport WIP
+
 planet Linirea
 	attributes fortified "inner altera" military
 	landscape land/forest2
@@ -3366,7 +3365,7 @@ planet Lykos
 	spaceport `WIP`
 
 planet Mandrona
-	attributes "borean cluster" industrial
+	attributes "borean cluster"
 	landscape land/fields2
 	description `Neighboring the Borean sector capital lies Mandrona in the Empyrius system. The climate is rather temperate, making it more habitable than most of the surrounding systems, but due to its out of the way location and lack of valuable raw materials, it has been unable to grow into a world of economic importance.`
 	description `	Although not it's not particularly strong, economically, Mandrona is still a well-developed industrial and urban world with a moderate population. Various attempts were made, over the last couple centuries, to change this and the most recent attempt seems to have been at least somewhat successful, resulting in immigration and an influx of industry, mainly manufacturing and refining.`
@@ -3378,6 +3377,13 @@ planet Meldinium
 	description `The Landscape on Meldinium is sprinkled with large-scale mining facilities, both active and exhausted and there is little vegetation on the surface. Most of the rather small population, is concentrated in cities in close proximity to these mines.`
 	description `	Meldinium's slightly acidic Atmosphere is still breathable but has become increasingly unhealthy for Alterans and while it was not ideal to begin with, the mining activity has pushed the acidity closer to the limit for habitability. As such, strict regulations regarding protection against the environment/atmosphere are in place for buildings and vehicles. The population on Meldinium works almost exclusively in the mining industry or necessary services and large indoor greenspaces are present in every city, to ensure a healthy lifestyle for the Inhabitants.`
 	spaceport `As is expected from a mining world like Meldinium, the spaceport was constructed with large freighters in mind, making up a significant amount of the traffic here. All the landing pads can be reached via a network of pressurized hallways, minimizing atmospheric contact.`
+
+planet Miranium
+	attributes "draconic cluster" farming urban
+	landscape land/city0
+	description `Due to its proximity to the sector capital of Draconis, the planet Miranium was a prime candidate for further economic development. Over time, Miranium's population and economy have grown considerably, solidifying it as the second largest world in the Draconic sector. The local industry is varied, although a significant part is dedicated to agricultural processing, mainly for the Draconic Sector.`
+	description `	Miranium's cities are made up of an urban core with towering skyscrapers, surrounded by mid-rises, with greenery sprinkled wherever possible. The standard Alteran pattern, designed to minimize environmental damage and high urban temperatures.`
+	spaceport `A single centrally located spaceport handles the vast majority of traffic to and from MIranium. The spaceport is made up of a large ring-shaped terminal with pads on either side for larger ships, while smaller vessels generally land in a tower at the center of said ring. Several gaps were left in the outer circle of pads, presumably to expand the port, if needed.`
 
 planet Noctillum
 	attributes "borean cluster" oil
@@ -3479,8 +3485,8 @@ planet Wyvernhaven
 	outfitter "Alteran Advanced"
 
 planet Zirkonis
-	attributes "draconic cluster"
+	attributes "draconic cluster" rich
 	landscape land/beach1
-	description `WIP`
-	spaceport `WIP`
+	description `As the Grancrest system is linked only to Luminus Draconem, space traffic is destined almost exclusively for Zirkonis. The local climate is ideal for life and agriculture, where the terrain allows it. In recent years, it has turned into a retreat from the bustling worlds of the Draconic Core, Draconis in particular.`
+	spaceport `The spaceport of Zirkonis was designed to handle traffic made up largely of passenger transports. Once a year, when harvest season comes around, mid-sized cargo vessels push the spaceport to its limits. In an attempt to resolve this growing issue, the regional government has incentivized the processing of raw goods at a local level.`
 
