@@ -31,20 +31,25 @@ outfit "Alteran Drone Launcher"
 		"firing energy" 10
 		"firing fuel" 2
 		"firing heat" 1
-		"acceleration" 1
-		"drag" .1
+		"acceleration" 0.8
+		"drag" .08
 		"homing" 4
 		"piercing" .75
 		"shield damage" 10
 		"hull damage" 240
+		"damage dropoff" 2000
+		"dropoff modifier" 0.9
 		"hit force" 5
 		"missile strength" 18
-		"turn" 100
+		"turn" 3
 		"tracking" 1
 		"infrared tracking" 1
 		"optical tracking" 1
 		"radar tracking" 1
-		"phasing"
+#		"phasing"
+		"no asteroid collisions"
+		"no minable collisions"
+		"penetration count" 10
 	description "Alteran Drone weapons are present on almost all Alteran ships as they are powerful weapons, independent of a ship's loadout. The drone itself is more of a missile, equippped with advanced homing and tracking systems. What makes these missiles powerful is their ability to penetrate shields with minimal energy loss, resulting in hull damage almost independent of the target's shields."
 	description "The Drone Launcher holds 20 Drones and 2 drones are launched as twins in quick succession, as a single drone is an easy target for AM turrets. Multiple launchers will fire simulataneously, to further concentrate the missiles. Launching all 20 drones will use 40 of fuel to charge the drones (2 per drone)."
 
@@ -70,27 +75,32 @@ outfit "Alteran Drone Bay"
 		"die effect" "small explosion"
 		"inaccuracy" 2
 		"velocity" 2
-		"lifetime" 10000
+		"lifetime" 5000
 		"reload" 18
 		"burst count" 18
 		"burst reload" 1
 		"firing energy" 10
 		"firing fuel" 2
 		"firing heat" 1
-		"acceleration" 2
-		"drag" .2
-		"homing" 3
+		"acceleration" 0.8
+		"drag" .08
+		"homing" 4
 		"piercing" .75
 		"shield damage" 10
 		"hull damage" 240
+		"damage dropoff" 2000
+		"dropoff modifier" 0.9
 		"hit force" 5
 		"missile strength" 18
-		"turn" 100
+		"turn" 3
 		"tracking" 1
 		"infrared tracking" 1
 		"optical tracking" 1
 		"radar tracking" 1
-		"phasing"
+#		"phasing"
+		"no asteroid collisions"
+		"no minable collisions"
+		"penetration count" 10
 	description "Alteran Drone weapons are present on almost all Alteran ships as they are powerful weapons, independent of a ship's loadout. The drone itself is more of a missile, equippped with advanced homing and tracking systems. What makes these missiles powerful is their ability to penetrate shields with minimal energy loss, resulting in hull damage almost independent of the target's shields."
 	description "For larger vessels, the simple launchers are inefficient, the Military has opted to use larger Drone bays, launching a swarm of 18 drones over a short time period, overwhelming most AM systems. An Alteran Drone Bay is capable of storing up to 144 separate missiles, and has fuel storage built-in, as the fuel used to power the drones is no longer negligible with such a large number of launches."
 
@@ -510,6 +520,7 @@ outfit "Alteran Gauss Cannon"
 		"hit force" 320
 		"shield damage" 550
 		"hull damage" 2230
+		"penetration count" 3
 	description "The Alteran Gauss Cannon is a hull-focussed long range weapon. It outranges all Alteran weaponry other than the drones and is capable of keeping the enemy at a distance with its high impact. They are typically equipped together with Shock turrets, dealing substantial hull damage while the shields are still up."
 
 outfit "Alteran Gauss Turret"
@@ -544,4 +555,5 @@ outfit "Alteran Gauss Turret"
 		"hit force" 320
 		"shield damage" 550
 		"hull damage" 2230
+		"penetration count" 3
 	description "Due to its size, mounting Gauss Cannons on turrets proved to be much more effective than creating large but agile ships. The Gauss Turret's slow turning rate is unproblematic, as the ideal target are larger vessels at mid or long-range."
