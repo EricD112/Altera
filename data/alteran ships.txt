@@ -2526,10 +2526,11 @@ ship "Rebus"
 	description "The Rebus is typically considered the strongest civilian vessel in Alteran space, in terms of combat power. Because of this, the Rebus plays an important role in the Alteran military's logistics chain, as well as the civilian fleets in the Borean sector."
 
 
-ship "Spectre"
+ship "Alteran Spectre"
+	"display name" "Spectre"
 	plural "Spectra"
-	sprite "ship/spectre"
-	thumbnail "thumbnail/spectre"
+	sprite "ship/alteran spectre"
+	thumbnail "thumbnail/alteran spectre"
 	attributes
 		category "Interceptor"
 		"cost" 5298000
